@@ -1,6 +1,5 @@
 backend:
   name: git-gateway
-  repo: adamgoldstone/yiddish-language
   branch: main
 
 media_folder: "public/uploads"
