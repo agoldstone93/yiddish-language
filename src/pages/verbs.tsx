@@ -24,12 +24,6 @@ export const getStaticProps = async () => {
   const verbs: Verb[] = files.map(file => {
     const content = yaml.load(fs.readFileSync(path.join(verbsDir, file), 'utf8')) as Verb;
 
-    // Optional: auto-populate search arrays from lemma
-    content['search'] = {
-      transliteration: [content.lemma.transliteration],
-      yiddish: [content.lemma.yiddish],
-    };
-
     return content;
   });
 
