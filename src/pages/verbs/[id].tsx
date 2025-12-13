@@ -38,7 +38,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const verbsDir = path.join(process.cwd(), 'content/verbs');
   const files = fs.readdirSync(verbsDir);
 
-  const paths = files.map(file => {
+  const paths = files.map((file: string) => {
     const content = yaml.load(
       fs.readFileSync(path.join(verbsDir, file), 'utf8')
     ) as Verb;
@@ -76,16 +76,18 @@ export default function VerbPage({ verb }: InferGetStaticPropsType<typeof getSta
       {/* Conjugation */}
       {verb.conjugation && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {Object.entries(verb.conjugation).map(([tense, forms]) => (
-            <div key={tense} className="border rounded p-4 shadow-sm">
-              <h3 className="font-semibold text-center mb-2">{tense}</h3>
-              {Object.entries(forms as Record<string, VerbForm>).map(([person, form]) => (
-                <div key={person} className="text-center text-gray-100">
-                  {personMap[person] ?? person} {form.yiddish}
-                </div>
-              ))}
-            </div>
-          ))}
+          {Object.entries(verb.conjugation as Record<string, Record<string, VerbForm>>).map(
+            ([tense, forms]: [string, Record<string, VerbForm>]) => (
+              <div key={tense} className="border rounded p-4 shadow-sm">
+                <h3 className="font-semibold text-center mb-2">{tense}</h3>
+                {Object.entries(forms).map(([person, form]: [string, VerbForm]) => (
+                  <div key={person} className="text-center text-gray-100">
+                    {personMap[person] ?? person} {form.yiddish}
+                  </div>
+                ))}
+              </div>
+            )
+          )}
         </div>
       )}
 
@@ -93,7 +95,7 @@ export default function VerbPage({ verb }: InferGetStaticPropsType<typeof getSta
       {verb.notes && verb.notes.length > 0 && (
         <div className="p-3 bg-yellow-50 border-l-4 border-yellow-400 rounded text-gray-800">
           <ul className="list-disc list-inside">
-            {verb.notes.map((note, idx) => (
+            {verb.notes.map((note: string, idx: number) => (
               <li key={idx}>{note}</li>
             ))}
           </ul>
