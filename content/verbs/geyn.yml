@@ -1,0 +1,45 @@
+id: geyn
+
+lemma:
+  yiddish: גיין
+  transliteration: geyn
+
+meaning:
+  english: to go
+
+search:
+  yiddish:
+    - גיין
+  transliteration:
+    - geyn
+    - gein
+
+auxiliary: zayn
+
+conjugation:
+  infinitive:
+    yiddish: גיין
+    transliteration: geyn
+
+  present:
+    ich:
+      yiddish: גיי
+      transliteration: gey
+    du:
+      yiddish: גייסט
+      transliteration: geyst
+    er_she_es:
+      yiddish: גייט
+      transliteration: geyt
+    mir:
+      yiddish: גייען
+      transliteration: geyen
+    ir:
+      yiddish: גייט
+      transliteration: geyt
+    zey:
+      yiddish: גייען
+      transliteration: geyen
+
+notes:
+  - Very common motion verb
