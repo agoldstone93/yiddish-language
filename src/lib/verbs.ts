@@ -4,11 +4,11 @@ import yaml from "js-yaml";
 
 const verbsDir = path.join(process.cwd(), "content/verbs");
 
-export function getAllVerbs() {
+export function getAllVerbs(): unknown[] {
   const files = fs.readdirSync(verbsDir);
 
   return files.map((file) => {
     const raw = fs.readFileSync(path.join(verbsDir, file), "utf8");
-    return yaml.load(raw) as any;
+    return yaml.load(raw);
   });
 }
