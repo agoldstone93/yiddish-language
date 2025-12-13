@@ -1,0 +1,55 @@
+backend:
+  name: github
+  repo: adamgoldstone/yiddish-language
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "verbs"
+    label: "Verbs"
+    folder: "content/verbs"
+    create: true
+    slug: "{{lemma.transliteration}}"
+    format: "yaml"
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+
+      - label: "Lemma"
+        name: "lemma"
+        widget: "object"
+        fields:
+          - { label: "Yiddish", name: "yiddish", widget: "string" }
+          - {
+              label: "Transliteration (YIVO)",
+              name: "transliteration",
+              widget: "string",
+            }
+
+      - label: "Meaning"
+        name: "meaning"
+        widget: "object"
+        fields:
+          - { label: "English", name: "english", widget: "string" }
+
+      - label: "Auxiliary"
+        name: "auxiliary"
+        widget: "select"
+        options: ["hobn", "zayn"]
+
+      - label: "Search"
+        name: "search"
+        widget: "object"
+        fields:
+          - label: "Yiddish"
+            name: "yiddish"
+            widget: "list"
+          - label: "Transliteration"
+            name: "transliteration"
+            widget: "list"
+
+      - label: "Notes"
+        name: "notes"
+        widget: "list"
+        required: false
