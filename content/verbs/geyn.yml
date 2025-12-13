@@ -17,10 +17,6 @@ search:
 auxiliary: zayn
 
 conjugation:
-  infinitive:
-    yiddish: גיין
-    transliteration: geyn
-
   present:
     ich:
       yiddish: גיי
@@ -28,18 +24,69 @@ conjugation:
     du:
       yiddish: גייסט
       transliteration: geyst
-    er_she_es:
+    er_zi_es:
       yiddish: גייט
       transliteration: geyt
     mir:
-      yiddish: גייען
+      yiddish: גיין
       transliteration: geyen
     ir:
       yiddish: גייט
       transliteration: geyt
     zey:
-      yiddish: גייען
+      yiddish: גיין
       transliteration: geyen
+
+  past:
+    ich:
+      yiddish: בין געגאַנגען
+      transliteration: bin gegangen
+    du:
+      yiddish: ביסט געגאַנגען
+      transliteration: bist gegangen
+    er_zi_es:
+      yiddish: איז געגאַנגען
+      transliteration: iz gegangen
+    mir:
+      yiddish: זענען געגאַנגען
+      transliteration: zenen gegangen
+    ir:
+      yiddish: זענט געגאַנגען
+      transliteration: zent gegangen
+    zey:
+      yiddish: זענען געגאַנגען
+      transliteration: zenen gegangen
+
+  future:
+    ich:
+      yiddish: וועל גיין
+      transliteration: vel geyen
+    du:
+      yiddish: וועלסט גיין
+      transliteration: velst geyen
+    er_zi_es:
+      yiddish: וועט גיין
+      transliteration: vet geyen
+    mir:
+      yiddish: וועלן גיין
+      transliteration: veln geyen
+    ir:
+      yiddish: וועט גיין
+      transliteration: vet geyen
+    zey:
+      yiddish: וועלן גיין
+      transliteration: veln geyen
+
+  imperative:
+    du:
+      yiddish: גיי!
+      transliteration: gey!
+    ir:
+      yiddish: גייט!
+      transliteration: geyt!
 
 notes:
   - Very common motion verb
+  - Past tense uses auxiliary "זיין" because it is a motion verb
+  - Future tense formed with "וועלן" + infinitive
+  - Imperative exists only for second-person singular and plural
