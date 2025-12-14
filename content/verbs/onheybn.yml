@@ -1,0 +1,35 @@
+id: onheybn
+lemma:
+  yiddish: אָנהײבן
+  transliteration: onheybn
+meaning:
+  english: to start
+auxiliary: hobn
+conjugation:
+  present:
+    ich:
+      yiddish: הײב אָן
+      transliteration: heyb on
+    du:
+      yiddish: הײבסט אָן
+      transliteration: heybst on
+    er_zi_es:
+      yiddish: הײבט אָן
+      transliteration: heybt on
+    mir:
+      yiddish: הײבן אָן
+      transliteration: heybn on
+    ir:
+      yiddish: הײבט אָן
+      transliteration: heybt on
+    zey:
+      yiddish: הײבן אָן
+      transliteration: heybn on
+  past_participle:
+    yiddish: אָנגעהױבן
+    transliteration: ongehoybn
+search:
+  yiddish:
+    - אָנגעהױבן
+  transliteration:
+    - ongehoybn
