@@ -1,34 +1,41 @@
 id: lernen
+
 lemma:
   yiddish: לרענען
   transliteration: lernen
+
 meaning:
   english: to learn
-auxiliary: hobn
-conjugation.present:
-  ich:
-    yiddish: לערן
-    transliteration: lern
-  du:
-    yiddish: לערנסט
-    transliteration: lernst
-  er_zi_es:
-    yiddish: לערנט
-    transliteration: lernt
-  mir:
-    yiddish: לערנען
-    transliteration: lernen
-  ir:
-    yiddish: לערנט
-    transliteration: lernt
-  zey:
-    yiddish: לערנען
-    transliteration: lernen
-conjugation.past_participle:
-  yiddish: געלערנט
-  transliteration: gelernt
+
 search:
   yiddish:
     - לערנען
   transliteration:
     - lernen
+
+auxiliary: hobn
+
+conjugation:
+  present:
+    ich:
+      yiddish: לערן
+      transliteration: lern
+    du:
+      yiddish: לערנסט
+      transliteration: lernst
+    er_zi_es:
+      yiddish: לערנט
+      transliteration: lernt
+    mir:
+      yiddish: לערנען
+      transliteration: lernen
+    ir:
+      yiddish: לערנט
+      transliteration: lernt
+    zey:
+      yiddish: לערנען
+      transliteration: lernen
+
+  past_participle:
+    yiddish: געלערנט
+    transliteration: gelernt
