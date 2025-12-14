@@ -1,38 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
+import { Verb } from '@/types/verb';
+import { getPastForms } from '@/lib/grammar/past';
+import { getFutureForms } from '@/lib/grammar/future';
+import { getImperativeForms } from '@/lib/grammar/imperative';
+import { TenseBox } from '@/components/TenseBox';
+
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
-
-type VerbForm = {
-  yiddish: string;
-  transliteration: string;
-};
-
-type Verb = {
-  id: string;
-  lemma: {
-    yiddish: string;
-    transliteration: string;
-  };
-  origin: string;
-  part_of_speech: string;
-  auxiliary: string;
-  meaning?: {
-    english: string;
-  };
-  conjugation?: Record<string, Record<string, VerbForm>>;
-  notes?: string[];
-};
-
-// Map person keys to Yiddish
-const personMap: Record<string, string> = {
-  ich: 'איך',
-  du: 'דו',
-  er_zi_es: 'ער/זי/עס',
-  mir: 'מיר',
-  ir: 'איר',
-  zey: 'זיי',
-};
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const verbsDir = path.join(process.cwd(), 'content/verbs');
@@ -73,27 +48,38 @@ export default function VerbPage({ verb }: InferGetStaticPropsType<typeof getSta
         {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
       </div>
 
-      {/* Conjugation */}
-      {verb.conjugation && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {Object.entries(verb.conjugation as Record<string, Record<string, VerbForm>>).map(
-            ([tense, forms]: [string, Record<string, VerbForm>]) => (
-              <div key={tense} className="border rounded p-4 shadow-sm">
-                <h3 className="font-semibold text-center mb-2">{tense}</h3>
-                {Object.entries(forms).map(([person, form]: [string, VerbForm]) => (
-                  <div key={person} className="text-center text-gray-100">
-                    {personMap[person] ?? person} {form.yiddish}
-                  </div>
-                ))}
-              </div>
-            )
-          )}
-        </div>
-      )}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* Present */}
+        <TenseBox
+          title="Present"
+          forms={verb.conjugation.present}
+        />
+
+        {/* Past (derived) */}
+        {(() => {
+          const past = getPastForms(verb);
+          return past ? <TenseBox title="Past" forms={past} /> : null;
+        })()}
+
+        {/* Future (derived) */}
+        {(() => {
+          const future = getFutureForms(verb);
+          return <TenseBox title="Future" forms={future} />;
+        })()}
+
+
+        {/* Imperative (derived) */}
+        {(() => {
+          const imp = getImperativeForms(verb);
+          return imp ? <TenseBox title="Imperative" forms={imp} /> : null;
+        })()}
+      </div>
+
+
 
       {/* Notes */}
       {verb.notes && verb.notes.length > 0 && (
-        <div className="p-3 bg-yellow-50 border-l-4 border-yellow-400 rounded text-gray-800">
+        <div className="border rounded p-4 shadow-sm">
           <ul className="list-disc list-inside">
             {verb.notes.map((note: string, idx: number) => (
               <li key={idx}>{note}</li>
