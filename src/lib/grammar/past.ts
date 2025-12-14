@@ -4,6 +4,7 @@ import { auxiliaries } from './auxiliaries';
 export function getPastForms(
   verb: Verb
 ): Record<Person, VerbForm> | null {
+  if (!verb.conjugation) return null;
   const pp = verb.conjugation.past_participle;
   if (!pp) return null;
 

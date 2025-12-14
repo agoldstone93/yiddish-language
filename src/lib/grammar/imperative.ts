@@ -3,6 +3,8 @@ import { Verb, VerbForm } from '@/types/verb';
 export function getImperativeForms(
   verb: Verb
 ): Partial<Record<'du' | 'ir', VerbForm>> | null {
+  if (!verb.conjugation) return null;
+  
   // Explicit imperative (only זayn)
   if (verb.conjugation.imperative) {
     return verb.conjugation.imperative;

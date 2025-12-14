@@ -48,12 +48,13 @@ export default function VerbPage({ verb }: InferGetStaticPropsType<typeof getSta
         {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {/* Present */}
-        <TenseBox
-          title="Present"
-          forms={verb.conjugation.present}
-        />
+      {verb.conjugation && (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {/* Present */}
+          <TenseBox
+            title="Present"
+            forms={verb.conjugation.present}
+          />
 
         {/* Past (derived) */}
         {(() => {
@@ -73,7 +74,8 @@ export default function VerbPage({ verb }: InferGetStaticPropsType<typeof getSta
           const imp = getImperativeForms(verb);
           return imp ? <TenseBox title="Imperative" forms={imp} /> : null;
         })()}
-      </div>
+        </div>
+      )}
 
 
 
