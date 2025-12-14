@@ -14,11 +14,11 @@ collections:
     format: "yaml"
 
     fields:
-      - label: "ID"
+      - label: "ID - infinitive"
         name: "id"
         widget: "string"
 
-      - label: "Lemma"
+      - label: "Infinitive"
         name: "lemma"
         widget: "object"
         fields:
