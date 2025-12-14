@@ -29,6 +29,7 @@ collections:
       - label: "Meaning"
         name: "meaning"
         widget: "object"
+        required: false
         fields:
           - { label: "English", name: "english", widget: "string" }
 
@@ -36,10 +37,61 @@ collections:
         name: "auxiliary"
         widget: "select"
         options: ["hobn", "zayn"]
+        required: true
+
+      - label: "Present Tense"
+        name: "conjugation.present"
+        widget: "object"
+        required: true
+        fields:
+          - { label: "ich", name: "ich", widget: "object", fields: [
+                { label: "Yiddish", name: "yiddish", widget: "string" },
+                { label: "Transliteration", name: "transliteration", widget: "string" }
+            ]
+          }
+          - { label: "du", name: "du", widget: "object", fields: [
+                { label: "Yiddish", name: "yiddish", widget: "string" },
+                { label: "Transliteration", name: "transliteration", widget: "string" }
+            ]
+          }
+          - { label: "er/zi/es", name: "er_zi_es", widget: "object", fields: [
+                { label: "Yiddish", name: "yiddish", widget: "string" },
+                { label: "Transliteration", name: "transliteration", widget: "string" }
+            ]
+          }
+          - { label: "mir", name: "mir", widget: "object", fields: [
+                { label: "Yiddish", name: "yiddish", widget: "string" },
+                { label: "Transliteration", name: "transliteration", widget: "string" }
+            ]
+          }
+          - { label: "ir", name: "ir", widget: "object", fields: [
+                { label: "Yiddish", name: "yiddish", widget: "string" },
+                { label: "Transliteration", name: "transliteration", widget: "string" }
+            ]
+          }
+          - { label: "zey", name: "zey", widget: "object", fields: [
+                { label: "Yiddish", name: "yiddish", widget: "string" },
+                { label: "Transliteration", name: "transliteration", widget: "string" }
+            ]
+          }
+
+      - label: "Past Participle"
+        name: "conjugation.past_participle"
+        widget: "object"
+        required: true
+        fields:
+          - { label: "Yiddish", name: "yiddish", widget: "string" }
+          - { label: "Transliteration", name: "transliteration", widget: "string" }
+
+      - label: "Notes"
+        name: "notes"
+        widget: "list"
+        required: false
 
       - label: "Search"
         name: "search"
         widget: "object"
+        required: false
         fields:
           - label: "Yiddish"
             name: "yiddish"
@@ -47,8 +99,3 @@ collections:
           - label: "Transliteration"
             name: "transliteration"
             widget: "list"
-
-      - label: "Notes"
-        name: "notes"
-        widget: "list"
-        required: false
