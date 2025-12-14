@@ -43,8 +43,7 @@ export default function VerbPage({ verb }: InferGetStaticPropsType<typeof getSta
       </h1>
 
       {/* Metadata */}
-      <div className="space-y-1 text-center text-gray-700">
-        <div><strong>Auxiliary:</strong> {verb.auxiliary}</div>
+      <div className="space-y-1 text-center text-gray-400">
         {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
       </div>
 
