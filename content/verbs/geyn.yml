@@ -28,13 +28,13 @@ conjugation:
       yiddish: גייט
       transliteration: geyt
     mir:
-      yiddish: גיין
+      yiddish: גייען
       transliteration: geyen
     ir:
       yiddish: גייט
       transliteration: geyt
     zey:
-      yiddish: גיין
+      yiddish: גייען
       transliteration: geyen
 
   past:
@@ -76,14 +76,6 @@ conjugation:
     zey:
       yiddish: וועלן גיין
       transliteration: veln geyen
-
-  imperative:
-    du:
-      yiddish: גיי!
-      transliteration: gey!
-    ir:
-      yiddish: גייט!
-      transliteration: geyt!
 
 notes:
   - Very common motion verb
