@@ -1,14 +1,12 @@
 import fs from 'fs';
 import path from 'path';
-import { useEffect, useMemo, useState } from 'react';
 import yaml from 'js-yaml';
 import { Verb } from '@/types/verb';
 import { getPastForms } from '@/lib/grammar/past';
 import { getFutureForms } from '@/lib/grammar/future';
 import { getImperativeForms } from '@/lib/grammar/imperative';
 import { TenseBox } from '@/components/TenseBox';
-import { useCombobox } from 'downshift';
-import { useRouter } from 'next/router';
+import { VerbSearch } from '@/components/VerbSearch';
 
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 
@@ -45,78 +43,9 @@ export const getStaticProps: GetStaticProps<{ verb: Verb; verbs: Verb[] }> = asy
 };
 
 export default function VerbPage({ verb, verbs }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const router = useRouter();
-  const [inputValue, setInputValue] = useState('');
-  const matches = useMemo(() => {
-    const needle = inputValue.trim().toLowerCase();
-    if (!needle) return [];
-    return verbs
-      .filter((entry) => {
-        const haystack = [
-          entry.lemma?.yiddish,
-          entry.lemma?.transliteration,
-          entry.meaning?.english,
-        ].filter((value): value is string => Boolean(value));
-        return haystack.some((value) => value.toLowerCase().includes(needle));
-      })
-      .slice(0, 10);
-  }, [inputValue, verbs]);
-
-  const {
-    getInputProps,
-    getItemProps,
-    getMenuProps,
-    highlightedIndex,
-    isOpen,
-  } = useCombobox<Verb>({
-    inputValue,
-    items: matches,
-    onInputValueChange: ({ inputValue }) => setInputValue(inputValue ?? ''),
-    onSelectedItemChange: ({ selectedItem }) => {
-      if (selectedItem) {
-        setInputValue('');
-        void router.push(`/verbs/${selectedItem.id}`);
-      }
-    },
-    itemToString: (item) =>
-      item ? `${item.lemma.yiddish} — ${item.lemma.transliteration}` : '',
-  });
-
-  const inputProps = getInputProps({ placeholder: 'Search other verbs…' });
-  const menuProps = getMenuProps({}, { suppressRefError: true });
-
-  useEffect(() => {
-    setInputValue('');
-  }, [verb.id]);
-
   return (
     <div className="max-w-3xl mx-auto p-6 space-y-6">
-      <div className="relative">
-        <input className="w-full rounded border px-3 py-2" {...inputProps} />
-        <ul
-          className="text-gray-100 absolute left-0 right-0 top-full z-20 mt-2 max-h-80 overflow-auto border rounded bg-gray-600 divide-y shadow-lg"
-          {...menuProps}
-        >
-          {isOpen && inputValue && matches.length > 0 &&
-            matches.map((entry, index) => (
-              <li
-                key={entry.id}
-                className={`px-3 py-2 hover:bg-gray-500 ${
-                  highlightedIndex === index ? 'bg-gray-500' : ''
-                }`}
-                {...getItemProps({ item: entry, index })}
-              >
-                <div>{entry.lemma.yiddish} — {entry.lemma.transliteration}</div>
-                {entry.meaning?.english && (
-                  <div className="text-sm text-gray-800">{entry.meaning.english}</div>
-                )}
-              </li>
-            ))}
-          {isOpen && inputValue && matches.length === 0 && (
-            <li className="px-3 py-2 text-sm text-gray-100">No matches.</li>
-          )}
-        </ul>
-      </div>
+      <VerbSearch verbs={verbs} activeVerbId={verb.id} />
 
       {/* Lemma */}
       <h1 className="text-3xl font-bold text-center">
