@@ -28,6 +28,13 @@ conjugation:
   past_participle:
     yiddish: געװען
     transliteration: geven
+  imperative:
+    du:
+      yiddish: זײַ
+      transliteration: zay
+    ir:
+      yiddish: זײַט
+      transliteration: zayt
 search:
   yiddish:
     - זײַן
