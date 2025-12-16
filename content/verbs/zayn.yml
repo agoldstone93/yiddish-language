@@ -1,0 +1,35 @@
+id: zayn
+lemma:
+  yiddish: זײַן
+  transliteration: zayn
+meaning:
+  english: to be
+auxiliary: zayn
+conjugation:
+  present:
+    ich:
+      yiddish: בין
+      transliteration: bin
+    du:
+      yiddish: ביסט
+      transliteration: bist
+    er_zi_es:
+      yiddish: איז
+      transliteration: iz
+    mir:
+      yiddish: זײַנען
+      transliteration: zaynen
+    ir:
+      yiddish: זײַט
+      transliteration: zayt
+    zey:
+      yiddish: זײַנען
+      transliteration: zaynen
+  past_participle:
+    yiddish: געװען
+    transliteration: geven
+search:
+  yiddish:
+    - זײַן
+  transliteration:
+    - zayn
