@@ -16,6 +16,29 @@ export type VerbSearchProps = {
 
 const DEFAULT_MAX_RESULTS = 10;
 
+// Normalize text for flexible matching across Yiddish/Hebrew and Latin inputs
+function normalizeForSearch(value: string | undefined | null): string {
+  if (!value) return '';
+  let text = value.normalize('NFD').toLowerCase();
+  // Strip Hebrew cantillation + niqqud (U+0591–U+05C7)
+  text = text.replace(/[\u0591-\u05C7]/g, '');
+  // Strip Latin combining marks
+  text = text.replace(/[\u0300-\u036f]/g, '');
+  // Map final Hebrew forms to standard forms
+  text = text.replace(/[ךםןףץ]/g, (ch) => ({
+    'ך': 'כ',
+    'ם': 'מ',
+    'ן': 'נ',
+    'ף': 'פ',
+    'ץ': 'צ',
+  } as Record<string, string>)[ch] || ch);
+  // Remove punctuation often used in Yiddish orthography and dashes/quotes
+  text = text.replace(/[\u05BE\u05F3\u05F4\u2010-\u2015'"-]/g, '');
+  // Collapse whitespace
+  text = text.replace(/\s+/g, ' ').trim();
+  return text;
+}
+
 export function VerbSearch({
   verbs,
   placeholder = 'Search verbs…',
@@ -30,7 +53,7 @@ export function VerbSearch({
   const [inputValue, setInputValue] = useState('');
 
   const matches = useMemo(() => {
-    const needle = inputValue.trim().toLowerCase();
+    const needle = normalizeForSearch(inputValue);
     if (!needle) {
       return [];
     }
@@ -41,7 +64,7 @@ export function VerbSearch({
           entry.lemma?.transliteration,
           entry.meaning?.english,
         ].filter((value): value is string => Boolean(value));
-        return haystack.some((value) => value.toLowerCase().includes(needle));
+        return haystack.some((value) => normalizeForSearch(value).includes(needle));
       })
       .slice(0, maxResults);
   }, [inputValue, maxResults, verbs]);
@@ -65,7 +88,7 @@ export function VerbSearch({
     useCombobox<Verb>({
       inputValue,
       items: matches,
-      onInputValueChange: ({ inputValue }) => setInputValue(inputValue ?? ''),
+      // We control input updates via the input's onChange to respect IME composition
       onSelectedItemChange: ({ selectedItem }) => handleSelect(selectedItem),
       itemToString: (item) =>
         item ? `${item.lemma.yiddish} — ${item.lemma.transliteration}` : '',
@@ -77,7 +100,21 @@ export function VerbSearch({
     }
   }, [activeVerbId]);
 
-  const inputProps = getInputProps({ placeholder });
+  const inputProps = getInputProps({
+    placeholder,
+    onCompositionEnd: (e: React.CompositionEvent<HTMLInputElement>) => {
+      // Ensure the final composed value is captured
+      setInputValue(e.currentTarget.value);
+    },
+    onChange: (e: React.ChangeEvent<HTMLInputElement>) => {
+      // Always mirror the raw input value; do not transform while typing
+      setInputValue(e.target.value);
+    },
+    autoComplete: 'off',
+    autoCorrect: 'off',
+    autoCapitalize: 'none',
+    spellCheck: false,
+  });
   const menuProps = getMenuProps({}, { suppressRefError: true });
   const showMenu = isOpen && Boolean(inputValue);
 
