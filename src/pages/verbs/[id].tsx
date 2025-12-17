@@ -48,9 +48,13 @@ export default function VerbPage({ verb, verbs }: InferGetStaticPropsType<typeof
       <VerbSearch verbs={verbs} activeVerbId={verb.id} />
 
       {/* Lemma */}
-      <h1 className="text-3xl font-bold text-center">
-        {verb.lemma.yiddish} — {verb.lemma.transliteration}
+      <h1 className="text-3xl font-bold text-center space-y-0 mb-0">
+        {verb.lemma.yiddish}
       </h1>
+
+      <p className="text-center text-gray-400">
+        ({verb.lemma.transliteration})
+      </p>
 
       {/* Metadata */}
       <div className="space-y-1 text-center text-gray-400">

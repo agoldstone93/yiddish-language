@@ -8,9 +8,9 @@ export const auxiliaries: Record<
     ich: { yiddish: 'בין', transliteration: 'bin' },
     du: { yiddish: 'ביסט', transliteration: 'bist' },
     er_zi_es: { yiddish: 'איז', transliteration: 'iz' },
-    mir: { yiddish: 'זענען', transliteration: 'zenen' },
-    ir: { yiddish: 'זייט', transliteration: 'zayt' },
-    zey: { yiddish: 'זענען', transliteration: 'zenen' },
+    mir: { yiddish: 'זײַנען', transliteration: 'zaynen' },
+    ir: { yiddish: 'זײַט', transliteration: 'zayt' },
+    zey: { yiddish: 'זײַנען', transliteration: 'zaynen' },
   },
   hobn: {
     ich: { yiddish: 'האָב', transliteration: 'hob' },
