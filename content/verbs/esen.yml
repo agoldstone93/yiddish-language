@@ -1,0 +1,35 @@
+id: esen
+lemma:
+  yiddish: עסן
+  transliteration: esen
+meaning:
+  english: to eat
+auxiliary: hobn
+conjugation:
+  present:
+    ich:
+      yiddish: עס
+      transliteration: es
+    du:
+      yiddish: עסט
+      transliteration: est
+    er_zi_es:
+      yiddish: עסט
+      transliteration: est
+    mir:
+      yiddish: עסן
+      transliteration: esen
+    ir:
+      yiddish: עסט
+      transliteration: est
+    zey:
+      yiddish: עסן
+      transliteration: esen
+  past_participle:
+    yiddish: געגעסן
+    transliteration: gegesen
+search:
+  yiddish:
+    - עסן
+  transliteration:
+    - esen
