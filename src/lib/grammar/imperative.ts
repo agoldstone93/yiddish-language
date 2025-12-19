@@ -5,7 +5,7 @@ export function getImperativeForms(
 ): Partial<Record<'du' | 'ir', VerbForm>> | null {
   if (!verb.conjugation) return null;
   
-  // Explicit imperative (only זayn)
+  // Explicit imperative (only zayn)
   if (verb.conjugation.imperative) {
     return verb.conjugation.imperative;
   }
