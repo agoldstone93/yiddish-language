@@ -121,11 +121,18 @@ export function VerbSearch({
   return (
     <div className={`relative ${className}`.trim()}>
       <input
-        className={`w-full rounded border border-gray-700 bg-gray-800 px-4 py-3 text-lg text-gray-100 shadow-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-400 ${inputClassName}`.trim()}
+        className={`w-full rounded border border-gray-300 dark:border-gray-700
+          bg-orange-100 dark:bg-gray-800
+          px-4 py-3 text-lg dark:text-gray-100
+          dark:placeholder-gray-500 placeholder-gray-600
+          focus:outline-none focus:ring-2 focus:ring-blue-400 ${inputClassName}`.trim()}
         {...inputProps}
       />
       <ul
-        className={`absolute left-0 right-0 top-full z-20 mt-2 max-h-80 overflow-auto rounded border border-gray-700 bg-gray-900 text-gray-100 shadow-lg divide-y divide-gray-700 ${
+        className={`absolute left-0 right-0 top-full z-20 mt-2 max-h-80 overflow-auto 
+                    rounded border border-gray-300 dark:border-gray-700 bg-orange-100
+                    dark:bg-gray-900 text-gray-900 dark:text-gray-100
+                    shadow-lg divide-y divide-gray-300 dark:divide-gray-700 ${
           showMenu ? '' : 'hidden'
         } ${menuClassName}`.trim()}
         {...menuProps}
@@ -133,7 +140,7 @@ export function VerbSearch({
         {showMenu && matches.map((entry, index) => (
           <li
             key={entry.id}
-            className={`cursor-pointer px-4 py-2 text-sm transition-colors hover:bg-gray-800 ${
+            className={`cursor-pointer px-4 py-2 text-sm transition-colors hover:bg-gray-200 dark:hover:bg-gray-800 ${
               highlightedIndex === index ? 'bg-gray-700' : ''
             }`}
             {...getItemProps({ item: entry, index })}
@@ -142,12 +149,12 @@ export function VerbSearch({
               {entry.lemma.yiddish} — {entry.lemma.transliteration}
             </div>
             {entry.meaning?.english && (
-              <div className="text-xs text-gray-400">{entry.meaning.english}</div>
+              <div className="text-xs text-gray-600 dark:text-gray-400">{entry.meaning.english}</div>
             )}
           </li>
         ))}
         {showMenu && matches.length === 0 && (
-          <li className="px-4 py-2 text-sm text-gray-400">No matches.</li>
+          <li className="px-4 py-2 text-sm text-gray-600 dark:text-gray-400">No matches.</li>
         )}
       </ul>
     </div>
