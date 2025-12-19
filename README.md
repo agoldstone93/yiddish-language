@@ -16,6 +16,28 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Decap CMS (Admin)
+
+This repo keeps production vs local Decap CMS settings separate so `local_backend: true` is never committed.
+
+- Production config lives in [public/admin/config.prod.yml](public/admin/config.prod.yml)
+- Local-only override should be created at `public/admin/config.local.yml` (gitignored)
+
+To set up local CMS config:
+
+```bash
+cp public/admin/config.local.example.yml public/admin/config.local.yml
+```
+
+When you run `npm run dev`, it automatically copies the local config (if present) into `public/admin/config.yml`.
+When you run `npm run build`, it automatically copies the prod config into `public/admin/config.yml`.
+
+If you have `local_backend: true` enabled (via `public/admin/config.local.yml`), you also need to run Decap’s local backend server in another terminal while developing:
+
+```bash
+npx decap-server
+```
+
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
 [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.

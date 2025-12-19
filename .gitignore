@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# decap / netlify cms
+/public/admin/config.yml
+/public/admin/config.local.yml

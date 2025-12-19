@@ -1,0 +1,128 @@
+backend:
+  name: git-gateway
+  branch: main
+local_backend: true
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "verbs"
+    label: "Verbs"
+    folder: "content/verbs"
+    create: true
+    slug: "{{lemma.transliteration}}"
+    format: "yaml"
+
+    fields:
+      - label: "ID - infinitive"
+        name: "id"
+        widget: "string"
+
+      - label: "Infinitive"
+        name: "lemma"
+        widget: "object"
+        fields:
+          - label: "Yiddish"
+            name: "yiddish"
+            widget: "string"
+          - label: "Transliteration (YIVO)"
+            name: "transliteration"
+            widget: "string"
+
+      - label: "Meaning"
+        name: "meaning"
+        widget: "object"
+        required: false
+        fields:
+          - label: "English"
+            name: "english"
+            widget: "string"
+
+      - label: "Auxiliary"
+        name: "auxiliary"
+        widget: "select"
+        options:
+          - hobn
+          - zayn
+        required: true
+
+      - label: "Conjugation"
+        name: "conjugation"
+        widget: "object"
+        fields:
+          - label: "Present Tense"
+            name: "present"
+            widget: "object"
+            required: true
+            fields:
+              - label: "ich"
+                name: "ich"
+                widget: "object"
+                fields:
+                  - { label: "Yiddish", name: "yiddish", widget: "string" }
+                  - { label: "Transliteration", name: "transliteration", widget: "string" }
+
+              - label: "du"
+                name: "du"
+                widget: "object"
+                fields:
+                  - { label: "Yiddish", name: "yiddish", widget: "string" }
+                  - { label: "Transliteration", name: "transliteration", widget: "string" }
+
+              - label: "er / zi / es"
+                name: "er_zi_es"
+                widget: "object"
+                fields:
+                  - { label: "Yiddish", name: "yiddish", widget: "string" }
+                  - { label: "Transliteration", name: "transliteration", widget: "string" }
+
+              - label: "mir"
+                name: "mir"
+                widget: "object"
+                fields:
+                  - { label: "Yiddish", name: "yiddish", widget: "string" }
+                  - { label: "Transliteration", name: "transliteration", widget: "string" }
+
+              - label: "ir"
+                name: "ir"
+                widget: "object"
+                fields:
+                  - { label: "Yiddish", name: "yiddish", widget: "string" }
+                  - { label: "Transliteration", name: "transliteration", widget: "string" }
+
+              - label: "zey"
+                name: "zey"
+                widget: "object"
+                fields:
+                  - { label: "Yiddish", name: "yiddish", widget: "string" }
+                  - { label: "Transliteration", name: "transliteration", widget: "string" }
+
+          - label: "Past Participle"
+            name: "past_participle"
+            widget: "object"
+            required: true
+            fields:
+              - label: "Yiddish"
+                name: "yiddish"
+                widget: "string"
+              - label: "Transliteration"
+                name: "transliteration"
+                widget: "string"
+
+      - label: "Search"
+        name: "search"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Yiddish"
+            name: "yiddish"
+            widget: "list"
+          - label: "Transliteration"
+            name: "transliteration"
+            widget: "list"
+
+      - label: "Notes"
+        name: "notes"
+        widget: "list"
+        required: false
