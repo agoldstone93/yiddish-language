@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node scripts/switch-decap-config.mjs local",
-    "dev": "next dev",
-    "prebuild": "node scripts/switch-decap-config.mjs prod",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node scripts/switch-decap-config.mjs local && next dev",
+    "dev:prod": "node scripts/switch-decap-config.mjs prod && next dev",
+    "build": "node scripts/switch-decap-config.mjs prod && next build",
+    "start": "node scripts/switch-decap-config.mjs prod && next start",
     "lint": "eslint",
     "cms:config:local": "node scripts/switch-decap-config.mjs local",
     "cms:config:prod": "node scripts/switch-decap-config.mjs prod"

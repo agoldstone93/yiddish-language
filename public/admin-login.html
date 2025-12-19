@@ -2,47 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CMS Login</title>
-  <!-- Tailwind (optional, for styling) -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Netlify Identity Widget -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <meta http-equiv="refresh" content="0; url=/admin/" />
+  <title>Redirecting…</title>
 </head>
-<body class="bg-gray-50 flex items-center justify-center min-h-screen">
-  <div class="bg-white p-8 rounded shadow-md w-full max-w-sm">
-    <h1 class="text-2xl font-bold mb-4 text-center">CMS Login</h1>
-    <p class="text-sm mb-4">
-      Use your email and password to log in. If you haven’t set a password yet, check your invite email or click “Forgot password?” below.
-    </p>
-    <button id="login-btn" class="bg-blue-600 text-white py-2 px-4 rounded w-full hover:bg-blue-700">
-      Log in / Sign up
-    </button>
-    <p class="text-xs mt-4 text-gray-500 text-center">
-      After login, you will be redirected to the CMS admin page.
-    </p>
-  </div>
-
-  <script>
-    // Initialize Netlify Identity
-    const identity = netlifyIdentity.init();
-
-    // Open login/signup modal when button clicked
-    const btn = document.getElementById('login-btn');
-    btn.addEventListener('click', () => {
-      identity.open();
-    });
-
-    // Redirect to CMS admin after successful login
-    identity.on('login', user => {
-      console.log('Logged in as:', user);
-      window.location.href = '/admin/index.html';
-    });
-
-    // Optional: handle logout
-    identity.on('logout', () => {
-      console.log('Logged out');
-      alert('You have been logged out.');
-    });
-  </script>
+<body>
+  <p>Redirecting to <a href="/admin/">/admin/</a>…</p>
 </body>
 </html>

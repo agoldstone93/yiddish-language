@@ -32,6 +32,12 @@ cp public/admin/config.local.example.yml public/admin/config.local.yml
 When you run `npm run dev`, it automatically copies the local config (if present) into `public/admin/config.yml`.
 When you run `npm run build`, it automatically copies the prod config into `public/admin/config.yml`.
 
+To run the dev server with the production CMS config (useful for testing Netlify Identity login/signup), use:
+
+```bash
+npm run dev:prod
+```
+
 If you have `local_backend: true` enabled (via `public/admin/config.local.yml`), you also need to run Decap’s local backend server in another terminal while developing:
 
 ```bash
