@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
+import { Layout } from "@/components/Layout";
 
 type IdentityStatus = "idle" | "error";
 
@@ -125,7 +126,9 @@ export default function App({ Component, pageProps }: AppProps) {
         </div>
       )}
 
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

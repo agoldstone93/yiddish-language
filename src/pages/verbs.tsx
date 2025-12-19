@@ -32,7 +32,7 @@ export const getStaticProps = async () => {
 
 export default function VerbsPage({ verbs }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold mb-6 text-center">Yiddish Verbs</h1>
       <ul className="space-y-4">
         {verbs.map((verb) => (
