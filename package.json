@@ -9,7 +9,10 @@
     "start": "node scripts/switch-decap-config.mjs prod && next start",
     "lint": "eslint",
     "cms:config:local": "node scripts/switch-decap-config.mjs local",
-    "cms:config:prod": "node scripts/switch-decap-config.mjs prod"
+    "cms:config:prod": "node scripts/switch-decap-config.mjs prod",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "downshift": "^9.0.13",
@@ -26,7 +29,9 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
+    "jsdom": "^27.3.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.0.16"
   }
 }
