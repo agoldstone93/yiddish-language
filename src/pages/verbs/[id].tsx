@@ -86,7 +86,16 @@ export default function VerbPage({ verb, verbs }: InferGetStaticPropsType<typeof
         {/* Imperative (derived) */}
         {(() => {
           const imp = getImperativeForms(verb);
-          return imp ? <TenseBox title="Imperative" forms={imp} /> : null;
+          return imp ? (
+            <TenseBox
+              title="Imperative"
+              forms={imp}
+              labelOverrides={{
+                du: <i>singular:</i>,
+                ir: <i>plural:</i>,
+              }}
+            />
+          ) : null;
         })()}
         </div>
       )}

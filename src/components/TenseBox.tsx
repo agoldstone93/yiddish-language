@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { Person, VerbForm } from '@/types/verb';
 
 const personMap: Record<Person, string> = {
@@ -12,10 +13,17 @@ const personMap: Record<Person, string> = {
 export function TenseBox({
   title,
   forms,
+  labelOverrides,
 }: {
   title: string;
   forms: Partial<Record<Person, VerbForm>>;
+  labelOverrides?: Partial<Record<Person, ReactNode>>;
 }) {
+  const labels: Record<Person, ReactNode> = {
+    ...personMap,
+    ...(labelOverrides ?? {}),
+  };
+
   return (
     <div className="bg-orange-100 dark:bg-gray-800 p-4">
       <h3 className="font-semibold text-center mb-2">{title}</h3>
@@ -23,7 +31,7 @@ export function TenseBox({
         form ? (
           <div key={person} className="text-center text-gray-600 dark:text-gray-400">
             <span className="text-slate-700 dark:text-slate-300">
-              {personMap[person as Person]}
+              {labels[person as Person]}
             </span>
             {' '}
             <span className="text-gray-900 dark:text-gray-100 font-semibold">
