@@ -46,11 +46,7 @@ export const getStaticProps: GetStaticProps<{ verb: Verb; verbs: Verb[] }> = asy
 export default function VerbPage({ verb, verbs }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div className="max-w-3xl mx-auto space-y-6">
-      <VerbSearch verbs={verbs} activeVerbId={verb.id} className='my-2'/>
-
-      <div className="space-y-0 text-end">
-        <Link href="/admin" className="underline hover:text-gray-400">Edit</Link>
-      </div>
+      <VerbSearch verbs={verbs} activeVerbId={verb.id}/>
 
       {/* Lemma */}
       <h1 className="text-3xl font-bold text-center space-y-0 mb-0">

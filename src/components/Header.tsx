@@ -9,7 +9,8 @@ type NavLink = {
 export function Header({
     title = "LoshnLab",
     links = [
-        { href: "/verbs", label: "Verbs" },
+        { href: "/about", label: "About" },
+        { href: "/admin", label: "Add or Edit Verbs" },
     ]
 } : {
     title?: string;
