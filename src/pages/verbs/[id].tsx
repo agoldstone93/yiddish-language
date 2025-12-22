@@ -53,12 +53,12 @@ export default function VerbPage({ verb, verbs }: InferGetStaticPropsType<typeof
         {verb.lemma.yiddish}
       </h1>
 
-      <p className="text-center text-gray-400">
+      <p className="text-center text-gray-600 dark:text-gray-400">
         ({verb.lemma.transliteration})
       </p>
 
       {/* Metadata */}
-      <div className="space-y-1 text-center text-gray-400">
+      <div className="space-y-1 text-center text-gray-600 dark:text-gray-400">
         {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
       </div>
 
