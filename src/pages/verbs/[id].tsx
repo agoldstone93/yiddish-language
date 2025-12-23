@@ -9,7 +9,6 @@ import { TenseBox } from '@/components/TenseBox';
 import { VerbSearch } from '@/components/VerbSearch';
 
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
-import Link from 'next/link';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const verbsDir = path.join(process.cwd(), 'content/verbs');
