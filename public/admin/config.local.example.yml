@@ -126,3 +126,14 @@ collections:
         name: "notes"
         widget: "list"
         required: false
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/pages/about.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Slug", name: "slug", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
