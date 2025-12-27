@@ -18,6 +18,13 @@ collections:
         name: "id"
         widget: "string"
 
+      - label: "Reflexive"
+        name: "reflexive"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Check if this verb is reflexive. 'זיך/zikh' will be automatically inserted in conjugations (e.g., 'איך האָב זיך געלערנט'). Do NOT include 'זיך/zikh' in the fields below."
+
       - label: "Infinitive"
         name: "lemma"
         widget: "object"

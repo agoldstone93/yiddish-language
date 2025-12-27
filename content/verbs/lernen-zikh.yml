@@ -1,0 +1,36 @@
+id: lernen-zikh
+reflexive: true
+lemma:
+  yiddish: לרענען זיך
+  transliteration: lernen zikh
+meaning:
+  english: to learn
+auxiliary: hobn
+conjugation:
+  present:
+    ich:
+      yiddish: לערן זיך
+      transliteration: lern zikh
+    du:
+      yiddish: לערנסט זיך
+      transliteration: lernst zikh
+    er_zi_es:
+      yiddish: לערנט זיך
+      transliteration: lernt zikh
+    mir:
+      yiddish: לערנען זיך
+      transliteration: lernen zikh
+    ir:
+      yiddish: לערנט זיך
+      transliteration: lernt zikh
+    zey:
+      yiddish: לערנען זיך
+      transliteration: lernen zikh
+  past_participle:
+    yiddish: געלערנט זיך
+    transliteration: gelernt zikh
+search:
+  yiddish:
+    - לערנען זיך
+  transliteration:
+    - lernen zikh
