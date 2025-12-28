@@ -65,4 +65,39 @@ describe('getFutureForms', () => {
       transliteration: 'veln zikh lernen',
     });
   });
+
+  it('handles periphrastic lemmas without duplicating words', () => {
+    const verb: Verb = {
+      id: 'maskem-zayn',
+      lemma: { yiddish: 'מסכּים זײַן', transliteration: 'maskem zayn' },
+      meaning: { english: 'to agree' },
+      reflexive: false,
+      auxiliary: 'hobn',
+      conjugation: {
+        present: {
+          ich: { yiddish: 'בין מסכּים', transliteration: 'bin maskem' },
+          du: { yiddish: 'ביסט מסכּים', transliteration: 'bist maskem' },
+          er_zi_es: { yiddish: 'איז מסכּים', transliteration: 'iz maskem' },
+          mir: { yiddish: 'זײַנען מסכּים', transliteration: 'zaynen maskem' },
+          ir: { yiddish: 'זײַט מסכּים', transliteration: 'zayt maskem' },
+          zey: { yiddish: 'זײַנען מסכּים', transliteration: 'zaynen maskem' },
+        },
+        past_participle: {
+          yiddish: 'מסכּים געװען',
+          transliteration: 'maskem geven',
+        },
+      },
+    };
+
+    const forms = getFutureForms(verb);
+
+    expect(forms.ich).toEqual({
+      yiddish: 'וועל מסכּים זײַן',
+      transliteration: 'vel maskem zayn',
+    });
+    expect(forms.zey).toEqual({
+      yiddish: 'וועלן מסכּים זײַן',
+      transliteration: 'veln maskem zayn',
+    });
+  });
 });

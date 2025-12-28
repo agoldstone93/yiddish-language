@@ -91,4 +91,40 @@ describe('getPastForms', () => {
       transliteration: 'hobn zikh gelernt',
     });
   });
+
+  it('supports periphrastic lemmas without duplication', () => {
+    const verb = {
+      id: 'maskem-zayn',
+      lemma: { yiddish: 'מסכּים זײַן', transliteration: 'maskem zayn' },
+      meaning: { english: 'to agree' },
+      reflexive: false,
+      auxiliary: 'hobn',
+      conjugation: {
+        present: {
+          ich: { yiddish: 'בין מסכּים', transliteration: 'bin maskem' },
+          du: { yiddish: 'ביסט מסכּים', transliteration: 'bist maskem' },
+          er_zi_es: { yiddish: 'איז מסכּים', transliteration: 'iz maskem' },
+          mir: { yiddish: 'זײַנען מסכּים', transliteration: 'zaynen maskem' },
+          ir: { yiddish: 'זײַט מסכּים', transliteration: 'zayt maskem' },
+          zey: { yiddish: 'זײַנען מסכּים', transliteration: 'zaynen maskem' },
+        },
+        past_participle: {
+          yiddish: 'מסכּים געװען',
+          transliteration: 'maskem geven',
+        },
+      },
+    } satisfies Verb;
+
+    const forms = getPastForms(verb);
+    expect(forms).not.toBeNull();
+
+    expect(forms!.ich).toEqual({
+      yiddish: 'האָב מסכּים געװען',
+      transliteration: 'hob maskem geven',
+    });
+    expect(forms!.zey).toEqual({
+      yiddish: 'האָבן מסכּים געװען',
+      transliteration: 'hobn maskem geven',
+    });
+  });
 });
