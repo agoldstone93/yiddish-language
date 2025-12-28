@@ -8,7 +8,9 @@ describe('getFutureForms', () => {
     const verb: Verb = {
       id: 'geyn',
       lemma: { yiddish: 'גיין', transliteration: 'geyn' },
+      meaning: { english: 'to go' },
       auxiliary: 'zayn',
+      reflexive: false,
       conjugation: {
         present: {
           ich: { yiddish: 'גיי', transliteration: 'gey' },
@@ -37,6 +39,7 @@ describe('getFutureForms', () => {
     const verb: Verb = {
       id: 'lernen-zikh',
       lemma: { yiddish: 'לרענען זיך', transliteration: 'lernen zikh' },
+      meaning: { english: 'to learn' },
       reflexive: true,
       auxiliary: 'hobn',
       conjugation: {

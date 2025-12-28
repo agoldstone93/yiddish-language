@@ -8,7 +8,9 @@ describe('getPastForms', () => {
     const verb = {
       id: 'lernen',
       lemma: { yiddish: 'לערנען', transliteration: 'lernen' },
+      meaning: { english: 'to learn' },
       auxiliary: 'hobn',
+      reflexive: false,
       conjugation: {
         present: {
           ich: { yiddish: 'לערן', transliteration: 'lern' },
@@ -28,7 +30,9 @@ describe('getPastForms', () => {
     const verb = {
       id: 'esen',
       lemma: { yiddish: 'עסן', transliteration: 'esen' },
+      meaning: { english: 'to eat' },
       auxiliary: 'hobn',
+      reflexive: false,
       conjugation: {
         present: {
           ich: { yiddish: 'עס', transliteration: 'es' },
@@ -59,6 +63,7 @@ describe('getPastForms', () => {
     const verb = {
       id: 'lernen-zikh',
       lemma: { yiddish: 'לרענען זיך', transliteration: 'lernen zikh' },
+      meaning: { english: 'to learn' },
       reflexive: true,
       auxiliary: 'hobn',
       conjugation: {

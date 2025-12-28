@@ -26,10 +26,10 @@ export type Verb = {
     transliteration: string;
   };
   auxiliary: 'zayn' | 'hobn';
-  meaning?: {
+  meaning: {
     english: string;
   };
-  reflexive?: boolean;
+  reflexive: boolean;
   conjugation: Conjugation;
   notes?: string[];
 };

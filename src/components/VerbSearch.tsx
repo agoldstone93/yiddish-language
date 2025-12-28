@@ -146,10 +146,10 @@ export function VerbSearch({
             {...getItemProps({ item: entry, index })}
           >
             <div className="text-base font-medium">
-              {entry.lemma.yiddish} — {entry.lemma.transliteration}
+              {entry.lemma.yiddish} — {entry.meaning.english}
             </div>
             {entry.meaning?.english && (
-              <div className="text-xs text-gray-600 dark:text-gray-400">{entry.meaning.english}</div>
+              <div className="text-xs text-gray-600 dark:text-gray-400">{entry.lemma.transliteration}</div>
             )}
           </li>
         ))}
