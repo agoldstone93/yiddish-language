@@ -54,4 +54,36 @@ describe('getPastForms', () => {
       transliteration: 'hot gegesen',
     });
   });
+
+  it('places zikh immediately after auxiliary for reflexive verbs', () => {
+    const verb = {
+      id: 'lernen-zikh',
+      lemma: { yiddish: 'לרענען זיך', transliteration: 'lernen zikh' },
+      reflexive: true,
+      auxiliary: 'hobn',
+      conjugation: {
+        present: {
+          ich: { yiddish: 'לערן זיך', transliteration: 'lern zikh' },
+          du: { yiddish: 'לערנסט זיך', transliteration: 'lernst zikh' },
+          er_zi_es: { yiddish: 'לערנט זיך', transliteration: 'lernt zikh' },
+          mir: { yiddish: 'לערנען זיך', transliteration: 'lernen zikh' },
+          ir: { yiddish: 'לערנט זיך', transliteration: 'lernt zikh' },
+          zey: { yiddish: 'לערנען זיך', transliteration: 'lernen zikh' },
+        },
+        past_participle: { yiddish: 'געלערנט זיך', transliteration: 'gelernt zikh' },
+      },
+    } satisfies Verb;
+
+    const forms = getPastForms(verb);
+    expect(forms).not.toBeNull();
+
+    expect(forms!.ich).toEqual({
+      yiddish: 'האָב זיך געלערנט',
+      transliteration: 'hob zikh gelernt',
+    });
+    expect(forms!.mir).toEqual({
+      yiddish: 'האָבן זיך געלערנט',
+      transliteration: 'hobn zikh gelernt',
+    });
+  });
 });

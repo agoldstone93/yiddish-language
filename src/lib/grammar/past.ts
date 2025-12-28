@@ -12,9 +12,17 @@ export function getPastForms(
   const result = {} as Record<Person, VerbForm>;
 
   (Object.keys(aux) as Person[]).forEach((person) => {
+    const yiddishZikh = verb.reflexive ? ' זיך' : '';
+    const transliterationZikh = verb.reflexive ? ' zikh' : '';
+    const ppYiddish = verb.reflexive
+      ? pp.yiddish.replace(/\s?זיך$/, '')
+      : pp.yiddish;
+    const ppTranslit = verb.reflexive
+      ? pp.transliteration.replace(/\s?zikh$/, '')
+      : pp.transliteration;
     result[person] = {
-      yiddish: `${aux[person].yiddish} ${pp.yiddish}`,
-      transliteration: `${aux[person].transliteration} ${pp.transliteration}`,
+      yiddish: `${aux[person].yiddish}${yiddishZikh} ${ppYiddish}`,
+      transliteration: `${aux[person].transliteration}${transliterationZikh} ${ppTranslit}`,
     };
   });
 

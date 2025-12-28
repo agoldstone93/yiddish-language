@@ -15,9 +15,21 @@ export function getFutureForms(
   const result = {} as Record<Person, VerbForm>;
 
   (Object.keys(velnPresent) as Person[]).forEach((person) => {
+    let lemmaYiddish = verb.lemma.yiddish;
+    let lemmaTranslit = verb.lemma.transliteration;
+    
+    // For reflexive verbs, zikh should come after vel, not at the end of lemma
+    if (verb.reflexive && lemmaYiddish.includes(' זיך')) {
+      lemmaYiddish = lemmaYiddish.replace(' זיך', '');
+      lemmaTranslit = lemmaTranslit.replace(' zikh', '');
+    }
+    
+    const yiddishZikh = verb.reflexive ? ' זיך' : '';
+    const transliterationZikh = verb.reflexive ? ' zikh' : '';
+    
     result[person] = {
-      yiddish: `${velnPresent[person].yiddish} ${verb.lemma.yiddish}`,
-      transliteration: `${velnPresent[person].transliteration} ${verb.lemma.transliteration}`,
+      yiddish: `${velnPresent[person].yiddish}${yiddishZikh} ${lemmaYiddish}`,
+      transliteration: `${velnPresent[person].transliteration}${transliterationZikh} ${lemmaTranslit}`,
     };
   });
 

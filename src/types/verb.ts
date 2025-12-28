@@ -29,6 +29,7 @@ export type Verb = {
   meaning?: {
     english: string;
   };
+  reflexive?: boolean;
   conjugation: Conjugation;
   notes?: string[];
 };

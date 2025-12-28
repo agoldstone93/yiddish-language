@@ -32,4 +32,34 @@ describe('getFutureForms', () => {
       transliteration: 'veln geyn',
     });
   });
+
+  it('places zikh immediately after vel for reflexive verbs', () => {
+    const verb: Verb = {
+      id: 'lernen-zikh',
+      lemma: { yiddish: 'לרענען זיך', transliteration: 'lernen zikh' },
+      reflexive: true,
+      auxiliary: 'hobn',
+      conjugation: {
+        present: {
+          ich: { yiddish: 'לערן זיך', transliteration: 'lern zikh' },
+          du: { yiddish: 'לערנסט זיך', transliteration: 'lernst zikh' },
+          er_zi_es: { yiddish: 'לערנט זיך', transliteration: 'lernt zikh' },
+          mir: { yiddish: 'לערנען זיך', transliteration: 'lernen zikh' },
+          ir: { yiddish: 'לערנט זיך', transliteration: 'lernt zikh' },
+          zey: { yiddish: 'לערנען זיך', transliteration: 'lernen zikh' },
+        },
+      },
+    };
+
+    const forms = getFutureForms(verb);
+
+    expect(forms.ich).toEqual({
+      yiddish: 'וועל זיך לרענען',
+      transliteration: 'vel zikh lernen',
+    });
+    expect(forms.mir).toEqual({
+      yiddish: 'וועלן זיך לרענען',
+      transliteration: 'veln zikh lernen',
+    });
+  });
 });
