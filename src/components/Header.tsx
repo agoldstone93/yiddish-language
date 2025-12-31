@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 type NavLink = {
   href: string;
@@ -7,7 +8,6 @@ type NavLink = {
 
 
 export function Header({
-    title = "LoshnLab",
     links = [
         { href: "/about", label: "About" },
         { href: "/admin", label: "Add or Edit Verbs" },
@@ -19,9 +19,16 @@ export function Header({
     return (
       <header className="border-b border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-gray-900/70 backdrop-blur">
         <div className="mx-auto max-w-5xl px-4 py-3 flex items-center gap-6">
-          <Link href="/" className="font-semibold text-lg text-gray-900 dark:text-gray-100"
+          <Link href="/"
           >
-            {title}
+            <Image
+              loading="eager"
+              src="/logo.svg"
+              alt="LoshnLab logo"
+              width={130}
+              height={30}
+              className="inline-block dark:invert h-7.5 w-32.5"
+            />
           </Link>
           <nav aria-label="Primary" className="flex items-center gap-4">
             {links.map(l => (
