@@ -1,19 +1,11 @@
 id: maskem-zayn
-
+categoryId: periphrastic
 lemma:
   yiddish: מסכּים זײַן
   transliteration: maskem zayn
 meaning:
   english: to agree
-
-search:
-  yiddish:
-    - מסכּים זײַן
-  transliteration:
-    - maskem zayn
-
 auxiliary: hobn
-
 conjugation:
   present:
     ich:
@@ -34,7 +26,11 @@ conjugation:
     zey:
       yiddish: זײַנען מסכּים
       transliteration: zaynen maskem
-
   past_participle:
     yiddish: מסכּים געװען
     transliteration: maskem geven
+search:
+  yiddish:
+    - מסכּים זײַן
+  transliteration:
+    - maskem zayn
