@@ -13,83 +13,7 @@ waitForCMS(() => {
   console.log('Decap CMS loaded, registering preview template');
   
   const { h, createClass } = window;
-  
-  // Inline VerbPreview component
-  const auxiliaries = {
-    zayn: {
-      ich: { yiddish: "בין", transliteration: "bin" },
-      du: { yiddish: "ביסט", transliteration: "bist" },
-      er_zi_es: { yiddish: "איז", transliteration: "iz" },
-      mir: { yiddish: "זײַנען", transliteration: "zaynen" },
-      ir: { yiddish: "זײַט", transliteration: "zayt" },
-      zey: { yiddish: "זײַנען", transliteration: "zaynen" },
-    },
-    hobn: {
-      ich: { yiddish: "האָב", transliteration: "hob" },
-      du: { yiddish: "האַסט", transliteration: "hast" },
-      er_zi_es: { yiddish: "האָט", transliteration: "hot" },
-      mir: { yiddish: "האָבן", transliteration: "hobn" },
-      ir: { yiddish: "האָט", transliteration: "hot" },
-      zey: { yiddish: "האָבן", transliteration: "hobn" },
-    },
-  };
-
-  const velnPresent = {
-    ich: { yiddish: "וועל", transliteration: "vel" },
-    du: { yiddish: "וועסט", transliteration: "vest" },
-    er_zi_es: { yiddish: "וועט", transliteration: "vet" },
-    mir: { yiddish: "וועלן", transliteration: "veln" },
-    ir: { yiddish: "וועט", transliteration: "vet" },
-    zey: { yiddish: "וועלן", transliteration: "veln" },
-  };
-
-  const persons = ["ich", "du", "er_zi_es", "mir", "ir", "zey"];
-
-  const getPastForms = (verb) => {
-    const pp = verb?.conjugation?.past_participle;
-    if (!pp) return null;
-    const aux = auxiliaries[verb.auxiliary];
-    if (!aux) return null;
-    const ppYid = verb.reflexive ? pp.yiddish?.replace(/\s?זיך$/, "") : pp.yiddish;
-    const ppTranslit = verb.reflexive ? pp.transliteration?.replace(/\s?zikh$/, "") : pp.transliteration;
-    const zikhY = verb.reflexive ? " זיך" : "";
-    const zikhT = verb.reflexive ? " zikh" : "";
-    const result = {};
-    persons.forEach((p) => {
-      result[p] = {
-        yiddish: `${aux[p].yiddish}${zikhY} ${ppYid ?? ""}`.trim(),
-        transliteration: `${aux[p].transliteration}${zikhT} ${ppTranslit ?? ""}`.trim(),
-      };
-    });
-    return result;
-  };
-
-  const getFutureForms = (verb) => {
-    const result = {};
-    persons.forEach((p) => {
-      let lemmaY = verb.lemma?.yiddish || "";
-      let lemmaT = verb.lemma?.transliteration || "";
-      if (verb.reflexive && lemmaY.includes(" זיך")) {
-        lemmaY = lemmaY.replace(" זיך", "");
-        lemmaT = lemmaT.replace(" zikh", "");
-      }
-      const zikhY = verb.reflexive ? " זיך" : "";
-      const zikhT = verb.reflexive ? " zikh" : "";
-      result[p] = {
-        yiddish: `${velnPresent[p].yiddish}${zikhY} ${lemmaY}`.trim(),
-        transliteration: `${velnPresent[p].transliteration}${zikhT} ${lemmaT}`.trim(),
-      };
-    });
-    return result;
-  };
-
-  const getImperativeForms = (verb) => {
-    const imp = verb?.conjugation?.imperative;
-    if (imp) return imp;
-    const present = verb?.conjugation?.present;
-    if (!present?.ich || !present?.ir) return null;
-    return { du: present.ich, ir: present.ir };
-  };
+  const { getPastForms, getFutureForms, getImperativeForms, persons } = window.VerbGrammar;
 
   const getVerbFromEntry = (entry) => {
     const get = (path) => entry.getIn(["data", ...path]);
@@ -116,18 +40,28 @@ waitForCMS(() => {
           yiddish: get(["conjugation", "past_participle", "yiddish"]) || "",
           transliteration: get(["conjugation", "past_participle", "transliteration"]) || "",
         },
-        imperative: entry.getIn(["data", "conjugation", "imperative"]),
+        imperative: entry.getIn(["data", "conjugation", "imperative"])?.toJS(),
       },
     };
   };
 
   const personLabels = {
-    ich: "ich (I)",
-    du: "du (you sg)",
-    er_zi_es: "er / zi / es (he/she/it)",
-    mir: "mir (we)",
-    ir: "ir (you pl)",
-    zey: "zey (they)",
+    ich: "איך (I)",
+    du: "דו (you sg)",
+    er_zi_es: "ער/זי/עס (he/she/it)",
+    mir: "מיר (we)",
+    ir: "איר (you pl)",
+    zey: "זיי (they)",
+  };
+
+  const renderPersonEntry = (label, form) => {
+    return h(
+      "li",
+      { style: { marginBottom: 6 } },
+      h("div", { style: { fontWeight: 600 } }, label),
+      h("div", {}, "Yiddish: ", form.yiddish),
+      h("div", { style: { color: "#555" } }, "Transliteration: ", form.transliteration)
+    );
   };
 
   const renderForms = (title, forms) => {
@@ -141,14 +75,7 @@ waitForCMS(() => {
         { style: { listStyle: "none", padding: 0, margin: 0 } },
         persons.map((p) => {
           const f = forms[p];
-          if (!f) return null;
-          return h(
-            "li",
-            { key: p, style: { marginBottom: 6 } },
-            h("div", { style: { fontWeight: 600 } }, personLabels[p] || p),
-            h("div", {}, "Yiddish: ", f.yiddish),
-            h("div", { style: { color: "#555" } }, "Transliteration: ", f.transliteration)
-          );
+          return f ? renderPersonEntry(personLabels[p] || p, f) : null;
         })
       )
     );
@@ -184,20 +111,8 @@ waitForCMS(() => {
           h(
             "ul",
             { style: { listStyle: "none", padding: 0, margin: 0 } },
-            imp.du && h(
-              "li",
-              { style: { marginBottom: 6 } },
-              h("div", { style: { fontWeight: 600 } }, "du (singular)"),
-              h("div", {}, "Yiddish: ", imp.du.yiddish),
-              h("div", { style: { color: "#555" } }, "Transliteration: ", imp.du.transliteration)
-            ),
-            imp.ir && h(
-              "li",
-              { style: { marginBottom: 0 } },
-              h("div", { style: { fontWeight: 600 } }, "ir (plural)"),
-              h("div", {}, "Yiddish: ", imp.ir.yiddish),
-              h("div", { style: { color: "#555" } }, "Transliteration: ", imp.ir.transliteration)
-            )
+            imp.du && renderPersonEntry("singular", imp.du),
+            imp.ir && renderPersonEntry("plural", imp.ir)
           )
         )
       );
