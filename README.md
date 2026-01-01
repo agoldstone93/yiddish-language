@@ -20,31 +20,33 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Decap CMS (Admin)
 
-This repo keeps production vs local Decap CMS settings separate so `local_backend: true` is never committed.
+The CMS configuration is managed in a single file: [public/admin/config.yml](public/admin/config.yml)
 
-- Production config lives in [public/admin/config.prod.yml](public/admin/config.prod.yml)
-- Local-only override should be created at `public/admin/config.local.yml` (gitignored)
-
-To set up local CMS config:
+### Local Development (with Decap local backend)
 
 ```bash
-cp public/admin/config.local.example.yml public/admin/config.local.yml
+npm run dev
+npx decap-server   # in another terminal
 ```
 
-When you run `npm run dev`, it automatically copies the local config (if present) into `public/admin/config.yml`.
-When you run `npm run build`, it automatically copies the prod config into `public/admin/config.yml`.
+- `config.base.yml` (tracked) holds the real CMS config with `local_backend: false`
+- `config.local.yml` (gitignored) only contains `local_backend: true`
+- The script `scripts/switch-decap-config.mjs` merges these into `config.yml` (gitignored)
+- Decap CMS reads `/admin/config.yml`
 
-To run the dev server with the production CMS config (useful for testing Netlify Identity login/signup), use:
+### Testing Production Mode Locally
 
 ```bash
 npm run dev:prod
 ```
 
-If you have `local_backend: true` enabled (via `public/admin/config.local.yml`), you also need to run Decap’s local backend server in another terminal while developing:
+This copies `config.base.yml` to `config.yml` (no local backend) so you can test Netlify Identity.
 
-```bash
-npx decap-server
-```
+### Notes
+
+- Edit `public/admin/config.base.yml` for any CMS changes
+- Keep `public/admin/config.yml` out of git (it’s generated)
+- `config.local.yml` is optional; if missing, prod mode is used
 
 ## Contributing
 
