@@ -31,7 +31,6 @@ collections:
         display_fields:
           - slug
           - example_label
-        required: false
         hint: If you aren't sure which category, visit the guides for [periphrastic](/categories/periphrastic), [reflexive](/categories/reflexive), [separable-prefix](/categories/separable-prefix), or [simple](/categories/simple) to learn more.
       
       - label: Infinitive
