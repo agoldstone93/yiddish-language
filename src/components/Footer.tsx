@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer({
   href = "https://ko-fi.com/loshnlab",
-  label = "Donate to running costs (optional)",
+  label = "Donate to running costs",
 }: {
   href?: string;
   label?: string;
