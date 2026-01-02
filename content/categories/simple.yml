@@ -1,5 +1,7 @@
 name: Simple Verbs
 slug: simple
+example_slug: redn
+example_label: (e.g. רעדן)
 content: >-
   This category applies to most Yiddish verbs, that do not fall into other
   specific categories.

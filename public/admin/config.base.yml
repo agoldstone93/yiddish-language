@@ -30,6 +30,7 @@ collections:
         value_field: slug
         display_fields:
           - slug
+          - example_label
         required: false
         hint: If you aren't sure which category, visit the guides for [periphrastic](/categories/periphrastic), [reflexive](/categories/reflexive), [separable-prefix](/categories/separable-prefix), or [simple](/categories/simple) to learn more.
       
@@ -180,6 +181,14 @@ collections:
           - label: Slug
             name: slug
             widget: string
+          - label: Example Verb (slug)
+            name: example_slug
+            widget: string
+            hint: Enter a verb slug (e.g. "מסכּים זײַן"). Used for dropdown link.
+          - label: Example Label (shown in dropdown)
+            name: example_label
+            widget: string
+            hint: For display, e.g. "(e.g. מסכּים זײַן)".
           - label: Content
             name: content
             widget: markdown
@@ -194,6 +203,16 @@ collections:
           - label: Slug
             name: slug
             widget: string
+          - label: Example Verb (slug)
+            name: example_slug
+            widget: string
+            required: false
+            hint: Enter a verb slug (e.g. "lernen-zikh"). Used for dropdown link.
+          - label: Example Label (shown in dropdown)
+            name: example_label
+            widget: string
+            required: false
+            hint: For display, e.g. "(e.g. lernen-zikh)". Optional.
           - label: Content
             name: content
             widget: markdown
@@ -208,6 +227,16 @@ collections:
           - label: Slug
             name: slug
             widget: string
+          - label: Example Verb (slug)
+            name: example_slug
+            widget: string
+            required: false
+            hint: Enter a verb slug (e.g. "onheybn"). Used for dropdown link.
+          - label: Example Label (shown in dropdown)
+            name: example_label
+            widget: string
+            required: false
+            hint: For display, e.g. "(e.g. onheybn)". Optional.
           - label: Content
             name: content
             widget: markdown
@@ -222,6 +251,16 @@ collections:
           - label: Slug
             name: slug
             widget: string
+          - label: Example Verb (slug)
+            name: example_slug
+            widget: string
+            required: false
+            hint: Enter a verb slug (e.g. "esen"). Used for dropdown link.
+          - label: Example Label (shown in dropdown)
+            name: example_label
+            widget: string
+            required: false
+            hint: For display, e.g. "(e.g. esen)". Optional.
           - label: Content
             name: content
             widget: markdown
