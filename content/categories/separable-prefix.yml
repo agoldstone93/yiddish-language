@@ -1,0 +1,95 @@
+name: Separable Prefix Verbs
+slug: separable-prefix
+example_slug: oyfhern
+example_label: (e.g. אויפֿהערן)
+content: >-
+  This category applies to Yiddish verbs that have a separable prefix. In these
+  verbs, the prefix can be separated from the main verb in certain tenses and
+  constructions.
+
+
+  ## Present Tense
+
+
+  In the present tense, verbs are conjugated by adding specific endings to the verb stem based on the subject pronoun like in simple verbs. However, for separable-prefix verbs, to get the verb stem, its prefix is separated and is added as a separate word after the main verb. Then the ending (normally ן) is removed from the main verb.
+
+
+  Here's an example using the verb `אויפֿהערן` (to start):
+
+
+  | Pronoun  | Meaning        | Ending | Example                |
+
+  | -------- | -------------- | ------ | ---------------------- |
+
+  | איך      | I              | ־      | אויפֿהערן ←  הער אויף  |
+
+  | דו       | you (singular) | סט     | אויפֿהערן ← הערסט אויף |
+
+  | ער/זי/עס | he/she/it      | ט      | אויפֿהערן ← הערט אויף  |
+
+  | מיר      | we             | ן      | אויפֿהערן ← הערן אויף  |
+
+  | איר      | you (plural)   | ט      | אויפֿהערן ← הערט אויף  |
+
+  | זיי      | they           | ן      | אויפֿהערן ← הערן אויף  |
+
+
+  ## Past Tense
+
+
+  The past tense for periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb `האָבן` (to have) or `זיין` (to be) followed by the past participle of the main verb.
+
+
+  In most cases, `האָבן` is used, but `זיין` is used with verbs that indicate motion or change of state.
+
+
+  For separable-prefix verbs, the past participle is often formed by adding `גע` within the infinitive, between the prefix and the main verb, and replacing the `־ן` ending with a `־ט`, though there are many exceptions; in general the past participle needs to memorised.
+
+
+  `אויפֿהערן ←  אויפֿגעהערט`
+
+
+  Using the same example with `אויפֿהערן`:
+
+
+  | Pronoun  | Formation               | Example               |
+
+  | -------- | ----------------------- | --------------------- |
+
+  | איך      | האָב + past participle  | איך האָב אויפֿגעהערט  |
+
+  | דו       | האָסט + past participle | דו האַסט אויפֿגעהערט  |
+
+  | ער/זי/עס | האָט + past participle  | ער האָט אויפֿגעהערט   |
+
+  | מיר      | האָבן + past participle | מיר האָבן אויפֿגעהערט |
+
+  | איר      | האָט + past participle  | איר האָט אויפֿגעהערט  |
+
+  | זיי      | האָבן + past participle | זיי האָבן אויפֿגעהערט |
+
+
+  ## Future Tense
+
+
+  The future tense for periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb `וועלן` (will) followed by the infinitive form of the main verb.
+
+
+  Here is an example for `אויפֿהערן`:
+
+
+  | Pronoun  | Formation         | Example             |
+
+  | -------- | ----------------- | ------------------- |
+
+  | איך      | װעל + infinitive  | איך וועל אויפֿהערן  |
+
+  | דו       | װעסט + infinitive | דו וועסט אויפֿהערן  |
+
+  | ער/זי/עס | װעט + infinitive  | ער וועט אויפֿהערן   |
+
+  | מיר      | װעלן + infinitive | מיר וועלן אויפֿהערן |
+
+  | איר      | װעט + infinitive  | איר וועט אויפֿהערן  |
+
+  | זיי      | װעלן + infinitive | זיי וועלן אויפֿהערן |

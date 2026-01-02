@@ -1,21 +1,11 @@
 id: geyn
-
+categoryId: simple
 lemma:
   yiddish: גיין
   transliteration: geyn
-
 meaning:
   english: to go
-
-search:
-  yiddish:
-    - גיין
-  transliteration:
-    - geyn
-    - gein
-
 auxiliary: zayn
-
 conjugation:
   present:
     ich:
@@ -36,13 +26,13 @@ conjugation:
     zey:
       yiddish: גייען
       transliteration: geyen
-
   past_participle:
     yiddish: געגאַנגען
     transliteration: gegangen
-
-notes:
-  - Very common motion verb
-  - Past tense uses auxiliary "זיין" because it is a motion verb
-  - Future tense formed with "וועלן" + infinitive
-  - Imperative exists only for second-person singular and plural
+search:
+  yiddish:
+    - גיין
+  transliteration:
+    - geyn
+    - gein
+notes: []

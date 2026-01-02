@@ -1,0 +1,88 @@
+name: Periphrastic Verbs
+slug: periphrastic
+example_slug: maskem-zayn
+example_label: (e.g. מסכּים זײַן)
+content: >-
+  This category applies to certain Yiddish verbs; often those that are Hebrew
+  loanwords.
+
+
+  ## Present Tense
+
+
+  In the present tense, periphrastic verbs are constructed by only conjugating the auxiliary verb while the main verb retains its form. The following example uses the verb `מסכּים` (to agree) with the auxiliary verb `זיין` (to be).
+
+
+  | Pronoun  | Meaning        | Ending | Example           |
+
+  | -------- | -------------- | ------ | ----------------- |
+
+  | איך      | I              | ־      | איך בין מסכּים    |
+
+  | דו       | you (singular) | סט     | דו ביסט מסכּים    |
+
+  | ער/זי/עס | he/she/it      | ט      | ער איז מסכּים     |
+
+  | מיר      | we             | ן      | מיר זײַנען מסכּים |
+
+  | איר      | you (plural)   | ט      | איר זײַט מסכּים   |
+
+  | זיי      | they           | ן      | זיי זײַנען מסכּים |
+
+
+  ## Past Tense
+
+
+  The past tense for periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb `האָבן` (to have) or `זיין` (to be) followed by the past participle of the main verb.
+
+
+  In most cases, `האָבן` is used, but `זיין` is used with verbs that indicate motion or change of state.
+
+
+  For periphrastic verbs, you need to consider the order. The main verb, which is unchanged, comes before the conjugated past participle.
+
+
+  Using the same example with `מסכּים זײַן` (to agree):
+
+
+  | Pronoun  | Formation               | Example                 |
+
+  | -------- | ----------------------- | ----------------------- |
+
+  | איך      | האָב + past participle  | איך האָב מסכּים געװען   |
+
+  | דו       | האָסט + past participle | דו האַסט מסכּים געװען   |
+
+  | ער/זי/עס | האָט + past participle  | ער האָט מסכּים געווען   |
+
+  | מיר      | האָבן + past participle | מיר האָבן מסכּים געווען |
+
+  | איר      | האָט + past participle  | איר האָט מסכּים געווען  |
+
+  | זיי      | האָבן + past participle | זיי האָבן מסכּים געווען |
+
+
+  ## Future Tense
+
+
+  The future tense for periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb `וועלן` (will) followed by the infinitive form of the main verb.
+
+
+  For periphrastic verbs, which are made up of an auxiliary and a main verb, it is formed by conjugating the auxiliary verb in the future tense while the main verb remains unchanged. Using the same example with `מסכּים` (to agree) and `זיין` (to be):
+
+
+  | Pronoun  | Formation         | Example               |
+
+  | -------- | ----------------- | --------------------- |
+
+  | איך      | װעל + infinitive  | איך וועל מסכּים זיין  |
+
+  | דו       | װעסט + infinitive | דו וועסט מסכּים זיין  |
+
+  | ער/זי/עס | װעט + infinitive  | ער וועט מסכּים זיין   |
+
+  | מיר      | װעלן + infinitive | מיר וועלן מסכּים זיין |
+
+  | איר      | װעט + infinitive  | איר וועט מסכּים זיין  |
+
+  | זיי      | װעלן + infinitive | זיי וועלן מסכּים זיין |

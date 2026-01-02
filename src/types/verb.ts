@@ -30,6 +30,7 @@ export type Verb = {
     english: string;
   };
   reflexive: boolean;
+  categoryId?: string;
   conjugation: Conjugation;
   notes?: string[];
 };

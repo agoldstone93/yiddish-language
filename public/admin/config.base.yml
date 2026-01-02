@@ -1,0 +1,309 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: false
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: verbs
+    label: Verbs
+    folder: content/verbs
+    create: true
+    slug: '{{lemma.transliteration}}'
+    format: yaml
+    fields:
+      
+      - label: ID - infinitive
+        name: id
+        widget: string
+      
+      - label: Category
+        name: categoryId
+        widget: relation
+        collection: categories
+        search_fields:
+          - name
+          - slug
+        value_field: slug
+        display_fields:
+          - slug
+          - example_label
+        required: false
+        hint: If you aren't sure which category, visit the guides for [periphrastic](/categories/periphrastic), [reflexive](/categories/reflexive), [separable-prefix](/categories/separable-prefix), or [simple](/categories/simple) to learn more.
+      
+      - label: Infinitive
+        name: lemma
+        widget: object
+        fields:
+          - label: Yiddish
+            name: yiddish
+            widget: string
+          - label: Transliteration (YIVO)
+            name: transliteration
+            widget: string
+      
+      - label: Meaning
+        name: meaning
+        widget: object
+        required: false
+        fields:
+          - label: English
+            name: english
+            widget: string
+      
+      - label: Auxiliary
+        name: auxiliary
+        widget: select
+        options:
+          - hobn
+          - zayn
+        required: true
+      
+      - label: Conjugation
+        name: conjugation
+        widget: object
+        fields:
+          - label: Present Tense
+            name: present
+            widget: object
+            required: true
+            fields:
+              
+              - label: ich
+                name: ich
+                widget: object
+                fields:
+                  - label: Yiddish
+                    name: yiddish
+                    widget: string
+                  - label: Transliteration
+                    name: transliteration
+                    widget: string
+              
+              - label: du
+                name: du
+                widget: object
+                fields:
+                  - label: Yiddish
+                    name: yiddish
+                    widget: string
+                  - label: Transliteration
+                    name: transliteration
+                    widget: string
+              
+              - label: er / zi / es
+                name: er_zi_es
+                widget: object
+                fields:
+                  - label: Yiddish
+                    name: yiddish
+                    widget: string
+                  - label: Transliteration
+                    name: transliteration
+                    widget: string
+              
+              - label: mir
+                name: mir
+                widget: object
+                fields:
+                  - label: Yiddish
+                    name: yiddish
+                    widget: string
+                  - label: Transliteration
+                    name: transliteration
+                    widget: string
+              
+              - label: ir
+                name: ir
+                widget: object
+                fields:
+                  - label: Yiddish
+                    name: yiddish
+                    widget: string
+                  - label: Transliteration
+                    name: transliteration
+                    widget: string
+              
+              - label: zey
+                name: zey
+                widget: object
+                fields:
+                  - label: Yiddish
+                    name: yiddish
+                    widget: string
+                  - label: Transliteration
+                    name: transliteration
+                    widget: string
+          
+          - label: Past Participle
+            name: past_participle
+            widget: object
+            required: true
+            fields:
+              - label: Yiddish
+                name: yiddish
+                widget: string
+              - label: Transliteration
+                name: transliteration
+                widget: string
+      
+      - label: Search
+        name: search
+        widget: object
+        required: false
+        fields:
+          - label: Yiddish
+            name: yiddish
+            widget: list
+          - label: Transliteration
+            name: transliteration
+            widget: list
+      
+      - label: Notes
+        name: notes
+        widget: list
+        required: false
+  
+  - name: categories
+    label: Categories
+    files:
+
+      - label: Periphrastic
+        name: periphrastic
+        file: content/categories/periphrastic.yml
+        fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Example Verb (slug)
+            name: example_slug
+            widget: string
+            hint: Enter a verb slug (e.g. "מסכּים זײַן"). Used for dropdown link.
+          - label: Example Label (shown in dropdown)
+            name: example_label
+            widget: string
+            hint: For display, e.g. "(e.g. מסכּים זײַן)".
+          - label: Content
+            name: content
+            widget: markdown
+
+      - label: Reflexive
+        name: reflexive
+        file: content/categories/reflexive.yml
+        fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Example Verb (slug)
+            name: example_slug
+            widget: string
+            required: false
+            hint: Enter a verb slug (e.g. "lernen-zikh"). Used for dropdown link.
+          - label: Example Label (shown in dropdown)
+            name: example_label
+            widget: string
+            required: false
+            hint: For display, e.g. "(e.g. lernen-zikh)". Optional.
+          - label: Content
+            name: content
+            widget: markdown
+
+      - label: Separable Prefix
+        name: separable-prefix
+        file: content/categories/separable-prefix.yml
+        fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Example Verb (slug)
+            name: example_slug
+            widget: string
+            required: false
+            hint: Enter a verb slug (e.g. "onheybn"). Used for dropdown link.
+          - label: Example Label (shown in dropdown)
+            name: example_label
+            widget: string
+            required: false
+            hint: For display, e.g. "(e.g. onheybn)". Optional.
+          - label: Content
+            name: content
+            widget: markdown
+
+      - label: Simple
+        name: simple
+        file: content/categories/simple.yml
+        fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Example Verb (slug)
+            name: example_slug
+            widget: string
+            required: false
+            hint: Enter a verb slug (e.g. "esen"). Used for dropdown link.
+          - label: Example Label (shown in dropdown)
+            name: example_label
+            widget: string
+            required: false
+            hint: For display, e.g. "(e.g. esen)". Optional.
+          - label: Content
+            name: content
+            widget: markdown
+
+  - name: pages
+    label: Pages
+    files:
+      - label: About
+        name: about
+        file: content/pages/about.yml
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Content
+            name: content
+            widget: markdown
+      - label: Guides
+        name: guides
+        file: content/pages/guides.yml
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Content
+            name: content
+            widget: markdown
+      - label: Imperative Guide
+        name: imperative-guide
+        file: content/pages/imperative-guide.yml
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Content
+            name: content
+            widget: markdown

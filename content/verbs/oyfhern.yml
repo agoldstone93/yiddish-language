@@ -1,4 +1,5 @@
 id: oyfhern
+categoryId: separable-prefix
 lemma:
   yiddish: אויפֿהערן
   transliteration: oyfhern
@@ -28,7 +29,6 @@ conjugation:
   past_participle:
     yiddish: אויפֿגעהערן
     transliteration: oyfgehern
-
 search:
   yiddish:
     - אויפֿהערן

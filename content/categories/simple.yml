@@ -1,0 +1,85 @@
+name: Simple Verbs
+slug: simple
+example_slug: redn
+example_label: (e.g. רעדן)
+content: >-
+  This category applies to most Yiddish verbs, that do not fall into other
+  specific categories.
+
+
+  ## Present Tense
+
+
+  In the present tense, simple verbs are conjugated by adding specific endings to the verb stem based on the subject pronoun. To get the verb stem, the ending (normally `ן`) is removed from the infinitive.
+
+
+  | Pronoun  | Meaning        | Ending | Example      |
+
+  | -------- | -------------- | ------ | ------------ |
+
+  | איך      | I              | ־      | רעדן ← רעד   |
+
+  | דו       | you (singular) | סט     | רעדן ← רעדסט |
+
+  | ער/זי/עס | he/she/it      | ט      | רעדן ← רעדט  |
+
+  | מיר      | we             | ן      | רעדן ← רעדן  |
+
+  | איר      | you (plural)   | ט      | רעדן ← רעדט  |
+
+  | זיי      | they           | ן      | רעדן ← רעדן  |
+
+
+  ## Past Tense
+
+
+  The past tense for periphrastic, simple, separable-prefix, and reflexive verbs is formed in a similar manner and follows the same rules.
+
+
+  The past tense is formed using the auxiliary verb `האָבן` (to have) or `זיין` (to be) followed by the past participle of the main verb.
+
+
+  In most cases, `האָבן` is used, but `זיין` is used with verbs that indicate motion or change of state.
+
+
+  The past participle is often formed by adding `גע־` at the beginning and `־ט` at the end of the verb stem, though there are many exceptions; in general the past participle needs to memorised.
+
+
+  | Pronoun  | Formation               | Example          |
+
+  | -------- | ----------------------- | ---------------- |
+
+  | איך      | האָב + past participle  | איך האָב גערעדט  |
+
+  | דו       | האָסט + past participle | דו האָסט גערעדט  |
+
+  | ער/זי/עס | האָט + past participle  | ער האָט גערעדט   |
+
+  | מיר      | האָבן + past participle | מיר האָבן גערעדט |
+
+  | איר      | האָט + past participle  | איר האָט גערעדט  |
+
+  | זיי      | האָבן + past participle | זיי האָבן גערעדט |
+
+
+  ## Future Tense
+
+
+  The future tense for periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb וועלן (will) followed by the infinitive form of the main verb.
+
+
+  | Pronoun  | Formation         | Example        |
+
+  | -------- | ----------------- | -------------- |
+
+  | איך      | װעל + infinitive  | איך וועל רעדן  |
+
+  | דו       | װעסט + infinitive | דו וועסט רעדן  |
+
+  | ער/זי/עס | װעט + infinitive  | ער וועט רעדן   |
+
+  | מיר      | װעלן + infinitive | מיר וועלן רעדן |
+
+  | איר      | װעט + infinitive  | איר וועט רעדן  |
+
+  | זיי      | װעלן + infinitive | זיי וועלן רעדן |

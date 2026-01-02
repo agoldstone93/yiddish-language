@@ -11,6 +11,7 @@ export function Header({
     links = [
         { href: "/about", label: "About" },
         { href: "/admin", label: "Add or Edit Verbs" },
+        { href: "/guides", label: "Guides" },
     ]
 } : {
     title?: string;

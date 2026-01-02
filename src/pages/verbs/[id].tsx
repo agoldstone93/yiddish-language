@@ -9,6 +9,7 @@ import { TenseBox } from '@/components/TenseBox';
 import { VerbSearch } from '@/components/VerbSearch';
 
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
+import { getCategory, renderCategoryContent } from '@/lib/categories';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const verbsDir = path.join(process.cwd(), 'content/verbs');
@@ -24,7 +25,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export const getStaticProps: GetStaticProps<{ verb: Verb; verbs: Verb[] }> = async ({ params }) => {
+type CategoryData = { name: string; contentHtml: string } | null;
+
+export const getStaticProps: GetStaticProps<{ verb: Verb; verbs: Verb[]; category: CategoryData }> = async ({ params }) => {
   const id = params?.id as string;
   const verbsDir = path.join(process.cwd(), 'content/verbs');
   const filePath = path.join(verbsDir, `${id}.yml`);
@@ -39,10 +42,21 @@ export const getStaticProps: GetStaticProps<{ verb: Verb; verbs: Verb[] }> = asy
       yaml.load(fs.readFileSync(path.join(verbsDir, file), 'utf8')) as Verb
     );
 
-  return { props: { verb: content, verbs } };
+  let category: CategoryData = null;
+  if (content.categoryId) {
+    const cat = getCategory(content.categoryId);
+    if (cat) {
+      category = {
+        name: cat.name,
+        contentHtml: renderCategoryContent(cat.content)
+      };
+    }
+  }
+
+  return { props: { verb: content, verbs, category } };
 };
 
-export default function VerbPage({ verb, verbs }: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div className="max-w-3xl mx-auto space-y-6">
       <VerbSearch verbs={verbs} activeVerbId={verb.id}/>
@@ -57,9 +71,23 @@ export default function VerbPage({ verb, verbs }: InferGetStaticPropsType<typeof
       </p>
 
       {/* Metadata */}
-      <div className="space-y-1 text-center text-gray-600 dark:text-gray-400">
+      <div className="text-center text-gray-600 dark:text-gray-400">
         {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
+        {verb.categoryId && <div><strong>Category:</strong> {verb.categoryId}</div>}
       </div>
+
+      {/* Category Explainer */}
+      {category && (
+        <details className="border rounded p-4 shadow-sm">
+          <summary className="cursor-pointer font-semibold text-lg">
+            About {category.name}
+          </summary>
+          <div 
+            className="mt-4 prose dark:prose-invert max-w-none"
+            dangerouslySetInnerHTML={{ __html: category.contentHtml }}
+          />
+        </details>
+      )}
 
       {verb.conjugation && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
