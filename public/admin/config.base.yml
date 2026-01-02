@@ -1,9 +1,12 @@
 backend:
   name: git-gateway
   branch: main
+
 local_backend: false
+
 media_folder: public/uploads
 public_folder: /uploads
+
 collections:
   - name: verbs
     label: Verbs
@@ -12,9 +15,11 @@ collections:
     slug: '{{lemma.transliteration}}'
     format: yaml
     fields:
+      
       - label: ID - infinitive
         name: id
         widget: string
+      
       - label: Category
         name: categoryId
         widget: relation
@@ -24,13 +29,10 @@ collections:
           - slug
         value_field: slug
         display_fields:
-          - name
+          - slug
         required: false
-      - label: Reflexive
-        name: reflexive
-        widget: boolean
-        default: false
-        hint: Check if this verb is reflexive. 'זיך/zikh' will be automatically inserted in conjugations (e.g., 'איך האָב זיך געלערנט'). Do NOT include 'זיך/zikh' in the fields below.
+        hint: If you aren't sure which category, visit the guides for [periphrastic](/categories/periphrastic), [reflexive](/categories/reflexive), [separable-prefix](/categories/separable-prefix), or [simple](/categories/simple) to learn more.
+      
       - label: Infinitive
         name: lemma
         widget: object
@@ -41,6 +43,7 @@ collections:
           - label: Transliteration (YIVO)
             name: transliteration
             widget: string
+      
       - label: Meaning
         name: meaning
         widget: object
@@ -49,6 +52,7 @@ collections:
           - label: English
             name: english
             widget: string
+      
       - label: Auxiliary
         name: auxiliary
         widget: select
@@ -56,6 +60,7 @@ collections:
           - hobn
           - zayn
         required: true
+      
       - label: Conjugation
         name: conjugation
         widget: object
@@ -65,6 +70,7 @@ collections:
             widget: object
             required: true
             fields:
+              
               - label: ich
                 name: ich
                 widget: object
@@ -75,6 +81,7 @@ collections:
                   - label: Transliteration
                     name: transliteration
                     widget: string
+              
               - label: du
                 name: du
                 widget: object
@@ -85,6 +92,7 @@ collections:
                   - label: Transliteration
                     name: transliteration
                     widget: string
+              
               - label: er / zi / es
                 name: er_zi_es
                 widget: object
@@ -95,6 +103,7 @@ collections:
                   - label: Transliteration
                     name: transliteration
                     widget: string
+              
               - label: mir
                 name: mir
                 widget: object
@@ -105,6 +114,7 @@ collections:
                   - label: Transliteration
                     name: transliteration
                     widget: string
+              
               - label: ir
                 name: ir
                 widget: object
@@ -115,6 +125,7 @@ collections:
                   - label: Transliteration
                     name: transliteration
                     widget: string
+              
               - label: zey
                 name: zey
                 widget: object
@@ -125,6 +136,7 @@ collections:
                   - label: Transliteration
                     name: transliteration
                     widget: string
+          
           - label: Past Participle
             name: past_participle
             widget: object
@@ -136,6 +148,7 @@ collections:
               - label: Transliteration
                 name: transliteration
                 widget: string
+      
       - label: Search
         name: search
         widget: object
@@ -147,14 +160,58 @@ collections:
           - label: Transliteration
             name: transliteration
             widget: list
+      
       - label: Notes
         name: notes
         widget: list
         required: false
+  
   - name: categories
     label: Categories
-    folder: content/categories
     files:
+
+      - label: Periphrastic
+        name: periphrastic
+        file: content/categories/periphrastic.yml
+        fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Content
+            name: content
+            widget: markdown
+
+      - label: Reflexive
+        name: reflexive
+        file: content/categories/reflexive.yml
+        fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Content
+            name: content
+            widget: markdown
+
+      - label: Separable Prefix
+        name: separable-prefix
+        file: content/categories/separable-prefix.yml
+        fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Content
+            name: content
+            widget: markdown
+
       - label: Simple
         name: simple
         file: content/categories/simple.yml
@@ -168,12 +225,39 @@ collections:
           - label: Content
             name: content
             widget: markdown
+
   - name: pages
     label: Pages
     files:
       - label: About
         name: about
         file: content/pages/about.yml
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Content
+            name: content
+            widget: markdown
+      - label: Guides
+        name: guides
+        file: content/pages/guides.yml
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Slug
+            name: slug
+            widget: string
+          - label: Content
+            name: content
+            widget: markdown
+      - label: Imperative Guide
+        name: imperative-guide
+        file: content/pages/imperative-guide.yml
         fields:
           - label: Title
             name: title

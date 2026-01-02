@@ -1,0 +1,90 @@
+name: Reflexive Verbs
+slug: reflexive
+content: >-
+  This category applies to reflexive verbs; these are verbs where the action is
+  performed by the subject on itself. For example, in English, "to wash oneself"
+  is a reflexive verb.
+
+
+  ## Present Tense
+
+
+  In the present tense, reflexive verbs are conjugated by adding specific endings to the verb stem based on the subject pronoun. To get the verb stem, the ending (normally `ן`) is removed from the infinitive.
+
+
+  In this example, because the stem ends in a `ן`, an extra `ע` is added. The infitive ending is therefore `ען` so this is removed before adding the conjugated present tense ending. 
+
+
+  | Pronoun  | Meaning        | Ending | Example                 |
+
+  | -------- | -------------- | ------ | ----------------------- |
+
+  | איך      | I              | ־      | לערנען זיך ← לערן זיך   |
+
+  | דו       | you (singular) | סט     | לערנען זיך ← לערנסט זיך |
+
+  | ער/זי/עס | he/she/it      | ט      | לערנען זיך ← לערנט זיך  |
+
+  | מיר      | we             | ען     | לערנען זיך ← לערנען זיך |
+
+  | איר      | you (plural)   | ט      | לערנען זיך ← לערנט זיך  |
+
+  | זיי      | they           | ען     | לערנען זיך ← לערנען זיך |
+
+
+  ## Past Tense
+
+
+  The past tense for periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb `האָבן` (to have) or `זיין` (to be) followed by the past participle of the main verb.
+
+
+  In most cases, `האָבן` is used, but `זיין` is used with verbs that indicate motion or change of state.
+
+
+  For reflexive verbs, you need to consider the order. The word `זיך` comes before the past participle
+
+
+  Using the same example with `לערנען זיך`:
+
+
+  | Pronoun  | Formation                   | Example               |
+
+  | -------- | --------------------------- | --------------------- |
+
+  | איך      | האָב זיך + past participle  | איך האָב זיך געלערנט  |
+
+  | דו       | האָסט זיך + past participle | דו האַסט זיך געלערנט  |
+
+  | ער/זי/עס | האָט זיך + past participle  | ער האָט זיך געלערנט   |
+
+  | מיר      | האָבן זיך + past participle | מיר האָבן זיך געלערנט |
+
+  | איר      | האָט זיך + past participle  | איר האָט זיך געלערנט  |
+
+  | זיי      | האָבן זיך + past participle | זיי האָבן זיך געלערנט |
+
+
+  ## Future Tense
+
+
+  The future tense for periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb `וועלן` (will) followed by the infinitive form of the main verb.
+
+
+  For reflexive verbs, which are made up of an auxiliary and a main verb, it is formed by conjugating the auxiliary verb in the future tense while the main verb remains unchanged. Using the same example with `מסכּים` (to agree) and `זיין` (to be):
+
+
+  | Pronoun  | Formation         | Example              |
+
+  | -------- | ----------------- | -------------------- |
+
+  | איך      | װעל + infinitive  | איך וועל זיך לערנען  |
+
+  | דו       | װעסט + infinitive | דו וועסט זיך לערנען  |
+
+  | ער/זי/עס | װעט + infinitive  | ער וועט זיך לערנען   |
+
+  | מיר      | װעלן + infinitive | מיר וועלן זיך לערנען |
+
+  | איר      | װעט + infinitive  | איר וועט זיך לערנען  |
+
+  | זיי      | װעלן + infinitive | זיי וועלן זיך לערנען |
