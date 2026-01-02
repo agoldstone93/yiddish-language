@@ -1,0 +1,37 @@
+id: oyfhern
+lemma:
+  yiddish: אויפֿהערן
+  transliteration: oyfhern
+meaning:
+  english: to stop
+auxiliary: hobn
+conjugation:
+  present:
+    ich:
+      yiddish: הער אױף
+      transliteration: her oyf
+    du:
+      yiddish: הערסט אױף
+      transliteration: herst oyf
+    er_zi_es:
+      yiddish: הערט אױף
+      transliteration: hert oyf
+    mir:
+      yiddish: הערן אױף
+      transliteration: hern oyf
+    ir:
+      yiddish: הערט אױף
+      transliteration: hert oyf
+    zey:
+      yiddish: הערן אױף
+      transliteration: hern oyf
+  past_participle:
+    yiddish: אויפֿגעהערן
+    transliteration: oyfgehern
+
+search:
+  yiddish:
+    - אויפֿהערן
+  transliteration:
+    - oyfhern
+    - afhern

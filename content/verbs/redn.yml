@@ -1,0 +1,35 @@
+id: redn
+lemma:
+  yiddish: רעדן
+  transliteration: redn
+meaning:
+  english: to speak
+auxiliary: hobn
+conjugation:
+  present:
+    ich:
+      yiddish: רעד
+      transliteration: red
+    du:
+      yiddish: רעדסט
+      transliteration: redst
+    er_zi_es:
+      yiddish: רעדט
+      transliteration: redt
+    mir:
+      yiddish: רעדן
+      transliteration: redn
+    ir:
+      yiddish: רעדט
+      transliteration: redt
+    zey:
+      yiddish: רעדן
+      transliteration: redn
+  past_participle:
+    yiddish: גערעדט
+    transliteration: geredt
+search:
+  yiddish:
+    - רעדן
+  transliteration:
+    - redn
