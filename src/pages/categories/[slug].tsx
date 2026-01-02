@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
+import Head from "next/head";
 import StaticPageLayout from "@/components/StaticPageLayout";
 import { getAllCategories, getCategory } from "@/lib/categories";
 import { GetStaticPaths, GetStaticProps } from "next";
@@ -59,11 +60,17 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({
 
 export default function CategoryPage({ category }: CategoryPageProps) {
 	return (
-		<StaticPageLayout
-			title={category.name}
-			content={category.content}
-			exampleHref={category.exampleHref}
-			exampleText={category.exampleText}
-		/>
+		<>
+			<Head>
+				<title>{`${category.name} - LoshnLab`}</title>
+				<meta name="description" content={`Learn about ${category.name} in Yiddish - conjugation guide with examples`} />
+			</Head>
+			<StaticPageLayout
+				title={category.name}
+				content={category.content}
+				exampleHref={category.exampleHref}
+				exampleText={category.exampleText}
+			/>
+		</>
 	);
 }

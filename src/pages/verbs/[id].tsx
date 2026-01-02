@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
+import Head from 'next/head';
 import { Verb } from '@/types/verb';
 import { getPastForms } from '@/lib/grammar/past';
 import { getFutureForms } from '@/lib/grammar/future';
@@ -57,9 +58,19 @@ export const getStaticProps: GetStaticProps<{ verb: Verb; verbs: Verb[]; categor
 };
 
 export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const title = `${verb.lemma.yiddish} (${verb.lemma.transliteration})`;
+  const description = verb.meaning?.english 
+    ? `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) - "${verb.meaning.english}" in Yiddish. View all tenses and forms.`
+    : `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) in Yiddish. View all tenses and forms.`;
+
   return (
-    <div className="max-w-3xl mx-auto space-y-6">
-      <VerbSearch verbs={verbs} activeVerbId={verb.id}/>
+    <>
+      <Head>
+        <title>{`${title} - LoshnLab`}</title>
+        <meta name="description" content={description} />
+      </Head>
+      <div className="max-w-3xl mx-auto space-y-6">
+        <VerbSearch verbs={verbs} activeVerbId={verb.id}/>
 
       {/* Lemma */}
       <h1 className="text-3xl font-bold text-center space-y-0 mb-0">
@@ -139,6 +150,7 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
           </ul>
         </div>
       )}
-    </div>
+      </div>
+    </>
   );
 }
