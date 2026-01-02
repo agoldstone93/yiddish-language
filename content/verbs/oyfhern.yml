@@ -30,8 +30,8 @@ conjugation:
     yiddish: אויפֿגעהערן
     transliteration: oyfgehern
 search:
-  yiddish:
-    - אויפֿהערן
+  yiddish: []
   transliteration:
-    - oyfhern
     - afhern
+  english:
+    - cease

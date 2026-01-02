@@ -63,6 +63,9 @@ export function VerbSearch({
           entry.lemma?.yiddish,
           entry.lemma?.transliteration,
           entry.meaning?.english,
+          ...(entry.search?.yiddish ?? []),
+          ...(entry.search?.transliteration ?? []),
+          ...(entry.search?.english ?? []),
         ].filter((value): value is string => Boolean(value));
         return haystack.some((value) => normalizeForSearch(value).includes(needle));
       })

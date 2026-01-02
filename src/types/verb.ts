@@ -31,6 +31,11 @@ export type Verb = {
   };
   reflexive: boolean;
   categoryId?: string;
+  search?: {
+    yiddish?: string[];
+    transliteration?: string[];
+    english?: string[];
+  };
   conjugation: Conjugation;
   notes?: string[];
 };

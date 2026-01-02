@@ -153,12 +153,16 @@ collections:
         name: search
         widget: object
         required: false
+        hint: "Optional: add extra search terms (comma-separated) to help people find this verb."
         fields:
           - label: Yiddish
             name: yiddish
             widget: list
           - label: Transliteration
             name: transliteration
+            widget: list
+          - label: English
+            name: english
             widget: list
       
       - label: Notes
