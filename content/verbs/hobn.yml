@@ -1,0 +1,31 @@
+id: hobn
+categoryId: simple
+lemma:
+  yiddish: האָבן
+  transliteration: hobn
+meaning:
+  english: to have
+auxiliary: hobn
+conjugation:
+  present:
+    ich:
+      yiddish: האָב
+      transliteration: hob
+    du:
+      yiddish: האָסט
+      transliteration: host
+    er_zi_es:
+      yiddish: האָט
+      transliteration: hot
+    mir:
+      yiddish: האָבן
+      transliteration: hobn
+    ir:
+      yiddish: האָט
+      transliteration: hot
+    zey:
+      yiddish: האָבן
+      transliteration: hobn
+  past_participle:
+    yiddish: געהאַט
+    transliteration: gehat
