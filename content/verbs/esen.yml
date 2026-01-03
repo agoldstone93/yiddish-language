@@ -1,8 +1,8 @@
-id: esen
+id: esn
 categoryId: simple
 lemma:
   yiddish: עסן
-  transliteration: esen
+  transliteration: esn
 meaning:
   english: to eat
 auxiliary: hobn
@@ -19,18 +19,18 @@ conjugation:
       transliteration: est
     mir:
       yiddish: עסן
-      transliteration: esen
+      transliteration: esn
     ir:
       yiddish: עסט
       transliteration: est
     zey:
       yiddish: עסן
-      transliteration: esen
+      transliteration: esn
   past_participle:
     yiddish: געגעסן
-    transliteration: gegesen
+    transliteration: gegesn
 search:
   yiddish: []
   transliteration:
-    - esen
+    - esn
   english: []
