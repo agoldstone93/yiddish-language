@@ -11,7 +11,7 @@ describe('getImperativeForms', () => {
       auxiliary: 'zayn',
       conjugation: {
         present: {
-          ich: { yiddish: 'בין', transliteration: 'bin' },
+          ikh: { yiddish: 'בין', transliteration: 'bin' },
           du: { yiddish: 'ביסט', transliteration: 'bist' },
           er_zi_es: { yiddish: 'איז', transliteration: 'iz' },
           mir: { yiddish: 'זײַנען', transliteration: 'zaynen' },
@@ -31,14 +31,14 @@ describe('getImperativeForms', () => {
     });
   });
 
-  it('defaults to du=ich and ir=ir from present tense', () => {
+  it('defaults to du=ikh and ir=ir from present tense', () => {
     const verb = {
       id: 'lernen',
       lemma: { yiddish: 'לערנען', transliteration: 'lernen' },
       auxiliary: 'hobn',
       conjugation: {
         present: {
-          ich: { yiddish: 'לערן', transliteration: 'lern' },
+          ikh: { yiddish: 'לערן', transliteration: 'lern' },
           du: { yiddish: 'לערנסט', transliteration: 'lernst' },
           er_zi_es: { yiddish: 'לערנט', transliteration: 'lernt' },
           mir: { yiddish: 'לערנען', transliteration: 'lernen' },

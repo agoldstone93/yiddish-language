@@ -1,7 +1,7 @@
 // types/verb.ts
 
 export type Person =
-  | 'ich'
+  | 'ikh'
   | 'du'
   | 'er_zi_es'
   | 'mir'

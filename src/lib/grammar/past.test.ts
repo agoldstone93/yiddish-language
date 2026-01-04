@@ -13,7 +13,7 @@ describe('getPastForms', () => {
       reflexive: false,
       conjugation: {
         present: {
-          ich: { yiddish: 'לערן', transliteration: 'lern' },
+          ikh: { yiddish: 'לערן', transliteration: 'lern' },
           du: { yiddish: 'לערנסט', transliteration: 'lernst' },
           er_zi_es: { yiddish: 'לערנט', transliteration: 'lernt' },
           mir: { yiddish: 'לערנען', transliteration: 'lernen' },
@@ -35,7 +35,7 @@ describe('getPastForms', () => {
       reflexive: false,
       conjugation: {
         present: {
-          ich: { yiddish: 'עס', transliteration: 'es' },
+          ikh: { yiddish: 'עס', transliteration: 'es' },
           du: { yiddish: 'עסט', transliteration: 'est' },
           er_zi_es: { yiddish: 'עסט', transliteration: 'est' },
           mir: { yiddish: 'עסן', transliteration: 'esen' },
@@ -49,7 +49,7 @@ describe('getPastForms', () => {
     const forms = getPastForms(verb);
     expect(forms).not.toBeNull();
 
-    expect(forms!.ich).toEqual({
+    expect(forms!.ikh).toEqual({
       yiddish: 'האָב געגעסן',
       transliteration: 'hob gegesen',
     });
@@ -68,7 +68,7 @@ describe('getPastForms', () => {
       auxiliary: 'hobn',
       conjugation: {
         present: {
-          ich: { yiddish: 'לערן זיך', transliteration: 'lern zikh' },
+          ikh: { yiddish: 'לערן זיך', transliteration: 'lern zikh' },
           du: { yiddish: 'לערנסט זיך', transliteration: 'lernst zikh' },
           er_zi_es: { yiddish: 'לערנט זיך', transliteration: 'lernt zikh' },
           mir: { yiddish: 'לערנען זיך', transliteration: 'lernen zikh' },
@@ -82,7 +82,7 @@ describe('getPastForms', () => {
     const forms = getPastForms(verb);
     expect(forms).not.toBeNull();
 
-    expect(forms!.ich).toEqual({
+    expect(forms!.ikh).toEqual({
       yiddish: 'האָב זיך געלערנט',
       transliteration: 'hob zikh gelernt',
     });
@@ -101,7 +101,7 @@ describe('getPastForms', () => {
       auxiliary: 'hobn',
       conjugation: {
         present: {
-          ich: { yiddish: 'בין מסכּים', transliteration: 'bin maskem' },
+          ikh: { yiddish: 'בין מסכּים', transliteration: 'bin maskem' },
           du: { yiddish: 'ביסט מסכּים', transliteration: 'bist maskem' },
           er_zi_es: { yiddish: 'איז מסכּים', transliteration: 'iz maskem' },
           mir: { yiddish: 'זײַנען מסכּים', transliteration: 'zaynen maskem' },
@@ -118,7 +118,7 @@ describe('getPastForms', () => {
     const forms = getPastForms(verb);
     expect(forms).not.toBeNull();
 
-    expect(forms!.ich).toEqual({
+    expect(forms!.ikh).toEqual({
       yiddish: 'האָב מסכּים געװען',
       transliteration: 'hob maskem geven',
     });

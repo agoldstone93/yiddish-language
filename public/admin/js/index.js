@@ -46,7 +46,7 @@ waitForCMS(() => {
   };
 
   const personLabels = {
-    ich: "איך (I)",
+    ikh: "איך (I)",
     du: "דו (you sg)",
     er_zi_es: "ער/זי/עס (he/she/it)",
     mir: "מיר (we)",

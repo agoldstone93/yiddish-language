@@ -13,7 +13,7 @@ describe('getFutureForms', () => {
       reflexive: false,
       conjugation: {
         present: {
-          ich: { yiddish: 'גיי', transliteration: 'gey' },
+          ikh: { yiddish: 'גיי', transliteration: 'gey' },
           du: { yiddish: 'גייסט', transliteration: 'geyst' },
           er_zi_es: { yiddish: 'גייט', transliteration: 'geyt' },
           mir: { yiddish: 'גייען', transliteration: 'geyn' },
@@ -25,7 +25,7 @@ describe('getFutureForms', () => {
 
     const forms = getFutureForms(verb);
 
-    expect(forms.ich).toEqual({
+    expect(forms.ikh).toEqual({
       yiddish: 'וועל גיין',
       transliteration: 'vel geyn',
     });
@@ -44,7 +44,7 @@ describe('getFutureForms', () => {
       auxiliary: 'hobn',
       conjugation: {
         present: {
-          ich: { yiddish: 'לערן זיך', transliteration: 'lern zikh' },
+          ikh: { yiddish: 'לערן זיך', transliteration: 'lern zikh' },
           du: { yiddish: 'לערנסט זיך', transliteration: 'lernst zikh' },
           er_zi_es: { yiddish: 'לערנט זיך', transliteration: 'lernt zikh' },
           mir: { yiddish: 'לערנען זיך', transliteration: 'lernen zikh' },
@@ -56,7 +56,7 @@ describe('getFutureForms', () => {
 
     const forms = getFutureForms(verb);
 
-    expect(forms.ich).toEqual({
+    expect(forms.ikh).toEqual({
       yiddish: 'וועל זיך לרענען',
       transliteration: 'vel zikh lernen',
     });
@@ -75,7 +75,7 @@ describe('getFutureForms', () => {
       auxiliary: 'hobn',
       conjugation: {
         present: {
-          ich: { yiddish: 'בין מסכּים', transliteration: 'bin maskem' },
+          ikh: { yiddish: 'בין מסכּים', transliteration: 'bin maskem' },
           du: { yiddish: 'ביסט מסכּים', transliteration: 'bist maskem' },
           er_zi_es: { yiddish: 'איז מסכּים', transliteration: 'iz maskem' },
           mir: { yiddish: 'זײַנען מסכּים', transliteration: 'zaynen maskem' },
@@ -91,7 +91,7 @@ describe('getFutureForms', () => {
 
     const forms = getFutureForms(verb);
 
-    expect(forms.ich).toEqual({
+    expect(forms.ikh).toEqual({
       yiddish: 'וועל מסכּים זײַן',
       transliteration: 'vel maskem zayn',
     });
