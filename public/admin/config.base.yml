@@ -71,8 +71,8 @@ collections:
             required: true
             fields:
               
-              - label: ich
-                name: ich
+              - label: ikh
+                name: ikh
                 widget: object
                 fields:
                   - label: Yiddish

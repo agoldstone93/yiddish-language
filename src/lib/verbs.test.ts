@@ -17,7 +17,7 @@ describe('getAllVerbs', () => {
 			const present = verb.conjugation?.present;
 			expect(present).toBeTruthy();
 
-			for (const person of ['ich', 'du', 'er_zi_es', 'mir', 'ir', 'zey'] as const) {
+			for (const person of ['ikh', 'du', 'er_zi_es', 'mir', 'ir', 'zey'] as const) {
 				expect(present[person]?.yiddish).toBeTruthy();
 				expect(present[person]?.transliteration).toBeTruthy();
 			}

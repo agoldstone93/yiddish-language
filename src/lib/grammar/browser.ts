@@ -7,7 +7,7 @@ import { getImperativeForms } from './imperative';
 import { auxiliaries } from './auxiliaries';
 import type { Person } from '@/types/verb';
 
-const persons: Person[] = ["ich", "du", "er_zi_es", "mir", "ir", "zey"];
+const persons: Person[] = ["ikh", "du", "er_zi_es", "mir", "ir", "zey"];
 
 // Expose to window for CMS preview
 declare global {

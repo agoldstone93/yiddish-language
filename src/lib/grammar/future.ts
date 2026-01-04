@@ -1,7 +1,7 @@
 import { Verb, Person, VerbForm } from '@/types/verb';
 
 export const velnPresent: Record<Person, VerbForm> = {
-  ich: { yiddish: 'וועל', transliteration: 'vel' },
+  ikh: { yiddish: 'וועל', transliteration: 'vel' },
   du: { yiddish: 'וועסט', transliteration: 'vest' },
   er_zi_es: { yiddish: 'וועט', transliteration: 'vet' },
   mir: { yiddish: 'וועלן', transliteration: 'veln' },

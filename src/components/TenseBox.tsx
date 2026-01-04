@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 import { Person, VerbForm } from '@/types/verb';
 
 const personMap: Record<Person, string> = {
-  ich: 'איך',
+  ikh: 'איך',
   du: 'דו',
   er_zi_es: 'ער/זי/עס',
   mir: 'מיר',

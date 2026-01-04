@@ -3,7 +3,7 @@
   // src/lib/grammar/auxiliaries.ts
   var auxiliaries = {
     zayn: {
-      ich: { yiddish: "\u05D1\u05D9\u05DF", transliteration: "bin" },
+      ikh: { yiddish: "\u05D1\u05D9\u05DF", transliteration: "bin" },
       du: { yiddish: "\u05D1\u05D9\u05E1\u05D8", transliteration: "bist" },
       er_zi_es: { yiddish: "\u05D0\u05D9\u05D6", transliteration: "iz" },
       mir: { yiddish: "\u05D6\u05F2\u05B7\u05E0\u05E2\u05DF", transliteration: "zaynen" },
@@ -11,8 +11,8 @@
       zey: { yiddish: "\u05D6\u05F2\u05B7\u05E0\u05E2\u05DF", transliteration: "zaynen" }
     },
     hobn: {
-      ich: { yiddish: "\u05D4\u05D0\u05B8\u05D1", transliteration: "hob" },
-      du: { yiddish: "\u05D4\u05D0\u05B7\u05E1\u05D8", transliteration: "hast" },
+      ikh: { yiddish: "\u05D4\u05D0\u05B8\u05D1", transliteration: "hob" },
+      du: { yiddish: "\u05D4\u05D0\u05B8\u05E1\u05D8", transliteration: "host" },
       er_zi_es: { yiddish: "\u05D4\u05D0\u05B8\u05D8", transliteration: "hot" },
       mir: { yiddish: "\u05D4\u05D0\u05B8\u05D1\u05DF", transliteration: "hobn" },
       ir: { yiddish: "\u05D4\u05D0\u05B8\u05D8", transliteration: "hot" },
@@ -42,7 +42,7 @@
 
   // src/lib/grammar/future.ts
   var velnPresent = {
-    ich: { yiddish: "\u05D5\u05D5\u05E2\u05DC", transliteration: "vel" },
+    ikh: { yiddish: "\u05D5\u05D5\u05E2\u05DC", transliteration: "vel" },
     du: { yiddish: "\u05D5\u05D5\u05E2\u05E1\u05D8", transliteration: "vest" },
     er_zi_es: { yiddish: "\u05D5\u05D5\u05E2\u05D8", transliteration: "vet" },
     mir: { yiddish: "\u05D5\u05D5\u05E2\u05DC\u05DF", transliteration: "veln" },
@@ -75,15 +75,15 @@
       return verb.conjugation.imperative;
     }
     const { present } = verb.conjugation;
-    if (!present?.ich || !present.ir) return null;
+    if (!present?.ikh || !present.ir) return null;
     return {
-      du: present.ich,
+      du: present.ikh,
       ir: present.ir
     };
   }
 
   // src/lib/grammar/browser.ts
-  var persons = ["ich", "du", "er_zi_es", "mir", "ir", "zey"];
+  var persons = ["ikh", "du", "er_zi_es", "mir", "ir", "zey"];
   window.VerbGrammar = {
     auxiliaries,
     velnPresent,

@@ -11,10 +11,10 @@ export function getImperativeForms(
   }
 
   const { present } = verb.conjugation;
-  if (!present?.ich || !present.ir) return null;
+  if (!present?.ikh || !present.ir) return null;
 
   return {
-    du: present.ich,
+    du: present.ikh,
     ir: present.ir,
   };
 }
