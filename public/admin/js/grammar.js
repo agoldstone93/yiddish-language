@@ -12,7 +12,7 @@
     },
     hobn: {
       ikh: { yiddish: "\u05D4\u05D0\u05B8\u05D1", transliteration: "hob" },
-      du: { yiddish: "\u05D4\u05D0\u05B7\u05E1\u05D8", transliteration: "hast" },
+      du: { yiddish: "\u05D4\u05D0\u05B8\u05E1\u05D8", transliteration: "host" },
       er_zi_es: { yiddish: "\u05D4\u05D0\u05B8\u05D8", transliteration: "hot" },
       mir: { yiddish: "\u05D4\u05D0\u05B8\u05D1\u05DF", transliteration: "hobn" },
       ir: { yiddish: "\u05D4\u05D0\u05B8\u05D8", transliteration: "hot" },

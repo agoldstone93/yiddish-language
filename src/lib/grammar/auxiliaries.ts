@@ -14,7 +14,7 @@ export const auxiliaries: Record<
   },
   hobn: {
     ikh: { yiddish: 'האָב', transliteration: 'hob' },
-    du: { yiddish: 'האַסט', transliteration: 'hast' },
+    du: { yiddish: 'האָסט', transliteration: 'host' },
     er_zi_es: { yiddish: 'האָט', transliteration: 'hot' },
     mir: { yiddish: 'האָבן', transliteration: 'hobn' },
     ir: { yiddish: 'האָט', transliteration: 'hot' },
