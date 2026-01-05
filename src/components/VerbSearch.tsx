@@ -157,7 +157,16 @@ export function VerbSearch({
           </li>
         ))}
         {showMenu && matches.length === 0 && (
-          <li className="px-4 py-2 text-sm text-gray-600 dark:text-gray-400">No matches.</li>
+          <li className="px-4 py-2 text-sm text-gray-600 dark:text-gray-400">
+            <a 
+              href="/admin/#/collections/verbs/new" 
+              className="block -mx-4 -my-2 px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              No matches found. Click here to add this verb
+            </a>
+          </li>
         )}
       </ul>
     </div>
