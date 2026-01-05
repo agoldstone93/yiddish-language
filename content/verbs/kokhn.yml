@@ -1,0 +1,35 @@
+id: kokhn
+categoryId: simple
+lemma:
+  yiddish: קאָכן
+  transliteration: kokhn
+meaning:
+  english: to cook
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קאָך
+      transliteration: kokh
+    du:
+      yiddish: קאָכסט
+      transliteration: kokhst
+    er_zi_es:
+      yiddish: קאָכט
+      transliteration: kokht
+    mir:
+      yiddish: קאָכן
+      transliteration: kokhn
+    ir:
+      yiddish: קאָכט
+      transliteration: kokht
+    zey:
+      yiddish: קאָכן
+      transliteration: kokhn
+  past_participle:
+    yiddish: געקאָכט
+    transliteration: gekokht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

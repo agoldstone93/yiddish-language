@@ -1,0 +1,35 @@
+id: farmakhn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרמאַכן
+  transliteration: farmakhn
+meaning:
+  english: to close
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרמאַך
+      transliteration: farmakh
+    du:
+      yiddish: פֿאַרמאַכסט
+      transliteration: farmakhst
+    er_zi_es:
+      yiddish: פֿאַרמאַכט
+      transliteration: farmakht
+    mir:
+      yiddish: פֿאַרמאַכן
+      transliteration: farmakhn
+    ir:
+      yiddish: פֿאַרמאַכט
+      transliteration: farmakht
+    zey:
+      yiddish: פֿאַרמאַכן
+      transliteration: farmakhn
+  past_participle:
+    yiddish: פֿאַרמאַכט
+    transliteration: farmakht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

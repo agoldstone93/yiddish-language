@@ -1,0 +1,35 @@
+id: makhn
+categoryId: simple
+lemma:
+  yiddish: מאַכן
+  transliteration: makhn
+meaning:
+  english: to make
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: מאַך
+      transliteration: makh
+    du:
+      yiddish: מאַכסט
+      transliteration: makhst
+    er_zi_es:
+      yiddish: מאַכט
+      transliteration: makht
+    mir:
+      yiddish: מאַכן
+      transliteration: makhn
+    ir:
+      yiddish: מאַכט
+      transliteration: makht
+    zey:
+      yiddish: מאַכן
+      transliteration: makhn
+  past_participle:
+    yiddish: געמאכט
+    transliteration: gemakht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

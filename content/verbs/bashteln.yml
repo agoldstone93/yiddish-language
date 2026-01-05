@@ -1,0 +1,35 @@
+id: bashteln
+categoryId: simple
+lemma:
+  yiddish: באַשטעלן
+  transliteration: bashteln
+meaning:
+  english: to order
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַשטעל
+      transliteration: bashtel
+    du:
+      yiddish: באַשטעלסט
+      transliteration: bashtelst
+    er_zi_es:
+      yiddish: באַשטעלט
+      transliteration: bashtelt
+    mir:
+      yiddish: באַשטעלן
+      transliteration: bashteln
+    ir:
+      yiddish: באַשטעלט
+      transliteration: bashtelt
+    zey:
+      yiddish: באַשטעלן
+      transliteration: bashteln
+  past_participle:
+    yiddish: באַשטעלט
+    transliteration: bashtelt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: farkoyfn
+categoryId: simple
+lemma:
+  yiddish: פאַרקויפֿן
+  transliteration: farkoyfn
+meaning:
+  english: to sell
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פאַרקויפ
+      transliteration: farkoyf
+    du:
+      yiddish: פאַרקויפסט
+      transliteration: farkoyfst
+    er_zi_es:
+      yiddish: פאַרקויפט
+      transliteration: farkoyft
+    mir:
+      yiddish: פאַרקויפן
+      transliteration: farkoyfn
+    ir:
+      yiddish: פאַרקויפט
+      transliteration: farkoyft
+    zey:
+      yiddish: פאַרקויפן
+      transliteration: farkoyfn
+  past_participle:
+    yiddish: פֿאַרקויפֿט
+    transliteration: farkoyft
+search:
+  yiddish: []
+  transliteration: []
+  english: []

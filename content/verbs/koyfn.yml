@@ -1,0 +1,35 @@
+id: koyfn
+categoryId: simple
+lemma:
+  yiddish: קויפֿן
+  transliteration: koyfn
+meaning:
+  english: to buy
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קויפ
+      transliteration: koyf
+    du:
+      yiddish: קויפסט
+      transliteration: koyfst
+    er_zi_es:
+      yiddish: קויפט
+      transliteration: koyft
+    mir:
+      yiddish: קויפן
+      transliteration: koyfn
+    ir:
+      yiddish: קויפט
+      transliteration: koyft
+    zey:
+      yiddish: קויפן
+      transliteration: koyfn
+  past_participle:
+    yiddish: געקויפֿט
+    transliteration: gekoyft
+search:
+  yiddish: []
+  transliteration: []
+  english: []
