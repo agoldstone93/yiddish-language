@@ -68,6 +68,33 @@
     return result;
   }
 
+  // src/lib/grammar/conditional.ts
+  var voltPresent = {
+    ikh: { yiddish: "\u05D5\u05D5\u05D0\u05B8\u05DC\u05D8", transliteration: "volt" },
+    du: { yiddish: "\u05D5\u05D5\u05D0\u05B8\u05DC\u05D8\u05E1\u05D8", transliteration: "voltst" },
+    er_zi_es: { yiddish: "\u05D5\u05D5\u05D0\u05B8\u05DC\u05D8", transliteration: "volt" },
+    mir: { yiddish: "\u05D5\u05D5\u05D0\u05B8\u05DC\u05D8\u05DF", transliteration: "voltn" },
+    ir: { yiddish: "\u05D5\u05D5\u05D0\u05B8\u05DC\u05D8", transliteration: "volt" },
+    zey: { yiddish: "\u05D5\u05D5\u05D0\u05B8\u05DC\u05D8\u05DF", transliteration: "voltn" }
+  };
+  function getConditionalForms(verb) {
+    if (!verb.conjugation) return null;
+    const pp = verb.conjugation.past_participle;
+    if (!pp) return null;
+    const result = {};
+    Object.keys(voltPresent).forEach((person) => {
+      const yiddishZikh = verb.reflexive ? " \u05D6\u05D9\u05DA" : "";
+      const transliterationZikh = verb.reflexive ? " zikh" : "";
+      const ppYiddish = verb.reflexive ? pp.yiddish.replace(/\s?זיך$/, "") : pp.yiddish;
+      const ppTranslit = verb.reflexive ? pp.transliteration.replace(/\s?zikh$/, "") : pp.transliteration;
+      result[person] = {
+        yiddish: `${voltPresent[person].yiddish}${yiddishZikh} ${ppYiddish}`,
+        transliteration: `${voltPresent[person].transliteration}${transliterationZikh} ${ppTranslit}`
+      };
+    });
+    return result;
+  }
+
   // src/lib/grammar/imperative.ts
   function getImperativeForms(verb) {
     if (!verb.conjugation) return null;
@@ -86,10 +113,12 @@
   var persons = ["ikh", "du", "er_zi_es", "mir", "ir", "zey"];
   window.VerbGrammar = {
     auxiliaries,
+    voltPresent,
     velnPresent,
     persons,
     getPastForms,
     getFutureForms,
+    getConditionalForms,
     getImperativeForms
   };
 })();

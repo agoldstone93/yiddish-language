@@ -3,6 +3,7 @@
 
 import { getPastForms } from './past';
 import { getFutureForms, velnPresent } from './future';
+import { getConditionalForms, voltPresent } from './conditional';
 import { getImperativeForms } from './imperative';
 import { auxiliaries } from './auxiliaries';
 import type { Person } from '@/types/verb';
@@ -14,10 +15,12 @@ declare global {
   interface Window {
     VerbGrammar: {
       auxiliaries: typeof auxiliaries;
+      voltPresent: typeof voltPresent;
       velnPresent: typeof velnPresent;
       persons: typeof persons;
       getPastForms: typeof getPastForms;
       getFutureForms: typeof getFutureForms;
+      getConditionalForms: typeof getConditionalForms;
       getImperativeForms: typeof getImperativeForms;
     };
   }
@@ -25,9 +28,11 @@ declare global {
 
 window.VerbGrammar = {
   auxiliaries,
+  voltPresent,
   velnPresent,
   persons,
   getPastForms,
   getFutureForms,
+  getConditionalForms,
   getImperativeForms,
 };

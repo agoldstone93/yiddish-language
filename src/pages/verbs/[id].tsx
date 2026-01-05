@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { Verb } from '@/types/verb';
 import { getPastForms } from '@/lib/grammar/past';
 import { getFutureForms } from '@/lib/grammar/future';
+import { getConditionalForms } from '@/lib/grammar/conditional';
 import { getImperativeForms } from '@/lib/grammar/imperative';
 import { TenseBox } from '@/components/TenseBox';
 import { VerbSearch } from '@/components/VerbSearch';
@@ -118,6 +119,15 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
         {(() => {
           const future = getFutureForms(verb);
           return <TenseBox title="Future" forms={future} />;
+        })()}
+
+
+        {/* Conditional (derived) */}
+        {(() => {
+          const conditional = getConditionalForms(verb);
+          return conditional ? (
+            <TenseBox title="Conditional" forms={conditional} />
+          ) : null;
         })()}
 
 
