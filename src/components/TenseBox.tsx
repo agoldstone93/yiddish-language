@@ -26,7 +26,7 @@ export function TenseBox({
 
   return (
     <div className="bg-orange-100 dark:bg-gray-800 p-4">
-      <h3 className="font-semibold text-center mb-2">{title}</h3>
+      <h2 className="font-semibold text-center mb-2">{title}</h2>
       {Object.entries(forms).map(([person, form]) =>
         form ? (
           <div key={person} className="text-center text-gray-600 dark:text-gray-400">
