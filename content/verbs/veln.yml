@@ -1,0 +1,35 @@
+id: veln
+categoryId: modal
+lemma:
+  yiddish: וועלן
+  transliteration: veln
+meaning:
+  english: to want
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: וויל
+      transliteration: vil
+    du:
+      yiddish: ווילסט
+      transliteration: vilst
+    er_zi_es:
+      yiddish: וויל
+      transliteration: vil
+    mir:
+      yiddish: וועלן
+      transliteration: veln
+    ir:
+      yiddish: וועט
+      transliteration: vet
+    zey:
+      yiddish: וועלן
+      transliteration: veln
+  past_participle:
+    yiddish: געוואָלט
+    transliteration: gevolt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: nisht-torn
+categoryId: modal
+lemma:
+  yiddish: נישט טאָרן
+  transliteration: nisht-torn
+meaning:
+  english: must not
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טאָר נישט
+      transliteration: torn nisht
+    du:
+      yiddish: טאָרסט נישט
+      transliteration: torst nisht
+    er_zi_es:
+      yiddish: טאָר נישט
+      transliteration: tor nisht
+    mir:
+      yiddish: טאָרן נישט
+      transliteration: torn nisht
+    ir:
+      yiddish: טאָרט נישט
+      transliteration: tort nisht
+    zey:
+      yiddish: טאָרן נישט
+      transliteration: torn nisht
+  past_participle:
+    yiddish: געטאָרט נישט
+    transliteration: getort nisht
+search:
+  yiddish: []
+  transliteration: []
+  english: ['to have to']

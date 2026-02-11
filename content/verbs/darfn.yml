@@ -1,0 +1,35 @@
+id: darfn
+categoryId: modal
+lemma:
+  yiddish: דאַרפֿן
+  transliteration: darfn
+meaning:
+  english: to need to
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דאַרף
+      transliteration: darf
+    du:
+      yiddish: דאַרפסט
+      transliteration: darfst
+    er_zi_es:
+      yiddish: דאַרף
+      transliteration: darf
+    mir:
+      yiddish: דאַרפֿן
+      transliteration: darfn
+    ir:
+      yiddish: דאַרפֿט
+      transliteration: darft
+    zey:
+      yiddish: דאַרפֿן
+      transliteration: darfn
+  past_participle:
+    yiddish: געדאַרפֿט
+    transliteration: gedarft
+search:
+  yiddish: []
+  transliteration: []
+  english: ['to have to']

@@ -1,0 +1,35 @@
+id: kenen
+categoryId: modal
+lemma:
+  yiddish: קענען
+  transliteration: kenen
+meaning:
+  english: to be able to
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קען
+      transliteration: ken
+    du:
+      yiddish: קענסט
+      transliteration: kenst
+    er_zi_es:
+      yiddish: קען
+      transliteration: ken
+    mir:
+      yiddish: קענען
+      transliteration: kenen
+    ir:
+      yiddish: קען
+      transliteration: kent
+    zey:
+      yiddish: קענען
+      transliteration: kenen
+  past_participle:
+    yiddish: געקענט
+    transliteration: gekent
+search:
+  yiddish: []
+  transliteration: []
+  english: ['can']

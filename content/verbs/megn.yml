@@ -1,0 +1,35 @@
+id: megn
+categoryId: modal
+lemma:
+  yiddish: מעגן
+  transliteration: megn
+meaning:
+  english: to be able to
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: מעג
+      transliteration: meg
+    du:
+      yiddish: מעגסט
+      transliteration: megst
+    er_zi_es:
+      yiddish: מעג
+      transliteration: meg
+    mir:
+      yiddish: מעגן
+      transliteration: megn
+    ir:
+      yiddish: מעגט
+      transliteration: megt
+    zey:
+      yiddish: מעגן
+      transliteration: megn
+  past_participle:
+    yiddish: געמעגט
+    transliteration: gemegt
+search:
+  yiddish: []
+  transliteration: []
+  english: ['may']

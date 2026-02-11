@@ -1,0 +1,35 @@
+id: zoln
+categoryId: modal
+lemma:
+  yiddish: זאָלן
+  transliteration: zoln
+meaning:
+  english: should
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זאָל
+      transliteration: zol
+    du:
+      yiddish: זאָלסט
+      transliteration: zolst
+    er_zi_es:
+      yiddish: זאָל
+      transliteration: zol
+    mir:
+      yiddish: זאָלן
+      transliteration: zoln
+    ir:
+      yiddish: זאָלט
+      transliteration: zolt
+    zey:
+      yiddish: זאָלן
+      transliteration: zoln
+  past_participle:
+    yiddish: געזאָלט
+    transliteration: gezolt
+search:
+  yiddish: []
+  transliteration: []
+  english: ['to be supposed to']

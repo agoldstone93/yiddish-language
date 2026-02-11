@@ -1,0 +1,35 @@
+id: muzn
+categoryId: modal
+lemma:
+  yiddish: מוזן
+  transliteration: muzn
+meaning:
+  english: must, to have to
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: מוז
+      transliteration: muz
+    du:
+      yiddish: מוזסט
+      transliteration: muzst
+    er_zi_es:
+      yiddish: מוז
+      transliteration: muz
+    mir:
+      yiddish: מוזן
+      transliteration: muzn
+    ir:
+      yiddish: מוזט
+      transliteration: muzt
+    zey:
+      yiddish: מוזן
+      transliteration: muzn
+  past_participle:
+    yiddish: געמוזט
+    transliteration: gemuzt
+search:
+  yiddish: []
+  transliteration: []
+  english: ['have to', 'must']
