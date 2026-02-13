@@ -1,0 +1,35 @@
+id: kukn
+categoryId: simple
+lemma:
+  yiddish: קוקן
+  transliteration: kukn
+meaning:
+  english: to look
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קוק
+      transliteration: kuk
+    du:
+      yiddish: קוקסט
+      transliteration: kukst
+    er_zi_es:
+      yiddish: קוקט
+      transliteration: kukt
+    mir:
+      yiddish: קוקן
+      transliteration: kukn
+    ir:
+      yiddish: קוקט
+      transliteration: kukt
+    zey:
+      yiddish: קוקן
+      transliteration: kukn
+  past_participle:
+    yiddish: געקוקט
+    transliteration: gekukt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

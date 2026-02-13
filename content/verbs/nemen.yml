@@ -1,0 +1,35 @@
+id: nemen
+categoryId: simple
+lemma:
+  yiddish: נעמען
+  transliteration: nemen
+meaning:
+  english: to take
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: נעם
+      transliteration: nem
+    du:
+      yiddish: נעמסט
+      transliteration: nemst
+    er_zi_es:
+      yiddish: נעמט
+      transliteration: nemt
+    mir:
+      yiddish: נעמען
+      transliteration: nemen
+    ir:
+      yiddish: נעמט
+      transliteration: nemt
+    zey:
+      yiddish: נעמען
+      transliteration: nemen
+  past_participle:
+    yiddish: גענומען
+    transliteration: genumen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: kumen
+categoryId: simple
+lemma:
+  yiddish: קומען
+  transliteration: kumen
+meaning:
+  english: to come
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קום
+      transliteration: kum
+    du:
+      yiddish: קומסט
+      transliteration: kumst
+    er_zi_es:
+      yiddish: קומט
+      transliteration: kumt
+    mir:
+      yiddish: קומען
+      transliteration: kumen
+    ir:
+      yiddish: קומט
+      transliteration: kumt
+    zey:
+      yiddish: קומען
+      transliteration: kumen
+  past_participle:
+    yiddish: געקומען
+    transliteration: gekumen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

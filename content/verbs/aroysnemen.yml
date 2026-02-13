@@ -1,0 +1,35 @@
+id: aroysnemen
+categoryId: separable-prefix
+lemma:
+  yiddish: נעמען
+  transliteration: nemen
+meaning:
+  english: to take out
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: נעם אַרויס 
+      transliteration: nem aroys
+    du:
+      yiddish: נעמסט אַרויס
+      transliteration: nemst aroys
+    er_zi_es:
+      yiddish: נעמט אַרויס
+      transliteration: nemt aroys
+    mir:
+      yiddish: נעמען אַרויס
+      transliteration: nemen aroys
+    ir:
+      yiddish: נעמט אַרויס
+      transliteration: nemt aroys
+    zey:
+      yiddish: נעמען אַרויס
+      transliteration: nemen aroys
+  past_participle:
+    yiddish: אַרויסגענומען 
+    transliteration: aroysgenumen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

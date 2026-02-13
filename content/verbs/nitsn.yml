@@ -1,0 +1,35 @@
+id: nitsn
+categoryId: simple
+lemma:
+  yiddish: ניצן
+  transliteration: nitsn
+meaning:
+  english: to use
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ניץ
+      transliteration: nits
+    du:
+      yiddish: ניצסט
+      transliteration: nitsst
+    er_zi_es:
+      yiddish: ניצט
+      transliteration: nitst
+    mir:
+      yiddish: ניצן
+      transliteration: nitsn
+    ir:
+      yiddish: ניצט
+      transliteration: nitst
+    zey:
+      yiddish: ניצן
+      transliteration: nitsn
+  past_participle:
+    yiddish: געניצט
+    transliteration: genitst
+search:
+  yiddish: []
+  transliteration: []
+  english: []
