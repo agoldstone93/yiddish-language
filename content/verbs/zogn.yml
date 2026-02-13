@@ -1,0 +1,35 @@
+id: zogn
+categoryId: simple
+lemma:
+  yiddish: זאָגן
+  transliteration: zogn
+meaning:
+  english: to say
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זאָג
+      transliteration: zog
+    du:
+      yiddish: זאָגסט
+      transliteration: zogst
+    er_zi_es:
+      yiddish: זאָגט
+      transliteration: zogt
+    mir:
+      yiddish: זאָגן
+      transliteration: zogn
+    ir:
+      yiddish: זאָגט
+      transliteration: zogt
+    zey:
+      yiddish: זאָגן
+      transliteration: zogn
+  past_participle:
+    yiddish: געזאָגט
+    transliteration: gezogt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

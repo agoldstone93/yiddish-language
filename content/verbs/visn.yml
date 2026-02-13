@@ -1,0 +1,35 @@
+id: visn
+categoryId: modal
+lemma:
+  yiddish: װיסן
+  transliteration: visn
+meaning:
+  english: to know
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: װײס
+      transliteration: veys
+    du:
+      yiddish: װײסט
+      transliteration: veyst
+    er_zi_es:
+      yiddish: װײס
+      transliteration: veys
+    mir:
+      yiddish: װײסן
+      transliteration: veysn
+    ir:
+      yiddish: װײסט
+      transliteration: veyst
+    zey:
+      yiddish: װײסן
+      transliteration: veysn
+  past_participle:
+    yiddish: געװוּסט
+    transliteration: gevust
+search:
+  yiddish: []
+  transliteration: []
+  english: []

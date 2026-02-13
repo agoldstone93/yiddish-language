@@ -1,0 +1,35 @@
+id: zen
+categoryId: simple
+lemma:
+  yiddish: זען
+  transliteration: zen
+meaning:
+  english: to see
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זע
+      transliteration: ze
+    du:
+      yiddish: זעסט
+      transliteration: zest
+    er_zi_es:
+      yiddish: זעט
+      transliteration: zet
+    mir:
+      yiddish: זעען
+      transliteration: zeen
+    ir:
+      yiddish: זעט
+      transliteration: zet
+    zey:
+      yiddish: זעען
+      transliteration: zeen
+  past_participle:
+    yiddish: געזען
+    transliteration: gezen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: gedenken
+categoryId: modal
+lemma:
+  yiddish: געדענקען
+  transliteration: gedenken
+meaning:
+  english: to remember
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: געדענק
+      transliteration: gedenk
+    du:
+      yiddish: געדענקסט
+      transliteration: gedenkst
+    er_zi_es:
+      yiddish: געדענקט
+      transliteration: gedenkt
+    mir:
+      yiddish: געדענקען
+      transliteration: gedenken
+    ir:
+      yiddish: געדענקט
+      transliteration: gedenkt
+    zey:
+      yiddish: געדענקען
+      transliteration: gedenken
+  past_participle:
+    yiddish: געדענקט
+    transliteration: gedenkt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

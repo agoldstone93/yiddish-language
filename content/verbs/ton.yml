@@ -1,0 +1,35 @@
+id: ton
+categoryId: simple
+lemma:
+  yiddish: טאָן
+  transliteration: ton
+meaning:
+  english: to do
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טו
+      transliteration: tu
+    du:
+      yiddish: טוסט
+      transliteration: tust
+    er_zi_es:
+      yiddish: טוט
+      transliteration: tut
+    mir:
+      yiddish: טוען
+      transliteration: tuen
+    ir:
+      yiddish: טוט
+      transliteration: tut
+    zey:
+      yiddish: טוען
+      transliteration: tuen
+  past_participle:
+    yiddish: געטאָן
+    transliteration: geton
+search:
+  yiddish: []
+  transliteration: []
+  english: []

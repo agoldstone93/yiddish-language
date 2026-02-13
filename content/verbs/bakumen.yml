@@ -1,0 +1,35 @@
+id: bakumen
+categoryId: simple
+lemma:
+  yiddish: באַקומען
+  transliteration: bakumen
+meaning:
+  english: to get, receive
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַקום
+      transliteration: bakum
+    du:
+      yiddish: באַקומסט
+      transliteration: bakumst
+    er_zi_es:
+      yiddish: באַקומט
+      transliteration: bakumt
+    mir:
+      yiddish: באַקומען
+      transliteration: bakumen
+    ir:
+      yiddish: באַקומט
+      transliteration: bakumt
+    zey:
+      yiddish: באַקומען
+      transliteration: bakumen
+  past_participle:
+    yiddish: באַקומט
+    transliteration: bakumt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

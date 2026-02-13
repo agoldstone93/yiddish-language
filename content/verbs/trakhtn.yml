@@ -1,0 +1,35 @@
+id: trakhtn
+categoryId: modal
+lemma:
+  yiddish: טראַכטן
+  transliteration: trakhtn
+meaning:
+  english: to think
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טראַכט
+      transliteration: trakht
+    du:
+      yiddish: טראַכטסט
+      transliteration: trakhtst
+    er_zi_es:
+      yiddish: טראַכט
+      transliteration: trakht
+    mir:
+      yiddish: טראַכטן
+      transliteration: trakhtn
+    ir:
+      yiddish: טראַכט
+      transliteration: trakht
+    zey:
+      yiddish: טראַכטן
+      transliteration: trakhtn
+  past_participle:
+    yiddish: געטראַכט
+    transliteration: getrakht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

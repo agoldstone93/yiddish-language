@@ -1,0 +1,35 @@
+id: denken
+categoryId: modal
+lemma:
+  yiddish: דענקען
+  transliteration: denken
+meaning:
+  english: to think
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דענק
+      transliteration: denk
+    du:
+      yiddish: דענקסט
+      transliteration: denkst
+    er_zi_es:
+      yiddish: דענקט
+      transliteration: denkt
+    mir:
+      yiddish: דענקען
+      transliteration: denken
+    ir:
+      yiddish: דענקט
+      transliteration: denkt
+    zey:
+      yiddish: דענקען
+      transliteration: denken
+  past_participle:
+    yiddish: געדענקט
+    transliteration: gedenkt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
