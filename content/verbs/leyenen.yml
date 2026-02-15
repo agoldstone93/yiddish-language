@@ -1,0 +1,35 @@
+id: leyenen
+categoryId: simple
+lemma:
+  yiddish: לייענען
+  transliteration: leyenen
+meaning:
+  english: to read
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: לייען
+      transliteration: leyen
+    du:
+      yiddish: לייענסט
+      transliteration: leyenst
+    er_zi_es:
+      yiddish: לייענט
+      transliteration: leyent
+    mir:
+      yiddish: לייענען
+      transliteration: leyenen
+    ir:
+      yiddish: לייענט
+      transliteration: leyent
+    zey:
+      yiddish: לייענען
+      transliteration: leyenen
+  past_participle:
+    yiddish: געלייענט
+    transliteration: geleyent
+search:
+  yiddish: []
+  transliteration: []
+  english: []

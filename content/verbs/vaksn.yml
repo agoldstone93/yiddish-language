@@ -1,0 +1,35 @@
+id: vaksn
+categoryId: simple
+lemma:
+  yiddish: וואַקסן
+  transliteration: vaksn
+meaning:
+  english: to grow
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: וואַקס
+      transliteration: vaks
+    du:
+      yiddish: וואַקסט
+      transliteration: vakst
+    er_zi_es:
+      yiddish: וואַקסט
+      transliteration: vakst
+    mir:
+      yiddish: וואַקסן
+      transliteration: vaksn
+    ir:
+      yiddish: וואַקסט
+      transliteration: vakst
+    zey:
+      yiddish: וואַקסן
+      transliteration: vaksn
+  past_participle:
+    yiddish: געוואַקסן
+    transliteration: gevaksn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

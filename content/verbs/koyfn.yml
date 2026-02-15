@@ -9,22 +9,22 @@ auxiliary: hobn
 conjugation:
   present:
     ikh:
-      yiddish: קויפ
+      yiddish: קויף
       transliteration: koyf
     du:
-      yiddish: קויפסט
+      yiddish: קויפֿסט
       transliteration: koyfst
     er_zi_es:
-      yiddish: קויפט
+      yiddish: קויפֿט
       transliteration: koyft
     mir:
-      yiddish: קויפן
+      yiddish: קויפֿן
       transliteration: koyfn
     ir:
-      yiddish: קויפט
+      yiddish: קויפֿט
       transliteration: koyft
     zey:
-      yiddish: קויפן
+      yiddish: קויפֿן
       transliteration: koyfn
   past_participle:
     yiddish: געקויפֿט

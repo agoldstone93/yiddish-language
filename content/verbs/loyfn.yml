@@ -1,0 +1,35 @@
+id: loyfn
+categoryId: simple
+lemma:
+  yiddish: לויפֿן
+  transliteration: loyfn
+meaning:
+  english: to run
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: לויף
+      transliteration: loyf
+    du:
+      yiddish: לויפֿסט
+      transliteration: loyfst
+    er_zi_es:
+      yiddish: לויפֿט
+      transliteration: loyft
+    mir:
+      yiddish: לויפֿן
+      transliteration: loyfn
+    ir:
+      yiddish: לויפֿט
+      transliteration: loyft
+    zey:
+      yiddish: לויפֿן
+      transliteration: loyfn
+  past_participle:
+    yiddish: געלאָפֿן
+    transliteration: gelofn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

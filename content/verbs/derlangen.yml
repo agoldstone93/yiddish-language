@@ -1,0 +1,35 @@
+id: derlangen
+categoryId: simple
+lemma:
+  yiddish: דערלאַנגען
+  transliteration: derlangen
+meaning:
+  english: to reach, to pass
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דערלאַנג
+      transliteration: derlang
+    du:
+      yiddish: דערלאַנגסט
+      transliteration: derlangst
+    er_zi_es:
+      yiddish: דערלאַנגט
+      transliteration: derlangt
+    mir:
+      yiddish: דערלאַנגען
+      transliteration: derlangen
+    ir:
+      yiddish: דערלאַנגט
+      transliteration: derlangt
+    zey:
+      yiddish: דערלאַנגען
+      transliteration: derlangen
+  past_participle:
+    yiddish: דערלאַנגט
+    transliteration: derlangt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

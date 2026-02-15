@@ -1,0 +1,35 @@
+id: fardinen
+categoryId: simple
+lemma:
+  yiddish: פֿאַרדינען
+  transliteration: fardinen
+meaning:
+  english: to deserve, to earn
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרדין
+      transliteration: fardin
+    du:
+      yiddish: פֿאַרדינסט
+      transliteration: fardinst
+    er_zi_es:
+      yiddish: פֿאַרדינט
+      transliteration: fardint
+    mir:
+      yiddish: פֿאַרדינען
+      transliteration: fardinen
+    ir:
+      yiddish: פֿאַרדינט
+      transliteration: fardint
+    zey:
+      yiddish: פֿאַרדינען
+      transliteration: fardinen
+  past_participle:
+    yiddish: פֿאַרדינט
+    transliteration: fardint
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: shpatsirn
+categoryId: simple
+lemma:
+  yiddish: שפּאַצירן
+  transliteration: shpatsirn
+meaning:
+  english: to (take a) walk
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שפּאַציר
+      transliteration: shpatsir
+    du:
+      yiddish: שפּאַצירסט
+      transliteration: shpatsirst
+    er_zi_es:
+      yiddish: שפּאַצירט
+      transliteration: shpatsirt
+    mir:
+      yiddish: שפּאַצירן
+      transliteration: shpatsirn
+    ir:
+      yiddish: שפּאַצירט
+      transliteration: shpatsirt
+    zey:
+      yiddish: שפּאַצירן
+      transliteration: shpatsirn
+  past_participle:
+    yiddish: שפּאַצירט
+    transliteration: shpatsirt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
