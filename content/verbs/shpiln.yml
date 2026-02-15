@@ -1,0 +1,35 @@
+id: shpiln
+categoryId: simple
+lemma:
+  yiddish: שפּילן
+  transliteration: shpiln
+meaning:
+  english: to play
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שפּיל
+      transliteration: shpil
+    du:
+      yiddish: שפּילסט
+      transliteration: shpilst
+    er_zi_es:
+      yiddish: שפּילט
+      transliteration: shpilt
+    mir:
+      yiddish: שפּילן
+      transliteration: shpiln
+    ir:
+      yiddish: שפּילט
+      transliteration: shpilt
+    zey:
+      yiddish: שפּילן
+      transliteration: shpiln
+  past_participle:
+    yiddish: געשפּילט
+    transliteration: geshpilt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

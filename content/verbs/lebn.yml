@@ -1,0 +1,35 @@
+id: lebn
+categoryId: simple
+lemma:
+  yiddish: לעבן
+  transliteration: lebn
+meaning:
+  english: to live
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: לעב
+      transliteration: leb
+    du:
+      yiddish: לעבסט
+      transliteration: lebst
+    er_zi_es:
+      yiddish: לעבט
+      transliteration: lebt
+    mir:
+      yiddish: לעבן
+      transliteration: lebn
+    ir:
+      yiddish: לעבט
+      transliteration: lebt
+    zey:
+      yiddish: לעבן
+      transliteration: lebn
+  past_participle:
+    yiddish: געלעבט
+    transliteration: gelebt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

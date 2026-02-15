@@ -1,0 +1,35 @@
+id: blaybn
+categoryId: simple
+lemma:
+  yiddish: בלײַבן
+  transliteration: blaybn
+meaning:
+  english: to remain, to stay, to continue
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: בלײַב
+      transliteration: blayb
+    du:
+      yiddish: בלײַבסט
+      transliteration: blaybst
+    er_zi_es:
+      yiddish: בלײַבט
+      transliteration: blaybt
+    mir:
+      yiddish: בלײַבן
+      transliteration: blaybn
+    ir:
+      yiddish: בלײַבט
+      transliteration: blaybt
+    zey:
+      yiddish: בלײַבן
+      transliteration: blaybn
+  past_participle:
+    yiddish: געבליבן
+    transliteration: geblibn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

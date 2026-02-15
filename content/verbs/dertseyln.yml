@@ -1,0 +1,35 @@
+id: dertseyln
+categoryId: simple
+lemma:
+  yiddish: דערציילן
+  transliteration: dertseyln
+meaning:
+  english: to tell
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דערצייל
+      transliteration: dertseyl
+    du:
+      yiddish: דערציילסט
+      transliteration: dertseylst
+    er_zi_es:
+      yiddish: דערציילט
+      transliteration: dertseylt
+    mir:
+      yiddish: דערציילן
+      transliteration: dertseyln
+    ir:
+      yiddish: דערציילט
+      transliteration: dertseylt
+    zey:
+      yiddish: דערציילן
+      transliteration: dertseyln
+  past_participle:
+    yiddish: דערציילט
+    transliteration: dertseylt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

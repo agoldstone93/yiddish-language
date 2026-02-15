@@ -1,0 +1,35 @@
+id: entfern
+categoryId: simple
+lemma:
+  yiddish: ענטפֿערן
+  transliteration: entfern
+meaning:
+  english: to answer
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ענטפֿער
+      transliteration: entfer
+    du:
+      yiddish: ענטפֿערסט
+      transliteration: entferst
+    er_zi_es:
+      yiddish: ענטפֿערט
+      transliteration: entfert
+    mir:
+      yiddish: ענטפֿערן
+      transliteration: entfern
+    ir:
+      yiddish: ענטפֿערט
+      transliteration: entfert
+    zey:
+      yiddish: ענטפֿערן
+      transliteration: entfern
+  past_participle:
+    yiddish: געענטפֿערט
+    transliteration: geentfert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

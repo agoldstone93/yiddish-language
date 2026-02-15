@@ -1,0 +1,35 @@
+id: hern
+categoryId: simple
+lemma:
+  yiddish: הערן
+  transliteration: hern
+meaning:
+  english: to hear
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: הער
+      transliteration: her
+    du:
+      yiddish: הערסט
+      transliteration: herst
+    er_zi_es:
+      yiddish: הערט
+      transliteration: hert
+    mir:
+      yiddish: הערן
+      transliteration: hern
+    ir:
+      yiddish: הערט
+      transliteration: hert
+    zey:
+      yiddish: הערן
+      transliteration: hern
+  past_participle:
+    yiddish: געהערט
+    transliteration: gehert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

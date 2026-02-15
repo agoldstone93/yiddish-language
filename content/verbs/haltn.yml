@@ -1,0 +1,35 @@
+id: haltn
+categoryId: simple
+lemma:
+  yiddish: האַלטן
+  transliteration: haltn
+meaning:
+  english: to hold, to stop, to observe
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: האַלט
+      transliteration: halt
+    du:
+      yiddish: האַלטסט
+      transliteration: haltst
+    er_zi_es:
+      yiddish: האַלט
+      transliteration: halt
+    mir:
+      yiddish: האַלטן
+      transliteration: haltn
+    ir:
+      yiddish: האַלט
+      transliteration: halt
+    zey:
+      yiddish: האַלטן
+      transliteration: haltn
+  past_participle:
+    yiddish: געהאַלטן
+    transliteration: gehaltn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

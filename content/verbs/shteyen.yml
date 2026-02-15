@@ -1,0 +1,35 @@
+id: shteyen
+categoryId: simple
+lemma:
+  yiddish: שטיין
+  transliteration: shteyen
+meaning:
+  english: to stone
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: שטיי
+      transliteration: shtey
+    du:
+      yiddish: שטייסט
+      transliteration: shteyst
+    er_zi_es:
+      yiddish: שטייט
+      transliteration: shteyt
+    mir:
+      yiddish: שטייען
+      transliteration: shteyen
+    ir:
+      yiddish: שטייט
+      transliteration: shteyt
+    zey:
+      yiddish: שטייען
+      transliteration: shteyen
+  past_participle:
+    yiddish: געשטאַנען
+    transliteration: geshtanen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

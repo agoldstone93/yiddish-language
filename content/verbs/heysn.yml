@@ -1,0 +1,35 @@
+id: heysn
+categoryId: simple
+lemma:
+  yiddish: הייסן
+  transliteration: heysn
+meaning:
+  english: to be called
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: הייס
+      transliteration: heys
+    du:
+      yiddish: הייסט
+      transliteration: heyst
+    er_zi_es:
+      yiddish: הייסט
+      transliteration: heyst
+    mir:
+      yiddish: הייסן
+      transliteration: heysn
+    ir:
+      yiddish: הייסט
+      transliteration: heyst
+    zey:
+      yiddish: הייסן
+      transliteration: heysn
+  past_participle:
+    yiddish: געהייסן
+    transliteration: geheysn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

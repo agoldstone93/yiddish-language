@@ -1,0 +1,35 @@
+id: farshteyen
+categoryId: simple
+lemma:
+  yiddish: פֿאַרשטיין
+  transliteration: farshteyen
+meaning:
+  english: to understand
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרשטיי
+      transliteration: farshtey
+    du:
+      yiddish: פֿאַרשטייסט
+      transliteration: farshteyst
+    er_zi_es:
+      yiddish: פֿאַרשטייט
+      transliteration: farshteyt
+    mir:
+      yiddish: פֿאַרשטייען
+      transliteration: farshteyen
+    ir:
+      yiddish: פֿאַרשטייט
+      transliteration: farshteyt
+    zey:
+      yiddish: פֿאַרשטייען
+      transliteration: farshteyen
+  past_participle:
+    yiddish: פֿאַרשטאַנען
+    transliteration: farshtanen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

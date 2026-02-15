@@ -1,0 +1,35 @@
+id: fregn
+categoryId: simple
+lemma:
+  yiddish: פֿרעגן
+  transliteration: fregn
+meaning:
+  english: to ask
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿרעג
+      transliteration: freg
+    du:
+      yiddish: פֿרעגסט
+      transliteration: fregst
+    er_zi_es:
+      yiddish: פֿרעגט
+      transliteration: fregt
+    mir:
+      yiddish: פֿרעגן
+      transliteration: fregn
+    ir:
+      yiddish: פֿרעגט
+      transliteration: fregt
+    zey:
+      yiddish: פֿרעגן
+      transliteration: fregn
+  past_participle:
+    yiddish: געפֿרעגט
+    transliteration: gefregt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

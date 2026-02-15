@@ -1,0 +1,35 @@
+id: gefinen
+categoryId: simple
+lemma:
+  yiddish: געפֿינען
+  transliteration: gefinen
+meaning:
+  english: to find
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: געפֿין
+      transliteration: gefin
+    du:
+      yiddish: געפֿינסט
+      transliteration: gefinst
+    er_zi_es:
+      yiddish: געפֿינט
+      transliteration: gefint
+    mir:
+      yiddish: געפֿינען
+      transliteration: gefinen
+    ir:
+      yiddish: געפֿינט
+      transliteration: gefint
+    zey:
+      yiddish: געפֿינען
+      transliteration: gefinen
+  past_participle:
+    yiddish: געפֿונען
+    transliteration: gefunen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: shafn
+categoryId: simple
+lemma:
+  yiddish: שאַפֿן
+  transliteration: shafn
+meaning:
+  english: to create
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שאַף
+      transliteration: shaf
+    du:
+      yiddish: שאַפֿסט
+      transliteration: shafst
+    er_zi_es:
+      yiddish: שאַפֿט
+      transliteration: shaft
+    mir:
+      yiddish: שאַפֿן
+      transliteration: shafn
+    ir:
+      yiddish: שאַפֿט
+      transliteration: shaft
+    zey:
+      yiddish: שאַפֿן
+      transliteration: shafn
+  past_participle:
+    yiddish: געשאַפֿן
+    transliteration: geshafn
+search:
+  yiddish: []
+  transliteration: []
+  english: []
