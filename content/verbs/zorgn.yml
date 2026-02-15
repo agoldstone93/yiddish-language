@@ -1,0 +1,35 @@
+id: zorgn
+categoryId: simple
+lemma:
+  yiddish: זאָרגן
+  transliteration: zorgn
+meaning:
+  english: to worry
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זאָרג
+      transliteration: zorg
+    du:
+      yiddish: זאָרגסט
+      transliteration: zorgst
+    er_zi_es:
+      yiddish: זאָרגט
+      transliteration: zorgt
+    mir:
+      yiddish: זאָרגן
+      transliteration: zorgn
+    ir:
+      yiddish: זאָרגט
+      transliteration: zorgt
+    zey:
+      yiddish: זאָרגן
+      transliteration: zorgn
+  past_participle:
+    yiddish: געזאָרגט
+    transliteration: gezorgt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

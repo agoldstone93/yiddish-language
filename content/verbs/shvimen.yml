@@ -1,0 +1,35 @@
+id: shvimen
+categoryId: simple
+lemma:
+  yiddish: שווימען
+  transliteration: shvimen
+meaning:
+  english: to swim
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: שווים
+      transliteration: shvim
+    du:
+      yiddish: שווימסט
+      transliteration: shvimst
+    er_zi_es:
+      yiddish: שווימט
+      transliteration: shvimt
+    mir:
+      yiddish: שווימען
+      transliteration: shvimen
+    ir:
+      yiddish: שווימט
+      transliteration: shvimt
+    zey:
+      yiddish: שווימען
+      transliteration: shvimen
+  past_participle:
+    yiddish: געשוווּמען
+    transliteration: geshvumen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

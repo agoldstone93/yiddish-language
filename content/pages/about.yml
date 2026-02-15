@@ -13,6 +13,9 @@ content: >-
   The website is completely free to use and open source. You can find the source code on [GitHub](https://github.com/agoldstone93/yiddish-language).
 
 
+  Some definitions and conjugation data are sourced from [Wiktionary](https://en.wiktionary.org/). This content is available under the [Creative Commons Attribution-ShareAlike License](https://creativecommons.org/licenses/by-sa/4.0/), and may be modified.
+
+
   ## Contributing
 
   If you're interested in contributing to LoshnLab, whether by adding new verbs, or improving the existing data, click [Add verbs / edit content](./admin) in the header. This will take you to the CMS interface where you can create an account to make changes. Please make sure to review your changes before submitting.

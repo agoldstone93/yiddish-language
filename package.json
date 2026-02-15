@@ -1,5 +1,6 @@
 {
   "name": "yiddish-language",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +14,8 @@
     "cms:config:prod": "node scripts/switch-decap-config.mjs prod",
     "test": "vitest",
     "test:run": "vitest run",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "fetch:verb": "node scripts/fetch-verb-from-wiktionary.js"
   },
   "dependencies": {
     "downshift": "^9.0.13",

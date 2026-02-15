@@ -1,0 +1,35 @@
+id: shpringen
+categoryId: simple
+lemma:
+  yiddish: שפּרינגען
+  transliteration: shpringen
+meaning:
+  english: to jump
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שפּרינג
+      transliteration: shpring
+    du:
+      yiddish: שפּרינגסט
+      transliteration: shpringst
+    er_zi_es:
+      yiddish: שפּרינגט
+      transliteration: shpringt
+    mir:
+      yiddish: שפּרינגען
+      transliteration: shpringen
+    ir:
+      yiddish: שפּרינגט
+      transliteration: shpringt
+    zey:
+      yiddish: שפּרינגען
+      transliteration: shpringen
+  past_participle:
+    yiddish: געשפּרונגען
+    transliteration: geshprungen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

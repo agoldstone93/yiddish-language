@@ -1,0 +1,35 @@
+id: shikn
+categoryId: simple
+lemma:
+  yiddish: שיקן
+  transliteration: shikn
+meaning:
+  english: to send
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שיק
+      transliteration: shik
+    du:
+      yiddish: שיקסט
+      transliteration: shikst
+    er_zi_es:
+      yiddish: שיקט
+      transliteration: shikt
+    mir:
+      yiddish: שיקן
+      transliteration: shikn
+    ir:
+      yiddish: שיקט
+      transliteration: shikt
+    zey:
+      yiddish: שיקן
+      transliteration: shikn
+  past_participle:
+    yiddish: געשיקט
+    transliteration: geshikt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
