@@ -1,0 +1,35 @@
+id: brenen
+categoryId: simple
+lemma:
+  yiddish: ברענען
+  transliteration: brenen
+meaning:
+  english: to burn
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ברען
+      transliteration: bren
+    du:
+      yiddish: ברענסט
+      transliteration: brenst
+    er_zi_es:
+      yiddish: ברענט
+      transliteration: brent
+    mir:
+      yiddish: ברענען
+      transliteration: brenen
+    ir:
+      yiddish: ברענט
+      transliteration: brent
+    zey:
+      yiddish: ברענען
+      transliteration: brenen
+  past_participle:
+    yiddish: געברענט
+    transliteration: gebrent
+search:
+  yiddish: []
+  transliteration: []
+  english: []

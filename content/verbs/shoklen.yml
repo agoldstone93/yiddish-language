@@ -1,0 +1,35 @@
+id: shoklen
+categoryId: simple
+lemma:
+  yiddish: שאָקלען
+  transliteration: shoklen
+meaning:
+  english: to shake
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שאָקל
+      transliteration: shokl
+    du:
+      yiddish: שאָקלסט
+      transliteration: shoklst
+    er_zi_es:
+      yiddish: שאָקלט
+      transliteration: shoklt
+    mir:
+      yiddish: שאָקלען
+      transliteration: shoklen
+    ir:
+      yiddish: שאָקלט
+      transliteration: shoklt
+    zey:
+      yiddish: שאָקלען
+      transliteration: shoklen
+  past_participle:
+    yiddish: געשאָקלט
+    transliteration: geshoklt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: zitsn
+categoryId: simple
+lemma:
+  yiddish: זיצן
+  transliteration: zitsn
+meaning:
+  english: to sit
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: זיץ
+      transliteration: zits
+    du:
+      yiddish: זיצסט
+      transliteration: zitsst
+    er_zi_es:
+      yiddish: זיצט
+      transliteration: zitst
+    mir:
+      yiddish: זיצן
+      transliteration: zitsn
+    ir:
+      yiddish: זיצט
+      transliteration: zitst
+    zey:
+      yiddish: זיצן
+      transliteration: zitsn
+  past_participle:
+    yiddish: געזעסן
+    transliteration: gezesn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

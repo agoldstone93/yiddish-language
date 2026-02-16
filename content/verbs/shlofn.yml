@@ -1,0 +1,35 @@
+id: shlofn
+categoryId: simple
+lemma:
+  yiddish: שלאָפֿן
+  transliteration: shlofn
+meaning:
+  english: to sleep
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: שלאָף
+      transliteration: shlof
+    du:
+      yiddish: שלאָפֿסט
+      transliteration: shlofst
+    er_zi_es:
+      yiddish: שלאָפֿט
+      transliteration: shloft
+    mir:
+      yiddish: שלאָפֿן
+      transliteration: shlofn
+    ir:
+      yiddish: שלאָפֿט
+      transliteration: shloft
+    zey:
+      yiddish: שלאָפֿן
+      transliteration: shlofn
+  past_participle:
+    yiddish: געשלאָפֿן
+    transliteration: geshlofn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

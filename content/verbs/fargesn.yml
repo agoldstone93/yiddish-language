@@ -1,0 +1,35 @@
+id: fargesn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרגעסן
+  transliteration: fargesn
+meaning:
+  english: to forget
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרגעס
+      transliteration: farges
+    du:
+      yiddish: פֿאַרגעסט
+      transliteration: fargest
+    er_zi_es:
+      yiddish: פֿאַרגעסט
+      transliteration: fargest
+    mir:
+      yiddish: פֿאַרגעסן
+      transliteration: fargesn
+    ir:
+      yiddish: פֿאַרגעסט
+      transliteration: fargest
+    zey:
+      yiddish: פֿאַרגעסן
+      transliteration: fargesn
+  past_participle:
+    yiddish: פֿאַרגעסן
+    transliteration: fargesn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

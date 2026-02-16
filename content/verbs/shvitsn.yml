@@ -1,0 +1,35 @@
+id: shvitsn
+categoryId: simple
+lemma:
+  yiddish: שוויצן
+  transliteration: shvitsn
+meaning:
+  english: to sweat
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שוויץ
+      transliteration: shvits
+    du:
+      yiddish: שוויצסט
+      transliteration: shvitsst
+    er_zi_es:
+      yiddish: שוויצט
+      transliteration: shvitst
+    mir:
+      yiddish: שוויצן
+      transliteration: shvitsn
+    ir:
+      yiddish: שוויצט
+      transliteration: shvitst
+    zey:
+      yiddish: שוויצן
+      transliteration: shvitsn
+  past_participle:
+    yiddish: געשוויצט
+    transliteration: geshvitst
+search:
+  yiddish: []
+  transliteration: []
+  english: []

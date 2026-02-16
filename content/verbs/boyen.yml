@@ -1,0 +1,35 @@
+id: boyen
+categoryId: simple
+lemma:
+  yiddish: בויען
+  transliteration: boyen
+meaning:
+  english: to build
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בוי
+      transliteration: boy
+    du:
+      yiddish: בויסט
+      transliteration: boyst
+    er_zi_es:
+      yiddish: בויט
+      transliteration: boyt
+    mir:
+      yiddish: בויען
+      transliteration: boyen
+    ir:
+      yiddish: בויט
+      transliteration: boyt
+    zey:
+      yiddish: בויען
+      transliteration: boyen
+  past_participle:
+    yiddish: געבויט
+    transliteration: geboyt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

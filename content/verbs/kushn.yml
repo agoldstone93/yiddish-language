@@ -1,0 +1,35 @@
+id: kushn
+categoryId: simple
+lemma:
+  yiddish: קושן
+  transliteration: kushn
+meaning:
+  english: to kiss
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קוש
+      transliteration: kush
+    du:
+      yiddish: קושסט
+      transliteration: kushst
+    er_zi_es:
+      yiddish: קושט
+      transliteration: kusht
+    mir:
+      yiddish: קושן
+      transliteration: kushn
+    ir:
+      yiddish: קושט
+      transliteration: kusht
+    zey:
+      yiddish: קושן
+      transliteration: kushn
+  past_participle:
+    yiddish: געקושט
+    transliteration: gekusht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

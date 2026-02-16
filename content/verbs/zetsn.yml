@@ -1,0 +1,35 @@
+id: zetsn
+categoryId: simple
+lemma:
+  yiddish: זעצן
+  transliteration: zetsn
+meaning:
+  english: to set
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זעץ
+      transliteration: zets
+    du:
+      yiddish: זעצסט
+      transliteration: zetsst
+    er_zi_es:
+      yiddish: זעצט
+      transliteration: zetst
+    mir:
+      yiddish: זעצן
+      transliteration: zetsn
+    ir:
+      yiddish: זעצט
+      transliteration: zetst
+    zey:
+      yiddish: זעצן
+      transliteration: zetsn
+  past_participle:
+    yiddish: געזעצט
+    transliteration: gezetst
+search:
+  yiddish: []
+  transliteration: []
+  english: []

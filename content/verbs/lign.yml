@@ -1,0 +1,35 @@
+id: lign
+categoryId: simple
+lemma:
+  yiddish: ליגן
+  transliteration: lign
+meaning:
+  english: to lie
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: ליג
+      transliteration: lig
+    du:
+      yiddish: ליגסט
+      transliteration: ligst
+    er_zi_es:
+      yiddish: ליגט
+      transliteration: ligt
+    mir:
+      yiddish: ליגן
+      transliteration: lign
+    ir:
+      yiddish: ליגט
+      transliteration: ligt
+    zey:
+      yiddish: ליגן
+      transliteration: lign
+  past_participle:
+    yiddish: געלעגן
+    transliteration: gelegn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

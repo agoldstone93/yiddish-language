@@ -1,0 +1,35 @@
+id: hengen
+categoryId: simple
+lemma:
+  yiddish: הענגען
+  transliteration: hengen
+meaning:
+  english: to hang
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: הענג
+      transliteration: heng
+    du:
+      yiddish: הענגסט
+      transliteration: hengst
+    er_zi_es:
+      yiddish: הענגט
+      transliteration: hengt
+    mir:
+      yiddish: הענגען
+      transliteration: hengen
+    ir:
+      yiddish: הענגט
+      transliteration: hengt
+    zey:
+      yiddish: הענגען
+      transliteration: hengen
+  past_participle:
+    yiddish: געהאַנגען
+    transliteration: gehangen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

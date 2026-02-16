@@ -1,0 +1,35 @@
+id: voynen
+categoryId: simple
+lemma:
+  yiddish: וווינען
+  transliteration: voynen
+meaning:
+  english: to live
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: וווין
+      transliteration: voyn
+    du:
+      yiddish: וווינסט
+      transliteration: voynst
+    er_zi_es:
+      yiddish: וווינט
+      transliteration: voynt
+    mir:
+      yiddish: וווינען
+      transliteration: voynen
+    ir:
+      yiddish: וווינט
+      transliteration: voynt
+    zey:
+      yiddish: וווינען
+      transliteration: voynen
+  past_participle:
+    yiddish: געוווינט
+    transliteration: gevoynt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

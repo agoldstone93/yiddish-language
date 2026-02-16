@@ -1,0 +1,35 @@
+id: shteln
+categoryId: simple
+lemma:
+  yiddish: שטעלן
+  transliteration: shteln
+meaning:
+  english: to put
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שטעל
+      transliteration: shtel
+    du:
+      yiddish: שטעלסט
+      transliteration: shtelst
+    er_zi_es:
+      yiddish: שטעלט
+      transliteration: shtelt
+    mir:
+      yiddish: שטעלן
+      transliteration: shteln
+    ir:
+      yiddish: שטעלט
+      transliteration: shtelt
+    zey:
+      yiddish: שטעלן
+      transliteration: shteln
+  past_participle:
+    yiddish: געשטעלט
+    transliteration: geshtelt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

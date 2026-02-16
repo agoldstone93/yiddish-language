@@ -1,0 +1,35 @@
+id: raysn
+categoryId: simple
+lemma:
+  yiddish: רײַסן
+  transliteration: raysn
+meaning:
+  english: to tear
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: רײַס
+      transliteration: rays
+    du:
+      yiddish: רײַסט
+      transliteration: rayst
+    er_zi_es:
+      yiddish: רײַסט
+      transliteration: rayst
+    mir:
+      yiddish: רײַסן
+      transliteration: raysn
+    ir:
+      yiddish: רײַסט
+      transliteration: rayst
+    zey:
+      yiddish: רײַסן
+      transliteration: raysn
+  past_participle:
+    yiddish: געריסן
+    transliteration: gerisn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

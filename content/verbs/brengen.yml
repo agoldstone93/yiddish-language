@@ -1,0 +1,35 @@
+id: brengen
+categoryId: simple
+lemma:
+  yiddish: ברענגען
+  transliteration: brengen
+meaning:
+  english: to bring
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ברענג
+      transliteration: breng
+    du:
+      yiddish: ברענגסט
+      transliteration: brengst
+    er_zi_es:
+      yiddish: ברענגט
+      transliteration: brengt
+    mir:
+      yiddish: ברענגען
+      transliteration: brengen
+    ir:
+      yiddish: ברענגט
+      transliteration: brengt
+    zey:
+      yiddish: ברענגען
+      transliteration: brengen
+  past_participle:
+    yiddish: געברענגט
+    transliteration: gebrengt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

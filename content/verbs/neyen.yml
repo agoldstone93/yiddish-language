@@ -1,0 +1,35 @@
+id: neyen
+categoryId: simple
+lemma:
+  yiddish: נייען
+  transliteration: neyen
+meaning:
+  english: to sew
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ניי
+      transliteration: ney
+    du:
+      yiddish: נייסט
+      transliteration: neyst
+    er_zi_es:
+      yiddish: נייט
+      transliteration: neyt
+    mir:
+      yiddish: נייען
+      transliteration: neyen
+    ir:
+      yiddish: נייט
+      transliteration: neyt
+    zey:
+      yiddish: נייען
+      transliteration: neyen
+  past_participle:
+    yiddish: גענייט
+    transliteration: geneyt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

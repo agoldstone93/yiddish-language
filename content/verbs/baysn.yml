@@ -1,0 +1,35 @@
+id: baysn
+categoryId: simple
+lemma:
+  yiddish: בײַסן
+  transliteration: baysn
+meaning:
+  english: to bite
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בײַס
+      transliteration: bays
+    du:
+      yiddish: בײַסט
+      transliteration: bayst
+    er_zi_es:
+      yiddish: בײַסט
+      transliteration: bayst
+    mir:
+      yiddish: בײַסן
+      transliteration: baysn
+    ir:
+      yiddish: בײַסט
+      transliteration: bayst
+    zey:
+      yiddish: בײַסן
+      transliteration: baysn
+  past_participle:
+    yiddish: געביסן
+    transliteration: gebisn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

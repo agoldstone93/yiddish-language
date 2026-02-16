@@ -1,0 +1,35 @@
+id: trogn
+categoryId: simple
+lemma:
+  yiddish: טראָגן
+  transliteration: trogn
+meaning:
+  english: to carry
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טראָג
+      transliteration: trog
+    du:
+      yiddish: טראָגסט
+      transliteration: trogst
+    er_zi_es:
+      yiddish: טראָגט
+      transliteration: trogt
+    mir:
+      yiddish: טראָגן
+      transliteration: trogn
+    ir:
+      yiddish: טראָגט
+      transliteration: trogt
+    zey:
+      yiddish: טראָגן
+      transliteration: trogn
+  past_participle:
+    yiddish: געטראָגן
+    transliteration: getrogn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: shmaysn
+categoryId: simple
+lemma:
+  yiddish: שמײַסן
+  transliteration: shmaysn
+meaning:
+  english: to whip
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שמײַס
+      transliteration: shmays
+    du:
+      yiddish: שמײַסט
+      transliteration: shmayst
+    er_zi_es:
+      yiddish: שמײַסט
+      transliteration: shmayst
+    mir:
+      yiddish: שמײַסן
+      transliteration: shmaysn
+    ir:
+      yiddish: שמײַסט
+      transliteration: shmayst
+    zey:
+      yiddish: שמײַסן
+      transliteration: shmaysn
+  past_participle:
+    yiddish: געשמיסן
+    transliteration: geshmisn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

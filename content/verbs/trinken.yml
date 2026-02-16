@@ -1,0 +1,35 @@
+id: trinken
+categoryId: simple
+lemma:
+  yiddish: טרינקען
+  transliteration: trinken
+meaning:
+  english: to drink
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טרינק
+      transliteration: trink
+    du:
+      yiddish: טרינקסט
+      transliteration: trinkst
+    er_zi_es:
+      yiddish: טרינקט
+      transliteration: trinkt
+    mir:
+      yiddish: טרינקען
+      transliteration: trinken
+    ir:
+      yiddish: טרינקט
+      transliteration: trinkt
+    zey:
+      yiddish: טרינקען
+      transliteration: trinken
+  past_participle:
+    yiddish: געטרונקען
+    transliteration: getrunken
+search:
+  yiddish: []
+  transliteration: []
+  english: []
