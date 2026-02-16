@@ -87,7 +87,8 @@ function parseConjugationTable(html) {
         // Find the Yiddish form before this <small> tag
         const smallIndex = match.index;
         const precedingHtml = html.slice(Math.max(0, smallIndex - 300), smallIndex);
-        const yiddishMatch = precedingHtml.match(/([\u0590-\u05FF]{2,})\s*(?:<\/[^>]*>)*\s*(?:<[^>]*>)*\s*$/);
+        // Match Hebrew characters and words separated by spaces
+        const yiddishMatch = precedingHtml.match(/([\u0590-\u05FF]+(?:\s+[\u0590-\u05FF]+)*)\s*(?:<\/[^>]*>)*\s*(?:<[^>]*>)*\s*$/);
         
         if (yiddishMatch) {
           const personKey = person === "er" ? "er_zi_es" : person;
@@ -170,7 +171,7 @@ async function generateVerb(title) {
   const { present, pastParticiple, infinitiveTr, auxiliary } = parseConjugationTable(html);
 
   // If table extraction didn't find auxiliary, fall back to wikitext check
-  let finalAuxiliary = auxiliary || extractAuxiliary(wikitext);
+  const finalAuxiliary = auxiliary || extractAuxiliary(wikitext);
 
   // If table was empty, generate conjugations from stem
   let conjugation;
@@ -183,12 +184,14 @@ async function generateVerb(title) {
     finalInfinitiveTr = infinitiveTr || title;
   } else {
     conjugation = { present, pastParticiple };
-    // Use first person singular transliteration as the infinitive (most reliable)
-    finalInfinitiveTr = present.mir?.transliteration || infinitiveTr || present.ikh?.transliteration || title;
+    // Use infinitive transliteration from the table
+    finalInfinitiveTr = infinitiveTr || present.mir?.transliteration || present.ikh?.transliteration || title;
   }
 
+  const id = finalInfinitiveTr.replace(/\s+/g, "-");
+  
   const output = {
-    id: finalInfinitiveTr,
+    id: id,
     categoryId: "simple",
     lemma: {
       yiddish: title,
@@ -214,12 +217,13 @@ async function generateVerb(title) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  const filename = finalInfinitiveTr.replace(/\s+/g, "-");
   fs.writeFileSync(
-    `${outputDir}/${finalInfinitiveTr}.yml`,
+    `${outputDir}/${filename}.yml`,
     yaml.dump(output, { allowUnicode: true })
   );
 
-  console.log(`✓ Generated ${finalInfinitiveTr}.yml`);
+  console.log(`✓ Generated ${filename}.yml`);
   console.log(`  Definition: to ${gloss}`);
   console.log(`  Auxiliary: ${finalAuxiliary}`);
   console.log(`  Past participle: ${conjugation.pastParticiple.yiddish}`);
