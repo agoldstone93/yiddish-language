@@ -1,0 +1,35 @@
+id: avekkumen
+categoryId: separable-prefix
+lemma:
+  yiddish: אַוועקקומען
+  transliteration: avekkumen
+meaning:
+  english: to leave
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: קום אַוועק
+      transliteration: kum avek
+    du:
+      yiddish: קומסט אַוועק
+      transliteration: kumst avek
+    er_zi_es:
+      yiddish: קומט אַוועק
+      transliteration: kumt avek
+    mir:
+      yiddish: קומען אַוועק
+      transliteration: kumen avek
+    ir:
+      yiddish: קומט אַוועק
+      transliteration: kumt avek
+    zey:
+      yiddish: קומען אַוועק
+      transliteration: kumen avek
+  past_participle:
+    yiddish: אַוועקגעקומען
+    transliteration: avekgekumen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

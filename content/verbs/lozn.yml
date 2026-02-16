@@ -1,0 +1,35 @@
+id: lozn
+categoryId: simple
+lemma:
+  yiddish: לאָזן
+  transliteration: lozn
+meaning:
+  english: to let
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: לאָז
+      transliteration: loz
+    du:
+      yiddish: לאָזסט
+      transliteration: lozst
+    er_zi_es:
+      yiddish: לאָזט
+      transliteration: lozt
+    mir:
+      yiddish: לאָזן
+      transliteration: lozn
+    ir:
+      yiddish: לאָזט
+      transliteration: lozt
+    zey:
+      yiddish: לאָזן
+      transliteration: lozn
+  past_participle:
+    yiddish: געלאָזט
+    transliteration: gelozt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

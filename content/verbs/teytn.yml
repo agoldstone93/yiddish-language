@@ -1,0 +1,35 @@
+id: teytn
+categoryId: simple
+lemma:
+  yiddish: טייטן
+  transliteration: teytn
+meaning:
+  english: to kill
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טייט
+      transliteration: teyt
+    du:
+      yiddish: טייטסט
+      transliteration: teytst
+    er_zi_es:
+      yiddish: טייט
+      transliteration: teyt
+    mir:
+      yiddish: טייטן
+      transliteration: teytn
+    ir:
+      yiddish: טייט
+      transliteration: teyt
+    zey:
+      yiddish: טייטן
+      transliteration: teytn
+  past_participle:
+    yiddish: געטייט
+    transliteration: geteyt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

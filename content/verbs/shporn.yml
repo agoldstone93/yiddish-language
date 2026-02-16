@@ -1,0 +1,35 @@
+id: shporn
+categoryId: simple
+lemma:
+  yiddish: שפּאָרן
+  transliteration: shporn
+meaning:
+  english: to save up
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שפּאָר
+      transliteration: shpor
+    du:
+      yiddish: שפּאָרסט
+      transliteration: shporst
+    er_zi_es:
+      yiddish: שפּאָרט
+      transliteration: shport
+    mir:
+      yiddish: שפּאָרן
+      transliteration: shporn
+    ir:
+      yiddish: שפּאָרט
+      transliteration: shport
+    zey:
+      yiddish: שפּאָרן
+      transliteration: shporn
+  past_participle:
+    yiddish: געשפּאָרט
+    transliteration: geshport
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: gevinen
+categoryId: simple
+lemma:
+  yiddish: געווינען
+  transliteration: gevinen
+meaning:
+  english: to win
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: געווין
+      transliteration: gevin
+    du:
+      yiddish: געווינסט
+      transliteration: gevinst
+    er_zi_es:
+      yiddish: געווינט
+      transliteration: gevint
+    mir:
+      yiddish: געווינען
+      transliteration: gevinen
+    ir:
+      yiddish: געווינט
+      transliteration: gevint
+    zey:
+      yiddish: געווינען
+      transliteration: gevinen
+  past_participle:
+    yiddish: געוווּנען
+    transliteration: gevunen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: iberbetn
+categoryId: separable-prefix
+lemma:
+  yiddish: איבערבעטן
+  transliteration: iberbetn
+meaning:
+  english: to reconcile
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בעט איבער
+      transliteration: bet iber
+    du:
+      yiddish: בעטסט איבער
+      transliteration: betst iber
+    er_zi_es:
+      yiddish: בעט איבער
+      transliteration: bet iber
+    mir:
+      yiddish: בעטן איבער
+      transliteration: betn iber
+    ir:
+      yiddish: בעט איבער
+      transliteration: bet iber
+    zey:
+      yiddish: בעטן איבער
+      transliteration: betn iber
+  past_participle:
+    yiddish: איבערגעבעט
+    transliteration: ibergebet
+search:
+  yiddish: []
+  transliteration: []
+  english: []

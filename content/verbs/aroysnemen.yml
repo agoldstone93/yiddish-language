@@ -1,15 +1,15 @@
 id: aroysnemen
 categoryId: separable-prefix
 lemma:
-  yiddish: נעמען
-  transliteration: nemen
+  yiddish: אַרויסנעמען
+  transliteration: aroysnemen
 meaning:
   english: to take out
 auxiliary: hobn
 conjugation:
   present:
     ikh:
-      yiddish: נעם אַרויס 
+      yiddish: נעם אַרויס
       transliteration: nem aroys
     du:
       yiddish: נעמסט אַרויס
@@ -27,7 +27,7 @@ conjugation:
       yiddish: נעמען אַרויס
       transliteration: nemen aroys
   past_participle:
-    yiddish: אַרויסגענומען 
+    yiddish: אַרויסגענומען
     transliteration: aroysgenumen
 search:
   yiddish: []

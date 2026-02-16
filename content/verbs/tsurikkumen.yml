@@ -1,0 +1,35 @@
+id: tsurikkumen
+categoryId: separable-prefix
+lemma:
+  yiddish: צוריקקומען
+  transliteration: tsurikkumen
+meaning:
+  english: to come back
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: קום צוריק
+      transliteration: kum tsurik
+    du:
+      yiddish: קומסט צוריק
+      transliteration: kumst tsurik
+    er_zi_es:
+      yiddish: קומט צוריק
+      transliteration: kumt tsurik
+    mir:
+      yiddish: קומען צוריק
+      transliteration: kumen tsurik
+    ir:
+      yiddish: קומט צוריק
+      transliteration: kumt tsurik
+    zey:
+      yiddish: קומען צוריק
+      transliteration: kumen tsurik
+  past_participle:
+    yiddish: צוריקגעקומען
+    transliteration: tsurikgekumen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

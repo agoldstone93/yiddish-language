@@ -1,0 +1,35 @@
+id: zukhn
+categoryId: simple
+lemma:
+  yiddish: זוכן
+  transliteration: zukhn
+meaning:
+  english: to seek
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זוך
+      transliteration: zukh
+    du:
+      yiddish: זוכסט
+      transliteration: zukhst
+    er_zi_es:
+      yiddish: זוכט
+      transliteration: zukht
+    mir:
+      yiddish: זוכן
+      transliteration: zukhn
+    ir:
+      yiddish: זוכט
+      transliteration: zukht
+    zey:
+      yiddish: זוכן
+      transliteration: zukhn
+  past_participle:
+    yiddish: געזוכט
+    transliteration: gezukht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

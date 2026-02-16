@@ -1,0 +1,35 @@
+id: aroysgeyn
+categoryId: separable-prefix
+lemma:
+  yiddish: אַרויסגיין
+  transliteration: aroysgeyn
+meaning:
+  english: to go out
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: גיי אַרויס
+      transliteration: gey aroys
+    du:
+      yiddish: גייסט אַרויס
+      transliteration: geyst aroys
+    er_zi_es:
+      yiddish: גייט אַרויס
+      transliteration: geyt aroys
+    mir:
+      yiddish: גייען אַרויס
+      transliteration: geyen aroys
+    ir:
+      yiddish: גייט אַרויס
+      transliteration: geyt aroys
+    zey:
+      yiddish: גייען אַרויס
+      transliteration: geyen aroys
+  past_participle:
+    yiddish: אַרויסגעגאַנגען
+    transliteration: aroysgegangen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

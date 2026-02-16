@@ -1,0 +1,35 @@
+id: pruvn
+categoryId: simple
+lemma:
+  yiddish: פּרוּוון
+  transliteration: pruvn
+meaning:
+  english: to try
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פּרוּוו
+      transliteration: pruv
+    du:
+      yiddish: פּרוּווסט
+      transliteration: pruvst
+    er_zi_es:
+      yiddish: פּרוּווט
+      transliteration: pruvt
+    mir:
+      yiddish: פּרוּוון
+      transliteration: pruvn
+    ir:
+      yiddish: פּרוּווט
+      transliteration: pruvt
+    zey:
+      yiddish: פּרוּוון
+      transliteration: pruvn
+  past_participle:
+    yiddish: געפּרוּווט
+    transliteration: gepruvt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

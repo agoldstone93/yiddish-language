@@ -1,0 +1,35 @@
+id: leygn
+categoryId: simple
+lemma:
+  yiddish: לייגן
+  transliteration: leygn
+meaning:
+  english: to put
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: לייג
+      transliteration: leyg
+    du:
+      yiddish: לייגסט
+      transliteration: leygst
+    er_zi_es:
+      yiddish: לייגט
+      transliteration: leygt
+    mir:
+      yiddish: לייגן
+      transliteration: leygn
+    ir:
+      yiddish: לייגט
+      transliteration: leygt
+    zey:
+      yiddish: לייגן
+      transliteration: leygn
+  past_participle:
+    yiddish: געלייגט
+    transliteration: geleygt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
