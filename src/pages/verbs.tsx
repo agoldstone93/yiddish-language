@@ -3,12 +3,16 @@ import path from 'path';
 import yaml from 'js-yaml';
 import Link from 'next/link';
 import { InferGetStaticPropsType } from 'next';
+import Head from 'next/head';
 
 type Verb = {
   id: string;
   lemma: {
     yiddish: string;
     transliteration: string;
+  };
+  meaning: {
+    english: string;
   };
   origin: string;
   part_of_speech: string;
@@ -32,26 +36,30 @@ export const getStaticProps = async () => {
 
 export default function VerbsPage({ verbs }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <div className="max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-center">Yiddish Verbs</h1>
-      <ul className="space-y-4">
-        {verbs.map((verb) => (
-          <li key={verb.id} className="p-4 border rounded shadow-sm hover:shadow-md transition">
+    <>
+      <Head>
+        <title>All Verbs - LoshnLab</title>
+        <meta name="description" content="Browse all Yiddish verbs in the LoshnLab conjugator" />
+      </Head>
+      <div className="mx-auto max-w-3xl space-y-6 px-4 py-8">
+        <div className="space-y-2">
+          <h1 className="text-3xl font-bold">Yiddish Verbs</h1>
+          <p className="text-gray-600 dark:text-gray-400">Browse all {verbs.length} verbs</p>
+        </div>
+        <ul className="space-y-3">
+          {verbs.map((verb) => (
+            <li key={verb.id} className="group">
             <Link
-                href={`/verbs/${verb.id}`}
-                className="text-blue-600 hover:underline text-xl font-bold"
-                >
-                {verb.lemma.yiddish} — {verb.lemma.transliteration}
-                </Link>
-
-            <div className="text-sm text-gray-500 mt-1">
-              <span className="font-semibold">Class:</span> {verb.verb_class} |{' '}
-              <span className="font-semibold">Auxiliary:</span> {verb.auxiliary}
-            </div>
-            {verb.notes && <div className="mt-2 text-gray-600">{verb.notes}</div>}
-          </li>
-        ))}
-      </ul>
-    </div>
+              href={`/verbs/${verb.id}`}
+              className="text-lg font-semibold underline underline-offset-2 hover:no-underline flex justify-between"
+            >
+              <span>{verb.meaning.english}</span>
+              <span>{verb.lemma.yiddish}</span>
+            </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
