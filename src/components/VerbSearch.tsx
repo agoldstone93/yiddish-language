@@ -1,6 +1,7 @@
+import { autoUpdate, offset, shift, size, useFloating } from '@floating-ui/react';
 import { useCombobox } from 'downshift';
 import { useRouter } from 'next/router';
-import { startTransition, useCallback, useEffect, useMemo, useState } from 'react';
+import { startTransition, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Verb } from '@/types/verb';
 
 export type VerbSearchProps = {
@@ -51,6 +52,24 @@ export function VerbSearch({
 }: VerbSearchProps) {
   const router = useRouter();
   const [inputValue, setInputValue] = useState('');
+  const [isFocused, setIsFocused] = useState(false);
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const { refs, floatingStyles } = useFloating({
+    placement: 'bottom-start',
+    whileElementsMounted: autoUpdate,
+    middleware: [
+      offset(0),
+      shift({ padding: 8 }),
+      size({
+        apply({ availableHeight, rects, elements }) {
+          Object.assign(elements.floating.style, {
+            maxHeight: `${Math.max(120, availableHeight - 8)}px`,
+            width: `${rects.reference.width}px`,
+          });
+        },
+      }),
+    ],
+  });
 
   const matches = useMemo(() => {
     const needle = normalizeForSearch(inputValue);
@@ -103,7 +122,33 @@ export function VerbSearch({
     }
   }, [activeVerbId]);
 
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const handleViewportResize = () => {
+      const vv = window.visualViewport;
+      if (!vv || !containerRef.current) return;
+      const keyboardHeight = Math.max(0, window.innerHeight - vv.height - vv.offsetTop);
+      containerRef.current.style.paddingBottom = keyboardHeight
+        ? `${keyboardHeight + 12}px`
+        : '';
+    };
+
+    window.visualViewport?.addEventListener('resize', handleViewportResize);
+    window.visualViewport?.addEventListener('scroll', handleViewportResize);
+    return () => {
+      window.visualViewport?.removeEventListener('resize', handleViewportResize);
+      window.visualViewport?.removeEventListener('scroll', handleViewportResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isFocused) return;
+    containerRef.current?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }, [isFocused]);
+
   const inputProps = getInputProps({
+    ref: refs.setReference,
     placeholder,
     onCompositionEnd: (e: React.CompositionEvent<HTMLInputElement>) => {
       // Ensure the final composed value is captured
@@ -113,16 +158,18 @@ export function VerbSearch({
       // Always mirror the raw input value; do not transform while typing
       setInputValue(e.target.value);
     },
+    onFocus: () => setIsFocused(true),
+    onBlur: () => setIsFocused(false),
     autoComplete: 'off',
     autoCorrect: 'off',
     autoCapitalize: 'none',
     spellCheck: false,
   });
-  const menuProps = getMenuProps({}, { suppressRefError: true });
+  const menuProps = getMenuProps({ ref: refs.setFloating }, { suppressRefError: true });
   const showMenu = isOpen && Boolean(inputValue);
 
   return (
-    <div className={`relative ${className}`.trim()}>
+    <div ref={containerRef} className={`relative ${className}`.trim()}>
       <input
         className={`w-full rounded border border-gray-300 dark:border-gray-700
           bg-orange-100 dark:bg-gray-800
@@ -132,12 +179,13 @@ export function VerbSearch({
         {...inputProps}
       />
       <ul
-        className={`absolute left-0 right-0 top-full z-20 mt-2 max-h-80 overflow-auto 
+        className={`absolute z-20 max-h-80 overflow-auto
                     rounded border border-gray-300 dark:border-gray-700 bg-orange-100
                     dark:bg-gray-900 text-gray-900 dark:text-gray-100
                     shadow-lg divide-y divide-gray-300 dark:divide-gray-700 ${
           showMenu ? '' : 'hidden'
         } ${menuClassName}`.trim()}
+        style={floatingStyles}
         {...menuProps}
       >
         {showMenu && matches.map((entry, index) => (
@@ -158,8 +206,8 @@ export function VerbSearch({
         ))}
         {showMenu && matches.length === 0 && (
           <li className="px-4 py-2 text-sm text-gray-600 dark:text-gray-400">
-            <a 
-              href="/admin/#/collections/verbs/new" 
+            <a
+              href="/admin/#/collections/verbs/new"
               className="block -mx-4 -my-2 px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
