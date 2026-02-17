@@ -1,0 +1,35 @@
+id: bentshn
+categoryId: simple
+lemma:
+  yiddish: בענטשן
+  transliteration: bentshn
+meaning:
+  english: to bless
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בענטש
+      transliteration: bentsh
+    du:
+      yiddish: בענטשסט
+      transliteration: bentshst
+    er_zi_es:
+      yiddish: בענטשט
+      transliteration: bentsht
+    mir:
+      yiddish: בענטשן
+      transliteration: bentshn
+    ir:
+      yiddish: בענטשט
+      transliteration: bentsht
+    zey:
+      yiddish: בענטשן
+      transliteration: bentshn
+  past_participle:
+    yiddish: געבענטשט
+    transliteration: gebentsht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

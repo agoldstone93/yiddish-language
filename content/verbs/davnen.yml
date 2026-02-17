@@ -1,0 +1,35 @@
+id: davnen
+categoryId: simple
+lemma:
+  yiddish: דאַוונען
+  transliteration: davnen
+meaning:
+  english: to pray
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דאַוון
+      transliteration: davn
+    du:
+      yiddish: דאַוונסט
+      transliteration: davnst
+    er_zi_es:
+      yiddish: דאַוונט
+      transliteration: davnt
+    mir:
+      yiddish: דאַוונען
+      transliteration: davnen
+    ir:
+      yiddish: דאַוונט
+      transliteration: davnt
+    zey:
+      yiddish: דאַוונען
+      transliteration: davnen
+  past_participle:
+    yiddish: געדאַוונט
+    transliteration: gedavnt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
