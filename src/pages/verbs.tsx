@@ -31,6 +31,8 @@ export const getStaticProps = async () => {
     return content;
   });
 
+  verbs.sort((a, b) => a.lemma.yiddish.localeCompare(b.lemma.yiddish, 'yi'));
+
   return { props: { verbs } };
 };
 
