@@ -1,0 +1,31 @@
+id: lib-hobn
+categoryId: periphrastic
+lemma:
+  yiddish: ליב האָבן
+  transliteration: lib hobn
+meaning:
+  english: to love, to like
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: האָב ליב
+      transliteration: hob lib
+    du:
+      yiddish: האָסט ליב
+      transliteration: host lib
+    er_zi_es:
+      yiddish: האָט ליב
+      transliteration: hot lib
+    mir:
+      yiddish: האָבן ליב
+      transliteration: hobn lib
+    ir:
+      yiddish: האָט ליב
+      transliteration: hot lib
+    zey:
+      yiddish: האָבן ליב
+      transliteration: hobn lib
+  past_participle:
+    yiddish: ליב געהאַט 
+    transliteration: lib gehat

@@ -1,0 +1,35 @@
+id: filn
+categoryId: simple
+lemma:
+  yiddish: פֿילן
+  transliteration: filn
+meaning:
+  english: to fill, to feel
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿיל
+      transliteration: fil
+    du:
+      yiddish: פֿילסט
+      transliteration: filst
+    er_zi_es:
+      yiddish: פֿילט
+      transliteration: filt
+    mir:
+      yiddish: פֿילן
+      transliteration: filn
+    ir:
+      yiddish: פֿילט
+      transliteration: filt
+    zey:
+      yiddish: פֿילן
+      transliteration: filn
+  past_participle:
+    yiddish: געפֿילט
+    transliteration: gefilt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: helfn
+categoryId: simple
+lemma:
+  yiddish: העלפֿן
+  transliteration: helfn
+meaning:
+  english: to help
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: העלף
+      transliteration: helf
+    du:
+      yiddish: העלפֿסט
+      transliteration: helfst
+    er_zi_es:
+      yiddish: העלפֿט
+      transliteration: helft
+    mir:
+      yiddish: העלפֿן
+      transliteration: helfn
+    ir:
+      yiddish: העלפֿט
+      transliteration: helft
+    zey:
+      yiddish: העלפֿן
+      transliteration: helfn
+  past_participle:
+    yiddish: געהאָלפֿן
+    transliteration: geholfn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,31 @@
+id: faynt-hobn
+categoryId: periphrastic
+lemma:
+  yiddish: פֿײַנט האָבן
+  transliteration: faynt hobn
+meaning:
+  english: to hate
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: האָב פֿײַנט
+      transliteration: hob faynt
+    du:
+      yiddish: האָסט פֿײַנט
+      transliteration: host faynt
+    er_zi_es:
+      yiddish: האָט פֿײַנט
+      transliteration: hot faynt
+    mir:
+      yiddish: האָבן פֿײַנט
+      transliteration: hobn faynt
+    ir:
+      yiddish: האָט פֿײַנט
+      transliteration: hot faynt
+    zey:
+      yiddish: האָבן פֿײַנט
+      transliteration: hobn faynt
+  past_participle:
+    yiddish: פֿײַנט געהאַט 
+    transliteration: faynt gehat

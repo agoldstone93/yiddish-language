@@ -1,0 +1,35 @@
+id: gebn
+categoryId: simple
+lemma:
+  yiddish: געבן
+  transliteration: gebn
+meaning:
+  english: to give
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: גיב
+      transliteration: gib
+    du:
+      yiddish: גיסט
+      transliteration: gist
+    er_zi_es:
+      yiddish: גיט
+      transliteration: git
+    mir:
+      yiddish: גיבן
+      transliteration: gibn
+    ir:
+      yiddish: גיט
+      transliteration: git
+    zey:
+      yiddish: גיבן
+      transliteration: gibn
+  past_participle:
+    yiddish: געגעבן
+    transliteration: gegebn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

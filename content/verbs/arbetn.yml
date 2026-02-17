@@ -1,0 +1,35 @@
+id: arbetn
+categoryId: simple
+lemma:
+  yiddish: אַרבעטן
+  transliteration: arbetn
+meaning:
+  english: to work
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: אַרבעט
+      transliteration: arbet
+    du:
+      yiddish: אַרבעטסט
+      transliteration: arbetst
+    er_zi_es:
+      yiddish: אַרבעט
+      transliteration: arbet
+    mir:
+      yiddish: אַרבעטן
+      transliteration: arbetn
+    ir:
+      yiddish: אַרבעט
+      transliteration: arbet
+    zey:
+      yiddish: אַרבעטן
+      transliteration: arbetn
+  past_participle:
+    yiddish: געאַרבעט
+    transliteration: gearbet
+search:
+  yiddish: []
+  transliteration: []
+  english: []

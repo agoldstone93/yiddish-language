@@ -1,0 +1,35 @@
+id: aropgeyn
+categoryId: separable-prefix
+lemma:
+  yiddish: אַראָפּגיין
+  transliteration: aropgeyn
+meaning:
+  english: to go down, to descend
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: גיי אַראָפּ
+      transliteration: gey arop
+    du:
+      yiddish: גייסט אַראָפּ
+      transliteration: geyst arop
+    er_zi_es:
+      yiddish: גייט אַראָפּ
+      transliteration: geyt arop
+    mir:
+      yiddish: גייען אַראָפּ
+      transliteration: geyen arop
+    ir:
+      yiddish: גייט אַראָפּ
+      transliteration: geyt arop
+    zey:
+      yiddish: גייען אַראָפּ
+      transliteration: geyen arop
+  past_participle:
+    yiddish: אַראָפּגעגאַנגען
+    transliteration: aropgegangen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

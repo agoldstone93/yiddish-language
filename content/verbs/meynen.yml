@@ -1,0 +1,35 @@
+id: meynen
+categoryId: simple
+lemma:
+  yiddish: מיינען
+  transliteration: meynen
+meaning:
+  english: to think, to mean
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: מיין
+      transliteration: meyn
+    du:
+      yiddish: מיינסט
+      transliteration: meynst
+    er_zi_es:
+      yiddish: מיינט
+      transliteration: meynt
+    mir:
+      yiddish: מיינען
+      transliteration: meynen
+    ir:
+      yiddish: מיינט
+      transliteration: meynt
+    zey:
+      yiddish: מיינען
+      transliteration: meynen
+  past_participle:
+    yiddish: געמיינט
+    transliteration: gemeynt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

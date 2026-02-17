@@ -1,0 +1,35 @@
+id: vern
+categoryId: simple
+lemma:
+  yiddish: ווערן
+  transliteration: vern
+meaning:
+  english: to become
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: ווער
+      transliteration: ver
+    du:
+      yiddish: ווערסט
+      transliteration: verst
+    er_zi_es:
+      yiddish: ווערט
+      transliteration: vert
+    mir:
+      yiddish: ווערן
+      transliteration: vern
+    ir:
+      yiddish: ווערט
+      transliteration: vert
+    zey:
+      yiddish: ווערן
+      transliteration: vern
+  past_participle:
+    yiddish: געוואָרן
+    transliteration: gevorn
+search:
+  yiddish: []
+  transliteration: []
+  english: []
