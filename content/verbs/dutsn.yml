@@ -1,0 +1,35 @@
+id: dutsn
+categoryId: simple
+lemma:
+  yiddish: דוצן
+  transliteration: dutsn
+meaning:
+  english: to address someone with du
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דוץ
+      transliteration: duts
+    du:
+      yiddish: דוצסט
+      transliteration: dutsst
+    er_zi_es:
+      yiddish: דוצט
+      transliteration: dutst
+    mir:
+      yiddish: דוצן
+      transliteration: dutsn
+    ir:
+      yiddish: דוצט
+      transliteration: dutst
+    zey:
+      yiddish: דוצן
+      transliteration: dutsn
+  past_participle:
+    yiddish: געדוצט
+    transliteration: gedutst
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: tantsn
+categoryId: simple
+lemma:
+  yiddish: טאַנצן
+  transliteration: tantsn
+meaning:
+  english: to dance
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טאַנץ
+      transliteration: tants
+    du:
+      yiddish: טאַנצסט
+      transliteration: tantsst
+    er_zi_es:
+      yiddish: טאַנצט
+      transliteration: tantst
+    mir:
+      yiddish: טאַנצן
+      transliteration: tantsn
+    ir:
+      yiddish: טאַנצט
+      transliteration: tantst
+    zey:
+      yiddish: טאַנצן
+      transliteration: tantsn
+  past_participle:
+    yiddish: געטאַנצט
+    transliteration: getantst
+search:
+  yiddish: []
+  transliteration: []
+  english: []

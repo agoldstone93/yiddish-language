@@ -1,0 +1,35 @@
+id: vayzn
+categoryId: simple
+lemma:
+  yiddish: ווײַזן
+  transliteration: vayzn
+meaning:
+  english: to show
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ווײַז
+      transliteration: vayz
+    du:
+      yiddish: ווײַזסט
+      transliteration: vayzst
+    er_zi_es:
+      yiddish: ווײַזט
+      transliteration: vayzt
+    mir:
+      yiddish: ווײַזן
+      transliteration: vayzn
+    ir:
+      yiddish: ווײַזט
+      transliteration: vayzt
+    zey:
+      yiddish: ווײַזן
+      transliteration: vayzn
+  past_participle:
+    yiddish: געוויזן
+    transliteration: gevizn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

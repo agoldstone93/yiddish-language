@@ -1,0 +1,35 @@
+id: shraybn
+categoryId: simple
+lemma:
+  yiddish: שרײַבן
+  transliteration: shraybn
+meaning:
+  english: to write
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שרײַב
+      transliteration: shrayb
+    du:
+      yiddish: שרײַבסט
+      transliteration: shraybst
+    er_zi_es:
+      yiddish: שרײַבט
+      transliteration: shraybt
+    mir:
+      yiddish: שרײַבן
+      transliteration: shraybn
+    ir:
+      yiddish: שרײַבט
+      transliteration: shraybt
+    zey:
+      yiddish: שרײַבן
+      transliteration: shraybn
+  past_participle:
+    yiddish: געשריבן
+    transliteration: geshribn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

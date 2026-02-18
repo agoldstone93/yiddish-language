@@ -1,0 +1,35 @@
+id: shtern
+categoryId: simple
+lemma:
+  yiddish: שטערן
+  transliteration: shtern
+meaning:
+  english: to disturb
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שטער
+      transliteration: shter
+    du:
+      yiddish: שטערסט
+      transliteration: shterst
+    er_zi_es:
+      yiddish: שטערט
+      transliteration: shtert
+    mir:
+      yiddish: שטערן
+      transliteration: shtern
+    ir:
+      yiddish: שטערט
+      transliteration: shtert
+    zey:
+      yiddish: שטערן
+      transliteration: shtern
+  past_participle:
+    yiddish: געשטערט
+    transliteration: geshtert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

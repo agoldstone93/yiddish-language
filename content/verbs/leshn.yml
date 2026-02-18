@@ -1,0 +1,35 @@
+id: leshn
+categoryId: simple
+lemma:
+  yiddish: לעשן
+  transliteration: leshn
+meaning:
+  english: to quench, to extinguish
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: לעש
+      transliteration: lesh
+    du:
+      yiddish: לעשסט
+      transliteration: leshst
+    er_zi_es:
+      yiddish: לעשט
+      transliteration: lesht
+    mir:
+      yiddish: לעשן
+      transliteration: leshn
+    ir:
+      yiddish: לעשט
+      transliteration: lesht
+    zey:
+      yiddish: לעשן
+      transliteration: leshn
+  past_participle:
+    yiddish: געלאָשן
+    transliteration: geloshn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

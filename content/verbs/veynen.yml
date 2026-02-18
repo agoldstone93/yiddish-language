@@ -1,0 +1,35 @@
+id: veynen
+categoryId: simple
+lemma:
+  yiddish: וויינען
+  transliteration: veynen
+meaning:
+  english: to cry
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: וויין
+      transliteration: veyn
+    du:
+      yiddish: וויינסט
+      transliteration: veynst
+    er_zi_es:
+      yiddish: וויינט
+      transliteration: veynt
+    mir:
+      yiddish: וויינען
+      transliteration: veynen
+    ir:
+      yiddish: וויינט
+      transliteration: veynt
+    zey:
+      yiddish: וויינען
+      transliteration: veynen
+  past_participle:
+    yiddish:  געוויינט
+    transliteration: gevaynt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

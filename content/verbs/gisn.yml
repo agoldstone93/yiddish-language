@@ -1,0 +1,35 @@
+id: gisn
+categoryId: simple
+lemma:
+  yiddish: גיסן
+  transliteration: gisn
+meaning:
+  english: to pour
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: גיס
+      transliteration: gis
+    du:
+      yiddish: גיסט
+      transliteration: gist
+    er_zi_es:
+      yiddish: גיסט
+      transliteration: gist
+    mir:
+      yiddish: גיסן
+      transliteration: gisn
+    ir:
+      yiddish: גיסט
+      transliteration: gist
+    zey:
+      yiddish: גיסן
+      transliteration: gisn
+  past_participle:
+    yiddish: געגאָסן
+    transliteration: gegosn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

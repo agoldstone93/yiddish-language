@@ -1,0 +1,35 @@
+id: irtsn
+categoryId: simple
+lemma:
+  yiddish: אירצן
+  transliteration: irtsn
+meaning:
+  english: to address someone with ir
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: אירץ
+      transliteration: irts
+    du:
+      yiddish: אירצסט
+      transliteration: irtsst
+    er_zi_es:
+      yiddish: אירצט
+      transliteration: irtst
+    mir:
+      yiddish: אירצן
+      transliteration: irtsn
+    ir:
+      yiddish: אירצט
+      transliteration: irtst
+    zey:
+      yiddish: אירצן
+      transliteration: irtsn
+  past_participle:
+    yiddish: געאירצט
+    transliteration: geirtst
+search:
+  yiddish: []
+  transliteration: []
+  english: []

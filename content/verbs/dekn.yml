@@ -1,0 +1,35 @@
+id: dekn
+categoryId: simple
+lemma:
+  yiddish: דעקן
+  transliteration: dekn
+meaning:
+  english: to cover
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דעק
+      transliteration: dek
+    du:
+      yiddish: דעקסט
+      transliteration: dekst
+    er_zi_es:
+      yiddish: דעקט
+      transliteration: dekt
+    mir:
+      yiddish: דעקן
+      transliteration: dekn
+    ir:
+      yiddish: דעקט
+      transliteration: dekt
+    zey:
+      yiddish: דעקן
+      transliteration: dekn
+  past_participle:
+    yiddish: געדעקט
+    transliteration: gedekt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

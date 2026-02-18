@@ -1,0 +1,35 @@
+id: lakhn
+categoryId: simple
+lemma:
+  yiddish: לאַכן
+  transliteration: lakhn
+meaning:
+  english: to laugh
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: לאַך
+      transliteration: lakh
+    du:
+      yiddish: לאַכסט
+      transliteration: lakhst
+    er_zi_es:
+      yiddish: לאַכט
+      transliteration: lakht
+    mir:
+      yiddish: לאַכן
+      transliteration: lakhn
+    ir:
+      yiddish: לאַכט
+      transliteration: lakht
+    zey:
+      yiddish: לאַכן
+      transliteration: lakhn
+  past_participle:
+    yiddish: געלאַכט
+    transliteration: gelakht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: araynleygn
+categoryId: separable-prefix
+lemma:
+  yiddish: אַרײַנלייגן
+  transliteration: leygn
+meaning:
+  english: to put in
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: לייג אַרײַן
+      transliteration: leyg arayn
+    du:
+      yiddish: לייגסט אַרײַן
+      transliteration: leygst arayn
+    er_zi_es:
+      yiddish: לייגט אַרײַן
+      transliteration: leygt arayn
+    mir:
+      yiddish: לייגן אַרײַן
+      transliteration: leygn arayn
+    ir:
+      yiddish: לייגט אַרײַן
+      transliteration: leygt arayn
+    zey:
+      yiddish: לייגן אַרײַן
+      transliteration: leygn arayn
+  past_participle:
+    yiddish: אַרײַנגעלייגט
+    transliteration: arayngeleygt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

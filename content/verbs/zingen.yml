@@ -1,0 +1,35 @@
+id: zingen
+categoryId: simple
+lemma:
+  yiddish: זינגען
+  transliteration: zingen
+meaning:
+  english: to sing
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זינג
+      transliteration: zing
+    du:
+      yiddish: זינגסט
+      transliteration: zingst
+    er_zi_es:
+      yiddish: זינגט
+      transliteration: zingt
+    mir:
+      yiddish: זינגען
+      transliteration: zingen
+    ir:
+      yiddish: זינגט
+      transliteration: zingt
+    zey:
+      yiddish: זינגען
+      transliteration: zingen
+  past_participle:
+    yiddish: געזונגען
+    transliteration: gezungen
+search:
+  yiddish: []
+  transliteration: []
+  english: []
