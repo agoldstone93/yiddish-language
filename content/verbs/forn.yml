@@ -1,0 +1,35 @@
+id: forn
+categoryId: simple
+lemma:
+  yiddish: פֿאָרן
+  transliteration: forn
+meaning:
+  english: to ride, to travel
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאָר
+      transliteration: for
+    du:
+      yiddish: פֿאָרסט
+      transliteration: forst
+    er_zi_es:
+      yiddish: פֿאָרט
+      transliteration: fort
+    mir:
+      yiddish: פֿאָרן
+      transliteration: forn
+    ir:
+      yiddish: פֿאָרט
+      transliteration: fort
+    zey:
+      yiddish: פֿאָרן
+      transliteration: forn
+  past_participle:
+    yiddish: געפֿאָרן
+    transliteration: geforn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

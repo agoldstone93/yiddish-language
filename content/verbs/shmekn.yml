@@ -1,0 +1,35 @@
+id: shmekn
+categoryId: simple
+lemma:
+  yiddish: שמעקן
+  transliteration: shmekn
+meaning:
+  english: to smell
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שמעק
+      transliteration: shmek
+    du:
+      yiddish: שמעקסט
+      transliteration: shmekst
+    er_zi_es:
+      yiddish: שמעקט
+      transliteration: shmekt
+    mir:
+      yiddish: שמעקן
+      transliteration: shmekn
+    ir:
+      yiddish: שמעקט
+      transliteration: shmekt
+    zey:
+      yiddish: שמעקן
+      transliteration: shmekn
+  past_participle:
+    yiddish: געשמעקט
+    transliteration: geshmekt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: vashn
+categoryId: simple
+lemma:
+  yiddish: וואַשן
+  transliteration: vashn
+meaning:
+  english: to wash
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: וואַש
+      transliteration: vash
+    du:
+      yiddish: וואַשסט
+      transliteration: vashst
+    er_zi_es:
+      yiddish: וואַשט
+      transliteration: vasht
+    mir:
+      yiddish: וואַשן
+      transliteration: vashn
+    ir:
+      yiddish: וואַשט
+      transliteration: vasht
+    zey:
+      yiddish: וואַשן
+      transliteration: vashn
+  past_participle:
+    yiddish: געוואַשן
+    transliteration: gevashn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

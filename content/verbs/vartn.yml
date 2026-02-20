@@ -1,0 +1,35 @@
+id: vartn
+categoryId: simple
+lemma:
+  yiddish: וואַרטן
+  transliteration: vartn
+meaning:
+  english: to wait
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: וואַרט
+      transliteration: vart
+    du:
+      yiddish: וואַרטסט
+      transliteration: vartst
+    er_zi_es:
+      yiddish: וואַרט
+      transliteration: vart
+    mir:
+      yiddish: וואַרטן
+      transliteration: vartn
+    ir:
+      yiddish: וואַרט
+      transliteration: vart
+    zey:
+      yiddish: וואַרטן
+      transliteration: vartn
+  past_participle:
+    yiddish: געוואַרט
+    transliteration: gevart
+search:
+  yiddish: []
+  transliteration: []
+  english: []

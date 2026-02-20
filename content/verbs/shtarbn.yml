@@ -1,0 +1,35 @@
+id: shtarbn
+categoryId: simple
+lemma:
+  yiddish: שטאַרבן
+  transliteration: shtarbn
+meaning:
+  english: to die
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: שטאַרב
+      transliteration: shtarb
+    du:
+      yiddish: שטאַרבסט
+      transliteration: shtarbst
+    er_zi_es:
+      yiddish: שטאַרבט
+      transliteration: shtarbt
+    mir:
+      yiddish: שטאַרבן
+      transliteration: shtarbn
+    ir:
+      yiddish: שטאַרבט
+      transliteration: shtarbt
+    zey:
+      yiddish: שטאַרבן
+      transliteration: shtarbn
+  past_participle:
+    yiddish: געשטאָרבן
+    transliteration: geshtorbn
+search:
+  yiddish: []
+  transliteration: []
+  english: []
