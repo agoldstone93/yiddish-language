@@ -1,0 +1,35 @@
+id: aheymkumen
+categoryId: simple
+lemma:
+  yiddish: אַהיימקומען
+  transliteration: aheymkumen
+meaning:
+  english: to come home
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: קום אַהיים
+      transliteration: kum aheym
+    du:
+      yiddish: קומסט אַהיים
+      transliteration: kumst aheym
+    er_zi_es:
+      yiddish: קומט אַהיים
+      transliteration: kumt aheym
+    mir:
+      yiddish: קומען אַהיים
+      transliteration: kumen aheym
+    ir:
+      yiddish: קומט אַהיים
+      transliteration: kumt aheym
+    zey:
+      yiddish: קומען אַהיים
+      transliteration: kumen aheym
+  past_participle:
+    yiddish: אַהיימגעקומען
+    transliteration: aheymgekumen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: ariberforn
+categoryId: simple
+lemma:
+  yiddish: אַריבערפֿאָרן
+  transliteration: ariberforn
+meaning:
+  english: to move
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאָר אַריבער
+      transliteration: for ariber
+    du:
+      yiddish: פֿאָרסט אַריבער
+      transliteration: forst ariber
+    er_zi_es:
+      yiddish: פֿאָרט אַריבער
+      transliteration: fort ariber
+    mir:
+      yiddish: פֿאָרן אַריבער
+      transliteration: forn ariber
+    ir:
+      yiddish: פֿאָרט אַריבער
+      transliteration: fort ariber
+    zey:
+      yiddish: פֿאָרן אַריבער
+      transliteration: forn ariber
+  past_participle:
+    yiddish: אַריבערגעפֿאָרן
+    transliteration: aribergeforn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

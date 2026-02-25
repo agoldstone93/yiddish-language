@@ -1,0 +1,35 @@
+id: farshteln-zikh
+categoryId: reflexive
+lemma:
+  yiddish: פֿאַרשטעלן זיך
+  transliteration: farshteln zikh
+meaning:
+  english: to dress up
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרשטעל זיך
+      transliteration: farshtel zikh
+    du:
+      yiddish: פֿאַרשטעלסט זיך
+      transliteration: farshtelst zikh
+    er_zi_es:
+      yiddish: פֿאַרשטעלט זיך
+      transliteration: farshtelt zikh
+    mir:
+      yiddish: פֿאַרשטעלן זיך
+      transliteration: farshteln zikh
+    ir:
+      yiddish: פֿאַרשטעלט זיך
+      transliteration: farshtelt zikh
+    zey:
+      yiddish: פֿאַרשטעלן זיך
+      transliteration: farshteln zikh
+  past_participle:
+    yiddish: פֿאַרשטעלט זיך
+    transliteration: farshtelt zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

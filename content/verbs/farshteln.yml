@@ -1,0 +1,35 @@
+id: farshteln
+categoryId: simple
+lemma:
+  yiddish: פֿאַרשטעלן
+  transliteration: farshteln
+meaning:
+  english: to cover
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרשטעל
+      transliteration: farshtel
+    du:
+      yiddish: פֿאַרשטעלסט
+      transliteration: farshtelst
+    er_zi_es:
+      yiddish: פֿאַרשטעלט
+      transliteration: farshtelt
+    mir:
+      yiddish: פֿאַרשטעלן
+      transliteration: farshteln
+    ir:
+      yiddish: פֿאַרשטעלט
+      transliteration: farshtelt
+    zey:
+      yiddish: פֿאַרשטעלן
+      transliteration: farshteln
+  past_participle:
+    yiddish: פֿאַרשטעלט
+    transliteration: farshtelt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
