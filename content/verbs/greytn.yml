@@ -1,0 +1,35 @@
+id: greytn
+categoryId: simple
+lemma:
+  yiddish: גרייטן
+  transliteration: greytn
+meaning:
+  english: to prepare
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: גרייט
+      transliteration: greyt
+    du:
+      yiddish: גרייטסט
+      transliteration: greyst
+    er_zi_es:
+      yiddish: גרייט
+      transliteration: greyt
+    mir:
+      yiddish: גרייטן
+      transliteration: greytn
+    ir:
+      yiddish: גרייט
+      transliteration: greyt
+    zey:
+      yiddish: גרייטן
+      transliteration: greytn
+  past_participle:
+    yiddish: געגרייט
+    transliteration: gegreyt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
