@@ -1,0 +1,35 @@
+id: boyern
+categoryId: simple
+lemma:
+  yiddish: בויערן
+  transliteration: boyern
+meaning:
+  english: to pierce
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בויער
+      transliteration: boyer
+    du:
+      yiddish: בויערסט
+      transliteration: boyerst
+    er_zi_es:
+      yiddish: בויערט
+      transliteration: boyert
+    mir:
+      yiddish: בויערן
+      transliteration: boyern
+    ir:
+      yiddish: בויערט
+      transliteration: boyert
+    zey:
+      yiddish: בויערן
+      transliteration: boyern
+  past_participle:
+    yiddish: געבויערט
+    transliteration: geboyert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

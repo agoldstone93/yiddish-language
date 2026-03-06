@@ -1,0 +1,35 @@
+id: betn
+categoryId: simple
+lemma:
+  yiddish: בעטן
+  transliteration: betn
+meaning:
+  english: to ask, to request, to pray
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בעט
+      transliteration: bet
+    du:
+      yiddish: בעטסט
+      transliteration: betst
+    er_zi_es:
+      yiddish: בעט
+      transliteration: bet
+    mir:
+      yiddish: בעטן
+      transliteration: betn
+    ir:
+      yiddish: בעט
+      transliteration: bet
+    zey:
+      yiddish: בעטן
+      transliteration: betn
+  past_participle:
+    yiddish: געבעטן
+    transliteration: gebetn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

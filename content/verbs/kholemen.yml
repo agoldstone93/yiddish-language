@@ -1,0 +1,35 @@
+id: kholemen
+categoryId: simple
+lemma:
+  yiddish: חלומען
+  transliteration: kholemen
+meaning:
+  english: to dream
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: חלום
+      transliteration: kholem
+    du:
+      yiddish: חלומסט
+      transliteration: kholemst
+    er_zi_es:
+      yiddish: חלומט
+      transliteration: kholemt
+    mir:
+      yiddish: חלומען
+      transliteration: kholemen
+    ir:
+      yiddish: חלומט
+      transliteration: kholemt
+    zey:
+      yiddish: חלומען
+      transliteration: kholemen
+  past_participle:
+    yiddish: געהאלומט
+    transliteration: gekholemt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

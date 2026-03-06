@@ -1,0 +1,35 @@
+id: derhern-zikh
+categoryId: reflexive
+lemma:
+  yiddish: דערהערן זיך
+  transliteration: derhern zikh
+meaning:
+  english: to be heard
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דערהער זיך
+      transliteration: derher zikh
+    du:
+      yiddish: דערהערט זיך
+      transliteration: derhert zikh
+    er_zi_es:
+      yiddish: דערהערט זיך
+      transliteration: derhert zikh
+    mir:
+      yiddish: דערהערן זיך
+      transliteration: derhern zikh
+    ir:
+      yiddish: דערהערט זיך
+      transliteration: derhert zikh
+    zey:
+      yiddish: דערהערן זיך
+      transliteration: derhern zikh
+  past_participle:
+    yiddish: דערהערט זיך
+    transliteration: derhert zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

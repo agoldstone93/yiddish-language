@@ -1,0 +1,35 @@
+id: dermonen-zikh
+categoryId: reflexive
+lemma:
+  yiddish: דערמאָנען זיך
+  transliteration: dermonen zikh
+meaning:
+  english: to remind oneself
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דערמאָן זיך
+      transliteration: dermon zikh
+    du:
+      yiddish: דערמאָנסט זיך
+      transliteration: dermonst zikh
+    er_zi_es:
+      yiddish: דערמאָנט זיך
+      transliteration: dermont zikh
+    mir:
+      yiddish: דערמאָנען זיך
+      transliteration: dermonen zikh
+    ir:
+      yiddish: דערמאָנט זיך
+      transliteration: dermont zikh
+    zey:
+      yiddish: דערמאָנען זיך
+      transliteration: dermonen zikh
+  past_participle:
+    yiddish: דערמאָנט זיך
+    transliteration: dermont zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

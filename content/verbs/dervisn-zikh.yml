@@ -1,0 +1,35 @@
+id: dervisn-zikh
+categoryId: reflexive
+lemma:
+  yiddish: דערוויסן זיך
+  transliteration: dervisn zikh
+meaning:
+  english: to find out
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דערוויס זיך
+      transliteration: dervis zikh
+    du:
+      yiddish: דערוויסט זיך
+      transliteration: dervist zikh
+    er_zi_es:
+      yiddish: דערוויסט זיך
+      transliteration: dervist zikh
+    mir:
+      yiddish: דערוויסן זיך
+      transliteration: dervisn zikh
+    ir:
+      yiddish: דערוויסט זיך
+      transliteration: dervist zikh
+    zey:
+      yiddish: דערוויסן זיך
+      transliteration: dervisn zikh
+  past_participle:
+    yiddish: דערוווּסט זיך
+    transliteration: dervust zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

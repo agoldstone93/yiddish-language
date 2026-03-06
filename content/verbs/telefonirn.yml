@@ -1,0 +1,35 @@
+id: telefonirn
+categoryId: simple
+lemma:
+  yiddish: טעלעפֿאָנירן
+  transliteration: telefonirn
+meaning:
+  english: to telephone
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טעלעפֿאָניר
+      transliteration: telefonir
+    du:
+      yiddish: טעלעפֿאָנירסט
+      transliteration: telefonirst
+    er_zi_es:
+      yiddish: טעלעפֿאָנירט
+      transliteration: telefonirt
+    mir:
+      yiddish: טעלעפֿאָנירן
+      transliteration: telefonirn
+    ir:
+      yiddish: טעלעפֿאָנירט
+      transliteration: telefonirt
+    zey:
+      yiddish: טעלעפֿאָנירן
+      transliteration: telefonirn
+  past_participle:
+    yiddish: טעלעפֿאָנירט
+    transliteration: telefonirt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

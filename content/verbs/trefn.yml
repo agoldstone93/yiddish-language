@@ -1,0 +1,35 @@
+id: trefn
+categoryId: simple
+lemma:
+  yiddish: טרעפֿן
+  transliteration: trefn
+meaning:
+  english: to meet
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טרעף
+      transliteration: tref
+    du:
+      yiddish: טרעפֿסט
+      transliteration: trefst
+    er_zi_es:
+      yiddish: טרעפֿט
+      transliteration: treft
+    mir:
+      yiddish: טרעפֿן
+      transliteration: trefn
+    ir:
+      yiddish: טרעפֿט
+      transliteration: treft
+    zey:
+      yiddish: טרעפֿן
+      transliteration: trefn
+  past_participle:
+    yiddish: געטראָפֿן
+    transliteration: getrofn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: ayln-zikh
+categoryId: reflexive
+lemma:
+  yiddish: אַײַלן זיך
+  transliteration: ayln zikh
+meaning:
+  english: to hurry, to rush
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: אַײַל זיך
+      transliteration: ayl zikh
+    du:
+      yiddish: אַײַלסט זיך
+      transliteration: aylst zikh
+    er_zi_es:
+      yiddish: אַײַלט זיך
+      transliteration: aylt zikh
+    mir:
+      yiddish: אַײַלן זיך
+      transliteration: ayln zikh
+    ir:
+      yiddish: אַײַלט זיך
+      transliteration: aylt zikh
+    zey:
+      yiddish: אַײַלן זיך
+      transliteration: ayln zikh
+  past_participle:
+    yiddish: געאַײַלט זיך
+    transliteration: geaylt zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

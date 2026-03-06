@@ -1,0 +1,35 @@
+id: hofn
+categoryId: simple
+lemma:
+  yiddish: האָפֿן
+  transliteration: hofn
+meaning:
+  english: to hope
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: האָף
+      transliteration: hof
+    du:
+      yiddish: האָפֿסט
+      transliteration: hofst
+    er_zi_es:
+      yiddish: האָפֿט
+      transliteration: hoft
+    mir:
+      yiddish: האָפֿן
+      transliteration: hofn
+    ir:
+      yiddish: האָפֿט
+      transliteration: hoft
+    zey:
+      yiddish: האָפֿן
+      transliteration: hofn
+  past_participle:
+    yiddish: געהאָפֿט
+    transliteration: gehoft
+search:
+  yiddish: []
+  transliteration: []
+  english: []

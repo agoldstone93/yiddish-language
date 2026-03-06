@@ -1,0 +1,35 @@
+id: trefn-zikh
+categoryId: reflexive
+lemma:
+  yiddish: טרעפֿן זיך
+  transliteration: trefn zikh
+meaning:
+  english: to meet each other
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טרעף זיך
+      transliteration: tref zikh
+    du:
+      yiddish: טרעפֿסט זיך
+      transliteration: trefst zikh
+    er_zi_es:
+      yiddish: טרעפֿט זיך
+      transliteration: treft zikh
+    mir:
+      yiddish: טרעפֿן זיך
+      transliteration: trefn zikh
+    ir:
+      yiddish: טרעפֿט זיך
+      transliteration: treft zikh
+    zey:
+      yiddish: טרעפֿן זיך
+      transliteration: trefn zikh
+  past_participle:
+    yiddish: געטראָפֿן זיך
+    transliteration: getrofn zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []
