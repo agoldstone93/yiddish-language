@@ -42,6 +42,9 @@ export default function VerbsPage({ verbs }: InferGetStaticPropsType<typeof getS
       <Head>
         <title>All Verbs - LoshnLab</title>
         <meta name="description" content="Browse all Yiddish verbs in the LoshnLab conjugator" />
+        <meta property="og:title" content="LoshnLab - All Yiddish Verbs" />
+        <meta property="og:description" content="Browse all Yiddish verbs in the LoshnLab conjugator" />
+        <meta property="og:url" content="https://loshnlab.com/verbs" />
       </Head>
       <div className="mx-auto max-w-3xl space-y-6 px-4 py-8">
         <div className="space-y-2">

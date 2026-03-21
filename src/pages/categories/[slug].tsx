@@ -5,6 +5,7 @@ import Head from "next/head";
 import StaticPageLayout from "@/components/StaticPageLayout";
 import { getAllCategories, getCategory } from "@/lib/categories";
 import { GetStaticPaths, GetStaticProps } from "next";
+import { usePathname } from 'next/navigation'
 
 type CategoryPageProps = {
 	category: {
@@ -64,6 +65,9 @@ export default function CategoryPage({ category }: CategoryPageProps) {
 			<Head>
 				<title>{`${category.name} - LoshnLab`}</title>
 				<meta name="description" content={`Learn about ${category.name} in Yiddish - conjugation guide with examples`} />
+				<meta property="og:title" content={`LoshnLab - ${category.name}`} />
+				<meta property="og:description" content={`Learn about ${category.name} in Yiddish - conjugation guide with examples`} />
+				<meta property="og:url" content={`https://loshnlab.com${usePathname()}`} />
 			</Head>
 			<StaticPageLayout
 				title={category.name}

@@ -14,6 +14,9 @@ export default function Home({ verbs }: { verbs: Verb[] }) {
       <Head>
         <title>LoshnLab - Yiddish Verb Conjugator</title>
         <meta name="description" content="Free Yiddish verb conjugator with search by Yiddish, transliteration, or English. Explore conjugations, tenses, and examples." />
+        <meta property="og:title" content="LoshnLab - Yiddish learning resource and verb conjugator" />
+        <meta property="og:description" content="Free Yiddish verb conjugator with search by Yiddish, transliteration, or English. Explore conjugations, tenses, and examples." />
+        <meta property="og:url" content="https://loshnlab.com/" />
       </Head>
       <div className="mx-auto flex md:min-h-[80vh] min-h-[30vh] w-full max-w-3xl flex-col justify-center">
         <div className="space-y-6">

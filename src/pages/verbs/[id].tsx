@@ -69,6 +69,9 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
       <Head>
         <title>{`${title} - LoshnLab`}</title>
         <meta name="description" content={description} />
+        <meta property="og:title" content={`LoshnLab - ${title}`} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={`https://loshnlab.com/verbs/${verb.id}`} />
       </Head>
       <div className="max-w-3xl mx-auto space-y-6">
         <VerbSearch verbs={verbs} activeVerbId={verb.id}/>
