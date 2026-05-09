@@ -1,0 +1,35 @@
+id: shlayfn
+categoryId: simple
+lemma:
+  yiddish: שלײַפֿן
+  transliteration: shlayfn
+meaning:
+  english: to hone
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שלײַף
+      transliteration: shlayf
+    du:
+      yiddish: שלײַפֿסט
+      transliteration: shlayfst
+    er_zi_es:
+      yiddish: שלײַפֿט
+      transliteration: shlayft
+    mir:
+      yiddish: שלײַפֿן
+      transliteration: shlayfn
+    ir:
+      yiddish: שלײַפֿט
+      transliteration: shlayft
+    zey:
+      yiddish: שלײַפֿן
+      transliteration: shlayfn
+  past_participle:
+    yiddish: געשליפֿן
+    transliteration: geshlifn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

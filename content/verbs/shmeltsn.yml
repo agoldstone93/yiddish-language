@@ -1,0 +1,35 @@
+id: shmeltsn
+categoryId: simple
+lemma:
+  yiddish: שמעלצן
+  transliteration: shmeltsn
+meaning:
+  english: to melt
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שמעלץ
+      transliteration: shmelts
+    du:
+      yiddish: שמעלצסט
+      transliteration: shmeltsst
+    er_zi_es:
+      yiddish: שמעלצט
+      transliteration: shmeltst
+    mir:
+      yiddish: שמעלצן
+      transliteration: shmeltsn
+    ir:
+      yiddish: שמעלצט
+      transliteration: shmeltst
+    zey:
+      yiddish: שמעלצן
+      transliteration: shmeltsn
+  past_participle:
+    yiddish: געשמאָלצן
+    transliteration: geshmoltsn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

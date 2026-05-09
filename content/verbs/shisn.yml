@@ -1,0 +1,35 @@
+id: shisn
+categoryId: simple
+lemma:
+  yiddish: שיסן
+  transliteration: shisn
+meaning:
+  english: to shoot
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שיס
+      transliteration: shis
+    du:
+      yiddish: שיסט
+      transliteration: shist
+    er_zi_es:
+      yiddish: שיסט
+      transliteration: shist
+    mir:
+      yiddish: שיסן
+      transliteration: shisn
+    ir:
+      yiddish: שיסט
+      transliteration: shist
+    zey:
+      yiddish: שיסן
+      transliteration: shisn
+  past_participle:
+    yiddish: געשאָסן
+    transliteration: geshosn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

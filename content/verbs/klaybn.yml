@@ -1,0 +1,35 @@
+id: klaybn
+categoryId: simple
+lemma:
+  yiddish: קלײַבן
+  transliteration: klaybn
+meaning:
+  english: to choose
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קלײַב
+      transliteration: klayb
+    du:
+      yiddish: קלײַבסט
+      transliteration: klaybst
+    er_zi_es:
+      yiddish: קלײַבט
+      transliteration: klaybt
+    mir:
+      yiddish: קלײַבן
+      transliteration: klaybn
+    ir:
+      yiddish: קלײַבט
+      transliteration: klaybt
+    zey:
+      yiddish: קלײַבן
+      transliteration: klaybn
+  past_participle:
+    yiddish: געקלײַבן
+    transliteration: geklaybn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

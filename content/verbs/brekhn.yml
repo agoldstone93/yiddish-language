@@ -1,0 +1,35 @@
+id: brekhn
+categoryId: simple
+lemma:
+  yiddish: ברעכן
+  transliteration: brekhn
+meaning:
+  english: to break
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ברעך
+      transliteration: brekh
+    du:
+      yiddish: ברעכסט
+      transliteration: brekhst
+    er_zi_es:
+      yiddish: ברעכט
+      transliteration: brekht
+    mir:
+      yiddish: ברעכן
+      transliteration: brekhn
+    ir:
+      yiddish: ברעכט
+      transliteration: brekht
+    zey:
+      yiddish: ברעכן
+      transliteration: brekhn
+  past_participle:
+    yiddish: געבראָכן
+    transliteration: gebrokhn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

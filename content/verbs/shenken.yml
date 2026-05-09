@@ -1,0 +1,35 @@
+id: shenken
+categoryId: simple
+lemma:
+  yiddish: שענקען
+  transliteration: shenken
+meaning:
+  english: to give
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שענק
+      transliteration: shenk
+    du:
+      yiddish: שענקסט
+      transliteration: shenkst
+    er_zi_es:
+      yiddish: שענקט
+      transliteration: shenkt
+    mir:
+      yiddish: שענקען
+      transliteration: shenken
+    ir:
+      yiddish: שענקט
+      transliteration: shenkt
+    zey:
+      yiddish: שענקען
+      transliteration: shenken
+  past_participle:
+    yiddish: געשאָנקען
+    transliteration: geshonken
+search:
+  yiddish: []
+  transliteration: []
+  english: []

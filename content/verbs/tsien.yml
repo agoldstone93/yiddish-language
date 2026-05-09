@@ -1,0 +1,35 @@
+id: tsien
+categoryId: simple
+lemma:
+  yiddish: ציִען
+  transliteration: tsien
+meaning:
+  english: to pull
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: צי
+      transliteration: tsi
+    du:
+      yiddish: ציסט
+      transliteration: tsist
+    er_zi_es:
+      yiddish: ציט
+      transliteration: tsit
+    mir:
+      yiddish: ציִען
+      transliteration: tsien
+    ir:
+      yiddish: ציט
+      transliteration: tsit
+    zey:
+      yiddish: ציִען
+      transliteration: tsien
+  past_participle:
+    yiddish: געצויגן
+    transliteration: getsoygn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

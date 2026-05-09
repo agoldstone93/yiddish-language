@@ -1,0 +1,35 @@
+id: shern
+categoryId: simple
+lemma:
+  yiddish: שערן
+  transliteration: shern
+meaning:
+  english: to cut
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שער
+      transliteration: sher
+    du:
+      yiddish: שערסט
+      transliteration: sherst
+    er_zi_es:
+      yiddish: שערט
+      transliteration: shert
+    mir:
+      yiddish: שערן
+      transliteration: shern
+    ir:
+      yiddish: שערט
+      transliteration: shert
+    zey:
+      yiddish: שערן
+      transliteration: shern
+  past_participle:
+    yiddish: געשוירן
+    transliteration: geshoyrn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

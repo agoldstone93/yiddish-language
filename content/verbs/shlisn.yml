@@ -1,0 +1,35 @@
+id: shlisn
+categoryId: simple
+lemma:
+  yiddish: שליסן
+  transliteration: shlisn
+meaning:
+  english: to close, to lock
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שליס
+      transliteration: shlis
+    du:
+      yiddish: שליסט
+      transliteration: shlist
+    er_zi_es:
+      yiddish: שליסט
+      transliteration: shlist
+    mir:
+      yiddish: שליסן
+      transliteration: shlisn
+    ir:
+      yiddish: שליסט
+      transliteration: shlist
+    zey:
+      yiddish: שליסן
+      transliteration: shlisn
+  past_participle:
+    yiddish: געשלאָסן
+    transliteration: geshlosn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

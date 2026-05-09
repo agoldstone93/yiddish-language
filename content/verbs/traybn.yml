@@ -1,0 +1,35 @@
+id: traybn
+categoryId: simple
+lemma:
+  yiddish: טרײַבן
+  transliteration: traybn
+meaning:
+  english: to drive
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טרײַב
+      transliteration: trayb
+    du:
+      yiddish: טרײַבסט
+      transliteration: traybst
+    er_zi_es:
+      yiddish: טרײַבט
+      transliteration: traybt
+    mir:
+      yiddish: טרײַבן
+      transliteration: traybn
+    ir:
+      yiddish: טרײַבט
+      transliteration: traybt
+    zey:
+      yiddish: טרײַבן
+      transliteration: traybn
+  past_participle:
+    yiddish: געטריבן
+    transliteration: getribn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

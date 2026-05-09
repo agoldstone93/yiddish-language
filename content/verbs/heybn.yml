@@ -1,0 +1,35 @@
+id: heybn
+categoryId: simple
+lemma:
+  yiddish: הייבן
+  transliteration: heybn
+meaning:
+  english: to lift
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: הייב
+      transliteration: heyb
+    du:
+      yiddish: הייבסט
+      transliteration: heybst
+    er_zi_es:
+      yiddish: הייבט
+      transliteration: heybt
+    mir:
+      yiddish: הייבן
+      transliteration: heybn
+    ir:
+      yiddish: הייבט
+      transliteration: heybt
+    zey:
+      yiddish: הייבן
+      transliteration: heybn
+  past_participle:
+    yiddish: געהויבן
+    transliteration: gehoybn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

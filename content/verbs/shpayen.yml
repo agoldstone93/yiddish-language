@@ -1,0 +1,35 @@
+id: shpayen
+categoryId: simple
+lemma:
+  yiddish: שפּײַען
+  transliteration: shpayen
+meaning:
+  english: to spit
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שפּײַ
+      transliteration: shpay
+    du:
+      yiddish: שפּײַסט
+      transliteration: shpayst
+    er_zi_es:
+      yiddish: שפּײַט
+      transliteration: shpayt
+    mir:
+      yiddish: שפּײַען
+      transliteration: shpayen
+    ir:
+      yiddish: שפּײַט
+      transliteration: shpayt
+    zey:
+      yiddish: שפּײַען
+      transliteration: shpayen
+  past_participle:
+    yiddish: געשפּיגן
+    transliteration: geshpign
+search:
+  yiddish: []
+  transliteration: []
+  english: []

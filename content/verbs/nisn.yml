@@ -1,0 +1,35 @@
+id: nisn
+categoryId: simple
+lemma:
+  yiddish: ניסן
+  transliteration: nisn
+meaning:
+  english: to sneeze
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ניס
+      transliteration: nis
+    du:
+      yiddish: ניסט
+      transliteration: nist
+    er_zi_es:
+      yiddish: ניסט
+      transliteration: nist
+    mir:
+      yiddish: ניסן
+      transliteration: nisn
+    ir:
+      yiddish: ניסט
+      transliteration: nist
+    zey:
+      yiddish: ניסן
+      transliteration: nisn
+  past_participle:
+    yiddish: גענאָסן
+    transliteration: genosn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

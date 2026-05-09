@@ -1,0 +1,35 @@
+id: gelingen
+categoryId: simple
+lemma:
+  yiddish: געלינגען
+  transliteration: gelingen
+meaning:
+  english: to succeed
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: געלינג
+      transliteration: geling
+    du:
+      yiddish: געלינגסט
+      transliteration: gelingst
+    er_zi_es:
+      yiddish: געלינגט
+      transliteration: gelingt
+    mir:
+      yiddish: געלינגען
+      transliteration: gelingen
+    ir:
+      yiddish: געלינגט
+      transliteration: gelingt
+    zey:
+      yiddish: געלינגען
+      transliteration: gelingen
+  past_participle:
+    yiddish: געלונגען
+    transliteration: gelungen
+search:
+  yiddish: []
+  transliteration: []
+  english: []
