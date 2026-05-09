@@ -1,16 +1,16 @@
 import { useCombobox } from 'downshift';
 import { useRouter } from 'next/router';
 import { startTransition, useCallback, useEffect, useMemo, useState } from 'react';
-import type { Verb } from '@/types/verb';
+import { SearchEntry } from '@/lib/searchIndex';
 
 export type VerbSearchProps = {
-  verbs: Verb[];
+  verbs: SearchEntry[];
   placeholder?: string;
   maxResults?: number;
   className?: string;
   inputClassName?: string;
   menuClassName?: string;
-  onSelect?: (verb: Verb) => void;
+  onSelect?: (verb: SearchEntry) => void;
   activeVerbId?: string;
 };
 
@@ -54,26 +54,19 @@ export function VerbSearch({
 
   const matches = useMemo(() => {
     const needle = normalizeForSearch(inputValue);
-    if (!needle) {
-      return [];
-    }
+    if (!needle) return [];
+
     return verbs
-      .filter((entry) => {
-        const haystack = [
-          entry.lemma?.yiddish,
-          entry.lemma?.transliteration,
-          entry.meaning?.english,
-          ...(entry.search?.yiddish ?? []),
-          ...(entry.search?.transliteration ?? []),
-          ...(entry.search?.english ?? []),
-        ].filter((value): value is string => Boolean(value));
-        return haystack.some((value) => normalizeForSearch(value).includes(needle));
-      })
+      .filter((entry) =>
+        entry.searchTerms.some((value) =>
+          normalizeForSearch(value).includes(needle)
+        )
+      )
       .slice(0, maxResults);
   }, [inputValue, maxResults, verbs]);
 
   const handleSelect = useCallback(
-    (selected: Verb | null | undefined) => {
+    (selected: SearchEntry | null | undefined) => {
       if (!selected) {
         return;
       }
@@ -88,13 +81,13 @@ export function VerbSearch({
   );
 
   const { getInputProps, getItemProps, getMenuProps, highlightedIndex, isOpen } =
-    useCombobox<Verb>({
+    useCombobox<SearchEntry>({
       inputValue,
       items: matches,
       // We control input updates via the input's onChange to respect IME composition
       onSelectedItemChange: ({ selectedItem }) => handleSelect(selectedItem),
       itemToString: (item) =>
-        item ? `${item.lemma.yiddish} — ${item.lemma.transliteration}` : '',
+        item ? `${item.yiddish} — ${item.transliteration}` : '',
     });
 
   useEffect(() => {
@@ -149,11 +142,11 @@ export function VerbSearch({
             {...getItemProps({ item: entry, index })}
           >
             <div className="text-base font-medium">
-              {entry.lemma.yiddish} — {entry.meaning.english}
+              {entry.yiddish} — {entry.english[0] ?? ""}
             </div>
-            {entry.meaning?.english && (
-              <div className="text-xs text-gray-600 dark:text-gray-400">{entry.lemma.transliteration}</div>
-            )}
+            <div className="text-xs text-gray-600 dark:text-gray-400">
+              {entry.transliteration}
+            </div>
           </li>
         ))}
         {showMenu && matches.length === 0 && (

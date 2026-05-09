@@ -9,6 +9,8 @@ import { getConditionalForms } from '@/lib/grammar/conditional';
 import { getImperativeForms } from '@/lib/grammar/imperative';
 import { TenseBox } from '@/components/TenseBox';
 import { VerbSearch } from '@/components/VerbSearch';
+import { getAllVerbs } from "@/lib/verbs";
+import { buildVerbSearchIndex, type SearchEntry } from "@/lib/searchIndex";
 
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 import { getCategory, renderCategoryContent } from '@/lib/categories';
@@ -29,7 +31,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 type CategoryData = { name: string; contentHtml: string } | null;
 
-export const getStaticProps: GetStaticProps<{ verb: Verb; verbs: Verb[]; category: CategoryData }> = async ({ params }) => {
+export const getStaticProps: GetStaticProps<{
+  verb: Verb;
+  verbs: SearchEntry[];
+  category: CategoryData
+}> = async ({ params }) => {
   const id = params?.id as string;
   const verbsDir = path.join(process.cwd(), 'content/verbs');
   const filePath = path.join(verbsDir, `${id}.yml`);
@@ -38,11 +44,7 @@ export const getStaticProps: GetStaticProps<{ verb: Verb; verbs: Verb[]; categor
     fs.readFileSync(filePath, 'utf8')
   ) as Verb;
 
-  const verbs = fs
-    .readdirSync(verbsDir)
-    .map((file) =>
-      yaml.load(fs.readFileSync(path.join(verbsDir, file), 'utf8')) as Verb
-    );
+  const verbs = buildVerbSearchIndex(getAllVerbs());
 
   let category: CategoryData = null;
   if (content.categoryId) {
