@@ -1,0 +1,35 @@
+id: shmuesn
+categoryId: simple
+lemma:
+  yiddish: שמועסן
+  transliteration: shmuesn
+meaning:
+  english: to talk, to chat
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שמועס
+      transliteration: shmues
+    du:
+      yiddish: שמועסט
+      transliteration: shmuest
+    er_zi_es:
+      yiddish: שמועסט
+      transliteration: shmuest
+    mir:
+      yiddish: שמועסן
+      transliteration: shmuesn
+    ir:
+      yiddish: שמועסט
+      transliteration: shmuest
+    zey:
+      yiddish: שמועסן
+      transliteration: shmuesn
+  past_participle:
+    yiddish: געשמועסט
+    transliteration: geshmuest
+search:
+  yiddish: []
+  transliteration: []
+  english: []
