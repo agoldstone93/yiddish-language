@@ -18,6 +18,9 @@ export default function App({ Component, pageProps }: AppProps) {
     asPath.includes("#invite_token=") ||
     asPath.includes("#recovery_token=");
 
+  const enableAnalytics = process.env.NEXT_PUBLIC_ENABLE_ANALYTICS === "true";
+  const shouldTrackPage = !asPath.startsWith("/admin");
+
   function attachIdentityHandlers() {
     if (handlersAttachedRef.current) return;
 
@@ -71,6 +74,14 @@ export default function App({ Component, pageProps }: AppProps) {
           initIdentityIfPresent();
         }}
       />
+
+      {enableAnalytics && shouldTrackPage && (
+        <Script
+          data-goatcounter="https://adamgoldstone.goatcounter.com/count"
+          src="//gc.zgo.at/count.js"
+          strategy="afterInteractive"
+        />
+      )}
 
       {showConfirmingOverlay && (
         <div

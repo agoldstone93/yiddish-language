@@ -1,2 +1,11 @@
 [build]
   command = "npm run test:run && npm run build"
+
+[context.production.environment]
+  NEXT_PUBLIC_ENABLE_ANALYTICS = "true"
+
+[context.deploy-preview.environment]
+  NEXT_PUBLIC_ENABLE_ANALYTICS = "false"
+
+[context.branch-deploy.environment]
+  NEXT_PUBLIC_ENABLE_ANALYTICS = "false"
