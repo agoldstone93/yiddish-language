@@ -62,7 +62,7 @@ export const getStaticProps: GetStaticProps<{
 
 export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsType<typeof getStaticProps>) {
   const title = `${verb.lemma.yiddish} (${verb.lemma.transliteration})`;
-  const description = verb.meaning?.english 
+  const description = verb.meaning?.english
     ? `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) - "${verb.meaning.english}" in Yiddish. View all tenses and forms.`
     : `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) in Yiddish. View all tenses and forms.`;
 
@@ -76,95 +76,95 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
         <meta property="og:url" content={`https://loshnlab.com/verbs/${verb.id}`} />
       </Head>
       <div className="max-w-3xl mx-auto space-y-6">
-        <VerbSearch verbs={verbs} activeVerbId={verb.id}/>
+        <VerbSearch verbs={verbs} activeVerbId={verb.id} />
 
-      {/* Lemma */}
-      <h1 className="text-3xl font-bold text-center space-y-0 mb-0">
-        {verb.lemma.yiddish}
-      </h1>
+        {/* Lemma */}
+        <h1 className="text-3xl font-bold text-center space-y-0 mb-0">
+          {verb.lemma.yiddish}
+        </h1>
 
-      <p className="text-center text-gray-600 dark:text-gray-400">
-        ({verb.lemma.transliteration})
-      </p>
+        <p className="text-center text-gray-600 dark:text-gray-400">
+          ({verb.lemma.transliteration})
+        </p>
 
-      {/* Metadata */}
-      <div className="text-center text-gray-600 dark:text-gray-400">
-        {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
-        {verb.categoryId && <div><strong>Category:</strong> {verb.categoryId}</div>}
-      </div>
+        {/* Metadata */}
+        <div className="text-center text-gray-600 dark:text-gray-400">
+          {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
+          {verb.categoryId && <div><strong>Category:</strong> {verb.categoryId}</div>}
+        </div>
 
-      {/* Category Explainer */}
-      {category && (
-        <details className="border rounded p-4 shadow-sm">
-          <summary className="cursor-pointer font-semibold text-lg">
-            About {category.name}
-          </summary>
-          <div 
-            className="mt-4 prose dark:prose-invert max-w-none"
-            dangerouslySetInnerHTML={{ __html: category.contentHtml }}
-          />
-        </details>
-      )}
-
-      {verb.conjugation && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Present */}
-          <TenseBox
-            title="Present"
-            forms={verb.conjugation.present}
-          />
-
-        {/* Past (derived) */}
-        {(() => {
-          const past = getPastForms(verb);
-          return past ? <TenseBox title="Past" forms={past} /> : null;
-        })()}
-
-        {/* Future (derived) */}
-        {(() => {
-          const future = getFutureForms(verb);
-          return <TenseBox title="Future" forms={future} />;
-        })()}
-
-
-        {/* Conditional (derived) */}
-        {(() => {
-          const conditional = getConditionalForms(verb);
-          return conditional ? (
-            <TenseBox title="Conditional" forms={conditional} />
-          ) : null;
-        })()}
-
-
-        {/* Imperative (derived) */}
-        {(() => {
-          const imp = getImperativeForms(verb);
-          return imp ? (
-            <TenseBox
-              title="Imperative"
-              forms={imp}
-              labelOverrides={{
-                du: <i>singular:</i>,
-                ir: <i>plural:</i>,
-              }}
+        {/* Category Explainer */}
+        {category && (
+          <details className="border rounded p-4 shadow-sm">
+            <summary className="cursor-pointer font-semibold text-lg">
+              About {category.name}
+            </summary>
+            <div
+              className="mt-4 prose dark:prose-invert max-w-none"
+              dangerouslySetInnerHTML={{ __html: category.contentHtml }}
             />
-          ) : null;
-        })()}
-        </div>
-      )}
+          </details>
+        )}
+
+        {verb.conjugation && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {/* Present */}
+            <TenseBox
+              title="Present"
+              forms={verb.conjugation.present}
+            />
+
+            {/* Past (derived) */}
+            {(() => {
+              const past = getPastForms(verb);
+              return past ? <TenseBox title="Past" forms={past} /> : null;
+            })()}
+
+            {/* Future (derived) */}
+            {(() => {
+              const future = getFutureForms(verb);
+              return <TenseBox title="Future" forms={future} />;
+            })()}
+
+
+            {/* Conditional (derived) */}
+            {(() => {
+              const conditional = getConditionalForms(verb);
+              return conditional ? (
+                <TenseBox title="Conditional" forms={conditional} />
+              ) : null;
+            })()}
+
+
+            {/* Imperative (derived) */}
+            {(() => {
+              const imp = getImperativeForms(verb);
+              return imp ? (
+                <TenseBox
+                  title="Imperative"
+                  forms={imp}
+                  labelOverrides={{
+                    du: <i>singular:</i>,
+                    ir: <i>plural:</i>,
+                  }}
+                />
+              ) : null;
+            })()}
+          </div>
+        )}
 
 
 
-      {/* Notes */}
-      {verb.notes && verb.notes.length > 0 && (
-        <div className="border rounded p-4 shadow-sm">
-          <ul className="list-disc list-inside">
-            {verb.notes.map((note: string, idx: number) => (
-              <li key={idx}>{note}</li>
-            ))}
-          </ul>
-        </div>
-      )}
+        {/* Notes */}
+        {verb.notes && verb.notes.length > 0 && (
+          <div className="border rounded p-4 shadow-sm">
+            <ul className="list-disc list-inside">
+              {verb.notes.map((note: string, idx: number) => (
+                <li key={idx}>{note}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </>
   );
