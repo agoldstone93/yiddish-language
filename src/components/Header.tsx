@@ -11,6 +11,7 @@ const defaultLeftLinks: NavLink[] = [
   { href: "/", label: "Search" },
   { href: "/about", label: "About" },
   { href: "/guides", label: "Guides" },
+  { href: "/dictionary", label: "Dictionary" },
 ];
 
 const defaultRightLinks: NavLink[] = [
