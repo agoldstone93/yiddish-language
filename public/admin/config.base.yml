@@ -8,6 +8,103 @@ media_folder: public/uploads
 public_folder: /uploads
 
 collections:
+  - name: nouns
+    label: Nouns
+    folder: content/nouns
+    create: true
+    slug: '{{lemma.transliteration}}'
+    format: yaml
+    fields:
+      - label: ID - singular
+        name: id
+        widget: string
+      - label: Lemma
+        name: lemma
+        widget: object
+        fields:
+          - label: Yiddish
+            name: yiddish
+            widget: string
+          - label: Transliteration (YIVO)
+            name: transliteration
+            widget: string
+      - label: Definitions
+        name: senses
+        widget: list
+        summary: "{{fields.english}}"
+        fields:
+          - label: Definition
+            name: english
+            widget: string
+          - label: Number
+            name: number
+            widget: select
+            required: false
+            options:
+              - countable
+              - uncountable
+              - invariant
+              - plural-only
+              - collective
+          - label: Plural
+            name: plural
+            widget: object
+            required: false
+            fields:
+              - label: Yiddish
+                name: yiddish
+                widget: string
+                required: false
+              - label: Transliteration
+                name: transliteration
+                widget: string
+                required: false
+          - label: Notes
+            name: notes
+            widget: list
+            required: false
+      - label: Gender
+        name: gender
+        widget: select
+        options:
+          - masculine
+          - feminine
+          - neuter
+      - label: Plural
+        name: plural
+        widget: object
+        required: false
+        fields:
+          - label: Yiddish
+            name: yiddish
+            widget: string
+            required: false
+          - label: Transliteration
+            name: transliteration
+            widget: string
+            required: false
+      - label: Search
+        name: search
+        widget: object
+        required: false
+        fields:
+          - label: Yiddish
+            name: yiddish
+            widget: list
+            required: false
+          - label: Transliteration
+            name: transliteration
+            widget: list
+            required: false
+          - label: English
+            name: english
+            widget: list
+            required: false
+      - label: Notes
+        name: notes
+        widget: list
+        required: false
+
   - name: verbs
     label: Verbs
     folder: content/verbs
