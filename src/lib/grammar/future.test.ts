@@ -29,6 +29,22 @@ describe('getFutureForms', () => {
       yiddish: 'וועל גיין',
       transliteration: 'vel geyn',
     });
+    expect(forms.du).toEqual({
+      yiddish: 'וועסט גיין',
+      transliteration: 'vest geyn',
+    });
+    expect(forms.er_zi_es).toEqual({
+      yiddish: 'וועט גיין',
+      transliteration: 'vet geyn',
+    });
+    expect(forms.mir).toEqual({
+      yiddish: 'וועלן גיין',
+      transliteration: 'veln geyn',
+    });
+    expect(forms.ir).toEqual({
+      yiddish: 'וועט גיין',
+      transliteration: 'vet geyn',
+    });
     expect(forms.zey).toEqual({
       yiddish: 'וועלן גיין',
       transliteration: 'veln geyn',
@@ -60,7 +76,23 @@ describe('getFutureForms', () => {
       yiddish: 'וועל זיך לרענען',
       transliteration: 'vel zikh lernen',
     });
+    expect(forms.du).toEqual({
+      yiddish: 'וועסט זיך לרענען',
+      transliteration: 'vest zikh lernen',
+    });
+    expect(forms.er_zi_es).toEqual({
+      yiddish: 'וועט זיך לרענען',
+      transliteration: 'vet zikh lernen',
+    });
     expect(forms.mir).toEqual({
+      yiddish: 'וועלן זיך לרענען',
+      transliteration: 'veln zikh lernen',
+    });
+    expect(forms.ir).toEqual({
+      yiddish: 'וועט זיך לרענען',
+      transliteration: 'vet zikh lernen',
+    });
+    expect(forms.zey).toEqual({
       yiddish: 'וועלן זיך לרענען',
       transliteration: 'veln zikh lernen',
     });
@@ -94,6 +126,22 @@ describe('getFutureForms', () => {
     expect(forms.ikh).toEqual({
       yiddish: 'וועל מסכּים זײַן',
       transliteration: 'vel maskem zayn',
+    });
+    expect(forms.du).toEqual({
+      yiddish: 'וועסט מסכּים זײַן',
+      transliteration: 'vest maskem zayn',
+    });
+    expect(forms.er_zi_es).toEqual({
+      yiddish: 'וועט מסכּים זײַן',
+      transliteration: 'vet maskem zayn',
+    });
+    expect(forms.mir).toEqual({
+      yiddish: 'וועלן מסכּים זײַן',
+      transliteration: 'veln maskem zayn',
+    });
+    expect(forms.ir).toEqual({
+      yiddish: 'וועט מסכּים זײַן',
+      transliteration: 'vet maskem zayn',
     });
     expect(forms.zey).toEqual({
       yiddish: 'וועלן מסכּים זײַן',

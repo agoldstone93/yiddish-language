@@ -53,6 +53,22 @@ describe('getConditionalForms', () => {
       yiddish: 'וואָלט געגעסן',
       transliteration: 'volt gegesen',
     });
+    expect(forms!.du).toEqual({
+      yiddish: 'וואָלטסט געגעסן',
+      transliteration: 'voltst gegesen',
+    });
+    expect(forms!.er_zi_es).toEqual({
+      yiddish: 'וואָלט געגעסן',
+      transliteration: 'volt gegesen',
+    });
+    expect(forms!.mir).toEqual({
+      yiddish: 'וואָלטן געגעסן',
+      transliteration: 'voltn gegesen',
+    });
+    expect(forms!.ir).toEqual({
+      yiddish: 'וואָלט געגעסן',
+      transliteration: 'volt gegesen',
+    });
     expect(forms!.zey).toEqual({
       yiddish: 'וואָלטן געגעסן',
       transliteration: 'voltn gegesen',
@@ -82,11 +98,27 @@ describe('getConditionalForms', () => {
     const forms = getConditionalForms(verb);
     expect(forms).not.toBeNull();
 
+    expect(forms!.ikh).toEqual({
+      yiddish: 'וואָלט זיך געלערנט',
+      transliteration: 'volt zikh gelernt',
+    });
     expect(forms!.du).toEqual({
       yiddish: 'וואָלטסט זיך געלערנט',
       transliteration: 'voltst zikh gelernt',
     });
+    expect(forms!.er_zi_es).toEqual({
+      yiddish: 'וואָלט זיך געלערנט',
+      transliteration: 'volt zikh gelernt',
+    });
     expect(forms!.mir).toEqual({
+      yiddish: 'וואָלטן זיך געלערנט',
+      transliteration: 'voltn zikh gelernt',
+    });
+    expect(forms!.ir).toEqual({
+      yiddish: 'וואָלט זיך געלערנט',
+      transliteration: 'volt zikh gelernt',
+    });
+    expect(forms!.zey).toEqual({
       yiddish: 'וואָלטן זיך געלערנט',
       transliteration: 'voltn zikh gelernt',
     });
@@ -119,6 +151,22 @@ describe('getConditionalForms', () => {
     expect(forms).not.toBeNull();
 
     expect(forms!.ikh).toEqual({
+      yiddish: 'וואָלט מסכּים געװען',
+      transliteration: 'volt maskem geven',
+    });
+    expect(forms!.du).toEqual({
+      yiddish: 'וואָלטסט מסכּים געװען',
+      transliteration: 'voltst maskem geven',
+    });
+    expect(forms!.er_zi_es).toEqual({
+      yiddish: 'וואָלט מסכּים געװען',
+      transliteration: 'volt maskem geven',
+    });
+    expect(forms!.mir).toEqual({
+      yiddish: 'וואָלטן מסכּים געװען',
+      transliteration: 'voltn maskem geven',
+    });
+    expect(forms!.ir).toEqual({
       yiddish: 'וואָלט מסכּים געװען',
       transliteration: 'volt maskem geven',
     });
