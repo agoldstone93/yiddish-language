@@ -1,34 +1,34 @@
-id: barimen-zikh
+id: basheftikn-zikh
 categoryId: reflexive
 lemma:
-  yiddish: באַרימען זיך
-  transliteration: barimen zikh
+  yiddish: באַשפֿעטיקן זיך
+  transliteration: basheftikn zikh
 meaning:
-  english: to brag, to boast
+  english: to work at, to be busy with
 auxiliary: hobn
 conjugation:
   present:
     ikh:
-      yiddish: באַרימ זיך
-      transliteration: barim zikh
+      yiddish: באַשפֿעטיק זיך
+      transliteration: basheftik zikh
     du:
-      yiddish: באַרימסט זיך
-      transliteration: barimst zikh
+      yiddish: באַשפֿעטיקסט זיך
+      transliteration: basheftikst zikh
     er_zi_es:
-      yiddish: באַרימט זיך
-      transliteration: barimt zikh
+      yiddish: באַשפֿעטיקט זיך
+      transliteration: basheftikt zikh
     mir:
-      yiddish: באַרימן זיך
-      transliteration: barimn zikh
+      yiddish: באַשפֿעטיקן זיך
+      transliteration: basheftikn zikh
     ir:
-      yiddish: באַרימט זיך
-      transliteration: barimt zikh
+      yiddish: באַשפֿעטיקט זיך
+      transliteration: basheftikt zikh
     zey:
-      yiddish: באַרימן זיך
-      transliteration: barimn zikh
+      yiddish: באַשפֿעטיקן זיך
+      transliteration: basheftikn zikh
   past_participle:
-    yiddish: באַרימט זיך
-    transliteration: barimt zikh
+    yiddish: באַשפֿעטיקט זיך
+    transliteration: basheftikt zikh
 search:
   yiddish: []
   transliteration: []
