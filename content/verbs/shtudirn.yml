@@ -1,0 +1,35 @@
+id: shtudirn
+categoryId: simple
+lemma:
+  yiddish: שטודירן
+  transliteration: shtudirn
+meaning:
+  english: to study
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שטודיר
+      transliteration: shtudir
+    du:
+      yiddish: שטודירסט
+      transliteration: shtudirst
+    er_zi_es:
+      yiddish: שטודירט
+      transliteration: shtudirt
+    mir:
+      yiddish: שטודירן
+      transliteration: shtudirn
+    ir:
+      yiddish: שטודירט
+      transliteration: shtudirt
+    zey:
+      yiddish: שטודירן
+      transliteration: shtudirn
+  past_participle:
+    yiddish: שטודירט
+    transliteration: shtudirt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
