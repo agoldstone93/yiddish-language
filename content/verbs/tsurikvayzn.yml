@@ -1,0 +1,35 @@
+id: tsurikvayzn
+categoryId: separable-prefix
+lemma:
+  yiddish: צוריקווײַזן
+  transliteration: tsurikvayzn
+meaning:
+  english: to reject
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ווײַז צוריק
+      transliteration: vayz tsurik
+    du:
+      yiddish: ווײַזסט צוריק
+      transliteration: vayzst tsurik
+    er_zi_es:
+      yiddish: ווײַזט צוריק
+      transliteration: vayzt tsurik
+    mir:
+      yiddish: ווײַזן צוריק
+      transliteration: vayzn tsurik
+    ir:
+      yiddish: ווײַזט צוריק
+      transliteration: vayzt tsurik
+    zey:
+      yiddish: ווײַזן צוריק
+      transliteration: vayzn tsurik
+  past_participle:
+    yiddish: צוריקגעוויזן
+    transliteration: tsurikgevizn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

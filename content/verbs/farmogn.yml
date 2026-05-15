@@ -1,0 +1,35 @@
+id: farmogn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרמאָגן
+  transliteration: farmogn
+meaning:
+  english: to own
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרמאָג
+      transliteration: farmog
+    du:
+      yiddish: פֿאַרמאָגסט
+      transliteration: farmogst
+    er_zi_es:
+      yiddish: פֿאַרמאָגט
+      transliteration: farmogt
+    mir:
+      yiddish: פֿאַרמאָגן
+      transliteration: farmogn
+    ir:
+      yiddish: פֿאַרמאָגט
+      transliteration: farmogt
+    zey:
+      yiddish: פֿאַרמאָגן
+      transliteration: farmogn
+  past_participle:
+    yiddish: פֿאַרמאָגט
+    transliteration: farmogt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

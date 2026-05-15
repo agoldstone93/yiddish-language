@@ -1,0 +1,35 @@
+id: avekgeyn
+categoryId: separable-prefix
+lemma:
+  yiddish: אַוועקגיין
+  transliteration: avekgeyn
+meaning:
+  english: to go away, to leave
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: גיי אַוועק
+      transliteration: gey avek
+    du:
+      yiddish: גייסט אַוועק
+      transliteration: geyst avek
+    er_zi_es:
+      yiddish: גייט אַוועק
+      transliteration: geyt avek
+    mir:
+      yiddish: גייען אַוועק
+      transliteration: geyen avek
+    ir:
+      yiddish: גייט אַוועק
+      transliteration: geyt avek
+    zey:
+      yiddish: גייען אַוועק
+      transliteration: geyen avek
+  past_participle:
+    yiddish: אַוועקגעגאַנגען
+    transliteration: avekgegangen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

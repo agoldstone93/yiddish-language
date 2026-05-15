@@ -1,0 +1,31 @@
+id: khasene-hobn
+categoryId: periphrastic
+lemma:
+  yiddish: חתונה האָבן
+  transliteration: khasene hobn
+meaning:
+  english: to get married
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: האָב חתונה
+      transliteration: hob khasene
+    du:
+      yiddish: האָסט חתונה
+      transliteration: host khasene
+    er_zi_es:
+      yiddish: האָט חתונה
+      transliteration: hot khasene
+    mir:
+      yiddish: האָבן חתונה
+      transliteration: hobn khasene
+    ir:
+      yiddish: האָט חתונה
+      transliteration: hot khasene
+    zey:
+      yiddish: האָבן חתונה
+      transliteration: hobn khasene
+  past_participle:
+    yiddish: חתונה געהאַט
+    transliteration: khasene gehat

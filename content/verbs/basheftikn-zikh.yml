@@ -1,0 +1,35 @@
+id: barimen-zikh
+categoryId: reflexive
+lemma:
+  yiddish: באַרימען זיך
+  transliteration: barimen zikh
+meaning:
+  english: to brag, to boast
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַרימ זיך
+      transliteration: barim zikh
+    du:
+      yiddish: באַרימסט זיך
+      transliteration: barimst zikh
+    er_zi_es:
+      yiddish: באַרימט זיך
+      transliteration: barimt zikh
+    mir:
+      yiddish: באַרימן זיך
+      transliteration: barimn zikh
+    ir:
+      yiddish: באַרימט זיך
+      transliteration: barimt zikh
+    zey:
+      yiddish: באַרימן זיך
+      transliteration: barimn zikh
+  past_participle:
+    yiddish: באַרימט זיך
+    transliteration: barimt zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

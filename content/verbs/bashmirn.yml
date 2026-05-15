@@ -1,0 +1,35 @@
+id: bashmirn
+categoryId: simple
+lemma:
+  yiddish: באַשמירן
+  transliteration: bashmirn
+meaning:
+  english: to spread
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַשמיר
+      transliteration: bashmir
+    du:
+      yiddish: באַשמירסט
+      transliteration: bashmirst
+    er_zi_es:
+      yiddish: באַשמירט
+      transliteration: bashmirt
+    mir:
+      yiddish: באַשמירן
+      transliteration: bashmirn
+    ir:
+      yiddish: באַשמירט
+      transliteration: bashmirt
+    zey:
+      yiddish: באַשמירן
+      transliteration: bashmirn
+  past_participle:
+    yiddish: באַשמירט
+    transliteration: bashmirt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

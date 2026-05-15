@@ -1,0 +1,35 @@
+id: shmirn
+categoryId: simple
+lemma:
+  yiddish: שמירן
+  transliteration: shmirn
+meaning:
+  english: to smear
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שמיר
+      transliteration: shmir
+    du:
+      yiddish: שמירסט
+      transliteration: shmirst
+    er_zi_es:
+      yiddish: שמירט
+      transliteration: shmirt
+    mir:
+      yiddish: שמירן
+      transliteration: shmirn
+    ir:
+      yiddish: שמירט
+      transliteration: shmirt
+    zey:
+      yiddish: שמירן
+      transliteration: shmirn
+  past_participle:
+    yiddish: געשמירט
+    transliteration: geshmirt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

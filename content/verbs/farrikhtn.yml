@@ -1,0 +1,35 @@
+id: farrikhtn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרריכטן
+  transliteration: farrikhtn
+meaning:
+  english: to repair
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרריכט
+      transliteration: farrikht
+    du:
+      yiddish: פֿאַרריכטסט
+      transliteration: farrikhtst
+    er_zi_es:
+      yiddish: פֿאַרריכט
+      transliteration: farrikht
+    mir:
+      yiddish: פֿאַרריכטן
+      transliteration: farrikhtn
+    ir:
+      yiddish: פֿאַרריכט
+      transliteration: farrikht
+    zey:
+      yiddish: פֿאַרריכטן
+      transliteration: farrikhtn
+  past_participle:
+    yiddish: פֿאַרריכט
+    transliteration: farrikht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

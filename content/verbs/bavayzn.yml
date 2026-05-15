@@ -1,0 +1,35 @@
+id: bavayzn
+categoryId: simple
+lemma:
+  yiddish: באַווײַזן
+  transliteration: bavayzn
+meaning:
+  english: to show, to demonstrate
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַווײַז
+      transliteration: bavayz
+    du:
+      yiddish: באַווײַזסט
+      transliteration: bavayzst
+    er_zi_es:
+      yiddish: באַווײַזט
+      transliteration: bavayzt
+    mir:
+      yiddish: באַווײַזן
+      transliteration: bavayzn
+    ir:
+      yiddish: באַווײַזט
+      transliteration: bavayzt
+    zey:
+      yiddish: באַווײַזן
+      transliteration: bavayzn
+  past_participle:
+    yiddish: באַוויזן
+    transliteration: bavizn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

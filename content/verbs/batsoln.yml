@@ -1,0 +1,35 @@
+id: batsoln
+categoryId: simple
+lemma:
+  yiddish: באַצאָלן
+  transliteration: batsoln
+meaning:
+  english: to pay
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַצאָל
+      transliteration: batsol
+    du:
+      yiddish: באַצאָלסט
+      transliteration: batsolst
+    er_zi_es:
+      yiddish: באַצאָלט
+      transliteration: batsolt
+    mir:
+      yiddish: באַצאָלן
+      transliteration: batsoln
+    ir:
+      yiddish: באַצאָלט
+      transliteration: batsolt
+    zey:
+      yiddish: באַצאָלן
+      transliteration: batsoln
+  past_participle:
+    yiddish: באַצאָלט
+    transliteration: batsolt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
