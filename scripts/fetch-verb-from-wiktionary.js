@@ -2,14 +2,32 @@ import fs from "fs";
 import yaml from "js-yaml";
 
 const API = "https://en.wiktionary.org/w/api.php";
+const REQUEST_HEADERS = {
+  Accept: "application/json",
+  "User-Agent": "yiddish-language-fetcher/1.0 (local development)",
+};
+
+async function fetchJson(url) {
+  const res = await fetch(url, { headers: REQUEST_HEADERS });
+
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(
+      `Wiktionary API request failed (${res.status} ${res.statusText}): ${body
+        .slice(0, 120)
+        .replace(/\s+/g, " ")}`
+    );
+  }
+
+  return res.json();
+}
 
 async function fetchWikitext(title) {
   const url = `${API}?action=query&titles=${encodeURIComponent(
     title
   )}&prop=revisions&rvprop=content&format=json&formatversion=2`;
 
-  const res = await fetch(url);
-  const data = await res.json();
+  const data = await fetchJson(url);
   const pages = data.query.pages;
   if (!pages || pages.length === 0 || !pages[0].revisions) {
     throw new Error(`Verb "${title}" not found on Wiktionary`);
@@ -19,8 +37,7 @@ async function fetchWikitext(title) {
 
 async function fetchRenderedPage(title) {
   const url = `${API}?action=parse&page=${encodeURIComponent(title)}&prop=text&format=json`;
-  const res = await fetch(url);
-  const data = await res.json();
+  const data = await fetchJson(url);
   
   // Get the rendered HTML content
   const html = data.parse?.text?.["*"];
