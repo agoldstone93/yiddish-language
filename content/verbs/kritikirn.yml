@@ -1,0 +1,35 @@
+id: kritikirn
+categoryId: simple
+lemma:
+  yiddish: קריטיקירן
+  transliteration: kritikirn
+meaning:
+  english: to criticise
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קריטיקיר
+      transliteration: kritikir
+    du:
+      yiddish: קריטיקירסט
+      transliteration: kritikirst
+    er_zi_es:
+      yiddish: קריטיקירט
+      transliteration: kritikirt
+    mir:
+      yiddish: קריטיקירן
+      transliteration: kritikirn
+    ir:
+      yiddish: קריטיקירט
+      transliteration: kritikirt
+    zey:
+      yiddish: קריטיקירן
+      transliteration: kritikirn
+  past_participle:
+    yiddish: קריטיקירט
+    transliteration: kritikirt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

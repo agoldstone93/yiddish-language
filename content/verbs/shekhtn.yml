@@ -1,0 +1,35 @@
+id: shekhtn
+categoryId: simple
+lemma:
+  yiddish: שעכטן
+  transliteration: shekhtn
+meaning:
+  english: to slaughter
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שעכט
+      transliteration: shekht
+    du:
+      yiddish: שעכטסט
+      transliteration: shekhtst
+    er_zi_es:
+      yiddish: שעכט
+      transliteration: shekht
+    mir:
+      yiddish: שעכטן
+      transliteration: shekhtn
+    ir:
+      yiddish: שעכט
+      transliteration: shekht
+    zey:
+      yiddish: שעכטן
+      transliteration: shekhtn
+  past_participle:
+    yiddish: געשאָכטן
+    transliteration: geshokhtn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

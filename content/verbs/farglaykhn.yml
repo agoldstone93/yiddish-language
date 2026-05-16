@@ -1,0 +1,35 @@
+id: farglaykhn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרגלײַכן
+  transliteration: farglaykhn
+meaning:
+  english: to compare
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרגלײַך
+      transliteration: farglaykh
+    du:
+      yiddish: פֿאַרגלײַכסט
+      transliteration: farglaykhst
+    er_zi_es:
+      yiddish: פֿאַרגלײַכט
+      transliteration: farglaykht
+    mir:
+      yiddish: פֿאַרגלײַכן
+      transliteration: farglaykhn
+    ir:
+      yiddish: פֿאַרגלײַכט
+      transliteration: farglaykht
+    zey:
+      yiddish: פֿאַרגלײַכן
+      transliteration: farglaykhn
+  past_participle:
+    yiddish: פֿאַרגליכן
+    transliteration: farglikhn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

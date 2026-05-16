@@ -1,0 +1,35 @@
+id: glitshn
+categoryId: simple
+lemma:
+  yiddish: גליטשן
+  transliteration: glitshn
+meaning:
+  english: to slip
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: גליטש
+      transliteration: glitsh
+    du:
+      yiddish: גליטשסט
+      transliteration: glitshst
+    er_zi_es:
+      yiddish: גליטשט
+      transliteration: glitsht
+    mir:
+      yiddish: גליטשן
+      transliteration: glitshn
+    ir:
+      yiddish: גליטשט
+      transliteration: glitsht
+    zey:
+      yiddish: גליטשן
+      transliteration: glitshn
+  past_participle:
+    yiddish: געגליטשט
+    transliteration: geglitsht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

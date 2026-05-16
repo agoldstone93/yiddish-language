@@ -1,0 +1,35 @@
+id: bashraybn
+categoryId: simple
+lemma:
+  yiddish: באַשרײַבן
+  transliteration: bashraybn
+meaning:
+  english: to describe
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַשרײַב
+      transliteration: bashrayb
+    du:
+      yiddish: באַשרײַבסט
+      transliteration: bashraybst
+    er_zi_es:
+      yiddish: באַשרײַבט
+      transliteration: bashraybt
+    mir:
+      yiddish: באַשרײַבן
+      transliteration: bashraybn
+    ir:
+      yiddish: באַשרײַבט
+      transliteration: bashraybt
+    zey:
+      yiddish: באַשרײַבן
+      transliteration: bashraybn
+  past_participle:
+    yiddish: באַשריבן
+    transliteration: bashribn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: vintshn
+categoryId: simple
+lemma:
+  yiddish: ווינטשן
+  transliteration: vintshn
+meaning:
+  english: to wish
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ווינטש
+      transliteration: vintsh
+    du:
+      yiddish: ווינטשסט
+      transliteration: vintshst
+    er_zi_es:
+      yiddish: ווינטשט
+      transliteration: vintsht
+    mir:
+      yiddish: ווינטשן
+      transliteration: vintshn
+    ir:
+      yiddish: ווינטשט
+      transliteration: vintsht
+    zey:
+      yiddish: ווינטשן
+      transliteration: vintshn
+  past_participle:
+    yiddish: געוווּנטשן
+    transliteration: gevuntshn
+search:
+  yiddish: []
+  transliteration: []
+  english: []
