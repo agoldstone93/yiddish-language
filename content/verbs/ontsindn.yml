@@ -1,0 +1,35 @@
+id: ontsindn
+categoryId: simple
+lemma:
+  yiddish: אָנצינדן
+  transliteration: ontsindn
+meaning:
+  english: to light
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: צינד אָן
+      transliteration: tsind on
+    du:
+      yiddish: צינדסט אָן
+      transliteration: tsindst on
+    er_zi_es:
+      yiddish: צינדט אָן
+      transliteration: tsindt on
+    mir:
+      yiddish: צינדן אָן
+      transliteration: tsindn on
+    ir:
+      yiddish: צינדט אָן
+      transliteration: tsindt on
+    zey:
+      yiddish: צינדן אָן
+      transliteration: tsindn on
+  past_participle:
+    yiddish: אָנגעצונדן
+    transliteration: ongetsundn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

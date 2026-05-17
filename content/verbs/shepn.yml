@@ -1,0 +1,35 @@
+id: shepn
+categoryId: simple
+lemma:
+  yiddish: שעפּן
+  transliteration: shepn
+meaning:
+  english: to draw
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שעפּ
+      transliteration: shep
+    du:
+      yiddish: שעפּסט
+      transliteration: shepst
+    er_zi_es:
+      yiddish: שעפּט
+      transliteration: shept
+    mir:
+      yiddish: שעפּן
+      transliteration: shepn
+    ir:
+      yiddish: שעפּט
+      transliteration: shept
+    zey:
+      yiddish: שעפּן
+      transliteration: shepn
+  past_participle:
+    yiddish: געשעפּט
+    transliteration: geshept
+search:
+  yiddish: []
+  transliteration: []
+  english: []

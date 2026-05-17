@@ -1,0 +1,35 @@
+id: bashafn
+categoryId: simple
+lemma:
+  yiddish: באַשאַפֿן
+  transliteration: bashafn
+meaning:
+  english: to create
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַשאַף
+      transliteration: bashaf
+    du:
+      yiddish: באַשאַפֿסט
+      transliteration: bashafst
+    er_zi_es:
+      yiddish: באַשאַפֿט
+      transliteration: bashaft
+    mir:
+      yiddish: באַשאַפֿן
+      transliteration: bashafn
+    ir:
+      yiddish: באַשאַפֿט
+      transliteration: bashaft
+    zey:
+      yiddish: באַשאַפֿן
+      transliteration: bashafn
+  past_participle:
+    yiddish: באַשאַפֿן
+    transliteration: bashafn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

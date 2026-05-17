@@ -1,0 +1,35 @@
+id: dreyen
+categoryId: simple
+lemma:
+  yiddish: דרייען
+  transliteration: dreyen
+meaning:
+  english: to turn
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דריי
+      transliteration: drey
+    du:
+      yiddish: דרייסט
+      transliteration: dreyst
+    er_zi_es:
+      yiddish: דרייט
+      transliteration: dreyt
+    mir:
+      yiddish: דרייען
+      transliteration: dreyen
+    ir:
+      yiddish: דרייט
+      transliteration: dreyt
+    zey:
+      yiddish: דרייען
+      transliteration: dreyen
+  past_participle:
+    yiddish: געדרייט
+    transliteration: gedreyt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

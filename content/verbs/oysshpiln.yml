@@ -1,0 +1,35 @@
+id: oysshpiln
+categoryId: separable-prefix
+lemma:
+  yiddish: אױשפּילן
+  transliteration: oysshpiln
+meaning:
+  english: to win
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שפּיל אױס
+      transliteration: shpil oys
+    du:
+      yiddish: שפּילסט אױס
+      transliteration: shpilst oys
+    er_zi_es:
+      yiddish: שפּילט אױס
+      transliteration: shpilt oys
+    mir:
+      yiddish: שפּילן אױס
+      transliteration: shpiln oys
+    ir:
+      yiddish: שפּילט אױס
+      transliteration: shpilt oys
+    zey:
+      yiddish: שפּילן אױס
+      transliteration: shpiln oys
+  past_participle:
+    yiddish: אויסגעשפּילט
+    transliteration: oysgeshpilt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

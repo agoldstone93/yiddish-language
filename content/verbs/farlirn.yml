@@ -1,0 +1,35 @@
+id: farlirn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרלירן
+  transliteration: farlirn
+meaning:
+  english: to lose
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרליר
+      transliteration: farlir
+    du:
+      yiddish: פֿאַרלירסט
+      transliteration: farlirst
+    er_zi_es:
+      yiddish: פֿאַרלירט
+      transliteration: farlirt
+    mir:
+      yiddish: פֿאַרלירן
+      transliteration: farlirn
+    ir:
+      yiddish: פֿאַרלירט
+      transliteration: farlirt
+    zey:
+      yiddish: פֿאַרלירן
+      transliteration: farlirn
+  past_participle:
+    yiddish: פֿאַרלוירן
+    transliteration: farloyrn
+search:
+  yiddish: []
+  transliteration: []
+  english: []
