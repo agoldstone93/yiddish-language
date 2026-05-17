@@ -1,0 +1,35 @@
+id: khapn
+categoryId: simple
+lemma:
+  yiddish: כאַפּן
+  transliteration: khapn
+meaning:
+  english: to catch
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: כאַפּ
+      transliteration: khap
+    du:
+      yiddish: כאַפּסט
+      transliteration: khapst
+    er_zi_es:
+      yiddish: כאַפּט
+      transliteration: khapt
+    mir:
+      yiddish: כאַפּן
+      transliteration: khapn
+    ir:
+      yiddish: כאַפּט
+      transliteration: khapt
+    zey:
+      yiddish: כאַפּן
+      transliteration: khapn
+  past_participle:
+    yiddish: געכאַפּט
+    transliteration: gekhapt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
