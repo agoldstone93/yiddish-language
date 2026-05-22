@@ -33,13 +33,13 @@
     "@types/node": "^25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "esbuild": "^0.27.2",
+    "esbuild": "^0.28.0",
     "eslint": "^10",
     "eslint-config-next": "16.2.6",
     "jsdom": "^29.1.1",
     "tailwindcss": "^4",
     "typescript": "^6",
-    "vitest": "^4.0.16"
+    "vitest": "^4.1.7"
   },
   "overrides": {
     "postcss": ">=8.5.10"
