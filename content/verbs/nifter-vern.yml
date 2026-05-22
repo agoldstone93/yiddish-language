@@ -1,0 +1,35 @@
+id: nifter-vern
+categoryId: periphrastic
+lemma:
+  yiddish:  ניפֿטר װערן
+  transliteration: nifter vern
+meaning:
+  english: to pass away
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: ניפֿטר װער
+      transliteration: nifter ver
+    du:
+      yiddish: ניפֿטר װערסט
+      transliteration: nifter verst
+    er_zi_es:
+      yiddish: ניפֿטר װערט
+      transliteration: nifter vert
+    mir:
+      yiddish: ניפֿטר װערן
+      transliteration: nifter vern
+    ir:
+      yiddish: ניפֿטר װערט
+      transliteration: nifter vert
+    zey:
+      yiddish: ניפֿטר װערן
+      transliteration: nifter vern
+  past_participle:
+    yiddish: ניפֿטר געװאָרן
+    transliteration: nifter gevorn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

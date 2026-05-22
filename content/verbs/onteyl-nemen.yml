@@ -1,0 +1,31 @@
+id: onteyl-nemen
+categoryId: periphrastic
+lemma:
+  yiddish: אָנטײל נעמען
+  transliteration: onteyl nemen
+meaning:
+  english: to take part, to participate
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: נעם אָנטײל
+      transliteration: nem onteyl
+    du:
+      yiddish: נעמסט אָנטײל
+      transliteration: nemst onteyl
+    er_zi_es:
+      yiddish: נעמט אָנטײל
+      transliteration: nemt onteyl
+    mir:
+      yiddish: נעמען אָנטײל
+      transliteration: nemen onteyl
+    ir:
+      yiddish: נעמט אָנטײל
+      transliteration: nemt onteyl
+    zey:
+      yiddish: נעמען אָנטײל
+      transliteration: nemen onteyl
+  past_participle:
+    yiddish: אָנטײל גענומען 
+    transliteration: onteyl genumen

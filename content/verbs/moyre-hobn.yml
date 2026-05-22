@@ -1,0 +1,31 @@
+id: moyre-hobn
+categoryId: periphrastic
+lemma:
+  yiddish: מורא האָבן
+  transliteration: moyre hobn
+meaning:
+  english: to be afraid, to fear
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: האָב מורא
+      transliteration: hob moyre
+    du:
+      yiddish: האָסט מורא
+      transliteration: host moyre
+    er_zi_es:
+      yiddish: האָט מורא
+      transliteration: hot moyre
+    mir:
+      yiddish: האָבן מורא
+      transliteration: hobn moyre
+    ir:
+      yiddish: האָט מורא
+      transliteration: hot moyre
+    zey:
+      yiddish: האָבן מורא
+      transliteration: hobn moyre
+  past_participle:
+    yiddish: מורא געהאַט 
+    transliteration: moyre gehat

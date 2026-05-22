@@ -1,0 +1,35 @@
+id: poter-vern
+categoryId: periphrastic
+lemma:
+  yiddish:  פּטור װערן
+  transliteration: poter vern
+meaning:
+  english: to be exempt
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: פּטור װער
+      transliteration: poter ver
+    du:
+      yiddish: פּטור װערסט
+      transliteration: poter verst
+    er_zi_es:
+      yiddish: פּטור װערט
+      transliteration: poter vert
+    mir:
+      yiddish: פּטור װערן
+      transliteration: poter vern
+    ir:
+      yiddish: פּטור װערט
+      transliteration: poter vert
+    zey:
+      yiddish: פּטור װערן
+      transliteration: poter vern
+  past_participle:
+    yiddish: פּטור געװאָרן
+    transliteration: poter gevorn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

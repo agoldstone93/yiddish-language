@@ -1,0 +1,35 @@
+id: khoyzek-makhn
+categoryId: periphrastic
+lemma:
+  yiddish: חוזק מאַכן
+  transliteration: khoyzek makhn
+meaning:
+  english: to make fun of, to tease
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: מאַך חוזק
+      transliteration: makh khoyzek
+    du:
+      yiddish: מאַכסט חוזק
+      transliteration: makhst khoyzek
+    er_zi_es:
+      yiddish: מאַכט חוזק
+      transliteration: makht khoyzek
+    mir:
+      yiddish: מאַכן חוזק
+      transliteration: makhn khoyzek
+    ir:
+      yiddish: מאַכט חוזק
+      transliteration: makht khoyzek
+    zey:
+      yiddish: מאַכן חוזק
+      transliteration: makhn khoyzek
+  past_participle:
+    yiddish: חוזק געמאכט
+    transliteration: khoyzek gemacht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

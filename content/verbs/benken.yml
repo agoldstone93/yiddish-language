@@ -1,0 +1,35 @@
+id: benken
+categoryId: simple
+lemma:
+  yiddish: בענקען
+  transliteration: benken
+meaning:
+  english: to yearn
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בענק
+      transliteration: benk
+    du:
+      yiddish: בענקסט
+      transliteration: benkst
+    er_zi_es:
+      yiddish: בענקט
+      transliteration: benkt
+    mir:
+      yiddish: בענקען
+      transliteration: benken
+    ir:
+      yiddish: בענקט
+      transliteration: benkt
+    zey:
+      yiddish: בענקען
+      transliteration: benken
+  past_participle:
+    yiddish: געבענקט
+    transliteration: gebenkt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

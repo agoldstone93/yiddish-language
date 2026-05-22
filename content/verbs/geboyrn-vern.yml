@@ -1,0 +1,35 @@
+id: geboyrn-vern
+categoryId: periphrastic
+lemma:
+  yiddish:  געבױרן װערן
+  transliteration: geboyrn vern
+meaning:
+  english: to be born
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: געבױרן װער
+      transliteration: geboyrn ver
+    du:
+      yiddish: געבױרן װערסט
+      transliteration: geboyrn verst
+    er_zi_es:
+      yiddish: געבױרן װערט
+      transliteration: geboyrn vert
+    mir:
+      yiddish: געבױרן װערן
+      transliteration: geboyrn vern
+    ir:
+      yiddish: געבױרן װערט
+      transliteration: geboyrn vert
+    zey:
+      yiddish: געבױרן װערן
+      transliteration: geboyrn vern
+  past_participle:
+    yiddish: געבױרן געװאָרן
+    transliteration: geboyrn gevorn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

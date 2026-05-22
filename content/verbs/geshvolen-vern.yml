@@ -1,0 +1,35 @@
+id: geshvolen-vern
+categoryId: periphrastic
+lemma:
+  yiddish:  געשװאָלן װערן
+  transliteration: geshvolen vern
+meaning:
+  english: to swell
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: געשװאָלן װער
+      transliteration: geshvolen ver
+    du:
+      yiddish: געשװאָלן װערסט
+      transliteration: geshvolen verst
+    er_zi_es:
+      yiddish: געשװאָלן װערט
+      transliteration: geshvolen vert
+    mir:
+      yiddish: געשװאָלן װערן
+      transliteration: geshvolen vern
+    ir:
+      yiddish: געשװאָלן װערט
+      transliteration: geshvolen vert
+    zey:
+      yiddish: געשװאָלן װערן
+      transliteration: geshvolen vern
+  past_participle:
+    yiddish: געשװאָלן געװאָרן
+    transliteration: geshvolen gevorn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,31 @@
+id: kharote-hobn
+categoryId: periphrastic
+lemma:
+  yiddish: חרטה האָבן
+  transliteration: kharote hobn
+meaning:
+  english: to regret, to be remorseful
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: האָב חרטה
+      transliteration: hob kharote
+    du:
+      yiddish: האָסט חרטה
+      transliteration: host kharote
+    er_zi_es:
+      yiddish: האָט חרטה
+      transliteration: hot kharote
+    mir:
+      yiddish: האָבן חרטה
+      transliteration: hobn kharote
+    ir:
+      yiddish: האָט חרטה
+      transliteration: hot kharote
+    zey:
+      yiddish: האָבן חרטה
+      transliteration: hobn kharote
+  past_participle:
+    yiddish: חרטה געהאַט 
+    transliteration: kharote gehat

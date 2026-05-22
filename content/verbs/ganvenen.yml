@@ -1,0 +1,35 @@
+id: ganvenen
+categoryId: simple
+lemma:
+  yiddish: גנבֿענען
+  transliteration: ganvenen
+meaning:
+  english: to steal
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: גנבֿע
+      transliteration: ganve
+    du:
+      yiddish: גנבֿעסט
+      transliteration: ganvest
+    er_zi_es:
+      yiddish: גנבֿעט
+      transliteration: ganvet
+    mir:
+      yiddish: גנבֿענען
+      transliteration: ganvenen
+    ir:
+      yiddish: גנבֿעט
+      transliteration: ganvet
+    zey:
+      yiddish: גנבֿענען
+      transliteration: ganvenen
+  past_participle:
+    yiddish: געגנבֿעט
+    transliteration: geganvet
+search:
+  yiddish: []
+  transliteration: []
+  english: []
