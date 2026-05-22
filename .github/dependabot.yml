@@ -4,3 +4,34 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      framework:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+          - "next"
+          - "eslint-config-next"
+      
+      lint-and-types:
+        patterns:
+          - "eslint"
+          - typescript
+          - "@types/*"
+        exclude-patterns:
+          - "@types/react"
+          - "@types/react-dom"
+      
+      testing-and-build:
+        patterns:
+          - "vitest"
+          - "jsdom"
+          - "esbuild"
+          - "tailwindcss"
+          - "@tailwindcss/*"
+      content-and-ui:
+        patterns:
+         - "downshift"
+         - "js-yaml"
+         - "markdown-it"
