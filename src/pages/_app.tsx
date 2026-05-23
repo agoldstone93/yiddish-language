@@ -4,6 +4,7 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { Layout } from "@/components/Layout";
+import Link from "next/link";
 
 type IdentityStatus = "idle" | "error";
 
@@ -128,9 +129,9 @@ export default function App({ Component, pageProps }: AppProps) {
             </div>
             <div style={{ marginTop: 8, opacity: 0.85 }}>
               Go to{" "}
-              <a href="/admin/" style={{ textDecoration: "underline" }}>
+              <Link href="/admin/" style={{ textDecoration: "underline" }}>
                 /admin
-              </a>{" "}
+              </Link>{" "}
               and click “Log in”.
             </div>
           </div>
