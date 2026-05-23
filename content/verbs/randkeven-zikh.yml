@@ -1,0 +1,35 @@
+id: randkeven-zikh
+categoryId: reflexive
+lemma:
+  yiddish: ראַנדקעװען זיך
+  transliteration: randkeven zikh
+meaning:
+  english: to date
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ראַנדקעװ זיך
+      transliteration: randkev zikh
+    du:
+      yiddish: ראַנדקעװסט זיך
+      transliteration: randkevst zikh
+    er_zi_es:
+      yiddish: ראַנדקעװט זיך
+      transliteration: randkevt zikh
+    mir:
+      yiddish: ראַנדקעװען זיך
+      transliteration: randkeven zikh
+    ir:
+      yiddish: ראַנדקעװט זיך
+      transliteration: randkevt zikh
+    zey:
+      yiddish: ראַנדקעװען זיך
+      transliteration: randkeven zikh
+  past_participle:
+    yiddish: ראַנדקעװט זיך
+    transliteration: randkevt zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

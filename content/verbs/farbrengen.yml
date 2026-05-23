@@ -1,0 +1,35 @@
+id: farbrengen
+categoryId: simple
+lemma:
+  yiddish: פֿאַרברענגען
+  transliteration: farbrengen
+meaning:
+  english: to spend time
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרברענג
+      transliteration: farbreng
+    du:
+      yiddish: פֿאַרברענגסט
+      transliteration: farbrengst
+    er_zi_es:
+      yiddish: פֿאַרברענגט
+      transliteration: farbrengt
+    mir:
+      yiddish: פֿאַרברענגען
+      transliteration: farbrengen
+    ir:
+      yiddish: פֿאַרברענגט
+      transliteration: farbrengt
+    zey:
+      yiddish: פֿאַרברענגען
+      transliteration: farbrengen
+  past_participle:
+    yiddish: פֿאַרבראַכט
+    transliteration: farbrakht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

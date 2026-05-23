@@ -1,0 +1,35 @@
+id: forkumen
+categoryId: periphrastic
+lemma:
+  yiddish: פֿאָרקומען
+  transliteration: forkumen
+meaning:
+  english: to happen, to take place
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: קום פֿאָר
+      transliteration: kum for
+    du:
+      yiddish: קומסט פֿאָר
+      transliteration: kumst for
+    er_zi_es:
+      yiddish: קומט פאָר
+      transliteration: kumt for
+    mir:
+      yiddish: קומען פאָר
+      transliteration: kumen for
+    ir:
+      yiddish: קומט פאָר
+      transliteration: kumt for
+    zey:
+      yiddish: קומען פאָר
+      transliteration: kumen for
+  past_participle:
+    yiddish: פֿאָרגעקומען
+    transliteration: forgekumen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

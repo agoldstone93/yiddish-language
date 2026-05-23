@@ -1,0 +1,35 @@
+id: praven
+categoryId: simple
+lemma:
+  yiddish: פּראַווען
+  transliteration: praven
+meaning:
+  english: to celebrate; to conduct, carry out
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פּראַוו
+      transliteration: prav
+    du:
+      yiddish: פּראַווסט
+      transliteration: pravst
+    er_zi_es:
+      yiddish: פּראַווט
+      transliteration: pravt
+    mir:
+      yiddish: פּראַווען
+      transliteration: pravn
+    ir:
+      yiddish: פּראַווט
+      transliteration: pravt
+    zey:
+      yiddish: פּראַווען
+      transliteration: pravn
+  past_participle:
+    yiddish: פּראַווען
+    transliteration: praven
+search:
+  yiddish: []
+  transliteration: []
+  english: []
