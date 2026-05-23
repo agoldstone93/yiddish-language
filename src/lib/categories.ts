@@ -19,12 +19,13 @@ export function getAllCategories(): Category[] {
 	return files.map((file) => {
 		const raw = fs.readFileSync(path.join(categoriesDir, file), 'utf8');
 		const data = yaml.load(raw) as Partial<Category> & {
+			slug?: string;
 			example?: string;
 			example_slug?: string;
 			example_label?: string;
 		};
 		// Fallback id from slug or filename if missing
-		const id = (data.id as string) || (data as any).slug || path.parse(file).name;
+		const id = (data.id as string) || (data.slug as string) || path.parse(file).name;
 		const name = (data.name as string) || id;
 		const content = (data.content as string) || '';
 		const exampleSlug =
