@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Script from "next/script";
 import { useRouter } from "next/router";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Layout } from "@/components/Layout";
 import Link from "next/link";
 
@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const enableAnalytics = process.env.NEXT_PUBLIC_ENABLE_ANALYTICS === "true";
   const shouldTrackPage = !asPath.startsWith("/admin");
 
-  function attachIdentityHandlers() {
+  const attachIdentityHandlers = useCallback(() => {
     if (handlersAttachedRef.current) return;
 
     // @ts-expect-error - provided by the Netlify Identity widget script at runtime
@@ -44,16 +44,16 @@ export default function App({ Component, pageProps }: AppProps) {
     identity.on("error", () => {
       setIdentityStatus("error");
     });
-  }
+  }, []);
 
-  function initIdentityIfPresent() {
+  const initIdentityIfPresent = useCallback(() => {
     // @ts-expect-error - provided by the Netlify Identity widget script at runtime
     const identity = window.netlifyIdentity;
     if (!identity?.init) return;
 
     identity.init();
     attachIdentityHandlers();
-  }
+  }, [attachIdentityHandlers]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -61,7 +61,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
     // No setState here: just kick Identity so it can process the token in the URL hash.
     initIdentityIfPresent();
-  }, [hasToken]);
+  }, [hasToken, initIdentityIfPresent]);
 
   const showConfirmingOverlay = hasToken && identityStatus !== "error";
 
