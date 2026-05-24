@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: אַרבעטן
   transliteration: arbetn
-meaning:
-  english: to work
+senses:
+  - english: to work
 auxiliary: hobn
 conjugation:
   present:

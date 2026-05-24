@@ -1,10 +1,10 @@
 id: geshvolen-vern
 categoryId: periphrastic
 lemma:
-  yiddish:  געשװאָלן װערן
+  yiddish: געשװאָלן װערן
   transliteration: geshvolen vern
-meaning:
-  english: to swell
+senses:
+  - english: to swell
 auxiliary: zayn
 conjugation:
   present:

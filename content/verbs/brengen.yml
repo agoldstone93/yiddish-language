@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ברענגען
   transliteration: brengen
-meaning:
-  english: to bring
+senses:
+  - english: to bring
 auxiliary: hobn
 conjugation:
   present:

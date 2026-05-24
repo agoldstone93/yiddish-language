@@ -3,8 +3,9 @@ categoryId: simple
 lemma:
   yiddish: פּראַווען
   transliteration: praven
-meaning:
-  english: to celebrate; to conduct, carry out
+senses:
+  - english: to celebrate
+  - english: to conduct, carry out
 auxiliary: hobn
 conjugation:
   present:

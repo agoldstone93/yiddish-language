@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: רײַטן
   transliteration: raytn
-meaning:
-  english: to ride
+senses:
+  - english: to ride
 auxiliary: hobn
 conjugation:
   present:

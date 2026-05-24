@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: זעצן
   transliteration: zetsn
-meaning:
-  english: to set
+senses:
+  - english: to set
 auxiliary: hobn
 conjugation:
   present:

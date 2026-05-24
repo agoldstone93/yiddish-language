@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: זאָרגן
   transliteration: zorgn
-meaning:
-  english: to worry
+senses:
+  - english: to worry
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרדינען
   transliteration: fardinen
-meaning:
-  english: to deserve, to earn
+senses:
+  - english: to deserve, to earn
 auxiliary: hobn
 conjugation:
   present:

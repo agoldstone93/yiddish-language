@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: קוועלן
   transliteration: kveln
-meaning:
-  english: to kvell, to be proud of
+senses:
+  - english: to kvell, to be proud of
 auxiliary: hobn
 conjugation:
   present:

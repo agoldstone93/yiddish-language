@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: בויערן
   transliteration: boyern
-meaning:
-  english: to pierce
+senses:
+  - english: to pierce
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרקערן
   transliteration: farkern
-meaning:
-  english: to turn
+senses:
+  - english: to turn
 auxiliary: hobn
 conjugation:
   present:

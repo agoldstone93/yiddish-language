@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: גליטשן
   transliteration: glitshn
-meaning:
-  english: to slip
+senses:
+  - english: to slip
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: periphrastic
 lemma:
   yiddish: מסכּים זײַן
   transliteration: maskem zayn
-meaning:
-  english: to agree
+senses:
+  - english: to agree
 auxiliary: hobn
 conjugation:
   present:

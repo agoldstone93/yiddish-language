@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: געפֿינען
   transliteration: gefinen
-meaning:
-  english: to find
+senses:
+  - english: to find
 auxiliary: hobn
 conjugation:
   present:

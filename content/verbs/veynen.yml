@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: וויינען
   transliteration: veynen
-meaning:
-  english: to cry
+senses:
+  - english: to cry
 auxiliary: hobn
 conjugation:
   present:
@@ -27,7 +27,7 @@ conjugation:
       yiddish: וויינען
       transliteration: veynen
   past_participle:
-    yiddish:  געוויינט
+    yiddish: געוויינט
     transliteration: gevaynt
 search:
   yiddish: []

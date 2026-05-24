@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שטיין
   transliteration: shteyn
-meaning:
-  english: to stand
+senses:
+  - english: to stand
 auxiliary: zayn
 conjugation:
   present:

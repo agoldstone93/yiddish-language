@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: באַשרײַבן
   transliteration: bashraybn
-meaning:
-  english: to describe
+senses:
+  - english: to describe
 auxiliary: hobn
 conjugation:
   present:

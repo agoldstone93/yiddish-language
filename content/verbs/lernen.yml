@@ -1,20 +1,14 @@
 id: lernen
-
 lemma:
   yiddish: לערנען
   transliteration: lernen
-
-meaning:
-  english: to teach
-
+senses:
+  - english: to teach
 categoryId: simple
-
 search:
   yiddish: []
   transliteration: []
-
 auxiliary: hobn
-
 conjugation:
   present:
     ikh:
@@ -35,7 +29,6 @@ conjugation:
     zey:
       yiddish: לערנען
       transliteration: lernen
-
   past_participle:
     yiddish: געלערנט
     transliteration: gelernt

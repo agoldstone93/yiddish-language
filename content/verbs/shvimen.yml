@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שווימען
   transliteration: shvimen
-meaning:
-  english: to swim
+senses:
+  - english: to swim
 auxiliary: zayn
 conjugation:
   present:

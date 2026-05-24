@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרשטיין
   transliteration: farshteyen
-meaning:
-  english: to understand
+senses:
+  - english: to understand
 auxiliary: hobn
 conjugation:
   present:

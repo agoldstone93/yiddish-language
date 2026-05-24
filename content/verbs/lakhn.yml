@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: לאַכן
   transliteration: lakhn
-meaning:
-  english: to laugh
+senses:
+  - english: to laugh
 auxiliary: hobn
 conjugation:
   present:

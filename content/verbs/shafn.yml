@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שאַפֿן
   transliteration: shafn
-meaning:
-  english: to create
+senses:
+  - english: to create
 auxiliary: hobn
 conjugation:
   present:

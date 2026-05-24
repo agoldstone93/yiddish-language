@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: באַשמירן
   transliteration: bashmirn
-meaning:
-  english: to spread
+senses:
+  - english: to spread
 auxiliary: hobn
 conjugation:
   present:

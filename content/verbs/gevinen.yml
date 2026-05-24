@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: געווינען
   transliteration: gevinen
-meaning:
-  english: to win
+senses:
+  - english: to win
 auxiliary: hobn
 conjugation:
   present:

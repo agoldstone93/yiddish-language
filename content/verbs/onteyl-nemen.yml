@@ -3,8 +3,8 @@ categoryId: periphrastic
 lemma:
   yiddish: אָנטײל נעמען
   transliteration: onteyl nemen
-meaning:
-  english: to take part, to participate
+senses:
+  - english: to take part, to participate
 auxiliary: hobn
 conjugation:
   present:
@@ -27,5 +27,5 @@ conjugation:
       yiddish: נעמען אָנטײל
       transliteration: nemen onteyl
   past_participle:
-    yiddish: אָנטײל גענומען 
+    yiddish: אָנטײל גענומען
     transliteration: onteyl genumen

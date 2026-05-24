@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: אָנצינדן
   transliteration: ontsindn
-meaning:
-  english: to light
+senses:
+  - english: to light
 auxiliary: hobn
 conjugation:
   present:

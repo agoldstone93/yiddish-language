@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרגעסן
   transliteration: fargesn
-meaning:
-  english: to forget
+senses:
+  - english: to forget
 auxiliary: hobn
 conjugation:
   present:

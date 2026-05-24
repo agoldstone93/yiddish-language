@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: דאַוונען
   transliteration: davnen
-meaning:
-  english: to pray
+senses:
+  - english: to pray
 auxiliary: hobn
 conjugation:
   present:

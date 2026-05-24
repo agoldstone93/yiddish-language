@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: זען
   transliteration: zen
-meaning:
-  english: to see
+senses:
+  - english: to see
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרשטעלן
   transliteration: farshteln
-meaning:
-  english: to cover
+senses:
+  - english: to cover
 auxiliary: hobn
 conjugation:
   present:

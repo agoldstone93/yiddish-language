@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: באַקומען
   transliteration: bakumen
-meaning:
-  english: to get, receive
+senses:
+  - english: to get, receive
 auxiliary: hobn
 conjugation:
   present:
