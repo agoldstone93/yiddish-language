@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ניצן
   transliteration: nitsn
-meaning:
-  english: to use
+senses:
+  - english: to use
 auxiliary: hobn
 conjugation:
   present:

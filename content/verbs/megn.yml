@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: מעגן
   transliteration: megn
-meaning:
-  english: to be able to
+senses:
+  - english: to be able to
 auxiliary: hobn
 conjugation:
   present:
@@ -32,4 +32,5 @@ conjugation:
 search:
   yiddish: []
   transliteration: []
-  english: ['may']
+  english:
+    - may

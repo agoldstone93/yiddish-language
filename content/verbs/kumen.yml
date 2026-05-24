@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: קומען
   transliteration: kumen
-meaning:
-  english: to come
+senses:
+  - english: to come
 auxiliary: zayn
 conjugation:
   present:

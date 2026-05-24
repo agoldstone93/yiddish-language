@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שפּײַען
   transliteration: shpayen
-meaning:
-  english: to spit
+senses:
+  - english: to spit
 auxiliary: hobn
 conjugation:
   present:

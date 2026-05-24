@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿילן
   transliteration: filn
-meaning:
-  english: to fill, to feel
+senses:
+  - english: to fill, to feel
 auxiliary: hobn
 conjugation:
   present:

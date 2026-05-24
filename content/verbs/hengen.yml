@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: הענגען
   transliteration: hengen
-meaning:
-  english: to hang
+senses:
+  - english: to hang
 auxiliary: hobn
 conjugation:
   present:

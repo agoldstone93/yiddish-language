@@ -3,8 +3,8 @@ categoryId: reflexive
 lemma:
   yiddish: דערהערן זיך
   transliteration: derhern zikh
-meaning:
-  english: to be heard
+senses:
+  - english: to be heard
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: הייבן
   transliteration: heybn
-meaning:
-  english: to lift
+senses:
+  - english: to lift
 auxiliary: hobn
 conjugation:
   present:

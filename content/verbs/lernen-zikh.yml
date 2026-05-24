@@ -4,8 +4,8 @@ categoryId: reflexive
 lemma:
   yiddish: לערנען זיך
   transliteration: lernen zikh
-meaning:
-  english: to learn
+senses:
+  - english: to learn
 auxiliary: hobn
 conjugation:
   present:

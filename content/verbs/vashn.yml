@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: וואַשן
   transliteration: vashn
-meaning:
-  english: to wash
+senses:
+  - english: to wash
 auxiliary: hobn
 conjugation:
   present:

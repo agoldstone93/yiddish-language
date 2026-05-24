@@ -3,8 +3,8 @@ categoryId: periphrastic
 lemma:
   yiddish: חוזק מאַכן
   transliteration: khoyzek makhn
-meaning:
-  english: to make fun of, to tease
+senses:
+  - english: to make fun of, to tease
 auxiliary: hobn
 conjugation:
   present:

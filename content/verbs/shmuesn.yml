@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שמועסן
   transliteration: shmuesn
-meaning:
-  english: to talk, to chat
+senses:
+  - english: to talk, to chat
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: רינען
   transliteration: rinen
-meaning:
-  english: to trickle
+senses:
+  - english: to trickle
 auxiliary: hobn
 conjugation:
   present:

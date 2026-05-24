@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: אָנהײבן
   transliteration: onheybn
-meaning:
-  english: to start
+senses:
+  - english: to start
 auxiliary: hobn
 conjugation:
   present:

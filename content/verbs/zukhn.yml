@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: זוכן
   transliteration: zukhn
-meaning:
-  english: to seek
+senses:
+  - english: to seek
 auxiliary: hobn
 conjugation:
   present:

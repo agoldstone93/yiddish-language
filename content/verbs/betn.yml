@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: בעטן
   transliteration: betn
-meaning:
-  english: to ask, to request, to pray
+senses:
+  - english: to ask, to request, to pray
 auxiliary: hobn
 conjugation:
   present:

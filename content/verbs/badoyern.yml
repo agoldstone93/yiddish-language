@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: באַדויערן
   transliteration: badoyern
-meaning:
-  english: to regret
+senses:
+  - english: to regret
 auxiliary: hobn
 conjugation:
   present:

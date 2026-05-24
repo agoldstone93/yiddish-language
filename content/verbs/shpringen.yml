@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שפּרינגען
   transliteration: shpringen
-meaning:
-  english: to jump
+senses:
+  - english: to jump
 auxiliary: hobn
 conjugation:
   present:

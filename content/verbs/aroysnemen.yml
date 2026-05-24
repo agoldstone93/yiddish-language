@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: אַרויסנעמען
   transliteration: aroysnemen
-meaning:
-  english: to take out
+senses:
+  - english: to take out
 auxiliary: hobn
 conjugation:
   present:

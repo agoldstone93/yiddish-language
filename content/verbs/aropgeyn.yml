@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: אַראָפּגיין
   transliteration: aropgeyn
-meaning:
-  english: to go down, to descend
+senses:
+  - english: to go down, to descend
 auxiliary: zayn
 conjugation:
   present:

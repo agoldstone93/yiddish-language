@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ניסן
   transliteration: nisn
-meaning:
-  english: to sneeze
+senses:
+  - english: to sneeze
 auxiliary: hobn
 conjugation:
   present:

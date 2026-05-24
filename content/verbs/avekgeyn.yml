@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: אַוועקגיין
   transliteration: avekgeyn
-meaning:
-  english: to go away, to leave
+senses:
+  - english: to go away, to leave
 auxiliary: zayn
 conjugation:
   present:

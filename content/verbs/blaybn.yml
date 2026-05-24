@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: בלײַבן
   transliteration: blaybn
-meaning:
-  english: to remain, to stay, to continue
+senses:
+  - english: to remain, to stay, to continue
 auxiliary: zayn
 conjugation:
   present:

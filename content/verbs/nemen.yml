@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: נעמען
   transliteration: nemen
-meaning:
-  english: to take
+senses:
+  - english: to take
 auxiliary: hobn
 conjugation:
   present:

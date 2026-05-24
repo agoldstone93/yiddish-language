@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שפּאָרן
   transliteration: shporn
-meaning:
-  english: to save up
+senses:
+  - english: to save up
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: טרינקען
   transliteration: trinken
-meaning:
-  english: to drink
+senses:
+  - english: to drink
 auxiliary: hobn
 conjugation:
   present:

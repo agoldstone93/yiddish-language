@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שיקן
   transliteration: shikn
-meaning:
-  english: to send
+senses:
+  - english: to send
 auxiliary: hobn
 conjugation:
   present:

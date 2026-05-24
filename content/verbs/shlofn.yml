@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שלאָפֿן
   transliteration: shlofn
-meaning:
-  english: to sleep
+senses:
+  - english: to sleep
 auxiliary: zayn
 conjugation:
   present:

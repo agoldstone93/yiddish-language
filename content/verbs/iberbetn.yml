@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: איבערבעטן
   transliteration: iberbetn
-meaning:
-  english: to reconcile
+senses:
+  - english: to reconcile
 auxiliary: hobn
 conjugation:
   present:

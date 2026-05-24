@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: טראַכטן
   transliteration: trakhtn
-meaning:
-  english: to think
+senses:
+  - english: to think
 auxiliary: hobn
 conjugation:
   present:

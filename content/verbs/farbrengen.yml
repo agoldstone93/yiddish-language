@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרברענגען
   transliteration: farbrengen
-meaning:
-  english: to spend time
+senses:
+  - english: to spend time
 auxiliary: hobn
 conjugation:
   present:

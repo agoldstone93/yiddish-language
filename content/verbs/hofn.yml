@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: האָפֿן
   transliteration: hofn
-meaning:
-  english: to hope
+senses:
+  - english: to hope
 auxiliary: hobn
 conjugation:
   present:

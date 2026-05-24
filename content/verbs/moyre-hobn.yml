@@ -3,8 +3,8 @@ categoryId: periphrastic
 lemma:
   yiddish: מורא האָבן
   transliteration: moyre hobn
-meaning:
-  english: to be afraid, to fear
+senses:
+  - english: to be afraid, to fear
 auxiliary: hobn
 conjugation:
   present:
@@ -27,5 +27,5 @@ conjugation:
       yiddish: האָבן מורא
       transliteration: hobn moyre
   past_participle:
-    yiddish: מורא געהאַט 
+    yiddish: מורא געהאַט
     transliteration: moyre gehat

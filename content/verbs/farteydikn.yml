@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרטײדיקן
   transliteration: farteydikn
-meaning:
-  english: to defend
+senses:
+  - english: to defend
 auxiliary: hobn
 conjugation:
   present:

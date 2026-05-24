@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שאָקלען
   transliteration: shoklen
-meaning:
-  english: to shake
+senses:
+  - english: to shake
 auxiliary: hobn
 conjugation:
   present:

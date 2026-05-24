@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: אירצן
   transliteration: irtsn
-meaning:
-  english: to address someone with ir
+senses:
+  - english: to address someone with ir
 auxiliary: hobn
 conjugation:
   present:

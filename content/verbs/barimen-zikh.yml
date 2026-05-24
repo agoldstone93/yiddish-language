@@ -3,8 +3,8 @@ categoryId: reflexive
 lemma:
   yiddish: באַרימען זיך
   transliteration: barimen zikh
-meaning:
-  english: to brag, to boast
+senses:
+  - english: to brag, to boast
 auxiliary: hobn
 conjugation:
   present:

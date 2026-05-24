@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: לייגן
   transliteration: leygn
-meaning:
-  english: to put
+senses:
+  - english: to put
 auxiliary: hobn
 conjugation:
   present:

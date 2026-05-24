@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: גראַמען
   transliteration: gramen
-meaning:
-  english: to rhyme
+senses:
+  - english: to rhyme
 auxiliary: hobn
 conjugation:
   present:

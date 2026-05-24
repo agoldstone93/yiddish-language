@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ווינטשן
   transliteration: vintshn
-meaning:
-  english: to wish
+senses:
+  - english: to wish
 auxiliary: hobn
 conjugation:
   present:

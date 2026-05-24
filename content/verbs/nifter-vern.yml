@@ -1,10 +1,10 @@
 id: nifter-vern
 categoryId: periphrastic
 lemma:
-  yiddish:  ניפֿטר װערן
+  yiddish: ניפֿטר װערן
   transliteration: nifter vern
-meaning:
-  english: to pass away
+senses:
+  - english: to pass away
 auxiliary: zayn
 conjugation:
   present:

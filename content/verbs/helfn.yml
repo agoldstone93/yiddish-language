@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: העלפֿן
   transliteration: helfn
-meaning:
-  english: to help
+senses:
+  - english: to help
 auxiliary: hobn
 conjugation:
   present:

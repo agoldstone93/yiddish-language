@@ -3,8 +3,8 @@ categoryId: periphrastic
 lemma:
   yiddish: ליב האָבן
   transliteration: lib hobn
-meaning:
-  english: to love, to like
+senses:
+  - english: to love, to like
 auxiliary: hobn
 conjugation:
   present:
@@ -27,5 +27,5 @@ conjugation:
       yiddish: האָבן ליב
       transliteration: hobn lib
   past_participle:
-    yiddish: ליב געהאַט 
+    yiddish: ליב געהאַט
     transliteration: lib gehat

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: מאַכן
   transliteration: makhn
-meaning:
-  english: to make
+senses:
+  - english: to make
 auxiliary: hobn
 conjugation:
   present:

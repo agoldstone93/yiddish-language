@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: נייען
   transliteration: neyen
-meaning:
-  english: to sew
+senses:
+  - english: to sew
 auxiliary: hobn
 conjugation:
   present:

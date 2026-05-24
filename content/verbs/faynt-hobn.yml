@@ -3,8 +3,8 @@ categoryId: periphrastic
 lemma:
   yiddish: פֿײַנט האָבן
   transliteration: faynt hobn
-meaning:
-  english: to hate
+senses:
+  - english: to hate
 auxiliary: hobn
 conjugation:
   present:
@@ -27,5 +27,5 @@ conjugation:
       yiddish: האָבן פֿײַנט
       transliteration: hobn faynt
   past_participle:
-    yiddish: פֿײַנט געהאַט 
+    yiddish: פֿײַנט געהאַט
     transliteration: faynt gehat
