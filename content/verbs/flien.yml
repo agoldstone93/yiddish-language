@@ -1,0 +1,35 @@
+id: flien
+categoryId: simple
+lemma:
+  yiddish: פֿליִען
+  transliteration: flien
+meaning:
+  english: to fly
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿלי
+      transliteration: fli
+    du:
+      yiddish: פֿליסט
+      transliteration: flist
+    er_zi_es:
+      yiddish: פֿליט
+      transliteration: flit
+    mir:
+      yiddish: פֿליִען
+      transliteration: flien
+    ir:
+      yiddish: פֿליט
+      transliteration: flit
+    zey:
+      yiddish: פֿליִען
+      transliteration: flien
+  past_participle:
+    yiddish: געפֿלויגן
+    transliteration: gefloygn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

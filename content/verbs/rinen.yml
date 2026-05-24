@@ -1,0 +1,35 @@
+id: rinen
+categoryId: simple
+lemma:
+  yiddish: רינען
+  transliteration: rinen
+meaning:
+  english: to trickle
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: רין
+      transliteration: rin
+    du:
+      yiddish: רינסט
+      transliteration: rinst
+    er_zi_es:
+      yiddish: רינט
+      transliteration: rint
+    mir:
+      yiddish: רינען
+      transliteration: rinen
+    ir:
+      yiddish: רינט
+      transliteration: rint
+    zey:
+      yiddish: רינען
+      transliteration: rinen
+  past_participle:
+    yiddish: גערונען
+    transliteration: gerunen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

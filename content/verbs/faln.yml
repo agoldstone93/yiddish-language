@@ -1,0 +1,35 @@
+id: faln
+categoryId: simple
+lemma:
+  yiddish: פֿאַלן
+  transliteration: faln
+meaning:
+  english: to fall
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַל
+      transliteration: fal
+    du:
+      yiddish: פֿאַלסט
+      transliteration: falst
+    er_zi_es:
+      yiddish: פֿאַלט
+      transliteration: falt
+    mir:
+      yiddish: פֿאַלן
+      transliteration: faln
+    ir:
+      yiddish: פֿאַלט
+      transliteration: falt
+    zey:
+      yiddish: פֿאַלן
+      transliteration: faln
+  past_participle:
+    yiddish: געפֿאַלן
+    transliteration: gefaln
+search:
+  yiddish: []
+  transliteration: []
+  english: []

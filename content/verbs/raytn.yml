@@ -1,0 +1,35 @@
+id: raytn
+categoryId: simple
+lemma:
+  yiddish: רײַטן
+  transliteration: raytn
+meaning:
+  english: to ride
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: רײַט
+      transliteration: rayt
+    du:
+      yiddish: רײַטסט
+      transliteration: raytst
+    er_zi_es:
+      yiddish: רײַט
+      transliteration: rayt
+    mir:
+      yiddish: רײַטן
+      transliteration: raytn
+    ir:
+      yiddish: רײַט
+      transliteration: rayt
+    zey:
+      yiddish: רײַטן
+      transliteration: raytn
+  past_participle:
+    yiddish: געריטן
+    transliteration: geritn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

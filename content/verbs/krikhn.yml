@@ -1,0 +1,35 @@
+id: krikhn
+categoryId: simple
+lemma:
+  yiddish: קריכן
+  transliteration: krikhn
+meaning:
+  english: to crawl
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: קריך
+      transliteration: krikh
+    du:
+      yiddish: קריכסט
+      transliteration: krikhst
+    er_zi_es:
+      yiddish: קריכט
+      transliteration: krikht
+    mir:
+      yiddish: קריכן
+      transliteration: krikhn
+    ir:
+      yiddish: קריכט
+      transliteration: krikht
+    zey:
+      yiddish: קריכן
+      transliteration: krikhn
+  past_participle:
+    yiddish: געקראָכן
+    transliteration: gekrokhn
+search:
+  yiddish: []
+  transliteration: []
+  english: []
