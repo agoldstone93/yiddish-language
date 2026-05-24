@@ -8,7 +8,7 @@ describe('getConditionalForms', () => {
     const verb = {
       id: 'lernen',
       lemma: { yiddish: 'לערנען', transliteration: 'lernen' },
-      meaning: { english: 'to learn' },
+      senses: [{ english: 'to learn' }],
       auxiliary: 'hobn',
       reflexive: false,
       conjugation: {
@@ -30,7 +30,7 @@ describe('getConditionalForms', () => {
     const verb = {
       id: 'esen',
       lemma: { yiddish: 'עסן', transliteration: 'esen' },
-      meaning: { english: 'to eat' },
+      senses: [{ english: 'to eat' }],
       auxiliary: 'hobn',
       reflexive: false,
       conjugation: {
@@ -79,7 +79,7 @@ describe('getConditionalForms', () => {
     const verb = {
       id: 'lernen-zikh',
       lemma: { yiddish: 'לרענען זיך', transliteration: 'lernen zikh' },
-      meaning: { english: 'to learn' },
+      senses: [{ english: 'to learn' }],
       reflexive: true,
       auxiliary: 'hobn',
       conjugation: {
@@ -128,7 +128,7 @@ describe('getConditionalForms', () => {
     const verb = {
       id: 'maskem-zayn',
       lemma: { yiddish: 'מסכּים זײַן', transliteration: 'maskem zayn' },
-      meaning: { english: 'to agree' },
+      senses: [{ english: 'to agree' }],
       reflexive: false,
       auxiliary: 'hobn',
       conjugation: {

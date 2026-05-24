@@ -4,22 +4,7 @@ import yaml from 'js-yaml';
 import Link from 'next/link';
 import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
-
-type Verb = {
-  id: string;
-  lemma: {
-    yiddish: string;
-    transliteration: string;
-  };
-  meaning: {
-    english: string;
-  };
-  origin: string;
-  part_of_speech: string;
-  verb_class: string;
-  auxiliary: string;
-  notes?: string;
-};
+import type { Verb } from '@/types/verb';
 
 export const getStaticProps = async () => {
   const verbsDir = path.join(process.cwd(), 'content/verbs');
@@ -58,7 +43,7 @@ export default function VerbsPage({ verbs }: InferGetStaticPropsType<typeof getS
               href={`/verbs/${verb.id}`}
               className="text-lg font-semibold underline underline-offset-2 hover:no-underline flex justify-between"
             >
-              <span>{verb.meaning.english}</span>
+              <span>{verb.senses?.[0]?.english}</span>
               <span>{verb.lemma.yiddish}</span>
             </Link>
             </li>

@@ -31,9 +31,10 @@ waitForCMS(() => {
         yiddish: get(["lemma", "yiddish"]) || "",
         transliteration: get(["lemma", "transliteration"]) || "",
       },
-      meaning: {
-        english: get(["meaning", "english"]) || "",
-      },
+      senses: (entry.getIn(["data", "senses"])?.toJS() || []).map((sense) => ({
+        english: sense.english || "",
+        notes: sense.notes || [],
+      })),
       conjugation: {
         present,
         past_participle: {
@@ -95,11 +96,11 @@ waitForCMS(() => {
         h("div", { style: { color: "#444", marginBottom: 8 } }, 
           "(", verb.lemma.transliteration, verb.reflexive ? " zikh" : "", ")"
         ),
-        verb.meaning?.english && h(
+        verb.senses?.[0]?.english && h(
           "div",
           { style: { marginBottom: 16 } },
           h("strong", {}, "Meaning:"),
-          " ", verb.meaning.english
+          " ", verb.senses[0].english
         ),
         renderForms("Present", verb.conjugation.present),
         renderForms("Past", past),
