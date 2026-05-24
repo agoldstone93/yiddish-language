@@ -62,8 +62,8 @@ export const getStaticProps: GetStaticProps<{
 
 export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsType<typeof getStaticProps>) {
   const title = `${verb.lemma.yiddish} (${verb.lemma.transliteration})`;
-  const description = verb.meaning?.english
-    ? `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) - "${verb.meaning.english}" in Yiddish. View all tenses and forms.`
+  const description = verb.senses?.[0]?.english
+    ? `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) - "${verb.senses[0].english}" in Yiddish. View all tenses and forms.`
     : `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) in Yiddish. View all tenses and forms.`;
 
   return (
@@ -87,7 +87,7 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
           <br />
 
           {/* Metadata */}
-          {verb.meaning?.english && <p><strong>Meaning:</strong> {verb.meaning.english}</p>}
+          {verb.senses?.[0]?.english && <p><strong>Meaning:</strong> {verb.senses[0].english}</p>}
           {verb.categoryId && <p><strong>Category:</strong> {verb.categoryId}</p>}
         </div>
 

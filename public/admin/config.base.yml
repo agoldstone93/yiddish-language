@@ -141,14 +141,18 @@ collections:
             name: transliteration
             widget: string
       
-      - label: Meaning
-        name: meaning
-        widget: object
-        required: false
+      - label: Definitions
+        name: senses
+        widget: list
+        summary: "{{fields.english}}"
         fields:
-          - label: English
+          - label: Definition
             name: english
             widget: string
+          - label: Notes
+            name: notes
+            widget: list
+            required: false
       
       - label: Auxiliary
         name: auxiliary

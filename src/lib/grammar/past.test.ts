@@ -8,7 +8,7 @@ describe('getPastForms', () => {
     const verb = {
       id: 'lernen',
       lemma: { yiddish: 'לערנען', transliteration: 'lernen' },
-      meaning: { english: 'to learn' },
+      senses: [{ english: 'to learn' }],
       auxiliary: 'hobn',
       reflexive: false,
       conjugation: {
@@ -30,7 +30,7 @@ describe('getPastForms', () => {
     const verb = {
       id: 'esen',
       lemma: { yiddish: 'עסן', transliteration: 'esen' },
-      meaning: { english: 'to eat' },
+      senses: [{ english: 'to eat' }],
       auxiliary: 'hobn',
       reflexive: false,
       conjugation: {
@@ -79,7 +79,7 @@ describe('getPastForms', () => {
     const verb = {
       id: 'geyn',
       lemma: { yiddish: 'גיין', transliteration: 'geyn' },
-      meaning: { english: 'to go' },
+      senses: [{ english: 'to go' }],
       auxiliary: 'zayn',
       reflexive: false,
       conjugation: {
@@ -128,7 +128,7 @@ describe('getPastForms', () => {
     const verb = {
       id: 'lernen-zikh',
       lemma: { yiddish: 'לרענען זיך', transliteration: 'lernen zikh' },
-      meaning: { english: 'to learn' },
+      senses: [{ english: 'to learn' }],
       reflexive: true,
       auxiliary: 'hobn',
       conjugation: {
@@ -177,7 +177,7 @@ describe('getPastForms', () => {
     const verb = {
       id: 'maskem-zayn',
       lemma: { yiddish: 'מסכּים זײַן', transliteration: 'maskem zayn' },
-      meaning: { english: 'to agree' },
+      senses: [{ english: 'to agree' }],
       reflexive: false,
       auxiliary: 'hobn',
       conjugation: {
@@ -229,7 +229,7 @@ describe('getPastForms', () => {
     const verb = {
       id: 'aroysnemen',
       lemma: { yiddish: 'אַרױסנעמען', transliteration: 'aroysnemen' },
-      meaning: { english: 'to take out' },
+      senses: [{ english: 'to take out' }],
       reflexive: false,
       auxiliary: 'hobn',
       conjugation: {

@@ -41,7 +41,7 @@ export default function DictionaryEntryPage({
   verb,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const lemma = noun?.lemma ?? verb?.lemma;
-  const english = noun?.senses?.[0]?.english ?? verb?.meaning.english;
+  const english = noun?.senses?.[0]?.english ?? verb?.senses?.[0]?.english;
   const entryId = noun?.id ?? verb?.id;
 
   if (!lemma || !entryId) {
@@ -107,7 +107,11 @@ export default function DictionaryEntryPage({
               </span>
             </div>
             <div>Past participle: {verb.conjugation.past_participle ? verb.conjugation.past_participle.yiddish : "—"}</div>
-            <div>1. {verb.meaning.english}</div>
+            {verb.senses.map((sense, index) => (
+              <div key={index}>
+                {index + 1}. {sense.english}
+              </div>
+            ))}
           </section>
         )}
       </div>
