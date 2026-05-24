@@ -49,13 +49,87 @@ async function fetchRenderedPage(title) {
   return html;
 }
 
-function extractGloss(wikitext) {
-  // Look for # [[definition]] format
-  const match = wikitext.match(/#\s+(?:To\s+)?(?:\[\[)?([^\]]+)/i);
-  if (match) {
-    return match[1].replace(/\[\[|\]\]/g, "").trim();
+function extractYiddishVerbSection(wikitext) {
+  const lines = wikitext.split(/\r?\n/);
+  let inYiddish = false;
+  let inVerb = false;
+  const section = [];
+
+  for (const line of lines) {
+    if (/^==[^=]+==\s*$/.test(line)) {
+      if (inYiddish && inVerb) break;
+      inYiddish = line.trim() === "==Yiddish==";
+      inVerb = false;
+      continue;
+    }
+
+    if (!inYiddish) continue;
+
+    if (/^===Verb===\s*$/.test(line)) {
+      inVerb = true;
+      continue;
+    }
+
+    if (inVerb && /^===.*===\s*$/.test(line)) {
+      break;
+    }
+
+    if (inVerb) {
+      section.push(line);
+    }
   }
-  return null;
+
+  return section.length > 0 ? section.join("\n") : null;
+}
+
+function cleanWiktionaryDefinition(text) {
+  return text
+    .replace(/\{\{[^}]+\}\}/g, "")
+    .replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/''+/g, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function extractSenses(wikitext) {
+  const verbSection = extractYiddishVerbSection(wikitext);
+  if (!verbSection) return [];
+
+  const lines = verbSection.split(/\r?\n/);  const rawSenses = [];
+  let currentSense = null;
+
+  for (const line of lines) {
+    if (/^#(?![:*])\s+/.test(line)) {
+      if (currentSense) {
+        rawSenses.push(currentSense);
+      }
+      currentSense = line.replace(/^#\s+/, "").trim();
+      continue;
+    }
+
+    if (/^#[:*]/.test(line) || /^[:*]/.test(line)) {
+      continue;
+    }
+
+    if (/^====/.test(line) || /^===/.test(line)) {
+      break;
+    }
+
+    if (currentSense && line.trim()) {
+      currentSense += " " + line.trim();
+    }
+  }
+
+  if (currentSense) {
+    rawSenses.push(currentSense);
+  }
+
+  return rawSenses
+    .map(cleanWiktionaryDefinition)
+    .filter(Boolean)
+    .map((english) => ({ english }));
 }
 
 // Parse the HTML table from expanded yi-conj template
@@ -180,8 +254,12 @@ async function generateVerb(title) {
   
   const wikitext = await fetchWikitext(title);
 
-  const gloss = extractGloss(wikitext);
-  if (!gloss) throw new Error("Could not extract gloss (definition) from Wiktionary");
+  const senses = extractSenses(wikitext);
+  if (senses.length === 0) {
+    console.log(extractYiddishVerbSection(wikitext));
+    console.log(wikitext);
+    throw new Error("Could not extract senses from Wiktionary");
+  }
 
   // Fetch the rendered page to get the conjugation table
   const html = await fetchRenderedPage(title);
@@ -214,9 +292,7 @@ async function generateVerb(title) {
       yiddish: title,
       transliteration: finalInfinitiveTr,
     },
-    meaning: {
-      english: `to ${gloss}`,
-    },
+    senses,
     auxiliary: finalAuxiliary,
     conjugation: {
       present: conjugation.present,
@@ -240,8 +316,10 @@ async function generateVerb(title) {
     yaml.dump(output, { allowUnicode: true })
   );
 
+  
+
   console.log(`✓ Generated ${filename}.yml`);
-  console.log(`  Definition: to ${gloss}`);
+  console.log(`  Definitions: ${senses.map(s => s.english).join(", ")}`);
   console.log(`  Auxiliary: ${finalAuxiliary}`);
   console.log(`  Past participle: ${conjugation.pastParticiple.yiddish}`);
 }
