@@ -1,0 +1,35 @@
+id: moykhl-zayn
+categoryId: periphrastic
+lemma:
+  yiddish: מוחל זײַן
+  transliteration: moykhl zayn
+meaning:
+  english: to forgive
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בין מוחל
+      transliteration: bin moykhl
+    du:
+      yiddish: ביסט מוחל
+      transliteration: bist moykhl
+    er_zi_es:
+      yiddish: איז מוחל
+      transliteration: iz moykhl
+    mir:
+      yiddish: זײַנען מוחל
+      transliteration: zaynen moykhl
+    ir:
+      yiddish: זײַט מוחל
+      transliteration: zayt moykhl
+    zey:
+      yiddish: זײַנען מוחל
+      transliteration: zaynen moykhl
+  past_participle:
+    yiddish: מוחל געװען
+    transliteration: moykhl geven
+search:
+  yiddish: []
+  transliteration: []
+  english: []

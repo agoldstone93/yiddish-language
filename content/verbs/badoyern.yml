@@ -1,0 +1,35 @@
+id: badoyern
+categoryId: simple
+lemma:
+  yiddish: באַדויערן
+  transliteration: badoyern
+meaning:
+  english: to regret
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַדויער
+      transliteration: badoyer
+    du:
+      yiddish: באַדויערסט
+      transliteration: badoyerst
+    er_zi_es:
+      yiddish: באַדויערט
+      transliteration: badoyert
+    mir:
+      yiddish: באַדויערן
+      transliteration: badoyern
+    ir:
+      yiddish: באַדויערט
+      transliteration: badoyert
+    zey:
+      yiddish: באַדויערן
+      transliteration: badoyern
+  past_participle:
+    yiddish: באַדויערט
+    transliteration: badoyert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

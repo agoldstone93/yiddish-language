@@ -1,0 +1,35 @@
+id: gramen
+categoryId: simple
+lemma:
+  yiddish: גראַמען
+  transliteration: gramen
+meaning:
+  english: to rhyme
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: גראַם
+      transliteration: gram
+    du:
+      yiddish: גראַמסט
+      transliteration: gramst
+    er_zi_es:
+      yiddish: גראַמט
+      transliteration: gramt
+    mir:
+      yiddish: גראַמען
+      transliteration: gramen
+    ir:
+      yiddish: גראַמט
+      transliteration: gramt
+    zey:
+      yiddish: גראַמען
+      transliteration: gramen
+  past_participle:
+    yiddish: געגראַמט
+    transliteration: gegramt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
