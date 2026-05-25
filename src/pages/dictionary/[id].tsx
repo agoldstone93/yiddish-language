@@ -79,11 +79,11 @@ export default function DictionaryEntryPage({
               <h2 className="text-xl font-semibold">Noun</h2>
               <div>Gender: {noun.gender}</div>
               <div>Plural: {noun.plural ? `${noun.plural.yiddish} (${noun.plural.transliteration})` : "—"}</div>
-              {noun.senses.map((sense, index) => (
-                <div key={index}>
-                  {index + 1}. {sense.english}
-                </div>
-              ))}
+              <ol className="list-decimal list-inside">
+                {noun.senses.map((sense, index) => (
+                  <li className="indent-4" key={index}>{sense.english}</li>
+                ))}
+              </ol>
             </section>
             {noun.notes && noun.notes.length > 0 && (
               <section className="rounded border p-4 shadow-sm">
@@ -107,11 +107,11 @@ export default function DictionaryEntryPage({
               </span>
             </div>
             <div>Past participle: {verb.conjugation.past_participle ? verb.conjugation.past_participle.yiddish : "—"}</div>
-            {verb.senses.map((sense, index) => (
-              <div key={index}>
-                {index + 1}. {sense.english}
-              </div>
-            ))}
+            <ol className="list-decimal list-inside">
+              {verb.senses.map((sense, index) => (
+                <li className="indent-4" key={index}>{sense.english}</li>
+              ))}
+            </ol>
           </section>
         )}
       </div>
