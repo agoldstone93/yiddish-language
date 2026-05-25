@@ -77,8 +77,9 @@ export default function DictionaryEntryPage({
           <>
             <section className="space-y-2">
               <h2 className="text-xl font-semibold">Noun</h2>
-              <div>Gender: {noun.gender}</div>
-              <div>Plural: {noun.plural ? `${noun.plural.yiddish} (${noun.plural.transliteration})` : "—"}</div>
+              <div className='text-lg'>Gender: {noun.gender}</div>
+              <div className='text-lg'>Plural: {noun.plural ? `${noun.plural.yiddish} (${noun.plural.transliteration})` : "—"}</div>
+
               <ol className="list-decimal list-inside">
                 {noun.senses.map((sense, index) => (
                   <li className="indent-4" key={index}>{sense.english}</li>
@@ -102,11 +103,9 @@ export default function DictionaryEntryPage({
           <section className="space-y-2">
             <div className="flex items-baseline gap-2">
               <h2 className="text-xl font-semibold">Verb</h2>
-              <span className="text-sm">
-                <Link className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100" href={`/verbs/${verb.id}`}>Conjugate</Link>
-              </span>
+              <Link className="app-link text-sm" href={`/verbs/${verb.id}`}>[Conjugate]</Link>
             </div>
-            <div>Past participle: {verb.conjugation.past_participle ? verb.conjugation.past_participle.yiddish : "—"}</div>
+            <div className='text-lg'>Past participle: {verb.conjugation.past_participle ? verb.conjugation.past_participle.yiddish : "—"}</div>
             <ol className="list-decimal list-inside">
               {verb.senses.map((sense, index) => (
                 <li className="indent-4" key={index}>{sense.english}</li>
