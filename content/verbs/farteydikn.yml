@@ -1,0 +1,35 @@
+id: farteydikn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרטײדיקן
+  transliteration: farteydikn
+meaning:
+  english: to defend
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרטײדיק
+      transliteration: farteydik
+    du:
+      yiddish: פֿאַרטײדיקסט
+      transliteration: farteydikst
+    er_zi_es:
+      yiddish: פֿאַרטײדיקט
+      transliteration: farteydikt
+    mir:
+      yiddish: פֿאַרטײדיקן
+      transliteration: farteydikn
+    ir:
+      yiddish: פֿאַרטײדיקט
+      transliteration: farteydikt
+    zey:
+      yiddish: פֿאַרטײדיקן
+      transliteration: farteydikn
+  past_participle:
+    yiddish: פֿאַרטײדיקט
+    transliteration: farteydikt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

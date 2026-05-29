@@ -1,0 +1,35 @@
+id: tseraysn
+categoryId: simple
+lemma:
+  yiddish: צערײַסן
+  transliteration: tseraysn
+meaning:
+  english: to tear up
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: צערײַס
+      transliteration: tserays
+    du:
+      yiddish: צערײַסט
+      transliteration: tserayst
+    er_zi_es:
+      yiddish: צערײַסט
+      transliteration: tserayst
+    mir:
+      yiddish: צערײַסן
+      transliteration: tseraysn
+    ir:
+      yiddish: צערײַסט
+      transliteration: tserayst
+    zey:
+      yiddish: צערײַסן
+      transliteration: tseraysn
+  past_participle:
+    yiddish: צעריסן
+    transliteration: tserisn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: aribergeyn
+categoryId: separable-prefix
+lemma:
+  yiddish: אַריבערגיין
+  transliteration: aribergeyn
+meaning:
+  english: to cross over, to go across
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: גיי אַריבער
+      transliteration: gey ariber
+    du:
+      yiddish: גייסט אַריבער
+      transliteration: geyst ariber
+    er_zi_es:
+      yiddish: גייט אַריבער
+      transliteration: geyt ariber
+    mir:
+      yiddish: גייען אַריבער
+      transliteration: geyen ariber
+    ir:
+      yiddish: גייט אַריבער
+      transliteration: geyt ariber
+    zey:
+      yiddish: גייען אַריבער
+      transliteration: geyen ariber
+  past_participle:
+    yiddish: אַריבערגעגאַנגען
+    transliteration: aribergegangen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

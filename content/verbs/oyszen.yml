@@ -1,0 +1,35 @@
+id: oyszen
+categoryId: seperable-prefix
+lemma:
+  yiddish: אויסזען
+  transliteration: oyszen
+meaning:
+  english: to look, to appear
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זע אויס
+      transliteration: ze oys
+    du:
+      yiddish: זעסט אויס
+      transliteration: zest oys
+    er_zi_es:
+      yiddish: זעט אויס
+      transliteration: zet oys
+    mir:
+      yiddish: זעען אויס
+      transliteration: zeen oys
+    ir:
+      yiddish: זעט אויס
+      transliteration: zet oys
+    zey:
+      yiddish: זעען אויס
+      transliteration: zeen oys
+  past_participle:
+    yiddish: אויסגעזען
+    transliteration: oysgezen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

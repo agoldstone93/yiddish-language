@@ -1,0 +1,35 @@
+id: reynikn
+categoryId: simple
+lemma:
+  yiddish: רייניקן
+  transliteration: reynikn
+meaning:
+  english: to clean
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: רייניק
+      transliteration: reynik
+    du:
+      yiddish: רייניקסט
+      transliteration: reynikst
+    er_zi_es:
+      yiddish: רייניקט
+      transliteration: reynikt
+    mir:
+      yiddish: רייניקן
+      transliteration: reynikn
+    ir:
+      yiddish: רייניקט
+      transliteration: reynikt
+    zey:
+      yiddish: רייניקן
+      transliteration: reynikn
+  past_participle:
+    yiddish: גערייניקט
+    transliteration: gereynikt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: farzukhn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרזוכן
+  transliteration: farzukhn
+meaning:
+  english: to try, to taste
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרזוך
+      transliteration: farzukh
+    du:
+      yiddish: פֿאַרזוכסט
+      transliteration: farzukhst
+    er_zi_es:
+      yiddish: פֿאַרזוכט
+      transliteration: farzukht
+    mir:
+      yiddish: פֿאַרזוכן
+      transliteration: farzukhn
+    ir:
+      yiddish: פֿאַרזוכט
+      transliteration: farzukht
+    zey:
+      yiddish: פֿאַרזוכן
+      transliteration: farzukhn
+  past_participle:
+    yiddish: פֿאַרזוכט
+    transliteration: farzukht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

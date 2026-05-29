@@ -1,0 +1,35 @@
+id: farbaygeyn
+categoryId: separable-prefix
+lemma:
+  yiddish: פֿאַרבײַגיין
+  transliteration: farbaygeyn
+meaning:
+  english: to elapse
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: גיי פֿאַרבײַ
+      transliteration: gey farbay
+    du:
+      yiddish: גייסט פֿאַרבײַ
+      transliteration: geyst farbay
+    er_zi_es:
+      yiddish: גייט פֿאַרבײַ
+      transliteration: geyt farbay
+    mir:
+      yiddish: גייען פֿאַרבײַ
+      transliteration: geyen farbay
+    ir:
+      yiddish: גייט פֿאַרבײַ
+      transliteration: geyt farbay
+    zey:
+      yiddish: גייען פֿאַרבײַ
+      transliteration: geyen farbay
+  past_participle:
+    yiddish: פֿאַרבײַגעגאַנגען
+    transliteration: farbaygegangen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

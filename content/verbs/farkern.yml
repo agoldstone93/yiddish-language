@@ -1,0 +1,35 @@
+id: farkern
+categoryId: simple
+lemma:
+  yiddish: פֿאַרקערן
+  transliteration: farkern
+meaning:
+  english: to turn
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרקער
+      transliteration: farker
+    du:
+      yiddish: פֿאַרקערסט
+      transliteration: farkerst
+    er_zi_es:
+      yiddish: פֿאַרקערט
+      transliteration: farkert
+    mir:
+      yiddish: פֿאַרקערן
+      transliteration: farkern
+    ir:
+      yiddish: פֿאַרקערט
+      transliteration: farkert
+    zey:
+      yiddish: פֿאַרקערן
+      transliteration: farkern
+  past_participle:
+    yiddish: פֿאַרקערט
+    transliteration: farkert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

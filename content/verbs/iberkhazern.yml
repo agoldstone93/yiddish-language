@@ -1,0 +1,35 @@
+id: iberkhazern
+categoryId: separable-prefix
+lemma:
+  yiddish: איבערחזרן
+  transliteration: iberkhazern
+meaning:
+  english: to repeat
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: איבערחזר
+      transliteration: iberkhazer
+    du:
+      yiddish: איבערחזרסט
+      transliteration: iberkhazerst
+    er_zi_es:
+      yiddish: איבערחזרט
+      transliteration: iberkhazert
+    mir:
+      yiddish: איבערחזרן
+      transliteration: iberkhazern
+    ir:
+      yiddish: איבערחזרט
+      transliteration: iberkhazert
+    zey:
+      yiddish: איבערחזרן
+      transliteration: iberkhazern
+  past_participle:
+    yiddish: איבערגעחזרט
+    transliteration: ibergekhazert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

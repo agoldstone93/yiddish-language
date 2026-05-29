@@ -1,0 +1,35 @@
+id: mitarbetn
+categoryId: seperable-prefix
+lemma:
+  yiddish: מיטאַרבעטן
+  transliteration: mitarbetn
+meaning:
+  english: to collaborate
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: אַרבעט מיט
+      transliteration: arbet mit
+    du:
+      yiddish: אַרבעטסט מיט
+      transliteration: arbetst mit
+    er_zi_es:
+      yiddish: אַרבעט מיט
+      transliteration: arbet mit
+    mir:
+      yiddish: אַרבעטן מיט
+      transliteration: arbetn mit
+    ir:
+      yiddish: אַרבעט מיט
+      transliteration: arbet mit
+    zey:
+      yiddish: אַרבעטן מיט
+      transliteration: arbetn mit
+  past_participle:
+    yiddish: מיטגעאַרבעט
+    transliteration: mitgearbet
+search:
+  yiddish: []
+  transliteration: []
+  english: []

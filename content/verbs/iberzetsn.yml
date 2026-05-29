@@ -1,0 +1,35 @@
+id: iberzetsn
+categoryId: separable-prefix
+lemma:
+  yiddish: איבערזעצן
+  transliteration: iberzetsn
+meaning:
+  english: to translate
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: זעץ איבער
+      transliteration: zets iber
+    du:
+      yiddish: זעצסט איבער
+      transliteration: zetsst iber
+    er_zi_es:
+      yiddish: זעצט איבער
+      transliteration: zetst iber
+    mir:
+      yiddish: זעצן איבער
+      transliteration: zetsn iber
+    ir:
+      yiddish: זעצט איבער
+      transliteration: zetst iber
+    zey:
+      yiddish: זעצן איבער
+      transliteration: zetsn iber
+  past_participle:
+    yiddish: איבערגעזעצט
+    transliteration: ibergezetst
+search:
+  yiddish: []
+  transliteration: []
+  english: []

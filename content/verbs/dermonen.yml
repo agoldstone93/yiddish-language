@@ -1,0 +1,35 @@
+id: dermonen
+categoryId: simple
+lemma:
+  yiddish: דערמאָנען
+  transliteration: dermonen
+meaning:
+  english: to mention; to remind
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דערמאָן
+      transliteration: dermon
+    du:
+      yiddish: דערמאָנסט
+      transliteration: dermonst
+    er_zi_es:
+      yiddish: דערמאָנט
+      transliteration: dermont
+    mir:
+      yiddish: דערמאָנען
+      transliteration: dermonen
+    ir:
+      yiddish: דערמאָנט
+      transliteration: dermont
+    zey:
+      yiddish: דערמאָנען
+      transliteration: dermonen
+  past_participle:
+    yiddish: דערמאָנט
+    transliteration: dermont
+search:
+  yiddish: []
+  transliteration: []
+  english: []

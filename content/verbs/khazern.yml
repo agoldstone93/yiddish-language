@@ -1,0 +1,35 @@
+id: khazern
+categoryId: simple
+lemma:
+  yiddish: חזרן
+  transliteration: khazern
+meaning:
+  english: to repeat (in order to learn)
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: חזר
+      transliteration: khazer
+    du:
+      yiddish: חזרסט
+      transliteration: khazerst
+    er_zi_es:
+      yiddish: חזרט
+      transliteration: khazert
+    mir:
+      yiddish: חזרן
+      transliteration: khazern
+    ir:
+      yiddish: חזרט
+      transliteration: khazert
+    zey:
+      yiddish: חזרן
+      transliteration: khazern
+  past_participle:
+    yiddish: געחזרט
+    transliteration: gekhazert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

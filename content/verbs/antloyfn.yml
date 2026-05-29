@@ -1,0 +1,35 @@
+id: antloyfn
+categoryId: simple
+lemma:
+  yiddish: אַנטלויפֿן
+  transliteration: antloyfn
+meaning:
+  english: to escape
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: אַנטלויף
+      transliteration: antloyf
+    du:
+      yiddish: אַנטלויפֿסט
+      transliteration: antloyfst
+    er_zi_es:
+      yiddish: אַנטלויפֿט
+      transliteration: antloyft
+    mir:
+      yiddish: אַנטלויפֿן
+      transliteration: antloyfn
+    ir:
+      yiddish: אַנטלויפֿט
+      transliteration: antloyft
+    zey:
+      yiddish: אַנטלויפֿן
+      transliteration: antloyfn
+  past_participle:
+    yiddish: אַנטלאָפֿן
+    transliteration: antlofn
+search:
+  yiddish: []
+  transliteration: []
+  english: []
