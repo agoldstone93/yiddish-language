@@ -77,11 +77,16 @@ export default function App({ Component, pageProps }: AppProps) {
       />
 
       {enableAnalytics && shouldTrackPage && (
-        <Script
-          data-goatcounter="https://adamgoldstone.goatcounter.com/count"
-          src="//gc.zgo.at/count.js"
-          strategy="afterInteractive"
-        />
+        <>
+          <Script id="goatcounter-allow-local" strategy="beforeInteractive">
+            {"window.goatcounter = window.goatcounter || {}; window.goatcounter.allow_local = true;"}
+          </Script>
+          <Script
+            data-goatcounter="https://adamgoldstone.goatcounter.com/count"
+            src="https://gc.zgo.at/count.js"
+            strategy="afterInteractive"
+          />
+        </>
       )}
 
       {showConfirmingOverlay && (
