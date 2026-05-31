@@ -4,11 +4,13 @@ import { useRouter } from "next/router";
 interface GoatCounterConfig {
   appendTo?: string;
   customPath?: string;
+  onLoad?: (count: number) => void;
 }
 
 export function GoatCounterSetup({ 
   appendTo = "#goatcounter-page-views", 
-  customPath
+  customPath,
+  onLoad
 }: GoatCounterConfig = {}) {
   const router = useRouter();
 
@@ -31,14 +33,14 @@ export function GoatCounterSetup({
       })
       .then((data: { count?: string | number }) => {
         const container = document.querySelector(appendTo);
+        const rawCount = Number(String(data.count ?? 0).replace(/,/g, ""));
         if (container) {
-          const rawCount = String(data.count ?? 0).replace(/,/g, "");
-          const paddedCount = rawCount.padStart(6, "0");
-          container.textContent = paddedCount;
+          container.textContent = String(rawCount).padStart(6, "0");
         }
+        onLoad?.(rawCount);
       })
       .catch((err) => console.error(err));
-  }, [appendTo, customPath, router.asPath]);
+  }, [appendTo, customPath, onLoad, router.asPath]);
 
   return null;
 }
