@@ -18,7 +18,7 @@ export default function Home({ verbs }: { verbs: SearchEntry[] }) {
         <meta property="og:description" content="Free Yiddish verb conjugator with search by Yiddish, transliteration, or English. Explore conjugations, tenses, and examples." />
         <meta property="og:url" content="https://loshnlab.com/" />
       </Head>
-      <div className="mx-auto flex md:min-h-[80vh] min-h-[30vh] w-full max-w-3xl flex-col justify-center">
+      <div className="mx-auto flex md:min-h-[75vh] min-h-[30vh] w-full max-w-3xl flex-col justify-center">
         <div className="space-y-6">
           <div className="space-y-1 text-center text-gray-600 dark:text-gray-400">
             <h1 className="text-3xl font-bold text-center text-foreground">Yiddish Verbs</h1>
