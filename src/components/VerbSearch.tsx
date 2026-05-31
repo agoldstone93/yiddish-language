@@ -2,6 +2,7 @@ import { useCombobox } from 'downshift';
 import { useRouter } from 'next/router';
 import { startTransition, useCallback, useEffect, useMemo, useState } from 'react';
 import { SearchEntry } from '@/lib/searchIndex';
+import { normaliseForSearch } from '@/lib/searchNormalise';
 
 export type VerbSearchProps = {
   verbs: SearchEntry[];
@@ -15,29 +16,6 @@ export type VerbSearchProps = {
 };
 
 const DEFAULT_MAX_RESULTS = 10;
-
-// Normalize text for flexible matching across Yiddish/Hebrew and Latin inputs
-function normalizeForSearch(value: string | undefined | null): string {
-  if (!value) return '';
-  let text = value.normalize('NFD').toLowerCase();
-  // Strip Hebrew cantillation + niqqud (U+0591–U+05C7)
-  text = text.replace(/[\u0591-\u05C7]/g, '');
-  // Strip Latin combining marks
-  text = text.replace(/[\u0300-\u036f]/g, '');
-  // Map final Hebrew forms to standard forms
-  text = text.replace(/[ךםןףץ]/g, (ch) => ({
-    'ך': 'כ',
-    'ם': 'מ',
-    'ן': 'נ',
-    'ף': 'פ',
-    'ץ': 'צ',
-  } as Record<string, string>)[ch] || ch);
-  // Remove punctuation often used in Yiddish orthography and dashes/quotes
-  text = text.replace(/[\u05BE\u05F3\u05F4\u2010-\u2015'"-]/g, '');
-  // Collapse whitespace
-  text = text.replace(/\s+/g, ' ').trim();
-  return text;
-}
 
 export function VerbSearch({
   verbs,
@@ -53,13 +31,13 @@ export function VerbSearch({
   const [inputValue, setInputValue] = useState('');
 
   const matches = useMemo(() => {
-    const needle = normalizeForSearch(inputValue);
+    const needle = normaliseForSearch(inputValue);
     if (!needle) return [];
 
     return verbs
       .filter((entry) =>
         entry.searchTerms.some((value) =>
-          normalizeForSearch(value).includes(needle)
+          normaliseForSearch(value).includes(needle)
         )
       )
       .slice(0, maxResults);
