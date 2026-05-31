@@ -17,7 +17,7 @@ export function GoatCounterSetup({
   useEffect(() => {
     const path = customPath || window.location.pathname || "/";
     const url =
-      "https://adamgoldstone.goatcounter.com/counter/" +
+      "/counter/" +
       encodeURIComponent(path) +
       ".json";
 

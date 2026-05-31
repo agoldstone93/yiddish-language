@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
       // Decap CMS static entrypoint (public/admin/index.html)
       { source: "/admin", destination: "/admin/index.html" },
       { source: "/admin/", destination: "/admin/index.html" },
+      { source: "/counter/:path*", destination: "https://adamgoldstone.goatcounter.com/counter/:path*" },
     ];
   },
 };
