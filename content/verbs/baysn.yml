@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: בײַסן
   transliteration: baysn
-meaning:
-  english: to bite
+senses:
+  - english: to bite
 auxiliary: hobn
 conjugation:
   present:

@@ -13,7 +13,7 @@ export type SearchEntry = {
 export function buildVerbSearchIndex(verbs: Verb[]): SearchEntry[] {
   return verbs.map((verb) => {
     const english = [
-      verb.meaning?.english,
+      ...(verb.senses ?? []).map((sense) => sense.english),
       ...(verb.search?.english ?? []),
     ].filter((value): value is string => Boolean(value));
 

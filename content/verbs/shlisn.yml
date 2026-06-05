@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שליסן
   transliteration: shlisn
-meaning:
-  english: to close, to lock
+senses:
+  - english: to close, to lock
 auxiliary: hobn
 conjugation:
   present:

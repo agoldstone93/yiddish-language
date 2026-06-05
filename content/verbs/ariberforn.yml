@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: אַריבערפֿאָרן
   transliteration: ariberforn
-meaning:
-  english: to move
+senses:
+  - english: to move
 auxiliary: zayn
 conjugation:
   present:

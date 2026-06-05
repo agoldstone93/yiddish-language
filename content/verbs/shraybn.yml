@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שרײַבן
   transliteration: shraybn
-meaning:
-  english: to write
+senses:
+  - english: to write
 auxiliary: hobn
 conjugation:
   present:

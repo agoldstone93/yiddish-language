@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: איבערזעצן
   transliteration: iberzetsn
-meaning:
-  english: to translate
+senses:
+  - english: to translate
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַלן
   transliteration: faln
-meaning:
-  english: to fall
+senses:
+  - english: to fall
 auxiliary: zayn
 conjugation:
   present:

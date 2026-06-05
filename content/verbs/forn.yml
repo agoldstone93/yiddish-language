@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאָרן
   transliteration: forn
-meaning:
-  english: to ride, to travel
+senses:
+  - english: to ride, travel, go (by vehicle or animal)
 auxiliary: zayn
 conjugation:
   present:

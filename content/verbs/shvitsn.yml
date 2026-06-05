@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שוויצן
   transliteration: shvitsn
-meaning:
-  english: to sweat
+senses:
+  - english: to sweat
 auxiliary: hobn
 conjugation:
   present:

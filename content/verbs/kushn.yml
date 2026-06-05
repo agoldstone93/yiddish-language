@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: קושן
   transliteration: kushn
-meaning:
-  english: to kiss
+senses:
+  - english: to kiss
 auxiliary: hobn
 conjugation:
   present:

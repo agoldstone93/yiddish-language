@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: רייניקן
   transliteration: reynikn
-meaning:
-  english: to clean
+senses:
+  - english: to clean
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: לאָזן
   transliteration: lozn
-meaning:
-  english: to let
+senses:
+  - english: to let
 auxiliary: hobn
 conjugation:
   present:

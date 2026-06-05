@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: לעשן
   transliteration: leshn
-meaning:
-  english: to quench, to extinguish
+senses:
+  - english: to quench, to extinguish
 auxiliary: hobn
 conjugation:
   present:

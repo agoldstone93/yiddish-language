@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: צוריקקומען
   transliteration: tsurikkumen
-meaning:
-  english: to come back
+senses:
+  - english: to come back
 auxiliary: zayn
 conjugation:
   present:

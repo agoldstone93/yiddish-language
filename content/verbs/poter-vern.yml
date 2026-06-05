@@ -1,10 +1,10 @@
 id: poter-vern
 categoryId: periphrastic
 lemma:
-  yiddish:  פּטור װערן
+  yiddish: פּטור װערן
   transliteration: poter vern
-meaning:
-  english: to be exempt
+senses:
+  - english: to be exempt
 auxiliary: zayn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שפּאַצירן
   transliteration: shpatsirn
-meaning:
-  english: to (take a) walk
+senses:
+  - english: to (take a) walk
 auxiliary: hobn
 conjugation:
   present:

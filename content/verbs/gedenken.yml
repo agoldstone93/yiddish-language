@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: געדענקען
   transliteration: gedenken
-meaning:
-  english: to remember
+senses:
+  - english: to remember
 auxiliary: hobn
 conjugation:
   present:

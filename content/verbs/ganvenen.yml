@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: גנבֿענען
   transliteration: ganvenen
-meaning:
-  english: to steal
+senses:
+  - english: to steal
 auxiliary: hobn
 conjugation:
   present:

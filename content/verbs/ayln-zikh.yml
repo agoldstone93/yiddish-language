@@ -3,8 +3,8 @@ categoryId: reflexive
 lemma:
   yiddish: אַײַלן זיך
   transliteration: ayln zikh
-meaning:
-  english: to hurry, to rush
+senses:
+  - english: to hurry, to rush
 auxiliary: hobn
 conjugation:
   present:

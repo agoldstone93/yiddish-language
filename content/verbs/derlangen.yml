@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: דערלאַנגען
   transliteration: derlangen
-meaning:
-  english: to reach, to pass
+senses:
+  - english: to reach, to pass
 auxiliary: hobn
 conjugation:
   present:

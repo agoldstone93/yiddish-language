@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: אַהיימקומען
   transliteration: aheymkumen
-meaning:
-  english: to come home
+senses:
+  - english: to come home
 auxiliary: zayn
 conjugation:
   present:

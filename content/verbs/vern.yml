@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ווערן
   transliteration: vern
-meaning:
-  english: to become
+senses:
+  - english: to become
 auxiliary: zayn
 conjugation:
   present:

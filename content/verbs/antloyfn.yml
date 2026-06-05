@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: אַנטלויפֿן
   transliteration: antloyfn
-meaning:
-  english: to escape
+senses:
+  - english: to escape
 auxiliary: zayn
 conjugation:
   present:

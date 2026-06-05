@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: הערן
   transliteration: hern
-meaning:
-  english: to hear
+senses:
+  - english: to hear
 auxiliary: hobn
 conjugation:
   present:

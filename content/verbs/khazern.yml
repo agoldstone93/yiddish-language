@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: חזרן
   transliteration: khazern
-meaning:
-  english: to repeat (in order to learn)
+senses:
+  - english: to repeat (in order to learn)
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: דערציילן
   transliteration: dertseyln
-meaning:
-  english: to tell
+senses:
+  - english: to tell
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ציִען
   transliteration: tsien
-meaning:
-  english: to pull
+senses:
+  - english: to pull
 auxiliary: hobn
 conjugation:
   present:

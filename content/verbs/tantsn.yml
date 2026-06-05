@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: טאַנצן
   transliteration: tantsn
-meaning:
-  english: to dance
+senses:
+  - english: to dance
 auxiliary: hobn
 conjugation:
   present:

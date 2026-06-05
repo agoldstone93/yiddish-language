@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: געבן
   transliteration: gebn
-meaning:
-  english: to give
+senses:
+  - english: to give
 auxiliary: hobn
 conjugation:
   present:

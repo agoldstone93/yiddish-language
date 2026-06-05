@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: מיינען
   transliteration: meynen
-meaning:
-  english: to think, to mean
+senses:
+  - english: to think, to mean
 auxiliary: hobn
 conjugation:
   present:

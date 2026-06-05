@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרזוכן
   transliteration: farzukhn
-meaning:
-  english: to try, to taste
+senses:
+  - english: to try, to taste
 auxiliary: hobn
 conjugation:
   present:

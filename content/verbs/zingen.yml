@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: זינגען
   transliteration: zingen
-meaning:
-  english: to sing
+senses:
+  - english: to sing
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שלײַפֿן
   transliteration: shlayfn
-meaning:
-  english: to hone
+senses:
+  - english: to hone
 auxiliary: hobn
 conjugation:
   present:

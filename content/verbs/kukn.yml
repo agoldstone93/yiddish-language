@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: קוקן
   transliteration: kukn
-meaning:
-  english: to look
+senses:
+  - english: to look
 auxiliary: hobn
 conjugation:
   present:

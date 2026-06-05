@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿרעגן
   transliteration: fregn
-meaning:
-  english: to ask
+senses:
+  - english: to ask
 auxiliary: hobn
 conjugation:
   present:

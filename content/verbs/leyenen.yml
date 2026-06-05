@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: לייענען
   transliteration: leyenen
-meaning:
-  english: to read
+senses:
+  - english: to read
 auxiliary: hobn
 conjugation:
   present:

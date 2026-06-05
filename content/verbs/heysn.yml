@@ -3,8 +3,10 @@ categoryId: simple
 lemma:
   yiddish: הייסן
   transliteration: heysn
-meaning:
-  english: to be called
+senses:
+  - english: to be called, to be named
+  - english: to mean
+  - english: to order, to command
 auxiliary: hobn
 conjugation:
   present:

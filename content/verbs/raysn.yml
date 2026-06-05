@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: רײַסן
   transliteration: raysn
-meaning:
-  english: to tear
+senses:
+  - english: to tear
 auxiliary: hobn
 conjugation:
   present:

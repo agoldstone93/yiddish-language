@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: מוזן
   transliteration: muzn
-meaning:
-  english: must, to have to
+senses:
+  - english: must, to have to
 auxiliary: hobn
 conjugation:
   present:
@@ -32,4 +32,6 @@ conjugation:
 search:
   yiddish: []
   transliteration: []
-  english: ['have to', 'must']
+  english:
+    - have to
+    - must

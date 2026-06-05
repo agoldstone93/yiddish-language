@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שמײַסן
   transliteration: shmaysn
-meaning:
-  english: to whip
+senses:
+  - english: to whip
 auxiliary: hobn
 conjugation:
   present:

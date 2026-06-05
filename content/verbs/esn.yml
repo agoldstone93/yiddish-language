@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: עסן
   transliteration: esn
-meaning:
-  english: to eat
+senses:
+  - english: to eat
 auxiliary: hobn
 conjugation:
   present:

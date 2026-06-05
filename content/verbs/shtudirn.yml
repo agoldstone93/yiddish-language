@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שטודירן
   transliteration: shtudirn
-meaning:
-  english: to study
+senses:
+  - english: to study
 auxiliary: hobn
 conjugation:
   present:

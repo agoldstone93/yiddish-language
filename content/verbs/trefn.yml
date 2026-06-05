@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: טרעפֿן
   transliteration: trefn
-meaning:
-  english: to meet
+senses:
+  - english: to meet
 auxiliary: hobn
 conjugation:
   present:

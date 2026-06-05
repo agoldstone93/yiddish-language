@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: אויפֿהערן
   transliteration: oyfhern
-meaning:
-  english: to stop
+senses:
+  - english: to stop
 auxiliary: hobn
 conjugation:
   present:

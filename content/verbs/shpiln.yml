@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שפּילן
   transliteration: shpiln
-meaning:
-  english: to play
+senses:
+  - english: to play
 auxiliary: hobn
 conjugation:
   present:

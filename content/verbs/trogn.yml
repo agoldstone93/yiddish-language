@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: טראָגן
   transliteration: trogn
-meaning:
-  english: to carry
+senses:
+  - english: to carry
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: גיין
   transliteration: geyn
-meaning:
-  english: to go
+senses:
+  - english: to go (on foot)
 auxiliary: zayn
 conjugation:
   present:

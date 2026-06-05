@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פאַרקויפֿן
   transliteration: farkoyfn
-meaning:
-  english: to sell
+senses:
+  - english: to sell
 auxiliary: hobn
 conjugation:
   present:

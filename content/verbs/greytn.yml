@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: גרייטן
   transliteration: greytn
-meaning:
-  english: to prepare
+senses:
+  - english: to prepare
 auxiliary: hobn
 conjugation:
   present:

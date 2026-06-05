@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿליִען
   transliteration: flien
-meaning:
-  english: to fly
+senses:
+  - english: to fly
 auxiliary: zayn
 conjugation:
   present:
