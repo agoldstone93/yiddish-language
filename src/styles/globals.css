@@ -4,24 +4,73 @@
 :root {
   --background: var(--color-orange-50);
   --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --surface-soft: var(--color-orange-100);
+  --text-muted: var(--color-gray-600);
+  --text-subtle: var(--color-gray-500);
+  --border-default: var(--color-gray-300);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: var(--color-gray-950);
     --foreground: #ededed;
+
+    --surface-soft: var(--color-gray-800);
+    --text-muted: var(--color-gray-400);
+    --text-subtle: var(--color-gray-400);
+    --border-default: var(--color-gray-700);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface-soft: var(--surface-soft);
+  --color-text-muted: var(--text-muted);
+  --color-text-subtle: var(--text-subtle);
+  --color-border-default: var(--border-default);
+}
+
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply mx-auto w-full max-w-3xl px-4 py-8;
+  }
+
+  .muted-text {
+    @apply text-text-muted;
+  }
+
+  .panel {
+    @apply border rounded border-border-default p-4 shadow-sm;
+  }
+
+  .nav-link {
+    @apply text-sm text-text-subtle hover:text-gray-900 dark:hover:text-gray-100;
+  }
+
+  .nav-link-active {
+    @apply font-semibold text-gray-900 dark:text-gray-100;
+  }
+
+  .details-panel {
+    @apply border rounded p-4 shadow-sm;
+  }
+
+  .details-panel > summary {
+    @apply cursor-pointer font-semibold text-lg;
+  }
+
 }

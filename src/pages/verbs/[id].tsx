@@ -79,26 +79,24 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
         <VerbSearch verbs={verbs} activeVerbId={verb.id} />
 
         {/* Lemma */}
-        <h1 className="text-3xl font-bold text-center space-y-0 mb-0">
+        <h1 className="text-center space-y-0 mb-0">
           {verb.lemma.yiddish}
         </h1>
 
-        <p className="text-center text-gray-600 dark:text-gray-400">
+        <p className="text-center muted-text">
           ({verb.lemma.transliteration})
         </p>
 
         {/* Metadata */}
-        <div className="text-center text-gray-600 dark:text-gray-400">
+        <div className="text-center muted-text">
           {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
           {verb.categoryId && <div><strong>Category:</strong> {verb.categoryId}</div>}
         </div>
 
         {/* Category Explainer */}
         {category && (
-          <details className="border rounded p-4 shadow-sm">
-            <summary className="cursor-pointer font-semibold text-lg">
-              About {category.name}
-            </summary>
+          <details className="details-panel">
+            <summary>About {category.name}</summary>
             <div
               className="mt-4 prose dark:prose-invert max-w-none"
               dangerouslySetInnerHTML={{ __html: category.contentHtml }}
@@ -157,7 +155,7 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
 
         {/* Notes */}
         {verb.notes && verb.notes.length > 0 && (
-          <div className="border rounded p-4 shadow-sm">
+          <div className="panel">
             <ul className="list-disc list-inside">
               {verb.notes.map((note: string, idx: number) => (
                 <li key={idx}>{note}</li>
