@@ -69,7 +69,7 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
   return (
     <>
       <Head>
-        <title>{`${title} - LoshnLab`}</title>
+        <title dir="ltr">{`${title} - LoshnLab`}</title>
         <meta name="description" content={description} />
         <meta property="og:title" content={`LoshnLab - ${title}`} />
         <meta property="og:description" content={description} />
@@ -78,19 +78,17 @@ export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsT
       <div className="max-w-3xl mx-auto space-y-6">
         <VerbSearch verbs={verbs} activeVerbId={verb.id} />
 
-        {/* Lemma */}
-        <h1 className="text-center space-y-0 mb-0">
-          {verb.lemma.yiddish}
-        </h1>
+        <div className="text-center">
+          {/* Lemma */}
+          <h1>{verb.lemma.yiddish}</h1>
 
-        <p className="text-center muted-text">
-          ({verb.lemma.transliteration})
-        </p>
+          <p>({verb.lemma.transliteration})</p>
 
-        {/* Metadata */}
-        <div className="text-center muted-text">
-          {verb.meaning?.english && <div><strong>Meaning:</strong> {verb.meaning.english}</div>}
-          {verb.categoryId && <div><strong>Category:</strong> {verb.categoryId}</div>}
+          <br />
+
+          {/* Metadata */}
+          {verb.meaning?.english && <p><strong>Meaning:</strong> {verb.meaning.english}</p>}
+          {verb.categoryId && <p><strong>Category:</strong> {verb.categoryId}</p>}
         </div>
 
         {/* Category Explainer */}
