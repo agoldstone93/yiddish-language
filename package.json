@@ -33,7 +33,7 @@
     "@types/node": "^25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "esbuild": "^0.28.0",
+    "esbuild": "^0.28.1",
     "eslint": "^10",
     "eslint-config-next": "16.2.9",
     "jsdom": "^29.1.1",
