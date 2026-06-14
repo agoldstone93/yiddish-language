@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ליגן
   transliteration: lign
-meaning:
-  english: to lie
+senses:
+  - english: to lie
 auxiliary: zayn
 conjugation:
   present:

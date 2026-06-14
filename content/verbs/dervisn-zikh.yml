@@ -3,8 +3,8 @@ categoryId: reflexive
 lemma:
   yiddish: דערוויסן זיך
   transliteration: dervisn zikh
-meaning:
-  english: to find out
+senses:
+  - english: to find out
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שמעקן
   transliteration: shmekn
-meaning:
-  english: to smell
+senses:
+  - english: to smell
 auxiliary: hobn
 conjugation:
   present:

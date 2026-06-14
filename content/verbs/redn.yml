@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: רעדן
   transliteration: redn
-meaning:
-  english: to speak
+senses:
+  - english: to speak
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: נישט טאָרן
   transliteration: nisht-torn
-meaning:
-  english: must not
+senses:
+  - english: must not
 auxiliary: hobn
 conjugation:
   present:
@@ -32,4 +32,5 @@ conjugation:
 search:
   yiddish: []
   transliteration: []
-  english: ['to have to']
+  english:
+    - to have to

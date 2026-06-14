@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: וואַקסן
   transliteration: vaksn
-meaning:
-  english: to grow
+senses:
+  - english: to grow
 auxiliary: zayn
 conjugation:
   present:

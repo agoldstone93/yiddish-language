@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שמעלצן
   transliteration: shmeltsn
-meaning:
-  english: to melt
+senses:
+  - english: to melt
 auxiliary: hobn
 conjugation:
   present:

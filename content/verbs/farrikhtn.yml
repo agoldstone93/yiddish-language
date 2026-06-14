@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרריכטן
   transliteration: farrikhtn
-meaning:
-  english: to repair
+senses:
+  - english: to repair
 auxiliary: hobn
 conjugation:
   present:

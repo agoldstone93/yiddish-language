@@ -3,8 +3,8 @@ categoryId: seperable-prefix
 lemma:
   yiddish: מיטאַרבעטן
   transliteration: mitarbetn
-meaning:
-  english: to collaborate
+senses:
+  - english: to collaborate
 auxiliary: hobn
 conjugation:
   present:

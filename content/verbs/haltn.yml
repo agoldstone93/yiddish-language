@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: האַלטן
   transliteration: haltn
-meaning:
-  english: to hold, to stop, to observe
+senses:
+  - english: to hold, to stop, to observe
 auxiliary: hobn
 conjugation:
   present:

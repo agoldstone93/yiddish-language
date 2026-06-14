@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: זיצן
   transliteration: zitsn
-meaning:
-  english: to sit
+senses:
+  - english: to sit
 auxiliary: zayn
 conjugation:
   present:

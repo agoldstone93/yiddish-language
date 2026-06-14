@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: קאָכן
   transliteration: kokhn
-meaning:
-  english: to cook
+senses:
+  - english: to cook
 auxiliary: hobn
 conjugation:
   present:

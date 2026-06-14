@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: באַווײַזן
   transliteration: bavayzn
-meaning:
-  english: to show, to demonstrate
+senses:
+  - english: to show, to demonstrate
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שמירן
   transliteration: shmirn
-meaning:
-  english: to smear
+senses:
+  - english: to smear
 auxiliary: hobn
 conjugation:
   present:

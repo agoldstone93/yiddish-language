@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: װיסן
   transliteration: visn
-meaning:
-  english: to know
+senses:
+  - english: to know
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,9 @@ categoryId: simple
 lemma:
   yiddish: דערמאָנען
   transliteration: dermonen
-meaning:
-  english: to mention; to remind
+senses:
+  - english: to mention
+  - english: to remind
 auxiliary: hobn
 conjugation:
   present:

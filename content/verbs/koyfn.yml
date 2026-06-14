@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: קויפֿן
   transliteration: koyfn
-meaning:
-  english: to buy
+senses:
+  - english: to buy
 auxiliary: hobn
 conjugation:
   present:

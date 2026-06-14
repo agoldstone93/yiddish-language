@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: איבערחזרן
   transliteration: iberkhazern
-meaning:
-  english: to repeat
+senses:
+  - english: to repeat
 auxiliary: hobn
 conjugation:
   present:

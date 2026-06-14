@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: באַשאַפֿן
   transliteration: bashafn
-meaning:
-  english: to create
+senses:
+  - english: to create
 auxiliary: hobn
 conjugation:
   present:

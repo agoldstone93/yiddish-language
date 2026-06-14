@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ענטפֿערן
   transliteration: entfern
-meaning:
-  english: to answer
+senses:
+  - english: to answer
 auxiliary: hobn
 conjugation:
   present:

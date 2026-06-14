@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: ברעכן
   transliteration: brekhn
-meaning:
-  english: to break
+senses:
+  - english: to break
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: separable-prefix
 lemma:
   yiddish: אַרויסגיין
   transliteration: aroysgeyn
-meaning:
-  english: to go out
+senses:
+  - english: to go out
 auxiliary: zayn
 conjugation:
   present:

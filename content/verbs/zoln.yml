@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: זאָלן
   transliteration: zoln
-meaning:
-  english: should
+senses:
+  - english: should
 auxiliary: hobn
 conjugation:
   present:
@@ -32,4 +32,5 @@ conjugation:
 search:
   yiddish: []
   transliteration: []
-  english: ['to be supposed to']
+  english:
+    - to be supposed to

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: קלײַבן
   transliteration: klaybn
-meaning:
-  english: to choose
+senses:
+  - english: to choose
 auxiliary: hobn
 conjugation:
   present:

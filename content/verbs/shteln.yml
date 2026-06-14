@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שטעלן
   transliteration: shteln
-meaning:
-  english: to put
+senses:
+  - english: to put
 auxiliary: hobn
 conjugation:
   present:

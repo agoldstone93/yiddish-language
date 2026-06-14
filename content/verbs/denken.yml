@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: דענקען
   transliteration: denken
-meaning:
-  english: to think
+senses:
+  - english: to think
 auxiliary: hobn
 conjugation:
   present:

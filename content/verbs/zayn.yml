@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: זײַן
   transliteration: zayn
-meaning:
-  english: to be
+senses:
+  - english: to be
 auxiliary: zayn
 conjugation:
   present:

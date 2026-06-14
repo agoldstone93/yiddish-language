@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: טייטן
   transliteration: teytn
-meaning:
-  english: to kill
+senses:
+  - english: to kill
 auxiliary: hobn
 conjugation:
   present:

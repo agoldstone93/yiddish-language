@@ -3,8 +3,8 @@ categoryId: periphrastic
 lemma:
   yiddish: חתונה האָבן
   transliteration: khasene hobn
-meaning:
-  english: to get married
+senses:
+  - english: to get married
 auxiliary: hobn
 conjugation:
   present:

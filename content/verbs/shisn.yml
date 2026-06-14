@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שיסן
   transliteration: shisn
-meaning:
-  english: to shoot
+senses:
+  - english: to shoot
 auxiliary: hobn
 conjugation:
   present:

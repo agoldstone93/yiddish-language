@@ -8,7 +8,7 @@ describe('getFutureForms', () => {
     const verb: Verb = {
       id: 'geyn',
       lemma: { yiddish: 'גיין', transliteration: 'geyn' },
-      meaning: { english: 'to go' },
+      senses: [{ english: 'to go' }],
       auxiliary: 'zayn',
       reflexive: false,
       conjugation: {
@@ -55,7 +55,7 @@ describe('getFutureForms', () => {
     const verb: Verb = {
       id: 'lernen-zikh',
       lemma: { yiddish: 'לרענען זיך', transliteration: 'lernen zikh' },
-      meaning: { english: 'to learn' },
+      senses: [{ english: 'to learn' }],
       reflexive: true,
       auxiliary: 'hobn',
       conjugation: {
@@ -102,7 +102,7 @@ describe('getFutureForms', () => {
     const verb: Verb = {
       id: 'maskem-zayn',
       lemma: { yiddish: 'מסכּים זײַן', transliteration: 'maskem zayn' },
-      meaning: { english: 'to agree' },
+      senses: [{ english: 'to agree' }],
       reflexive: false,
       auxiliary: 'hobn',
       conjugation: {

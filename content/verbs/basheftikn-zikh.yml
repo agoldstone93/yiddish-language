@@ -3,8 +3,8 @@ categoryId: reflexive
 lemma:
   yiddish: באַשפֿעטיקן זיך
   transliteration: basheftikn zikh
-meaning:
-  english: to work at, to be busy with
+senses:
+  - english: to work at, to be busy with
 auxiliary: hobn
 conjugation:
   present:

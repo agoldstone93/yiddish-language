@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: לויפֿן
   transliteration: loyfn
-meaning:
-  english: to run
+senses:
+  - english: to run
 auxiliary: zayn
 conjugation:
   present:

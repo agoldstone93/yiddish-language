@@ -3,8 +3,9 @@ categoryId: periphrastic
 lemma:
   yiddish: מוחל זײַן
   transliteration: moykhl zayn
-meaning:
-  english: to forgive
+senses:
+  - english: to be sorry
+  - english: to forgive
 auxiliary: hobn
 conjugation:
   present:

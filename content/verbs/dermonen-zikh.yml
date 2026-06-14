@@ -3,8 +3,8 @@ categoryId: reflexive
 lemma:
   yiddish: דערמאָנען זיך
   transliteration: dermonen zikh
-meaning:
-  english: to recall, remind oneself
+senses:
+  - english: to remind oneself
 auxiliary: hobn
 conjugation:
   present:

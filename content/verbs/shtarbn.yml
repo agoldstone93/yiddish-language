@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שטאַרבן
   transliteration: shtarbn
-meaning:
-  english: to die
+senses:
+  - english: to die
 auxiliary: zayn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: טעלעפֿאָנירן
   transliteration: telefonirn
-meaning:
-  english: to telephone
+senses:
+  - english: to telephone
 auxiliary: hobn
 conjugation:
   present:

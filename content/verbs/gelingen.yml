@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: געלינגען
   transliteration: gelingen
-meaning:
-  english: to succeed
+senses:
+  - english: to succeed
 auxiliary: zayn
 conjugation:
   present:

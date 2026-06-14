@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: קענען
   transliteration: kenen
-meaning:
-  english: to be able to, to know
+senses:
+  - english: to be able to, to know
 auxiliary: hobn
 conjugation:
   present:
@@ -32,4 +32,5 @@ conjugation:
 search:
   yiddish: []
   transliteration: []
-  english: ['can']
+  english:
+    - can

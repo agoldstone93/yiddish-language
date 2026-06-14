@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: דוצן
   transliteration: dutsn
-meaning:
-  english: to address someone with du
+senses:
+  - english: to address someone with du
 auxiliary: hobn
 conjugation:
   present:

@@ -3,8 +3,8 @@ categoryId: seperable-prefix
 lemma:
   yiddish: אויסזען
   transliteration: oyszen
-meaning:
-  english: to look, to appear
+senses:
+  - english: to look, to appear
 auxiliary: hobn
 conjugation:
   present:

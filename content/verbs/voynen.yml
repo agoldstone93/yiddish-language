@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: וווינען
   transliteration: voynen
-meaning:
-  english: to live
+senses:
+  - english: to live
 auxiliary: hobn
 conjugation:
   present:

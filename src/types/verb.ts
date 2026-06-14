@@ -19,6 +19,12 @@ export type Conjugation = {
   imperative?: Partial<Record<'du' | 'ir', VerbForm>>;
 };
 
+type VerbSense = {
+  english: string;
+  notes?: string[];
+}
+
+
 export type Verb = {
   id: string;
   lemma: {
@@ -26,9 +32,7 @@ export type Verb = {
     transliteration: string;
   };
   auxiliary: 'zayn' | 'hobn';
-  meaning: {
-    english: string;
-  };
+  senses: VerbSense[];
   reflexive: boolean;
   categoryId?: string;
   search?: {

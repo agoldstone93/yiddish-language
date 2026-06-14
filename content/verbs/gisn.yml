@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: גיסן
   transliteration: gisn
-meaning:
-  english: to pour
+senses:
+  - english: to pour
 auxiliary: hobn
 conjugation:
   present:

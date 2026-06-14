@@ -1,10 +1,10 @@
 id: geboyrn-vern
 categoryId: periphrastic
 lemma:
-  yiddish:  געבױרן װערן
+  yiddish: געבױרן װערן
   transliteration: geboyrn vern
-meaning:
-  english: to be born
+senses:
+  - english: to be born
 auxiliary: zayn
 conjugation:
   present:

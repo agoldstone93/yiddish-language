@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שעכטן
   transliteration: shekhtn
-meaning:
-  english: to slaughter
+senses:
+  - english: to slaughter
 auxiliary: hobn
 conjugation:
   present:

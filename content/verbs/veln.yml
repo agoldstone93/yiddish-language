@@ -3,8 +3,8 @@ categoryId: modal
 lemma:
   yiddish: וועלן
   transliteration: veln
-meaning:
-  english: to want
+senses:
+  - english: to want
 auxiliary: hobn
 conjugation:
   present:

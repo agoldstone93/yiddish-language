@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: פֿאַרלירן
   transliteration: farlirn
-meaning:
-  english: to lose
+senses:
+  - english: to lose
 auxiliary: hobn
 conjugation:
   present:

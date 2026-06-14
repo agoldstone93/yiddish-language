@@ -3,8 +3,8 @@ categoryId: periphrastic
 lemma:
   yiddish: חרטה האָבן
   transliteration: kharote hobn
-meaning:
-  english: to regret, to be remorseful
+senses:
+  - english: to regret, to be remorseful
 auxiliary: hobn
 conjugation:
   present:
@@ -27,5 +27,5 @@ conjugation:
       yiddish: האָבן חרטה
       transliteration: hobn kharote
   past_participle:
-    yiddish: חרטה געהאַט 
+    yiddish: חרטה געהאַט
     transliteration: kharote gehat

@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שערן
   transliteration: shern
-meaning:
-  english: to cut
+senses:
+  - english: to cut
 auxiliary: hobn
 conjugation:
   present:

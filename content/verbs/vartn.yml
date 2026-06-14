@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: וואַרטן
   transliteration: vartn
-meaning:
-  english: to wait
+senses:
+  - english: to wait
 auxiliary: hobn
 conjugation:
   present:

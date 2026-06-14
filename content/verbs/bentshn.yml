@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: בענטשן
   transliteration: bentshn
-meaning:
-  english: to bless
+senses:
+  - english: to bless
 auxiliary: hobn
 conjugation:
   present:

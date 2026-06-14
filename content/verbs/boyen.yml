@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: בויען
   transliteration: boyen
-meaning:
-  english: to build
+senses:
+  - english: to build
 auxiliary: hobn
 conjugation:
   present:

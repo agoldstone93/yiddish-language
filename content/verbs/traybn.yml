@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: טרײַבן
   transliteration: traybn
-meaning:
-  english: to drive
+senses:
+  - english: to drive
 auxiliary: hobn
 conjugation:
   present:

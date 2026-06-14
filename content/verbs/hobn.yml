@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: האָבן
   transliteration: hobn
-meaning:
-  english: to have
+senses:
+  - english: to have
 auxiliary: hobn
 conjugation:
   present:

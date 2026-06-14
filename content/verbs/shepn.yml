@@ -3,8 +3,8 @@ categoryId: simple
 lemma:
   yiddish: שעפּן
   transliteration: shepn
-meaning:
-  english: to draw
+senses:
+  - english: to draw
 auxiliary: hobn
 conjugation:
   present:
