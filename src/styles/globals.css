@@ -3,22 +3,20 @@
 
 :root {
   --background: var(--color-orange-50);
-  --foreground: #171717;
-
-  --surface-soft: var(--color-orange-100);
-  --text-muted: var(--color-gray-600);
-  --text-subtle: var(--color-gray-500);
+  --foreground: var(--color-gray-900);
+  --surface-panel: var(--color-orange-100);
+  --text-secondary: var(--color-gray-600);
+  --text-link: var(--color-gray-500);
   --border-default: var(--color-gray-300);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: var(--color-gray-950);
-    --foreground: #ededed;
-
-    --surface-soft: var(--color-gray-800);
-    --text-muted: var(--color-gray-400);
-    --text-subtle: var(--color-gray-400);
+    --foreground: var(--color-gray-100);
+    --surface-panel: var(--color-gray-800);
+    --text-secondary: var(--color-gray-400);
+    --text-link: var(--color-gray-400);
     --border-default: var(--color-gray-700);
   }
 }
@@ -26,9 +24,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-surface-soft: var(--surface-soft);
-  --color-text-muted: var(--text-muted);
-  --color-text-subtle: var(--text-subtle);
+  --color-surface-panel: var(--surface-panel);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-link: var(--text-link);
   --color-border-default: var(--border-default);
 }
 
@@ -37,6 +35,14 @@
     background: var(--background);
     color: var(--foreground);
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1, h2, h3 {
+    @apply text-foreground;
+  }
+
+  p {
+    @apply text-text-secondary;
   }
 
   h1 {
@@ -49,28 +55,24 @@
     @apply mx-auto w-full max-w-3xl px-4 py-8;
   }
 
-  .muted-text {
-    @apply text-text-muted;
-  }
-
   .panel {
-    @apply border rounded border-border-default p-4 shadow-sm;
-  }
-
-  .nav-link {
-    @apply text-sm text-text-subtle hover:text-gray-900 dark:hover:text-gray-100;
-  }
-
-  .nav-link-active {
-    @apply font-semibold text-gray-900 dark:text-gray-100;
+    @apply rounded border border-border-default p-4 shadow-sm;
   }
 
   .details-panel {
-    @apply border rounded p-4 shadow-sm;
+    @apply rounded border p-4 shadow-sm;
   }
 
   .details-panel > summary {
-    @apply cursor-pointer font-semibold text-lg;
+    @apply cursor-pointer text-lg font-semibold;
   }
 
+  .app-link,
+  .content-prose a {
+    @apply text-text-link underline underline-offset-2 hover:text-gray-900 dark:hover:text-gray-100;
+  }
+
+  .content-prose {
+    @apply prose max-w-none text-text-secondary dark:prose-invert;
+  }
 }

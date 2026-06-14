@@ -19,14 +19,14 @@ export default function Home({ verbs }: { verbs: SearchEntry[] }) {
         <meta property="og:url" content="https://loshnlab.com/" />
       </Head>
       <div className="mx-auto flex md:min-h-[75vh] min-h-[30vh] w-full max-w-3xl flex-col justify-center">
-        <div className="space-y-6">
-          <div className="space-y-1 text-center muted-text">
-            <h1 className="text-center text-foreground">Yiddish Verbs</h1>
-            <p className="text-base">Look up a verb to explore its forms.</p>
+        <div className="space-y-6 text-center">
+          <div className="space-y-1">
+            <h1 className="">Yiddish Verbs</h1>
+            <p>Look up a verb to explore its forms.</p>
             <p className="text-sm">Type a Yiddish word, transliteration, or English meaning.</p>
           </div>
-          <VerbSearch verbs={verbs} />
         </div>
+        <VerbSearch verbs={verbs} className="mt-6" />
       </div>
     </>
   );

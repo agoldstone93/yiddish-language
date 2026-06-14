@@ -49,7 +49,7 @@ export default function VerbsPage({ verbs }: InferGetStaticPropsType<typeof getS
       <div className="page-shell space-y-6">
         <div className="space-y-2">
           <h1>Yiddish Verbs</h1>
-          <p className="muted-text">Browse all {verbs.length} verbs</p>
+          <p className="text-text-secondary">Browse all {verbs.length} verbs</p>
         </div>
         <ul className="space-y-3">
           {verbs.map((verb) => (

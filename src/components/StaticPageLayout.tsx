@@ -19,15 +19,15 @@ export default function StaticPageLayout({
     <div className="page-shell space-y-6">
       <h1>{title}</h1>
       {exampleText && exampleHref && (
-        <div className="muted-text prose dark:prose-invert">
+        <div className="content-prose">
           <span className="mr-2">Example:</span>
-          <a href={exampleHref} className="underline-offset-2 hover:underline">
+          <a href={exampleHref} className="app-link">
             {exampleText}
           </a>
         </div>
       )}
       <div
-        className="muted-text prose dark:prose-invert"
+        className="content-prose"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     </div>
