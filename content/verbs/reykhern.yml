@@ -1,0 +1,35 @@
+id: reykhern
+categoryId: simple
+lemma:
+  yiddish: רייכערן
+  transliteration: reykhern
+senses:
+  - english: to smoke
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: רייכער
+      transliteration: reykher
+    du:
+      yiddish: רייכערסט
+      transliteration: reykherst
+    er_zi_es:
+      yiddish: רייכערט
+      transliteration: reykhert
+    mir:
+      yiddish: רייכערן
+      transliteration: reykhern
+    ir:
+      yiddish: רייכערט
+      transliteration: reykhert
+    zey:
+      yiddish: רייכערן
+      transliteration: reykhern
+  past_participle:
+    yiddish: גערייכערט
+    transliteration: gereykhert
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: rateven
+categoryId: simple
+lemma:
+  yiddish: ראַטעווען
+  transliteration: rateven
+senses:
+  - english: to rescue, save
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ראַטעווע
+      transliteration: rateve
+    du:
+      yiddish: ראַטעוועסט
+      transliteration: ratevest
+    er_zi_es:
+      yiddish: ראַטעוועט
+      transliteration: ratevet
+    mir:
+      yiddish: ראַטעווען
+      transliteration: rateven
+    ir:
+      yiddish: ראַטעוועט
+      transliteration: ratevet
+    zey:
+      yiddish: ראַטעווען
+      transliteration: rateven
+  past_participle:
+    yiddish: געראַטעוועט
+    transliteration: geratevet
+search:
+  yiddish: []
+  transliteration: []
+  english: []

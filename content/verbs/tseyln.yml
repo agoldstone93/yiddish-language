@@ -1,0 +1,35 @@
+id: tseyln
+categoryId: simple
+lemma:
+  yiddish: ציילן
+  transliteration: tseyln
+senses:
+  - english: to count
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: צייל
+      transliteration: tseyl
+    du:
+      yiddish: ציילסט
+      transliteration: tseylst
+    er_zi_es:
+      yiddish: ציילט
+      transliteration: tseylt
+    mir:
+      yiddish: ציילן
+      transliteration: tseyln
+    ir:
+      yiddish: ציילט
+      transliteration: tseylt
+    zey:
+      yiddish: ציילן
+      transliteration: tseyln
+  past_participle:
+    yiddish: געציילט
+    transliteration: getseylt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
