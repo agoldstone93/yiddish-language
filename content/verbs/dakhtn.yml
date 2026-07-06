@@ -1,0 +1,36 @@
+id: dakhtn
+categoryId: simple
+lemma:
+  yiddish: דאַכטן
+  transliteration: dakhtn
+senses:
+  - english: to mention
+  - english: to seem, to appear
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דאַכט
+      transliteration: dakht
+    du:
+      yiddish: דאַכטסט
+      transliteration: dakhtst
+    er_zi_es:
+      yiddish: דאַכט
+      transliteration: dakht
+    mir:
+      yiddish: דאַכטן
+      transliteration: dakhtn
+    ir:
+      yiddish: דאַכט
+      transliteration: dakht
+    zey:
+      yiddish: דאַכטן
+      transliteration: dakhtn
+  past_participle:
+    yiddish: געדאַכט
+    transliteration: gedakht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: gevaldeven
+categoryId: simple
+lemma:
+  yiddish: געוואַלדעווען
+  transliteration: gevaldeven
+senses:
+  - english: to shout for help
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: געוואַלדעווע
+      transliteration: gevaldeve
+    du:
+      yiddish: געוואַלדעוועסט
+      transliteration: gevaldevest
+    er_zi_es:
+      yiddish: געוואַלדעוועט
+      transliteration: gevaldevet
+    mir:
+      yiddish: געוואַלדעווען
+      transliteration: gevaldeven
+    ir:
+      yiddish: געוואַלדעוועט
+      transliteration: gevaldevet
+    zey:
+      yiddish: געוואַלדעווען
+      transliteration: gevaldeven
+  past_participle:
+    yiddish: געוואַלדעוועט
+    transliteration: gevaldevet
+search:
+  yiddish: []
+  transliteration: []
+  english: []

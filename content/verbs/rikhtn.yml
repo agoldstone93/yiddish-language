@@ -1,0 +1,37 @@
+id: rikhtn
+categoryId: simple
+lemma:
+  yiddish: ריכטן
+  transliteration: rikhtn
+senses:
+  - english: to judge
+  - english: to direct, lead
+  - english: to observe, celebrate (ceremony)
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ריכט
+      transliteration: rikht
+    du:
+      yiddish: ריכטסט
+      transliteration: rikhtst
+    er_zi_es:
+      yiddish: ריכט
+      transliteration: rikht
+    mir:
+      yiddish: ריכטן
+      transliteration: rikhtn
+    ir:
+      yiddish: ריכט
+      transliteration: rikht
+    zey:
+      yiddish: ריכטן
+      transliteration: rikhtn
+  past_participle:
+    yiddish: געריכט
+    transliteration: gerikht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

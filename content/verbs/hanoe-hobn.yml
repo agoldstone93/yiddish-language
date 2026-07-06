@@ -1,0 +1,31 @@
+id: hanoe-hobn
+categoryId: periphrastic
+lemma:
+  yiddish: הנאָה האָבן
+  transliteration: hanoe hobn
+senses:
+  - english: to be pleased, to enjoy
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: האָב הנאָה
+      transliteration: hob hanoe
+    du:
+      yiddish: האָסט הנאָה
+      transliteration: host hanoe
+    er_zi_es:
+      yiddish: האָט הנאָה
+      transliteration: hot hanoe
+    mir:
+      yiddish: האָבן הנאָה
+      transliteration: hobn hanoe
+    ir:
+      yiddish: האָט הנאָה
+      transliteration: hot hanoe
+    zey:
+      yiddish: האָבן הנאָה
+      transliteration: hobn hanoe
+  past_participle:
+    yiddish: הנאָה געהאַט
+    transliteration: hanoe gehat

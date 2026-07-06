@@ -1,0 +1,35 @@
+id: bahaltn
+categoryId: simple
+lemma:
+  yiddish: באַהאַלטן
+  transliteration: bahaltn
+senses:
+  - english: to hide
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַהאַלט
+      transliteration: bahalt
+    du:
+      yiddish: באַהאַלטסט
+      transliteration: bahaltst
+    er_zi_es:
+      yiddish: באַהאַלט
+      transliteration: bahalt
+    mir:
+      yiddish: באַהאַלטן
+      transliteration: bahaltn
+    ir:
+      yiddish: באַהאַלט
+      transliteration: bahalt
+    zey:
+      yiddish: באַהאַלטן
+      transliteration: bahaltn
+  past_participle:
+    yiddish: באַהאַלטן
+    transliteration: bahaltn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

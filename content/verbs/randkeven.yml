@@ -1,0 +1,35 @@
+id: randkeven
+categoryId: simple
+lemma:
+  yiddish: ראַנדקעווען
+  transliteration: randkeven
+senses:
+  - english: to date (romantically)
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: ראַנדקעווע
+      transliteration: randkeve
+    du:
+      yiddish: ראַנדקעוועסט
+      transliteration: randkevest
+    er_zi_es:
+      yiddish: ראַנדקעוועט
+      transliteration: randkevet
+    mir:
+      yiddish: ראַנדקעווען
+      transliteration: randkeven
+    ir:
+      yiddish: ראַנדקעוועט
+      transliteration: randkevet
+    zey:
+      yiddish: ראַנדקעווען
+      transliteration: randkeven
+  past_participle:
+    yiddish: געראַנדקעוועט
+    transliteration: gerandkevet
+search:
+  yiddish: []
+  transliteration: []
+  english: []
