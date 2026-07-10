@@ -1,0 +1,35 @@
+id: heyln
+categoryId: simple
+lemma:
+  yiddish: היילן
+  transliteration: heyln
+senses:
+  - english: to heal, to cure
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: הייל
+      transliteration: heyl
+    du:
+      yiddish: היילסט
+      transliteration: heylst
+    er_zi_es:
+      yiddish: היילט
+      transliteration: heylt
+    mir:
+      yiddish: היילן
+      transliteration: heyln
+    ir:
+      yiddish: היילט
+      transliteration: heylt
+    zey:
+      yiddish: היילן
+      transliteration: heyln
+  past_participle:
+    yiddish: געהיילט
+    transliteration: geheylt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

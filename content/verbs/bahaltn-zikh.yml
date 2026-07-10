@@ -1,0 +1,35 @@
+id: bahaltn-zikh
+categoryId: reflexive
+lemma:
+  yiddish: באַהאַלטן זיך
+  transliteration: bahaltn zikh
+senses:
+  - english: to hide
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַהאַלט זיך
+      transliteration: bahalt zikh
+    du:
+      yiddish: באַהאַלטסט זיך
+      transliteration: bahaltst zikh
+    er_zi_es:
+      yiddish: באַהאַלט זיך
+      transliteration: bahalt zikh
+    mir:
+      yiddish: באַהאַלטן זיך
+      transliteration: bahaltn zikh
+    ir:
+      yiddish: באַהאַלט זיך
+      transliteration: bahalt zikh
+    zey:
+      yiddish: באַהאַלטן זיך
+      transliteration: bahaltn zikh
+  past_participle:
+    yiddish: באַהאַלטן זיך
+    transliteration: bahaltn zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

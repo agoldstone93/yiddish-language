@@ -1,0 +1,35 @@
+id: bodn
+categoryId: simple
+lemma:
+  yiddish: באָדן
+  transliteration: bodn
+senses:
+  - english: to bathe
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באָד
+      transliteration: bod
+    du:
+      yiddish: באָדסט
+      transliteration: bodst
+    er_zi_es:
+      yiddish: באָדט
+      transliteration: bodt
+    mir:
+      yiddish: באָדן
+      transliteration: bodn
+    ir:
+      yiddish: באָדט
+      transliteration: bodt
+    zey:
+      yiddish: באָדן
+      transliteration: bodn
+  past_participle:
+    yiddish: געבאָדן
+    transliteration: gebodn
+search:
+  yiddish: []
+  transliteration: []
+  english: []
