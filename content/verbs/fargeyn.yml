@@ -1,0 +1,36 @@
+id: fargeyn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרגיין
+  transliteration: fargeyn
+senses:
+  - english: to pass, to elapse
+  - english: to set
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרגיי
+      transliteration: fargey
+    du:
+      yiddish: פֿאַרגייסט
+      transliteration: fargeyst
+    er_zi_es:
+      yiddish: פֿאַרגייט
+      transliteration: fargeyt
+    mir:
+      yiddish: גייען
+      transliteration: geyen
+    ir:
+      yiddish: פֿאַרגייט
+      transliteration: fargeyt
+    zey:
+      yiddish: גייען
+      transliteration: geyen
+  past_participle:
+    yiddish: פֿאַרגאַנגען
+    transliteration: fargangen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

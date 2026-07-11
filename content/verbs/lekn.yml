@@ -1,0 +1,35 @@
+id: lekn
+categoryId: simple
+lemma:
+  yiddish: לעקן
+  transliteration: lekn
+senses:
+  - english: to lick
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: לעק
+      transliteration: lek
+    du:
+      yiddish: לעקסט
+      transliteration: lekst
+    er_zi_es:
+      yiddish: לעקט
+      transliteration: lekt
+    mir:
+      yiddish: לעקן
+      transliteration: lekn
+    ir:
+      yiddish: לעקט
+      transliteration: lekt
+    zey:
+      yiddish: לעקן
+      transliteration: lekn
+  past_participle:
+    yiddish: געלעקט
+    transliteration: gelekt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

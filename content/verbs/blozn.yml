@@ -1,0 +1,36 @@
+id: blozn
+categoryId: simple
+lemma:
+  yiddish: בלאָזן
+  transliteration: blozn
+senses:
+  - english: to blow
+  - english: to play (a wind instrument)
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בלאָז
+      transliteration: bloz
+    du:
+      yiddish: בלאָזסט
+      transliteration: blozst
+    er_zi_es:
+      yiddish: בלאָזט
+      transliteration: blozt
+    mir:
+      yiddish: בלאָזן
+      transliteration: blozn
+    ir:
+      yiddish: בלאָזט
+      transliteration: blozt
+    zey:
+      yiddish: בלאָזן
+      transliteration: blozn
+  past_participle:
+    yiddish: געבלאָזן
+    transliteration: geblozn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

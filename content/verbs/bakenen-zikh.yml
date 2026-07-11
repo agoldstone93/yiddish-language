@@ -1,0 +1,37 @@
+id: bakenen-zikh
+categoryId: reflexive
+lemma:
+  yiddish: באַקענען זיך
+  transliteration: bakenen zikh
+senses:
+  - english: to recognize
+  - english: to introduce or acquaint
+  - english: to meet, to familiarize }}
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַקען זיך
+      transliteration: baken zikh
+    du:
+      yiddish: באַקענסט זיך
+      transliteration: bakenst zikh
+    er_zi_es:
+      yiddish: באַקענט זיך
+      transliteration: bakent zikh
+    mir:
+      yiddish: באַקענען זיך
+      transliteration: bakenen zikh
+    ir:
+      yiddish: באַקענט זיך
+      transliteration: bakent zikh
+    zey:
+      yiddish: באַקענען זיך
+      transliteration: bakenen zikh
+  past_participle:
+    yiddish: באַקענט זיך
+    transliteration: bakent zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: shaynen
+categoryId: simple
+lemma:
+  yiddish: שײַנען
+  transliteration: shaynen
+senses:
+  - english: to shine
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שײַן
+      transliteration: shayn
+    du:
+      yiddish: שײַנסט
+      transliteration: shaynst
+    er_zi_es:
+      yiddish: שײַנט
+      transliteration: shaynt
+    mir:
+      yiddish: שײַנען
+      transliteration: shaynen
+    ir:
+      yiddish: שײַנט
+      transliteration: shaynt
+    zey:
+      yiddish: שײַנען
+      transliteration: shaynen
+  past_participle:
+    yiddish: געשײַנט
+    transliteration: geshaynt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

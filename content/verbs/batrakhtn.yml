@@ -1,0 +1,35 @@
+id: batrakhtn
+categoryId: modal
+lemma:
+  yiddish: באַטראַכטן
+  transliteration: batrakhtn
+senses:
+  - english: to consider
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַטראַכט
+      transliteration: batrakht
+    du:
+      yiddish: באַטראַכטסט
+      transliteration: batrakhtst
+    er_zi_es:
+      yiddish: באַטראַכט
+      transliteration: batrakht
+    mir:
+      yiddish: באַטראַכטן
+      transliteration: batrakhtn
+    ir:
+      yiddish: באַטראַכט
+      transliteration: batrakht
+    zey:
+      yiddish: באַטראַכטן
+      transliteration: batrakhtn
+  past_participle:
+    yiddish: באַטראַכט
+    transliteration: batrakht
+search:
+  yiddish: []
+  transliteration: []
+  english: []
