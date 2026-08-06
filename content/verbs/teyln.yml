@@ -1,0 +1,35 @@
+id: teyln
+categoryId: simple
+lemma:
+  yiddish: טיילן
+  transliteration: teyln
+senses:
+  - english: to share, to divide
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טייל
+      transliteration: tayl
+    du:
+      yiddish: טיילסט
+      transliteration: taylst
+    er_zi_es:
+      yiddish: טיילט
+      transliteration: taylt
+    mir:
+      yiddish: טיילן
+      transliteration: teyln
+    ir:
+      yiddish: טיילט
+      transliteration: taylt
+    zey:
+      yiddish: טיילן
+      transliteration: teyln
+  past_participle:
+    yiddish: געטיילט
+    transliteration: geteylt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

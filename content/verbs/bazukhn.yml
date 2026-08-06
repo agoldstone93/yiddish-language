@@ -1,0 +1,35 @@
+id: bazukhn
+categoryId: simple
+lemma:
+  yiddish: באַזוכן
+  transliteration: bazukhn
+senses:
+  - english: to visit
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַזוך
+      transliteration: bazukh
+    du:
+      yiddish: באַזוכסט
+      transliteration: bazukhst
+    er_zi_es:
+      yiddish: באַזוכט
+      transliteration: bazukht
+    mir:
+      yiddish: באַזוכן
+      transliteration: bazukhn
+    ir:
+      yiddish: באַזוכט
+      transliteration: bazukht
+    zey:
+      yiddish: באַזוכן
+      transliteration: bazukhn
+  past_participle:
+    yiddish: באַזוכט
+    transliteration: bazukht
+search:
+  yiddish: []
+  transliteration: []
+  english: []
