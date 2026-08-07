@@ -9,8 +9,7 @@ import { getConditionalForms } from '@/lib/grammar/conditional';
 import { getImperativeForms } from '@/lib/grammar/imperative';
 import { TenseBox } from '@/components/TenseBox';
 import { VerbSearch } from '@/components/VerbSearch';
-import { getAllVerbs } from "@/lib/verbs";
-import { buildVerbSearchIndex, type SearchEntry } from "@/lib/searchIndex";
+import { useSearchIndex } from '@/lib/useSearchIndex';
 
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 import { getCategory, renderCategoryContent } from '@/lib/categories';
@@ -33,7 +32,6 @@ type CategoryData = { name: string; contentHtml: string } | null;
 
 export const getStaticProps: GetStaticProps<{
   verb: Verb;
-  verbs: SearchEntry[];
   category: CategoryData
 }> = async ({ params }) => {
   const id = params?.id as string;
@@ -43,8 +41,6 @@ export const getStaticProps: GetStaticProps<{
   const content = load(
     fs.readFileSync(filePath, 'utf8')
   ) as Verb;
-
-  const verbs = buildVerbSearchIndex(getAllVerbs());
 
   let category: CategoryData = null;
   if (content.categoryId) {
@@ -57,10 +53,11 @@ export const getStaticProps: GetStaticProps<{
     }
   }
 
-  return { props: { verb: content, verbs, category } };
+  return { props: { verb: content, category } };
 };
 
-export default function VerbPage({ verb, verbs, category }: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function VerbPage({ verb, category }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const verbs = useSearchIndex();
   const title = `${verb.lemma.yiddish} (${verb.lemma.transliteration})`;
   const description = verb.senses?.[0]?.english
     ? `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) - "${verb.senses[0].english}" in Yiddish. View all tenses and forms.`
