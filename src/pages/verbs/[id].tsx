@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import yaml from 'js-yaml';
+import { load } from 'js-yaml';
 import Head from 'next/head';
 import { Verb } from '@/types/verb';
 import { getPastForms } from '@/lib/grammar/past';
@@ -20,7 +20,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const files = fs.readdirSync(verbsDir);
 
   const paths = files.map((file: string) => {
-    const content = yaml.load(
+    const content = load(
       fs.readFileSync(path.join(verbsDir, file), 'utf8')
     ) as Verb;
     return { params: { id: content.id } };
@@ -40,7 +40,7 @@ export const getStaticProps: GetStaticProps<{
   const verbsDir = path.join(process.cwd(), 'content/verbs');
   const filePath = path.join(verbsDir, `${id}.yml`);
 
-  const content = yaml.load(
+  const content = load(
     fs.readFileSync(filePath, 'utf8')
   ) as Verb;
 

@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import yaml from "js-yaml";
+import { load } from "js-yaml";
 import type { Noun } from "@/types/noun";
 
 const nounsDir = path.join(process.cwd(), "content/nouns");
@@ -10,7 +10,7 @@ export function getAllNouns(): Noun[] {
 
   return files.map((file) => {
     const raw = fs.readFileSync(path.join(nounsDir, file), "utf8");
-    return yaml.load(raw) as Noun;
+    return load(raw) as Noun;
   });
 }
 
@@ -19,5 +19,5 @@ export function getNoun(id: string): Noun | null {
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, "utf8");
-  return yaml.load(raw) as Noun;
+  return load(raw) as Noun;
 }

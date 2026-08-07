@@ -1,5 +1,5 @@
 import fs from "fs";
-import yaml from "js-yaml";
+import { dump } from "js-yaml";
 
 const API = "https://en.wiktionary.org/w/api.php";
 const REQUEST_HEADERS = {
@@ -313,7 +313,7 @@ async function generateVerb(title) {
   const filename = finalInfinitiveTr.replace(/\s+/g, "-");
   fs.writeFileSync(
     `${outputDir}/${filename}.yml`,
-    yaml.dump(output, { allowUnicode: true })
+    dump(output, { allowUnicode: true })
   );
 
   

@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import yaml from "js-yaml";
+import { load } from "js-yaml";
 import Head from "next/head";
 import StaticPageLayout from "@/components/StaticPageLayout";
 import { getAllCategories, getCategory } from "@/lib/categories";
@@ -38,7 +38,7 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({
 		const verbPath = path.join(process.cwd(), "content/verbs", `${exampleSlug}.yml`);
 		if (fs.existsSync(verbPath)) {
 			const raw = fs.readFileSync(verbPath, "utf8");
-			const verb = yaml.load(raw) as { lemma?: { yiddish?: string } };
+			const verb = load(raw) as { lemma?: { yiddish?: string } };
 			if (verb?.lemma?.yiddish) {
 				exampleDisplay = verb.lemma.yiddish;
 			}

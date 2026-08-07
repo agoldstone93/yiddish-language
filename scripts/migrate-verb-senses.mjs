@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import yaml from "js-yaml";
+import { load, dump } from "js-yaml";
 
 const verbsDir = path.join(process.cwd(), "content/verbs");
 const files = fs.readdirSync(verbsDir).filter((file) => file.endsWith(".yml"));
@@ -8,7 +8,7 @@ const files = fs.readdirSync(verbsDir).filter((file) => file.endsWith(".yml"));
 for (const file of files) {
   const filePath = path.join(verbsDir, file);
   const raw = fs.readFileSync(filePath, "utf8");
-  const data = yaml.load(raw);
+  const data = load(raw);
 
   if (!data || typeof data !== "object" || Array.isArray(data)) continue;
   if (data.senses) continue;
@@ -27,7 +27,7 @@ for (const file of files) {
 
   fs.writeFileSync(
     filePath,
-    yaml.dump(migrated, {
+    dump(migrated, {
       lineWidth: -1,
       noRefs: true,
     }),

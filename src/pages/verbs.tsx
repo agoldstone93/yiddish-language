@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import yaml from 'js-yaml';
+import { load } from 'js-yaml';
 import Link from 'next/link';
 import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
@@ -11,7 +11,7 @@ export const getStaticProps = async () => {
   const files = fs.readdirSync(verbsDir);
 
   const verbs: Verb[] = files.map(file => {
-    const content = yaml.load(fs.readFileSync(path.join(verbsDir, file), 'utf8')) as Verb;
+    const content = load(fs.readFileSync(path.join(verbsDir, file), 'utf8')) as Verb;
 
     return content;
   });
