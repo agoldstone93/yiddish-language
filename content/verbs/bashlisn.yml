@@ -1,0 +1,35 @@
+id: bashlisn
+categoryId: simple
+lemma:
+  yiddish: באַשליסן
+  transliteration: bashlisn
+senses:
+  - english: to decide
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: באַשליס
+      transliteration: bashlis
+    du:
+      yiddish: באַשליסט
+      transliteration: bashlist
+    er_zi_es:
+      yiddish: באַשליסט
+      transliteration: bashlist
+    mir:
+      yiddish: באַשליסן
+      transliteration: bashlisn
+    ir:
+      yiddish: באַשליסט
+      transliteration: bashlist
+    zey:
+      yiddish: באַשליסן
+      transliteration: bashlisn
+  past_participle:
+    yiddish: באַשלאָסן
+    transliteration: bashlosn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

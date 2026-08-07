@@ -1,0 +1,35 @@
+id: shvaygn
+categoryId: simple
+lemma:
+  yiddish: שװײַגן
+  transliteration: shvaygn
+senses:
+  - english: to keep quiet, to be silent
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: שװײַג
+      transliteration: shvayg
+    du:
+      yiddish: שװײַגסט
+      transliteration: shvaygst
+    er_zi_es:
+      yiddish: שװײַגט
+      transliteration: shvaygt
+    mir:
+      yiddish: שװײַגן
+      transliteration: shvaygn
+    ir:
+      yiddish: שװײַגט
+      transliteration: shvaygt
+    zey:
+      yiddish: שװײַגן
+      transliteration: shvaygn
+  past_participle:
+    yiddish: געשװיגן
+    transliteration: geshvign
+search:
+  yiddish: []
+  transliteration: []
+  english: []
