@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "downshift": "^9.3.6",
-    "js-yaml": "^4.3.0",
+    "js-yaml": "^4.3.1",
     "markdown-it": "^14.2.0",
     "next": "16.2.12",
     "react": "19.2.8",
