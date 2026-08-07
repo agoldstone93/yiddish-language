@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import yaml from 'js-yaml';
+import { load } from 'js-yaml';
 import { parseMarkdown } from '@/lib/markdown';
 
 export type Category = {
@@ -18,7 +18,7 @@ export function getAllCategories(): Category[] {
 	const files = fs.readdirSync(categoriesDir).filter((f) => f.endsWith('.yml'));
 	return files.map((file) => {
 		const raw = fs.readFileSync(path.join(categoriesDir, file), 'utf8');
-		const data = yaml.load(raw) as Partial<Category> & {
+		const data = load(raw) as Partial<Category> & {
 			slug?: string;
 			example?: string;
 			example_slug?: string;
@@ -40,7 +40,7 @@ export function getCategory(id: string): Category | null {
 	const filePath = path.join(categoriesDir, `${id}.yml`);
 	if (!fs.existsSync(filePath)) return null;
 	const raw = fs.readFileSync(filePath, 'utf8');
-	const data = yaml.load(raw) as Partial<Category> & {
+	const data = load(raw) as Partial<Category> & {
 		slug?: string;
 		example?: string;
 		example_slug?: string;

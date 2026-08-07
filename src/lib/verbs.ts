@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import yaml from "js-yaml";
+import { load } from "js-yaml";
 import type { Verb } from "@/types/verb";
 
 const verbsDir = path.join(process.cwd(), "content/verbs");
@@ -10,7 +10,7 @@ export function getVerb(id: string): Verb | null {
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, "utf8");
-  return yaml.load(raw) as Verb;
+  return load(raw) as Verb;
 }
 
 export function getAllVerbs(): Verb[] {
@@ -18,6 +18,6 @@ export function getAllVerbs(): Verb[] {
 
   return files.map((file) => {
     const raw = fs.readFileSync(path.join(verbsDir, file), "utf8");
-    return yaml.load(raw) as Verb;
+    return load(raw) as Verb;
   });
 }
