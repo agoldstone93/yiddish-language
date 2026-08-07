@@ -1,14 +1,10 @@
 import Head from "next/head";
 import { VerbSearch } from "@/components/VerbSearch";
-import { getVerbSearchIndex } from "@/lib/searchIndex";
-import type { SearchEntry } from "@/lib/searchIndex";
+import { useSearchIndex } from "@/lib/useSearchIndex";
 
-export async function getStaticProps() {
-  const verbs = getVerbSearchIndex();
-  return { props: { verbs } };
-}
 
-export default function Home({ verbs }: { verbs: SearchEntry[] }) {
+export default function Home() {
+  const verbs = useSearchIndex();
   return (
     <>
       <Head>
