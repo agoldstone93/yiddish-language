@@ -8,6 +8,8 @@ describe('getImperativeForms', () => {
     const verb = {
       id: 'zayn',
       lemma: { yiddish: 'זײַן', transliteration: 'zayn' },
+      senses: [{ english: 'to be' }],
+      reflexive: false,
       auxiliary: 'zayn',
       conjugation: {
         present: {
@@ -35,6 +37,8 @@ describe('getImperativeForms', () => {
     const verb = {
       id: 'lernen',
       lemma: { yiddish: 'לערנען', transliteration: 'lernen' },
+      senses: [{ english: 'to learn' }],
+      reflexive: false,
       auxiliary: 'hobn',
       conjugation: {
         present: {
