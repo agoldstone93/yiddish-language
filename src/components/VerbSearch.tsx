@@ -34,12 +34,20 @@ export function VerbSearch({
     const needle = normaliseForSearch(inputValue);
     if (!needle) return [];
 
+    const score = (entry: SearchEntry) => {
+      const terms = entry.searchTerms.map(normaliseForSearch);
+      if (terms.some((t) => t === needle)) return 0;
+      if (terms.some((t) => t.startsWith(needle))) return 1;
+      return 2;
+    };
+
     return verbs
       .filter((entry) =>
         entry.searchTerms.some((value) =>
           normaliseForSearch(value).includes(needle)
         )
       )
+      .sort((a, b) => score(a) - score(b))
       .slice(0, maxResults);
   }, [inputValue, maxResults, verbs]);
 
