@@ -10,6 +10,7 @@ import { getImperativeForms } from '@/lib/grammar/imperative';
 import { TenseBox } from '@/components/TenseBox';
 import { VerbSearch } from '@/components/VerbSearch';
 import { useSearchIndex } from '@/lib/useSearchIndex';
+import { formatVerbMeanings } from '@/lib/verbSenses';
 
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 import { getCategory, renderCategoryContent } from '@/lib/categories';
@@ -84,7 +85,7 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
           <br />
 
           {/* Metadata */}
-          {verb.senses?.[0]?.english && <p><strong>Meaning:</strong> {verb.senses[0].english}</p>}
+          {verb.senses?.[0]?.english && <p><strong>Meaning:</strong> {formatVerbMeanings(verb.senses)}</p>}
           {verb.categoryId && <p><strong>Category:</strong> {verb.categoryId}</p>}
         </div>
 
