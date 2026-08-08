@@ -1,0 +1,35 @@
+id: samen
+categoryId: simple
+lemma:
+  yiddish: סמען
+  transliteration: samen
+senses:
+  - english: to poison
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: סם
+      transliteration: sam
+    du:
+      yiddish: סמסט
+      transliteration: samst
+    er_zi_es:
+      yiddish: סמט
+      transliteration: samt
+    mir:
+      yiddish: סמען
+      transliteration: samen
+    ir:
+      yiddish: סמט
+      transliteration: samt
+    zey:
+      yiddish: סמען
+      transliteration: samen
+  past_participle:
+    yiddish: געסמט
+    transliteration: gesamt
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: dakhtn-zikh
+categoryId: reflexive
+lemma:
+  yiddish: דאַכטן זיך
+  transliteration: dakhtn zikh
+senses:
+  - english: to seem, to appear
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דאַכט זיך
+      transliteration: dakht zikh
+    du:
+      yiddish: דאַכטסט זיך
+      transliteration: dakhtst zikh
+    er_zi_es:
+      yiddish: דאַכט זיך
+      transliteration: dakht zikh
+    mir:
+      yiddish: דאַכטן זיך
+      transliteration: dakhtn zikh
+    ir:
+      yiddish: דאַכט זיך
+      transliteration: dakht zikh
+    zey:
+      yiddish: דאַכטן זיך
+      transliteration: dakhtn zikh
+  past_participle:
+    yiddish: געדאַכט זיך
+    transliteration: gedakht zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []
