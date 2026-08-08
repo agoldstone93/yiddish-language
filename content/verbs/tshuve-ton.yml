@@ -1,0 +1,35 @@
+id: tshuve-ton
+categoryId: periphrastic
+lemma:
+  yiddish: תּשובֿה טאָן
+  transliteration: tshuve ton
+senses:
+  - english: to repent
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טו תּשובֿה
+      transliteration: tu tshuve
+    du:
+      yiddish: טוסט תּשובֿה
+      transliteration: tust tshuve
+    er_zi_es:
+      yiddish: טוט תּשובֿה
+      transliteration: tut tshuve
+    mir:
+      yiddish: טוען תּשובֿה
+      transliteration: tuen tshuve
+    ir:
+      yiddish: טוט תּשובֿה
+      transliteration: tut tshuve
+    zey:
+      yiddish: טוען תּשובֿה
+      transliteration: tuen tshuve
+  past_participle:
+    yiddish: תּשובֿה געטאָן
+    transliteration: tshuve geton
+search:
+  yiddish: []
+  transliteration: []
+  english: []
