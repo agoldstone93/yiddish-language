@@ -1,0 +1,35 @@
+id: putsn
+categoryId: simple
+lemma:
+  yiddish: פּוצן
+  transliteration: putsn
+senses:
+  - english: clean, polish
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פּוץ
+      transliteration: puts
+    du:
+      yiddish: פּוצסט
+      transliteration: putsst
+    er_zi_es:
+      yiddish: פּוצט
+      transliteration: putst
+    mir:
+      yiddish: פּוצן
+      transliteration: putsn
+    ir:
+      yiddish: פּוצט
+      transliteration: putst
+    zey:
+      yiddish: פּוצן
+      transliteration: putsn
+  past_participle:
+    yiddish: געפּוצט
+    transliteration: geputst
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: aynshlofn
+categoryId: separable-prefix
+lemma:
+  yiddish: אײַנשלאָפֿן
+  transliteration: aynshlofn
+senses:
+  - english: to fall asleep
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: שלאָף אײַן
+      transliteration: shlof ayn
+    du:
+      yiddish: שלאָפֿסט אײַן
+      transliteration: shlofst ayn
+    er_zi_es:
+      yiddish: שלאָפֿט אײַן
+      transliteration: shloft ayn
+    mir:
+      yiddish: שלאָפֿן אײַן
+      transliteration: shlofn ayn
+    ir:
+      yiddish: שלאָפֿט אײַן
+      transliteration: shloft ayn
+    zey:
+      yiddish: שלאָפֿן אײַן
+      transliteration: shlofn ayn
+  past_participle:
+    yiddish: אַײַנגעשלאָפֿן
+    transliteration: ayngeshlofn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

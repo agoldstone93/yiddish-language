@@ -1,0 +1,36 @@
+id: onton
+categoryId: separable-prefix
+lemma:
+  yiddish: אָנטאָן
+  transliteration: onton
+senses:
+  - english: to clothe
+  - english: to put on
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טו אָן
+      transliteration: tu on
+    du:
+      yiddish: טוסט אָן
+      transliteration: tust on
+    er_zi_es:
+      yiddish: טוט אָן
+      transliteration: tut on
+    mir:
+      yiddish: טוען אָן
+      transliteration: tuen on
+    ir:
+      yiddish: טוט אָן
+      transliteration: tut on
+    zey:
+      yiddish: טוען אָן
+      transliteration: tuen on
+  past_participle:
+    yiddish: אָנגעטאָן
+    transliteration: ongeton
+search:
+  yiddish: []
+  transliteration: []
+  english: []
