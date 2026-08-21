@@ -1,0 +1,36 @@
+id: oyfkhapn-zikh
+reflexive: true
+categoryId: separable-prefix
+lemma:
+  yiddish: אויפֿכאַפּן זיך
+  transliteration: oyfkhapn zikh
+senses:
+  - english: to wake up
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: כאַפּ זיך אויף
+      transliteration: khap zikh oyf
+    du:
+      yiddish: כאַפּסט זיך אויף
+      transliteration: khapst zikh oyf
+    er_zi_es:
+      yiddish: כאַפּט זיך אויף
+      transliteration: khapt zikh oyf
+    mir:
+      yiddish: כאַפּן זיך אויף
+      transliteration: khapn zikh oyf
+    ir:
+      yiddish: כאַפּט זיך אויף
+      transliteration: khapt zikh oyf
+    zey:
+      yiddish: כאַפּן זיך אויף
+      transliteration: khapn zikh oyf
+  past_participle:
+    yiddish: אויפֿגעכאַפּט זיך
+    transliteration: oyfgekhapt zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []

@@ -1,0 +1,35 @@
+id: kvetshn
+categoryId: simple
+lemma:
+  yiddish: קוועטשן
+  transliteration: kvetshn
+senses:
+  - english: to squeeze, press, pinch
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: קוועטש
+      transliteration: kvetsh
+    du:
+      yiddish: קוועטשסט
+      transliteration: kvetshst
+    er_zi_es:
+      yiddish: קוועטשט
+      transliteration: kvetsht
+    mir:
+      yiddish: קוועטשן
+      transliteration: kvetshn
+    ir:
+      yiddish: קוועטשט
+      transliteration: kvetsht
+    zey:
+      yiddish: קוועטשן
+      transliteration: kvetshn
+  past_participle:
+    yiddish: געקוועטשט
+    transliteration: gekvetsht
+search:
+  yiddish: []
+  transliteration: []
+  english: []

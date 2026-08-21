@@ -1,0 +1,36 @@
+id: oyfshteyn
+categoryId: simple
+lemma:
+  yiddish: אויפֿשטיין
+  transliteration: oyfshteyn
+senses:
+  - english: to be awake, wake up
+  - english: to stand up (for)
+auxiliary: zayn
+conjugation:
+  present:
+    ikh:
+      yiddish: שטיי אויף
+      transliteration: shtey oyf
+    du:
+      yiddish: שטייסט אויף
+      transliteration: shteyst oyf
+    er_zi_es:
+      yiddish: שטייט אויף
+      transliteration: shteyt oyf
+    mir:
+      yiddish: שטייען אויף
+      transliteration: shteyen oyf
+    ir:
+      yiddish: שטייט אויף
+      transliteration: shteyt oyf
+    zey:
+      yiddish: שטייען אויף
+      transliteration: shteyen oyf
+  past_participle:
+    yiddish: אויפֿגעשטאַנען
+    transliteration: oyfgeshtanen
+search:
+  yiddish: []
+  transliteration: []
+  english: []

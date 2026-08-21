@@ -1,0 +1,20 @@
+id: shtern
+lemma:
+  yiddish: שטערן
+  transliteration: shtern
+senses:
+  - english: star
+    plural:
+      yiddish: שטערן
+      transliteration: shtern
+  - english: forehead
+    plural:
+      yiddish: שטערנס
+      transliteration: shterns
+gender: masculine
+number: countable
+search:
+  yiddish: []
+  transliteration: []
+  english: []
+notes: []
