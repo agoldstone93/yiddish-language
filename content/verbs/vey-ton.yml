@@ -1,0 +1,35 @@
+id: vey-ton
+categoryId: periphrastic
+lemma:
+  yiddish: װײ טאָן
+  transliteration: vey ton
+senses:
+  - english: to hurt
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טו װײ
+      transliteration: tu vey
+    du:
+      yiddish: טוסט װײ
+      transliteration: tust vey
+    er_zi_es:
+      yiddish: טוט װײ
+      transliteration: tut vey
+    mir:
+      yiddish: טוען װײ
+      transliteration: tuen vey
+    ir:
+      yiddish: טוט װײ
+      transliteration: tut vey
+    zey:
+      yiddish: טוען װײ
+      transliteration: tuen vey
+  past_participle:
+    yiddish: װײ געטאָן
+    transliteration: vey geton
+search:
+  yiddish: []
+  transliteration: []
+  english: []

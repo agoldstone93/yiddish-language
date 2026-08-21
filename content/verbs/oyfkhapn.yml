@@ -1,0 +1,36 @@
+id: oyfkhapn
+categoryId: separable-prefix
+lemma:
+  yiddish: אויפֿכאַפּן
+  transliteration: oyfkhapn
+senses:
+  - english: to catch on
+  - english: to intercept
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: כאַפּ אויף
+      transliteration: khap oyf
+    du:
+      yiddish: כאַפּסט אויף
+      transliteration: khapst oyf
+    er_zi_es:
+      yiddish: כאַפּט אויף
+      transliteration: khapt oyf
+    mir:
+      yiddish: כאַפּן אויף
+      transliteration: khapn oyf
+    ir:
+      yiddish: כאַפּט אויף
+      transliteration: khapt oyf
+    zey:
+      yiddish: כאַפּן אויף
+      transliteration: khapn oyf
+  past_participle:
+    yiddish: אויפֿגעכאַפּט
+    transliteration: oyfgekhapt
+search:
+  yiddish: []
+  transliteration: []
+  english: []
