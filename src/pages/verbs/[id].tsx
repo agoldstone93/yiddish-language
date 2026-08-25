@@ -78,7 +78,7 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
 
         <div className="text-center">
           {/* Lemma */}
-          <h1>{verb.lemma.yiddish}</h1>
+          <h1 className="font-yiddish" dir="rtl">{verb.lemma.yiddish}</h1>
 
           <p>({verb.lemma.transliteration})</p>
 

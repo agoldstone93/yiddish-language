@@ -29,12 +29,12 @@ export function TenseBox({
       <h2 className="font-semibold text-center mb-2">{title}</h2>
       {Object.entries(forms).map(([person, form]) =>
         form ? (
-          <div key={person} className="text-center text-text-secondary">
+          <div key={person} className="text-center text-text-secondary font-yiddish">
             <span className="text-slate-700 dark:text-slate-300">
               {labels[person as Person]}
             </span>
             {' '}
-            <span className="text-gray-900 dark:text-gray-100 font-semibold">
+            <span className="text-gray-900 dark:text-gray-100 font-semibold font-yiddish">
               {form.yiddish}
             </span>
           </div>
