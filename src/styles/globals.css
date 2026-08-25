@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+
 :root {
   --background: var(--color-orange-50);
   --foreground: var(--color-gray-900);
@@ -8,6 +9,7 @@
   --text-secondary: var(--color-gray-600);
   --text-link: var(--color-gray-500);
   --border-default: var(--color-gray-300);
+  --font-english: Helvetica, Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +36,11 @@
   body {
     background: var(--background);
     color: var(--foreground);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-english);
+  }
+
+  .font-yiddish {
+    font-family: var(--font-yiddish);
   }
 
   h1, h2, h3 {
