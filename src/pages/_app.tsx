@@ -5,6 +5,12 @@ import { useRouter } from "next/router";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Layout } from "@/components/Layout";
 import Link from "next/link";
+import { Noto_Sans_Hebrew } from "next/font/google";
+
+const notoSansHebrew = Noto_Sans_Hebrew({
+  weight: ["400", "600", "700"],
+  variable: "--font-yiddish",
+});
 
 type IdentityStatus = "idle" | "error";
 
@@ -143,9 +149,11 @@ export default function App({ Component, pageProps }: AppProps) {
         </div>
       )}
 
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <div className={notoSansHebrew.variable}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </div>
     </>
   );
 }
