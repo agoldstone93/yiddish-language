@@ -36,24 +36,44 @@ export function getAllCategories(): Category[] {
 	});
 }
 
+const categoryCache = new Map<string, Category | null>();
+
 export function getCategory(id: string): Category | null {
-	const filePath = path.join(categoriesDir, `${id}.yml`);
-	if (!fs.existsSync(filePath)) return null;
-	const raw = fs.readFileSync(filePath, 'utf8');
-	const data = load(raw) as Partial<Category> & {
-		slug?: string;
-		example?: string;
-		example_slug?: string;
-		example_label?: string;
-	};
-	const finalId = (data.id as string) || data.slug || id;
-	const name = (data.name as string) || finalId;
-	const content = (data.content as string) || '';
-	const exampleSlug =
-		(data.example_slug as string) || (data.example as string) || '';
-	const exampleLabel =
-		(data.example_label as string) || (exampleSlug ? `e.g. ${exampleSlug}` : '');
-	return { id: finalId, name, content, exampleSlug, exampleLabel };
+  if (categoryCache.has(id)) return categoryCache.get(id)!;
+
+  const filePath = path.join(categoriesDir, `${id}.yml`);
+  if (!fs.existsSync(filePath)) {
+    categoryCache.set(id, null);
+    return null;
+  }
+  const raw = fs.readFileSync(filePath, "utf8");
+  const data = load(raw) as Partial<Category> & {
+    slug?: string;
+    example?: string;
+    example_slug?: string;
+    example_label?: string;
+  };
+  const finalId = (data.id as string) || data.slug || id;
+  const name = (data.name as string) || finalId;
+  const content = (data.content as string) || "";
+  const exampleSlug =
+    (data.example_slug as string) || (data.example as string) || "";
+  const exampleLabel =
+    (data.example_label as string) || (exampleSlug ? `e.g. ${exampleSlug}` : "");
+  const result = { id: finalId, name, content, exampleSlug, exampleLabel };
+
+  categoryCache.set(id, result);
+  return result;
+}
+
+const renderedContentCache = new Map<string, string>();
+
+export function renderCategoryContent(markdown: string): string {
+  const cached = renderedContentCache.get(markdown);
+  if (cached !== undefined) return cached;
+  const html = parseMarkdown(markdown);
+  renderedContentCache.set(markdown, html);
+  return html;
 }
 
 export function getCategoriesMap(): Record<string, Category> {
@@ -62,8 +82,3 @@ export function getCategoriesMap(): Record<string, Category> {
 		return acc;
 	}, {} as Record<string, Category>);
 }
-
-export function renderCategoryContent(markdown: string): string {
-	return parseMarkdown(markdown);
-}
-
