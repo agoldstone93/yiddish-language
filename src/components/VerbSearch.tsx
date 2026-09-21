@@ -126,7 +126,7 @@ export function VerbSearch({
             {...getItemProps({ item: entry, index })}
           >
             <div className="text-base">
-              {entry.yiddish} — {entry.english[0] ?? ""}
+              <span className="font-yiddish">{entry.yiddish}</span> — {entry.english[0] ?? ""}
             </div>
             <div className="text-xs text-text-secondary">
               {entry.transliteration}
