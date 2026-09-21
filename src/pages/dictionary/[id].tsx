@@ -1,10 +1,12 @@
 import Head from "next/head";
 import type { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
-import { getAllNouns, getNoun } from "@/lib/nouns";
-import { getAllVerbs, getVerb } from "@/lib/verbs";
+import { getNoun } from "@/lib/nouns";
+import { getVerb } from "@/lib/verbs";
 import type { Noun } from "@/types/noun";
 import type { Verb } from "@/types/verb";
 import Link from "next/link";
+import path from "path";
+import fs from "fs";
 
 type DictionaryEntryProps = {
   noun: Noun | null;
@@ -12,9 +14,18 @@ type DictionaryEntryProps = {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const nounIds = getAllNouns().map((noun) => noun.id);
-  const verbIds = getAllVerbs().map((verb) => verb.id);
+  const nounsDir = path.join(process.cwd(), "content/nouns");
+  const verbsDir = path.join(process.cwd(), "content/verbs");
+
+  const nounIds = fs.readdirSync(nounsDir)
+    .filter((f) => f.endsWith(".yml"))
+    .map((f) => path.parse(f).name);
+  const verbIds = fs.readdirSync(verbsDir)
+    .filter((f) => f.endsWith(".yml"))
+    .map((f) => path.parse(f).name);
+
   const ids = [...new Set([...nounIds, ...verbIds])];
+
 
   return {
     paths: ids.map((id) => ({ params: { id } })),

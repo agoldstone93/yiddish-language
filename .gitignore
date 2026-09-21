@@ -43,3 +43,8 @@ next-env.d.ts
 # decap / netlify cms
 /public/admin/config.yml
 /public/admin/config.local.yml
+
+# search indexes
+/public/search-index.json
+/public/admin/js/grammar.js
+/public/admin/js/grammar.js.map
