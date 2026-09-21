@@ -23,4 +23,11 @@ describe('getAllVerbs', () => {
 			}
 		}
 	});
+
+	it("has unique ids across all verbs", () => {
+		const verbs = getAllVerbs();
+		const ids = verbs.map(verb => verb.id);
+		const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
+		expect(duplicates).toEqual([]);
+	})
 });
