@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "downshift": "^9.4.0",
-    "js-yaml": "^5.2.3",
-    "markdown-it": "^15.0.0",
+    "js-yaml": "^5.4.1",
+    "markdown-it": "^15.0.1",
     "next": "16.2.12",
     "react": "19.2.8",
     "react-dom": "19.2.8"
