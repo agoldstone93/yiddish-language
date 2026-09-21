@@ -1,47 +1,47 @@
 name: Modal Verbs
 slug: modal
 example_slug: muzn
-example_label: (e.g. מוזן)
+example_label: (e.g. {{yi:מוזן}})
 content: >-
   There are 7 core verbs that are in this category. They are very similar to simple verbs, but they are used as auxiliary verbs and have some irregularities in their conjugation. They are:
   
-  * [מוזן (muzn)](/verbs/muzn) - must, to have to
+  * [{{yi:מוזן}} (muzn)](/verbs/muzn) - must, to have to
   
-  * [קען (kenen)](/verbs/kenen) - can, to be able to
+  * [{{yi:קען}} (kenen)](/verbs/kenen) - can, to be able to
   
-  * [וועלן (veln)](/verbs/veln) - to want
+  * [{{yi:וועלן}} (veln)](/verbs/veln) - to want
 
-  * [דאַרפֿן (darfn)](/verbs/darfn) - to need to
+  * [{{yi:דאַרפֿן}} (darfn)](/verbs/darfn) - to need to
   
-  * [זאָלן (zoln)](/verbs/zoln) - should, ought to
+  * [{{yi:זאָלן}} (zoln)](/verbs/zoln) - should, ought to
   
-  * [מעגן (megn)](/verbs/megn) - may, to be allowed to
+  * [{{yi:מעגן}} (megn)](/verbs/megn) - may, to be allowed to
   
-  * [נישט טאָרן (nisht torn)](/verbs/nisht-torn) - must not, to be forbidden to
+  * [{{yi:נישט טאָרן}} (nisht torn)](/verbs/nisht-torn) - must not, to be forbidden to
 
   ## Present Tense
 
 
-  In the present tense, modal verbs are conjugated by adding specific endings to the verb stem based on the subject pronoun. To get the verb stem, the ending (normally `ן`) is removed from the infinitive.
+  In the present tense, modal verbs are conjugated by adding specific endings to the verb stem based on the subject pronoun. To get the verb stem, the ending (normally {{yi:ן}}) is removed from the infinitive.
 
-  These are very similar to simple verbs, but the 3rd person singular does not take the `ט` ending.
+  These are very similar to simple verbs, but the 3rd person singular does not take the {{yi:ט}} ending.
 
 
   | Pronoun  | Meaning        | Ending | Example      |
 
   | -------- | -------------- | ------ | ------------ |
 
-  | איך      | I              | ־      | מוזן ← מוז   |
+  | {{yi:איך}}      | I              | ־      | {{yi:מוזן}} ← {{yi:מוז}}   |
 
-  | דו       | you (singular) | סט     | מוזן ← מוזסט |
+  | {{yi:דו}}       | you (singular) | סט     | {{yi:מוזן}} ← {{yi:מוזסט}} |
 
-  | ער/זי/עס | he/she/it      | ־      | מוזן ← מוז   |
+  | {{yi:ער/זי/עס}} | he/she/it      | ־      | {{yi:מוזן}} ← {{yi:מוז}}   |
 
-  | מיר      | we             | ן      | מוזן ← מוזן  |
+  | {{yi:מיר}}      | we             | ן      | {{yi:מוזן}} ← {{yi:מוזן}}  |
 
-  | איר      | you (plural)   | ט      | מוזן ← מוזט  |
+  | {{yi:איר}}      | you (plural)   | ט      | {{yi:מוזן}} ← {{yi:מוזט}}  |
 
-  | זיי      | they           | ן      | מוזן ← מוזן  |
+  | {{yi:זיי}}      | they           | ן      | {{yi:מוזן}} ← {{yi:מוזן}}  |
 
 
   ## Past Tense
@@ -50,50 +50,50 @@ content: >-
   The past tense for modal, periphrastic, simple, separable-prefix, and reflexive verbs is formed in a similar manner and follows the same rules.
 
 
-  The past tense is formed using the auxiliary verb `האָבן` (to have) or `זיין` (to be) followed by the past participle of the main verb.
+  The past tense is formed using the auxiliary verb {{yi:האָבן}} (to have) or {{yi:זיין}} (to be) followed by the past participle of the main verb.
 
 
-  In most cases, `האָבן` is used, but `זיין` is used with verbs that indicate motion or change of state.
+  In most cases, {{yi:האָבן}} is used, but {{yi:זיין}} is used with verbs that indicate motion or change of state.
 
 
-  The past participle is often formed by adding `גע־` at the beginning and `־ט` at the end of the verb stem, though there are many exceptions; in general the past participle needs to memorised.
+  The past participle is often formed by adding {{yi:גע־}} at the beginning and {{yi:־ט}} at the end of the verb stem, though there are many exceptions; in general the past participle needs to memorised.
 
 
   | Pronoun  | Formation               | Example          |
 
   | -------- | ----------------------- | ---------------- |
 
-  | איך      | האָב + past participle  | איך האָב געמוזט  |
+  | {{yi:איך}}      | {{yi:האָב}} + past participle  | {{yi:איך האָב געמוזט}}  |
 
-  | דו       | האָסט + past participle | דו האָסט געמוזט  |
+  | {{yi:דו}}       | {{yi:האָסט}} + past participle | {{yi:דו האָסט געמוזט}}  |
 
-  | ער/זי/עס | האָט + past participle  | ער האָט געמוזט   |
+  | {{yi:ער/זי/עס}} | {{yi:האָט}} + past participle  | {{yi:ער האָט געמוזט}}   |
 
-  | מיר      | האָבן + past participle | מיר האָבן געמוזט |
+  | {{yi:מיר}}      | {{yi:האָבן}} + past participle | {{yi:מיר האָבן געמוזט}} |
 
-  | איר      | האָט + past participle  | איר האָט געמוזט  |
+  | {{yi:איר}}      | {{yi:האָט}} + past participle  | {{yi:איר האָט געמוזט}}  |
 
-  | זיי      | האָבן + past participle | זיי האָבן געמוזט |
+  | {{yi:זיי}}      | {{yi:האָבן}} + past participle | {{yi:זיי האָבן געמוזט}} |
 
 
   ## Future Tense
 
 
-  The future tense for modal, periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb וועלן (will) followed by the infinitive form of the main verb.
+  The future tense for modal, periphrastic, reflexive, separable-prefix and simple verbs is formed in a similar manner and follows the same rules. It is formed using the auxiliary verb {{yi:וועלן}} (will) followed by the infinitive form of the main verb.
 
 
   | Pronoun  | Formation         | Example        |
 
   | -------- | ----------------- | -------------- |
 
-  | איך      | װעל + infinitive  | איך וועל מוזן  |
+  | {{yi:איך}}      | {{yi:װעל}} + infinitive  | {{yi:איך וועל מוזן}}  |
 
-  | דו       | װעסט + infinitive | דו וועסט מוזן  |
+  | {{yi:דו}}       | {{yi:װעסט}} + infinitive | {{yi:דו וועסט מוזן}}  |
 
-  | ער/זי/עס | װעט + infinitive  | ער וועט מוזן   |
+  | {{yi:ער/זי/עס}} | {{yi:װעט}} + infinitive  | {{yi:ער וועט מוזן}}   |
 
-  | מיר      | װעלן + infinitive | מיר וועלן מוזן |
+  | {{yi:מיר}}      | {{yi:װעלן}} + infinitive | {{yi:מיר וועלן מוזן}} |
 
-  | איר      | װעט + infinitive  | איר וועט מוזן  |
+  | {{yi:איר}}      | {{yi:װעט}} + infinitive  | {{yi:איר וועט מוזן}}  |
 
-  | זיי      | װעלן + infinitive | זיי וועלן מוזן |
+  | {{yi:זיי}}      | {{yi:װעלן}} + infinitive | {{yi:זיי וועלן מוזן}} |

@@ -22,7 +22,9 @@ export default function StaticPageLayout({
         <div className="content-prose">
           <span className="mr-2">Example:</span>
           <a href={exampleHref} className="app-link">
-            {exampleText}
+            <span className="font-yiddish" lang="yi">
+              {exampleText}
+            </span>
           </a>
         </div>
       )}
