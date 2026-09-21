@@ -46,3 +46,5 @@ next-env.d.ts
 
 # search indexes
 /public/search-index.json
+/public/admin/js/grammar.js
+/public/admin/js/grammar.js.map
