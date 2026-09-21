@@ -18,8 +18,7 @@ export default function Home() {
         <div className="space-y-6 text-center">
           <div className="space-y-1">
             <h1 className="">Yiddish Verbs</h1>
-            <p>Look up a verb to explore its forms.</p>
-            <p className="text-sm">Type a Yiddish word, transliteration, or English meaning.</p>
+            <p className="text-m">Type a Yiddish word, transliteration, or English meaning.</p>
           </div>
         </div>
         <VerbSearch verbs={verbs} className="mt-6" />
