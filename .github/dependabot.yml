@@ -17,7 +17,6 @@ updates:
       lint-and-types:
         patterns:
           - "eslint"
-          - typescript
           - "@types/*"
         exclude-patterns:
           - "@types/react"
