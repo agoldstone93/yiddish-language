@@ -9,6 +9,8 @@ describe('getImperativeForms', () => {
       id: 'zayn',
       lemma: { yiddish: 'זײַן', transliteration: 'zayn' },
       auxiliary: 'zayn',
+      senses: [{ english: 'to be' }],
+      reflexive: false,
       conjugation: {
         present: {
           ikh: { yiddish: 'בין', transliteration: 'bin' },
@@ -36,6 +38,8 @@ describe('getImperativeForms', () => {
       id: 'lernen',
       lemma: { yiddish: 'לערנען', transliteration: 'lernen' },
       auxiliary: 'hobn',
+      senses: [{ english: "to learn" }],
+      reflexive: false,
       conjugation: {
         present: {
           ikh: { yiddish: 'לערן', transliteration: 'lern' },
