@@ -38,7 +38,7 @@
     "eslint-config-next": "16.4.6",
     "jsdom": "^31.0.1",
     "tailwindcss": "^4",
-    "typescript": "^6",
+    "typescript": "^7",
     "vitest": "^5.1.1"
   },
   "overrides": {
