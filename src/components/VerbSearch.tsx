@@ -111,8 +111,7 @@ export function VerbSearch({
       <ul
         className={`absolute left-0 right-0 top-full z-20 mt-2 max-h-80 overflow-auto
                     rounded border border-border-default text-foreground
-                    bg-orange-100 dark:bg-gray-900 
-                    shadow-lg divide-y divide-border-default ${
+                    bg-surface-panel shadow-lg divide-y divide-border-default ${
           showMenu ? '' : 'hidden'
         } ${menuClassName}`.trim()}
         {...menuProps}

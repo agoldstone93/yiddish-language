@@ -34,7 +34,7 @@ export function TenseBox({
               {labels[person as Person]}
             </span>
             {' '}
-            <span className="text-gray-900 dark:text-gray-100 font-semibold">
+            <span className="text-foreground font-semibold">
               {form.yiddish}
             </span>
           </div>

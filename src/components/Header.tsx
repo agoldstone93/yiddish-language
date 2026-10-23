@@ -34,7 +34,7 @@ export function Header({
     return router.asPath === href || router.asPath.startsWith(href + "/");
   };
   return (
-    <header className="border-b border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-gray-900/70 backdrop-blur">
+    <header className="border-b border-border-default bg-white/80 dark:bg-gray-900/70 backdrop-blur">
       <div className="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between gap-6">
         <div className="flex items-center gap-6">
           <nav aria-label="Primary" className="flex items-center gap-4">
@@ -54,8 +54,8 @@ export function Header({
                 href={l.href}
                 className={`${l.href === "/" ? "hidden sm:inline" : ""} text-sm ${
                   isActive(l.href)
-                    ? "text-gray-900 font-semibold dark:text-gray-100"
-                    : "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                  ? "text-foreground font-semibold"
+                  : "text-link hover:text-foreground"
                 }`}
               >
                 {l.label}
@@ -70,8 +70,8 @@ export function Header({
               href={l.href}
               className={`text-sm ${
                 isActive(l.href)
-                  ? "text-gray-900 font-semibold dark:text-gray-100"
-                  : "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                  ? "text-foreground font-semibold"
+                  : "text-link hover:text-foreground"
               }`}
             >
               {l.label}

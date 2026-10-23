@@ -80,7 +80,7 @@ export default function DictionaryEntryPage({
           {lemma.yiddish}
         </h1>
 
-        <p className="text-center text-gray-600 dark:text-gray-400">
+        <p className="text-center text-secondary">
           ({lemma.transliteration})
         </p>
 
