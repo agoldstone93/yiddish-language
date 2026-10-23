@@ -1,0 +1,36 @@
+id: onton-zikh
+reflexive: true
+categoryId: separable-prefix
+lemma:
+  yiddish: אָנטאָן זיך
+  transliteration: onton zikh
+senses:
+  - english: to get dressed
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: טו זיך אָן
+      transliteration: tu zikh on
+    du:
+      yiddish: טוסט זיך אָן
+      transliteration: tust zikh on
+    er_zi_es:
+      yiddish: טוט זיך אָן
+      transliteration: tut zikh on
+    mir:
+      yiddish: טוען זיך אָן
+      transliteration: tuen zikh on
+    ir:
+      yiddish: טוט זיך אָן
+      transliteration: tut zikh on
+    zey:
+      yiddish: טוען זיך אָן
+      transliteration: tuen zikh on
+  past_participle:
+    yiddish: אָנגעטאָן זיך
+    transliteration: ongeton zikh
+search:
+  yiddish: []
+  transliteration: []
+  english: []
