@@ -1,0 +1,39 @@
+id: farbindn
+categoryId: simple
+lemma:
+  yiddish: פֿאַרבינדן
+  transliteration: farbindn
+senses:
+  - english: to tie, to bind
+  - english: to link, to join
+  - english: to connect, to relate
+  - english: to combine, to associate
+  - english: to unite
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: פֿאַרבינד
+      transliteration: farbind
+    du:
+      yiddish: פֿאַרבינדסט
+      transliteration: farbindst
+    er_zi_es:
+      yiddish: פֿאַרבינדט
+      transliteration: farbindt
+    mir:
+      yiddish: פֿאַרבינדן
+      transliteration: farbindn
+    ir:
+      yiddish: פֿאַרבינדט
+      transliteration: farbindt
+    zey:
+      yiddish: פֿאַרבינדן
+      transliteration: farbindn
+  past_participle:
+    yiddish: פֿאַרבונדן
+    transliteration: farbundn
+search:
+  yiddish: []
+  transliteration: []
+  english: []

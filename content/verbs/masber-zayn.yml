@@ -1,0 +1,35 @@
+id: masber-zayn
+categoryId: simple
+lemma:
+  yiddish: מסביר זײַן
+  transliteration: masber zayn
+senses:
+  - english: to explain
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: בין מסביר
+      transliteration: bin masber
+    du:
+      yiddish: ביסט מסביר
+      transliteration: bist masber
+    er_zi_es:
+      yiddish: איז מסביר
+      transliteration: iz masber
+    mir:
+      yiddish: זײַנען מסביר
+      transliteration: zaynen masber
+    ir:
+      yiddish: זײַט מסביר
+      transliteration: zayt masber
+    zey:
+      yiddish: זײַנען מסביר
+      transliteration: zaynen masber
+  past_participle:
+    yiddish: מסביר געווען
+    transliteration: masber geven
+search:
+  yiddish: []
+  transliteration: []
+  english: []

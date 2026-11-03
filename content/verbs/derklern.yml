@@ -1,0 +1,36 @@
+id: derklern
+categoryId: simple
+lemma:
+  yiddish: דערקלערן
+  transliteration: derklern
+senses:
+  - english: to explain
+  - english: to declare
+auxiliary: hobn
+conjugation:
+  present:
+    ikh:
+      yiddish: דערקלער
+      transliteration: derkler
+    du:
+      yiddish: דערקלערסט
+      transliteration: derklerst
+    er_zi_es:
+      yiddish: דערקלערט
+      transliteration: derklert
+    mir:
+      yiddish: דערקלערן
+      transliteration: derklern
+    ir:
+      yiddish: דערקלערט
+      transliteration: derklert
+    zey:
+      yiddish: דערקלערן
+      transliteration: derklern
+  past_participle:
+    yiddish: דערקלערט
+    transliteration: derklert
+search:
+  yiddish: []
+  transliteration: []
+  english: []
