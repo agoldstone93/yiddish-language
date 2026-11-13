@@ -19,7 +19,7 @@
     "fetch:verb": "node scripts/fetch-verb-from-wiktionary.js"
   },
   "dependencies": {
-    "downshift": "^9.4.0",
+    "downshift": "^9.5.0",
     "js-yaml": "^5.5.0",
     "markdown-it": "^15.0.3",
     "next": "16.4.5",
