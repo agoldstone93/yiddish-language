@@ -1,4 +1,5 @@
 import { parseMarkdown } from "@/lib/markdown";
+import { YiddishText } from "@/components/YiddishText";
 
 type StaticPageLayoutProps = {
   title: string;
@@ -22,9 +23,7 @@ export default function StaticPageLayout({
         <div className="content-prose">
           <span className="mr-2">Example:</span>
           <a href={exampleHref} className="app-link">
-            <span className="font-yiddish" lang="yi">
-              {exampleText}
-            </span>
+            <YiddishText>{exampleText}</YiddishText>
           </a>
         </div>
       )}

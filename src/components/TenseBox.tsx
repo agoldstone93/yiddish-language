@@ -5,6 +5,7 @@ import {
   formatPersonClauseSegments,
   type ClauseSegment,
 } from '@/lib/grammar/clause';
+import { YiddishText } from '@/components/YiddishText';
 
 export function TenseBox({
   title,
@@ -45,11 +46,11 @@ export function TenseBox({
         }
 
         return (
-          <div key={person} className="text-center text-text-secondary font-yiddish">
+          <div key={person} className="text-center text-text-secondary">
             {imperative && label != null && (
               <span className="text-text-secondary">{label}{' '}</span>
             )}
-            <span lang="yi" dir="rtl">
+            <YiddishText>
               {words.map((segment, index) => (
                 <span
                   key={index}
@@ -58,7 +59,7 @@ export function TenseBox({
                   {segment.spaceBefore ? ' ' : ''}{segment.text}
                 </span>
               ))}
-            </span>
+            </YiddishText>
           </div>
         );
       })}

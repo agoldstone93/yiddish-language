@@ -9,6 +9,7 @@ import { getConditionalForms } from '@/lib/grammar/conditional';
 import { getImperativeForms } from '@/lib/grammar/imperative';
 import { TenseBox } from '@/components/TenseBox';
 import { VerbSearch } from '@/components/VerbSearch';
+import { YiddishText } from '@/components/YiddishText';
 import { useSearchIndex } from '@/lib/useSearchIndex';
 import { formatVerbMeanings } from '@/lib/verbSenses';
 
@@ -103,7 +104,7 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
           </div>
 
           {/* Lemma */}
-          <h1 className="font-yiddish" dir="rtl">{verb.lemma.yiddish}</h1>
+          <h1><YiddishText>{verb.lemma.yiddish}</YiddishText></h1>
 
           <p>({verb.lemma.transliteration})</p>
 

@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { startTransition, useCallback, useEffect, useMemo, useState } from 'react';
 import { SearchEntry } from '@/lib/searchIndex';
 import { normaliseForSearch } from '@/lib/searchNormalise';
+import { YiddishText } from '@/components/YiddishText';
 
 export type VerbSearchProps = {
   verbs: SearchEntry[];
@@ -126,7 +127,7 @@ export function VerbSearch({
             {...getItemProps({ item: entry, index })}
           >
             <div className="text-base">
-              <span className="font-yiddish">{entry.yiddish}</span> — {entry.english[0] ?? ""}
+              <YiddishText>{entry.yiddish}</YiddishText> — {entry.english[0] ?? ""}
             </div>
             <div className="text-xs text-text-secondary">
               {entry.transliteration}
