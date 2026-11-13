@@ -56,6 +56,18 @@
 }
 
 @layer components {
+  .clause-pronoun {
+    @apply text-slate-600 dark:text-slate-400 font-normal;
+  }
+
+  .clause-verb {
+    @apply text-foreground font-semibold;
+  }
+
+  .clause-negation {
+    @apply text-rose-700 dark:text-rose-300 font-medium;
+  }
+
   .page-shell {
     @apply mx-auto w-full max-w-3xl px-4 py-8;
   }
