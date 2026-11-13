@@ -14,7 +14,7 @@ const defaultLeftLinks: NavLink[] = [
 ];
 
 const defaultRightLinks: NavLink[] = [
-  { href: "/admin", label: "Add verbs / edit content" },
+  { href: "/admin", label: "Edit content" },
 ];
 
 export function Header({
@@ -35,7 +35,7 @@ export function Header({
   };
   return (
     <header className="border-b border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-gray-900/70 backdrop-blur">
-      <div className="mx-auto max-w-5xl px-4 flex items-stretch justify-between gap-6">
+      <div className="mx-auto max-w-5xl h-12 px-4 flex items-stretch justify-between gap-6">
         <div className="flex items-stretch gap-6">
           <nav aria-label="Primary" className="flex items-stretch gap-4">
             <Link href="/" className="flex items-center">
@@ -52,7 +52,7 @@ export function Header({
               <Link
                 key={l.label}
                 href={l.href}
-                className={`${l.href === "/" ? "hidden sm:flex" : "flex"} items-center text-sm pt-1.5  ${
+                className={`${l.href === "/" ? "hidden sm:flex" : "flex"} h-full items-center pt-1.5 text-sm ${
                   isActive(l.href)
                     ? "text-gray-900 dark:text-gray-100 border-b-2 border-gray-900 dark:border-gray-100"
                     : "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 border-b-2 border-transparent"
@@ -68,7 +68,7 @@ export function Header({
             <Link
               key={l.label}
               href={l.href}
-              className={`flex items-stretch text-sm py-3 ${
+              className={`flex h-full items-center pt-1.5 text-sm ${
                 isActive(l.href)
                   ? "text-gray-900 dark:text-gray-100 border-b-2 border-gray-900 dark:border-gray-100"
                   : "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 border-b-2 border-transparent"
