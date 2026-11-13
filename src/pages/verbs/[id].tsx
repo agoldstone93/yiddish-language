@@ -116,7 +116,7 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
 
         {/* Category Explainer */}
         {category && (
-          <details className="details-panel">
+          <details className="details-panel rounded-none border-2 border-foreground">
             <summary>About {category.name}</summary>
             <div
               className="mt-4 prose dark:prose-invert max-w-none"
