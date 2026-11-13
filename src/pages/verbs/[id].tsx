@@ -9,11 +9,13 @@ import { getConditionalForms } from '@/lib/grammar/conditional';
 import { getImperativeForms } from '@/lib/grammar/imperative';
 import { TenseBox } from '@/components/TenseBox';
 import { VerbSearch } from '@/components/VerbSearch';
+import { YiddishText } from '@/components/YiddishText';
 import { useSearchIndex } from '@/lib/useSearchIndex';
 import { formatVerbMeanings } from '@/lib/verbSenses';
 
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 import { getCategory, renderCategoryContent } from '@/lib/categories';
+import { useState } from 'react';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const verbsDir = path.join(process.cwd(), 'content/verbs');
@@ -64,6 +66,9 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
     ? `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) - "${verb.senses[0].english}" in Yiddish. View all tenses and forms.`
     : `Conjugate ${verb.lemma.yiddish} (${verb.lemma.transliteration}) in Yiddish. View all tenses and forms.`;
 
+  const [showNegative, setShowNegative] = useState(false);
+  const [showInverted, setShowInverted] = useState(false);
+
   return (
     <>
       <Head>
@@ -73,12 +78,33 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
         <meta property="og:description" content={description} />
         <meta property="og:url" content={`https://loshnlab.com/verbs/${verb.id}`} />
       </Head>
-      <div className="max-w-3xl mx-auto space-y-6">
+      <div className="max-w-4xl mx-auto space-y-4">
         <VerbSearch verbs={verbs} activeVerbId={verb.id} />
 
-        <div className="text-center">
+        <div className="md:relative text-center">
+          <div className="flex gap-2 md:absolute md:right-0 md:top-0 mb-4 md:mb-0 md:w-auto w-full">
+            <button
+              type="button"
+              aria-pressed={showNegative}
+              onClick={() => setShowNegative((shown) => !shown)}
+              title="Show negative forms"
+              className="flex-1 md:flex-none px-2 h-8 text-sm border-2 border-foreground aria-pressed:bg-foreground aria-pressed:text-background transition-colors cursor-pointer hover:bg-surface-panel aria-pressed:hover:bg-foreground"
+            >
+              Negative
+            </button>
+            <button
+              type="button"
+              aria-pressed={showInverted}
+              onClick={() => setShowInverted((shown) => !shown)}
+              title="Show inverted forms"
+              className="flex-1 md:flex-none px-2 h-8 text-sm border-2 border-foreground aria-pressed:bg-foreground aria-pressed:text-background transition-colors cursor-pointer hover:bg-surface-panel aria-pressed:hover:bg-foreground"
+            >
+              Invert
+            </button>
+          </div>
+
           {/* Lemma */}
-          <h1>{verb.lemma.yiddish}</h1>
+          <h1><YiddishText>{verb.lemma.yiddish}</YiddishText></h1>
 
           <p>({verb.lemma.transliteration})</p>
 
@@ -91,7 +117,7 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
 
         {/* Category Explainer */}
         {category && (
-          <details className="details-panel">
+          <details className="details-panel rounded-none border-2 border-foreground">
             <summary>About {category.name}</summary>
             <div
               className="mt-4 prose dark:prose-invert max-w-none"
@@ -106,18 +132,20 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
             <TenseBox
               title="Present"
               forms={verb.conjugation.present}
+              negative={showNegative}
+              inverted={showInverted}
             />
 
             {/* Past (derived) */}
             {(() => {
               const past = getPastForms(verb);
-              return past ? <TenseBox title="Past" forms={past} /> : null;
+              return past ? <TenseBox title="Past" forms={past} negative={showNegative} inverted={showInverted} /> : null;
             })()}
 
             {/* Future (derived) */}
             {(() => {
               const future = getFutureForms(verb);
-              return <TenseBox title="Future" forms={future} />;
+              return <TenseBox title="Future" forms={future} negative={showNegative} inverted={showInverted} />;
             })()}
 
 
@@ -125,7 +153,12 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
             {(() => {
               const conditional = getConditionalForms(verb);
               return conditional ? (
-                <TenseBox title="Conditional" forms={conditional} />
+                <TenseBox
+                  title="Conditional"
+                  forms={conditional}
+                  negative={showNegative}
+                  inverted={showInverted}
+                />
               ) : null;
             })()}
 
@@ -136,7 +169,10 @@ export default function VerbPage({ verb, category }: InferGetStaticPropsType<typ
               return imp ? (
                 <TenseBox
                   title="Imperative"
+                  imperative
                   forms={imp}
+                  negative={showNegative}
+                  inverted={showInverted}
                   labelOverrides={{
                     du: <i>singular:</i>,
                     ir: <i>plural:</i>,
