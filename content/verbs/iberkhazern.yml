@@ -9,23 +9,23 @@ auxiliary: hobn
 conjugation:
   present:
     ikh:
-      yiddish: איבערחזר
-      transliteration: iberkhazer
+      yiddish: חזר איבער
+      transliteration: khazer iber
     du:
-      yiddish: איבערחזרסט
-      transliteration: iberkhazerst
+      yiddish: חזרסט איבער
+      transliteration: khazerst iber
     er_zi_es:
-      yiddish: איבערחזרט
-      transliteration: iberkhazert
+      yiddish: חזרט איבער
+      transliteration: khazert iber
     mir:
-      yiddish: איבערחזרן
-      transliteration: iberkhazern
+      yiddish: חזרן איבער
+      transliteration: khazern iber
     ir:
-      yiddish: איבערחזרט
-      transliteration: iberkhazert
+      yiddish: חזרט איבער
+      transliteration: khazert iber
     zey:
-      yiddish: איבערחזרן
-      transliteration: iberkhazern
+      yiddish: חזרן איבער
+      transliteration: khazern iber
   past_participle:
     yiddish: איבערגעחזרט
     transliteration: ibergekhazert
